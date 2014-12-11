@@ -1,0 +1,244 @@
+scans/awork/virtualenv/aws
+Dec 11, 2014
+This describes in some detail how the Amazon Web Services Command Line
+Interface (AWS CLI), a Python program, may be installed on a particular
+hosted system and used to copy files to the AWS S3 cloud storage service,
+and use the files so copied.
+
+* Python requirements
+The aws cli is a python program. Python is available for most operating
+systems.  There are many versions of Python.  There are currently two
+widely used versions of Python: version 2.7.x and version 3.x.  These versions
+are incompatible in many ways.  I personally have only used, on my local
+Windows PC, version 2.7.x.  The following descriptions pertain to a Redhat Linux
+system.  It is likely that all the details in these descriptions will be
+nearly the same for version 2.7.x of Python on any other operating system,
+but there will be slight differences. You are warned!
+Now for the details...
+
+* AWS account
+You can get an AWS account at http://aws.amazon.com/.
+In my case, I made this account via my preexisting amazon.com account.
+When you make an AWS account, you get 1 year of 'free tier' services, so
+you can experiment.  AWS is well documented, but there are so many
+different services under the AWS umbrella, and so many options that the
+system as a whole is quite complex.  I personally have used only
+S3 (storage), EC2 (cloud computing), and IAM  (identity access management),
+and I have only scratched the surface in these.  
+
+The following instructions focus on the S3 service, and use of the 
+cli with this service.
+
+* python version on host:
+The host computer has operating system Redhat Enterprise Linux 5.
+I am connected to this computer via an SSH terminal session.
+Its command shell is tcsh:
+> echo $shell
+/bin/tcsh
+
+This has python version 2.6.8, which is invoked
+with the 'python26' command:
+> python26 --version
+Python 2.6.8
+
+* Install virtualenv for python on this host.
+ref: https://pypi.python.org/pypi/virtualenv/1.10.1
+0. I make a directory somewhere called 'virtualenv':
+mkdir virtualenv
+1. Retrieve the zipped version of virtualenv.  Since the 'curl' command
+is available on my host, I use it to do the download:
+curl -O https://pypi.python.org/packages/source/v/virtualenv/virtualenv-1.10.tar.gz
+2. unpack the compressed file:
+tar xvfz virtualenv-1.10.tar.gz
+3. change into the resulting subdirectory virtualenv-1.10
+cd virtualenv-1.10
+4. Make a directory to contain a new virtual environment:
+python26 virtualenv.py myVE
+5. Set permissions on the files in the virtual environment (not sure if needed):
+chmod -R 0755 myVE
+* activation of virtual environment
+To start working within a python virtual environment, you have to 
+activate it.  The details of the activation procedure vary with the
+host operating system.  I found that
+my OS shell (tcsh) is similar to another one, csh.  
+Thus, on my host, here is what works; 
+cd myVE
+source bin/activate.csh 
+
+Now the shell prompt changes from its former value (in my case '> ') to
+[myVE] > 
+
+The virtual environment goes away when you log out of a terminal session.
+Another way to exit the virtual environment is to 'deactivate' it:
+[myVE] > deactivate
+A side effect is that the shell prompt reverts to its former state:
+>
+
+* AWS CLI   On host: Install
+ref: http://aws.amazon.com/cli/
+The AWS CLI works under Python. 
+Since I am on a host without root privileges, I install using virtualenv.
+1. cd <path>/awork/virtualenv/virtualenv-1.10/myVE
+2. source bin/activate.csh
+   deactivate
+3. pip install awscli
+ [detailed output omitted]
+Successfully installed awscli botocore bcdoc six colorama docutils rsa argparse jmespath python-dateutil ordereddict simplejson pyasn1
+Note:  awscli appears to be a complex, and robust, python application.
+In my installation, there were many intermediate 'failed' messages indicating
+that certain optimizations were not possible.  However, due to the robustness
+of the installation script, the installation ultimately succeeded.
+* AWS CLI   On host: Configure
+1. To use the aws cli: (if in myVE directory):
+ python26 bin/aws <args>
+The first thing to do is to configure the aws cli.  This means that you
+will instantiate your version with the credentials of your AWS account.
+2. To configure:
+The values of <my-AWS-ACCESS-KEY> and <my-AWS-Secret-Key> will come from
+the text file 'credentials.csv' that you will generate when you set up
+your AWS account.  You will also choose a 'region'. I put us-east-1,
+but I'm not sure if that is required.  When creating an S3 bucket, 
+another region designation is made (in my case US Standard).
+Anyway, here's how I configured awscli:
+(in myVE) 
+[myVE] > python26 bin/aws configure
+AWS Access Key ID [None]: <my-AWS-ACCESS-KEY>
+AWS Secret Access Key [None]: <my-AWS-Secret-Key>
+Default region name [None]: us-east-1
+Default output format [None]: json
+
+Note 1: this made a directory '.aws' in ~ directory.
+[myVE] > cat ~/.aws/credentials 
+[default]
+aws_access_key_id = <my-AWS-ACCESS-KEY>
+aws_secret_access_key = <my-AWS-Secret-Key>
+[myVE] > cat ~/.aws/config 
+[default]
+output = json
+region = us-east-1
+
+Note2: on ~/.aws
+This has credentials and 
+-rw-------  1 <sshuser> uniuser   43 10. Dez 03:15 config
+-rw-------  1 <sshuser> uniuser  116 10. Dez 03:15 credentials
+'rw' permission seems to be 600  (chmod 600 <somefile>)
+* Copying exercises
+There is excellent online documentation for how to use the AWS CLI to
+do all sorts of things with Amazon Web Services.  In this case, I am just
+showing how to use it to populate an already existing S3 bucket.
+1. Create a bucket.
+I used the AWS management console to create a test bucket, named
+ jimfunderburktest, and then to make a subdirectory 'testing'.
+This could have been done via the aws cli, but I didn't know that at the time.
+ I have s3bucket called jimfunderburktest, with subdirectory testing
+
+2. list the files in testing folder of jimfunderburktest bucket:
+[myVE] > python26 virtualenv-1.10/myVE/bin/aws s3 ls s3://jimfunderburktest/testing/
+2014-11-27 19:43:30    1563245 get-pip.py
+  This file 'get-pip.py' is a file I uploaded via the management console.
+
+3. Download a file from s3 to current folder.
+[myVE] > python26 virtualenv-1.10/myVE/bin/aws s3 cp s3://jimfunderburktest/testing/get-pip.py .
+
+4. copy a file from host file system to testing folder of jimfunderburktest
+[myVE] > python26 virtualenv-1.10/myVE/bin/aws s3 cp ../../ACCScan/2014/downloads/acctxt.zip s3://jimfunderburktest/testing/
+From the management console, I see a link to this file:
+ https://s3.amazonaws.com/jimfunderburktest/testing/acctxt.zip
+But, when I use this link (as a browser url, for instance), I get an error:
+<Error>
+<Code>AccessDenied</Code>
+<Message>Access Denied</Message>
+<RequestId>3EF9987C9CE25280</RequestId>
+<HostId>
+lVlFIcBHl68K63YgwZqDGFaaM6aBW2nw852mQblznGA6bKQ/6Ld6vbbJ2f2wBCci
+</HostId>
+</Error>
+
+5. Copying one file for public access (read/download)
+The '--acl public-read'  parameter to a 'cp' sets the permissions on the
+file so that it is accessible via the link:
+
+[myVE] > python26 virtualenv-1.10/myVE/bin/aws s3 cp ../../ACCScan/2014/downloads/accxml.zip s3://jimfunderburktest/testing/ --acl public-read
+
+Link is 
+https://s3.amazonaws.com/jimfunderburktest/testing/accxml.zip
+Now, there is no error, and the file may be downloaded if desired.
+
+* copying a directory 
+You can also copy all the files in a directory via the '--recursive' option.
+I made a subdirectory 'aws' of the (current) directory, and changed to it
+[myVE] > mkdir aws
+[myVE] > cd aws
+Then I made another subdirectorys 'accpdfpages' of aws, and copied several
+files there.
+Now, within current directory /scans/awork/virtualenv/aws
+[myVE] > python26 ../virtualenv-1.10/myVE/bin/aws s3 cp accpdfpages s3://jimfunderburktest/testing/accscans/ --acl public-read --recursive
+
+Note: When this was first run, 'accscans' didn't exist.  And the command
+made it.
+The command outputs to terminal a line for each file copied.
+Links are like:
+https://s3.amazonaws.com/jimfunderburktest/testing/accscans/pg1_002.pdf
+
+* bucket naming convention
+From the AWS documentation:
+The rules for DNS-compliant bucket names are:
+- Bucket names must be at least 3 and no more than 63 characters long.
+- Bucket names must be a series of one or more labels. Adjacent labels are separated by a single period (.). Bucket names can contain lowercase letters, numbers, and hyphens. Each label must start and end with a lowercase letter or a number.
+- Bucket names must not be formatted as an IP address (e.g., 192.168.5.4).
+
+* making a bucket for the Cologne scanned images 
+in aws-s3 console:  create a bucket. US Standard region
+sanskrit-lexicon
+
+* copying the CAE scans to AWS 
+My current directory is virtualenv/aws.
+
+[myVE] > python26 ../virtualenv-1.10/myVE/bin/aws s3 cp ../../../CAEScan/2014/web/pdfpages s3://sanskrit-lexicon/scans/CAE/ --acl public-read --recursive > log_CAE.txt
+677 files about 30sec
+
+* copying the ACC scans 
+[myVE] > python26 ../virtualenv-1.10/myVE/bin/aws s3 cp ../../../ACCScan/2014/web/pdfpages s3://sanskrit-lexicon/scans/ACC/ --acl public-read --recursive > log_ACC.txt
+Here is the link for a typical file:
+https://s3.amazonaws.com/sanskrit-lexicon/scans/ACC/pg1_002.pdf
+* copying the AE scans 
+python26 ../virtualenv-1.10/myVE/bin/aws s3 cp ../../../AEScan/2014/web/pdfpages s3://sanskrit-lexicon/scans/AE/ --acl public-read --recursive > log_AE.txt
+
+
+
+* Finding the total number of bytes and files in sanskrit-lexicon bucket:
+ref: http://stackoverflow.com/questions/8975959/aws-s3-how-do-i-see-how-much-disk-space-is-using
+[myVE] >  python26 ../virtualenv-1.10/myVE/bin/aws  s3api list-objects --bucket sanskrit-lexicon --output json --query "[sum(Contents[].Size), length(Contents[])]"
+[
+    346955383,
+    2411
+]
+
+So this is 346MB in 2411 objects (files and folders).
+
+* Plans:
+1. Currently, my plan is to copy the scans for the other dictionaries to the
+s3://sanskrit-lexicon/scans bucket.
+I estimate the total space that would be used is about 10GB.
+2. I may copy various programs and data as zipped blobs to this bucket:
+   **Unzipped**, the sizes are
+   a.  2GB all digitizations in 'orig' directories
+   b. 10GB pywork directories 
+   c.  2GB web directories, excluding pdfpages directories.
+   d.  3GB mwupdate
+2a. Alternatively, I may try to reorganize the code (since code for
+   one dictionary A is quite similar (but not identical) to that for 
+   another dictionary B.
+3. I haven't decided whether to save backups of certain things:
+   a. 10GB downloads of bookmarked pdfs   
+   b. 11GB zip downloads (Xtxt.zip, Xxml.zip, Xweb.zip)
+
+* AWS S3 Pricing:
+ ref: http://calculator.s3.amazonaws.com/index.html
+ There are several components to the pricing of AWS S3.
+ The space component is quite inexpensive, 3 cents per GB per month.
+ So, to store all the scans (10GB) would be $0.30 per month.
+
+ There are also 'usage' charges.  These are hard to estimate.  Probably
+ they also will be low in general.
+

@@ -1,0 +1,172 @@
+Dec 12, 2014
+This describes the format of the filenames of the images
+ in sanskrit-lexicon/scans/ bucket
+
+* ACC
+pg1_XXX.pdf   XXX = 001 to 806
+pg2_XXX.pdf   XXX = 001 to 244
+pg3_XXX.pdf   XXX = 001 to 166
+
+
+* AE
+ae-XXX.pdf      XXX = 001 to 501
+ae-appendix.pdf
+ae-vor-XX.pdf   XX = 01 to 16
+
+* AP  (IRREGULAR)
+apte-1-vor-XX.pdf  XX = 01 TO 19
+apte-2-vor-X.pdf   X = 1 to 5
+apte-3-vor-XX.pdf  XX = 01 to 10
+apte-nac-XXXX.pdf  XXXX = 0001 to 0113
+apte0001-a.pdf
+apte0002-aMzakaH.pdf
+...  (missing apte0632-??.pdf)
+apte1768-hrAd.pdf 
+
+* AP90
+pg_XXXX.pdf  XXXX = 0001 to 1196
+tit_XXXX.pdf XXXX = 0001 to 0015
+
+* BEN
+ben-XXXX.pdf  XXXX = 0001 to 1127
+* BHS
+pg_XXX.pdf  XXX = 001 to 634
+* BOP
+bop-XXX.pdf  XXX = 001 to 407
+bopapp-XXX.pdf  XXX = 001 to 007
+boptit-XXX.pdf  XXX = 001 to 007
+* BOR
+pg_XXX.pdf  XXX = 001 to 783
+tit_XX.pdf  XX = 01 to 25
+* BUR
+bur-vorXXXX.pdf  XXXX = 0002 to 0006
+burXyyyy.pdf  yyyy = 0004, 0006 ... ,0778,0780  
+* CAE
+pg_XXX.pdf XXX = 001 to 672
+tit_XXX.pdf  XXX = 001 to 005
+* CCS
+pg_XXX.pdf XXX = 001 to 541
+* GRA
+pg_XXXX.pdf XXXX = 0001, 0003 to 1773,1775  
+tit_XXXX.pdf  XXXX = 0001 to 0005
+* GST
+gst-XXX.pdf  XXX = 001 to 320
+gst-tit-XXX.pdf XXX = 001 to 014
+* IEG
+pg_XXX.pdf XXX = 001 to 560
+tit_XXX.pdf XXX = 001 to 020
+* INM
+pg_XXX.pdf XXX = 001 to 852
+
+* KRM
+pg_XXXX.pdf XXXX = 0001 to 1489
+* MCI
+pg_XXX.pdf XXX = 001 to 981
+tit_XXX.pdf XXX = 001 to 043
+
+* MD
+pg_XXX.pdf XXX = 001 to 384
+tit_XXX.pdf XXX = 001 to 011
+
+* MW  IRREGULAR
+mwXXXX-y.pdf where XXXX = 0001 to 1308 and y is variable (a headword in HK)
+mwXXXX.pdf   where XXXX = 1309 to 1333
+mw01XXXX.pdf where XXXX = 0001 to 0036
+mw171504.pdf  (just this singleton?)
+* MW72
+pg_XXXX.pdf  XXXX = 0001 to 1186
+tit_XXXX.pdf XXXX = 0001 to 0026
+* MWE
+pgXXX.pdf  XXX = 001 to 860
+* PD
+pd1-XXXX.pdf  XXXX = 0001 to 0720
+pd2-XXXX.pdf  XXXX = 0721 to 1478
+pd3-XXXX.pdf  XXXX = 1479 to 1958
+pd4-XXXX.pdf  XXXX = 1959 to 2446
+pd5-XXXX.pdf  XXXX = 2447 to 2888
+pd6-XXXX.pdf  XXXX = 2889 to 3368
+pd7-XXXX.pdf  XXXX = 3369 to 3848
+pd8-XXXX.pdf  XXXX = 3849 to 4328
+* PE
+pg_XXX.pdf XXX = 001 to 929
+* PGN
+pg_XXX.pdf XXX = 001 to 378
+plate_XXX.pdf  XXX = 001 to 010
+tit_XXX.pdf XXX = 001 to 032
+* PUI
+pg1_XXX.pdf XXX = 001 to 694
+pg2_XXX.pdf XXX = 001 to 749
+pg3_XXX.pdf XXX = 001 to 789
+
+* PWG
+pwg1_XXXX.pdf XXXX = 0001 to 1141 (0001, 0003, etc)
+pwg2_XXXX.pdf XXXX = 0001 to 1099
+pwg3_XXXX.pdf XXXX = 0001 to 1011
+pwg4_XXXX.pdf XXXX = 0001 to 1213
+pwg5_XXXX.pdf XXXX = 0001 to 1677
+pwg6_XXXX.pdf XXXX = 0001 to 1505
+pwg7_XXXX.pdf XXXX = 0001 to 1821
+
+* PW
+pw1-001-X.png  X = 1 to 5
+pw1-XXX.png XXX = 001 to 282
+pw1-XXXN.png XXX = 283 to 299
+
+pw2-000-XXX.png XXX = 001 to 003
+pw2-XXX.png XXX = 001 to 284
+pw2-XXXN.png XXX = 285 to 301
+
+pw3-000-XXX.png XXX = 001 to 003
+pw3-XXX.png XXX = 001 to 246
+pw3-XXXN.png XXX = 247 to 256
+
+pw4-000-XXX.png XXX = 001 to 004
+pw4-XXX.png XXX = 001 to 290
+pw4-XXXN.png XXX = 291 to 302
+
+pw5-000-XXX.png XXX = 001 to 003
+pw5-XXX.png XXX = 001 to 240
+pw5-XXXN.png XXX = 241 to 264
+
+pw6-000-XXX.png XXX = 001 to 002
+pw6-XXX.png XXX = 001 to 292
+pw6-XXXN.png XXX = 292 to 306
+
+pw7-000-XXX.png XXX = 001 to 003
+pw7-XXX.png XXX = 001 to 288
+pw7-XXXN.png XXX = 289 to 390
+
+* SCH
+sch-000-XX.pdf  XX = 01 to 08
+shc-XXX.pdf XXX = 001 to 398
+
+* SHS
+pg_XXX.pdf XXX = 001 to 839
+tit_XXX.pdf XXX = 001 to 003
+* SKD
+pg1_XXX.pdf XXX = 001 to 315
+pg2_XXX.pdf XXX = 001 to 937
+pg3_XXX.pdf XXX = 001 to 792
+pg4_XXX.pdf XXX = 001 to 565
+pg5_XXX.pdf XXX = 001 to 555
+
+* SNP
+pg_XXX.pdf XXX = 425 to 465, 520 to 611
+tit_XXX.pdf  XXX = 001 to 002
+* STC
+pg_XXX.pdf XXX = 001 to 904
+* VCP
+pgXXXX.pdf XXXX = 0035 to 5441
+pgaXXXX.pdf XXXX = 0001 to 0038
+pgbXXXX.pdf XXXX = 5441 to 5442
+* VEI
+pg1_XXX.pdf XXX = 001 to 560
+pg2_XXX.pdf XXX = 001 to 595
+
+* WIL
+pg-XXX.jpg  XXX = 001 to 982
+tit-XXX.jpg XXX = 001 to 006
+
+* YAT
+pg_XXX.pdf XXX = 001 to 928  (missing = 924-927)
+tit_XXX.pdf XXX = 001 to 004

@@ -1,0 +1,4 @@
+These are miscellaneous other zipped archives in blobs directory of S3 bucket.
+500 MB blobs/Kale.zip
+ 14 MB blobs/Westergaard.zip
+ 56 MB blobs/Whitney.zip

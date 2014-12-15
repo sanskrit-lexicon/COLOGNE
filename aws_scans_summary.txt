@@ -57,7 +57,8 @@ pg_XXX.pdf XXX = 001 to 560
 tit_XXX.pdf XXX = 001 to 020
 * INM
 pg_XXX.pdf XXX = 001 to 852
-
+* KALE
+kale_Page_XXX.png XXX=001 to 736
 * KRM
 pg_XXXX.pdf XXXX = 0001 to 1489
 * MCI

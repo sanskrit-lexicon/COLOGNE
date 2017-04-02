@@ -25,12 +25,12 @@ def add_tags1(x):
 	return result
 
 	
-	
 
 if __name__=="__main__":
 	pathToDicts = sys.argv[1]
 	dictList = ['acc','ae','ap','ap90','ben','bhs','bop','bor','bur','bur','cae','ccs','gra','gst','ieg','inm','krm','mci','md','mw','mw72','mwe','pd','pe','pgn','pui','pw','pwg','sch','shs','skd','snp','stc','vcp','vei','wil','yat']
 	dictList = ['md']
+	meaningseparator = {'md':';'}
 	for dictId in dictList:
 		inputfile = pathToDicts+'/'+dictId+'/'+dictId+'xml/xml/'+dictId+'.xml'
 		tree = etree.parse(inputfile)
@@ -49,6 +49,7 @@ if __name__=="__main__":
 				html = html.replace('<s>'+sans+'</s>','<s>'+transcoder.transcoder_processString(sans,'slp1','deva')+'</s>')
 			#html = transcoder.transcoder_processString(html,'as','roman')
 			html = re.sub('[<][^>]*[>]','',html)
+			html = html.replace(meaningseparator[dictId],'<br>')
 			outputfile.write(heading+'\n')
 			outputfile.write(html+'\n\n')
 		outputfile.close()

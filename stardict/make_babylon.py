@@ -58,10 +58,14 @@ if __name__=="__main__":
 		html = etree.tostring(entry[x], method='html', encoding='utf-8')
 		html = re.sub('\[Page[0-9+ abc-]+\]','',html)
 		html = html.replace('<lb></lb>','')
+		html = html.replace('<b>--Comp.</b>','BREAK<b>--Comp.</b>BREAK') # ap90
+		html = html.decode('utf-8')
+		html = html.replace(u'<b><s>º',u'BREAK<b><s>º') # ap90
 		if dictId in meaningseparator and re.search(instr,html):
 			html = re.sub(instr,outstr,html)
-		html = html.decode('utf-8')
+		html = re.sub(u'[(](<b><s>--[a-zA-Z]+</s>)',u'BREAK\g<1>',html) # ap90
 		sanskrittext = re.findall('<s>([^<]*)</s>',html)
+		html = re.sub(u'(<s>--[a-zA-Z]+</s>)',u'BREAK\g<1>',html) # ap90
 		for sans in sanskrittext:
 			html = html.replace('<s>'+sans+'</s>','<s>'+transcoder.transcoder_processString(sans,'slp1','deva')+'</s>')
 		if dictId in ['acc','ap90']:
@@ -72,9 +76,17 @@ if __name__=="__main__":
 			html = html.replace(u'[Pagė',u'[Page 1-')
 			html = html.replace(u'C¤:',u'Comm.')
 			html = html.replace(u'n1',u'ṅ')
+			html = html.replace(' --','BREAK --') # ap90
+			html = html.replace(' <b>1</b>','BREAK<b>1</b>')
+			html = re.sub('(<i>--[^<]*</i>)','BREAK\g<1>',html)
+			html = html.replace('] ',']BREAK')
+			html = html.replace('<s>(</s>','(')
+			html = html.replace('<s>) </s>',') ')
 		html = html.replace('- ','')
+		html = html.replace('&amp;','&')
 		html = re.sub('[<][^>]*[>]','',html)
 		html = html.replace('BREAK','<BR>')
+		#html = html.replace('<BR>','\n')
 		outputfile.write(heading+'\n')
 		outputfile.write(html+'\n\n')
 	outputfile.close()

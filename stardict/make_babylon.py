@@ -40,7 +40,7 @@ if __name__=="__main__":
 	counter = 0
 	for x in xrange(len(hw)):
 		heading = etree.tostring(hw[x], method='text', encoding='utf-8')
-		if counter % 2000 == 0:
+		if counter % 2500 == 0:
 			print counter
 		counter += 1
 		#print heading
@@ -56,7 +56,9 @@ if __name__=="__main__":
 			html = transcoder.transcoder_processString(html,'as','roman')
 			html = html.replace(u'ç',u'ś')
 			html = html.replace(u'Ç',u'Ś')
-			html = html.replace(u'[Pagē-',u'[Page1-')
+			html = html.replace(u'[Pagē-',u'[Page 1-')
+			html = html.replace(u'C¤:',u'Comm.')
+			html = html.replace(u'n1',u'ṅ')
 		html = re.sub('[<][^>]*[>]','',html)
 		if dictId in meaningseparator:
 			html = html.replace(meaningseparator[dictId],'<br>')

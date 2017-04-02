@@ -86,6 +86,7 @@ if __name__=="__main__":
 		html = html.replace('&amp;','&')
 		html = re.sub('[<][^>]*[>]','',html)
 		html = html.replace('BREAK','<BR>')
+		html = html.replace('<BR><BR>','<BR>')
 		#html = html.replace('<BR>','\n')
 		outputfile.write(heading+'\n')
 		outputfile.write(html+'\n\n')

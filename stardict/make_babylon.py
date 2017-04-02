@@ -1,9 +1,9 @@
 # This Python file uses the following encoding: utf-8
 """
 Usage:
-python make_babylon.py pathToDicts
+python make_babylon.py pathToDicts dictId
 e.g.
-python make_babylon.py ../../Cologne_localcopy
+python make_babylon.py ../../Cologne_localcopy md
 """
 import re,codecs,sys
 from lxml import etree
@@ -28,29 +28,39 @@ def add_tags1(x):
 
 if __name__=="__main__":
 	pathToDicts = sys.argv[1]
-	dictList = ['acc','ae','ap','ap90','ben','bhs','bop','bor','bur','bur','cae','ccs','gra','gst','ieg','inm','krm','mci','md','mw','mw72','mwe','pd','pe','pgn','pui','pw','pwg','sch','shs','skd','snp','stc','vcp','vei','wil','yat']
-	dictList = ['md']
+	dictId = sys.argv[2]
+	#dictList = ['acc','ae','ap','ap90','ben','bhs','bop','bor','bur','cae','ccs','gra','gst','ieg','inm','krm','mci','md','mw','mw72','mwe','pd','pe','pgn','pui','pw','pwg','sch','shs','skd','snp','stc','vcp','vei','wil','yat']
+
 	meaningseparator = {'md':';'}
-	for dictId in dictList:
-		inputfile = pathToDicts+'/'+dictId+'/'+dictId+'xml/xml/'+dictId+'.xml'
-		tree = etree.parse(inputfile)
-		hw = tree.xpath("/"+dictId+"/H1/h/key1")
-		entry =  tree.xpath("/"+dictId+"/H1/body")
-		outputfile = codecs.open('output/'+dictId+'.babylon','w','utf-8')
-		for x in xrange(len(hw)):
-			heading = etree.tostring(hw[x], method='text', encoding='utf-8')
-			print heading
+	inputfile = pathToDicts+'/'+dictId+'/'+dictId+'xml/xml/'+dictId+'.xml'
+	tree = etree.parse(inputfile)
+	hw = tree.xpath("/"+dictId+"/H1/h/key1")
+	entry =  tree.xpath("/"+dictId+"/H1/body")
+	outputfile = codecs.open('output/'+dictId+'.babylon','w','utf-8')
+	counter = 0
+	for x in xrange(len(hw)):
+		heading = etree.tostring(hw[x], method='text', encoding='utf-8')
+		if counter % 2000 == 0:
+			print counter
+		counter += 1
+		#print heading
+		if dictId not in ['ae','mwe']:
 			heading = transcoder.transcoder_processString(heading,'slp1','deva')
-			text = etree.tostring(entry[x], method='text', encoding='utf-8')
-			html = etree.tostring(entry[x], method='html', encoding='utf-8')
-			html = html.decode('utf-8')
-			sanskrittext = re.findall('<s>([^<]*)</s>',html)
-			for sans in sanskrittext:
-				html = html.replace('<s>'+sans+'</s>','<s>'+transcoder.transcoder_processString(sans,'slp1','deva')+'</s>')
-			#html = transcoder.transcoder_processString(html,'as','roman')
-			html = re.sub('[<][^>]*[>]','',html)
+		#text = etree.tostring(entry[x], method='text', encoding='utf-8')
+		html = etree.tostring(entry[x], method='html', encoding='utf-8')
+		html = html.decode('utf-8')
+		sanskrittext = re.findall('<s>([^<]*)</s>',html)
+		for sans in sanskrittext:
+			html = html.replace('<s>'+sans+'</s>','<s>'+transcoder.transcoder_processString(sans,'slp1','deva')+'</s>')
+		if dictId in ['acc']:
+			html = transcoder.transcoder_processString(html,'as','roman')
+			html = html.replace(u'ç',u'ś')
+			html = html.replace(u'Ç',u'Ś')
+			html = html.replace(u'[Pagē-',u'[Page1-')
+		html = re.sub('[<][^>]*[>]','',html)
+		if dictId in meaningseparator:
 			html = html.replace(meaningseparator[dictId],'<br>')
-			outputfile.write(heading+'\n')
-			outputfile.write(html+'\n\n')
-		outputfile.close()
+		outputfile.write(heading+'\n')
+		outputfile.write(html+'\n\n')
+	outputfile.close()
 		

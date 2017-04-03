@@ -36,7 +36,7 @@ if __name__=="__main__":
 	dictId = sys.argv[2]
 	#dictList = ['acc','ae','ap','ap90','ben','bhs','bop','bor','bur','cae','ccs','gra','gst','ieg','inm','krm','mci','md','mw','mw72','mwe','pd','pe','pgn','pui','pw','pwg','sch','shs','skd','snp','stc','vcp','vei','wil','yat']
 
-	meaningseparator = {'acc':('([ .])--','\g<1>BREAK --'), 'md':(';','BREAK'), 'ap90':('<b>[-]{2}([0-9]+)</b>','BREAK<b>\g<1></b>'), 'ben':(' <b>','BREAK <b>')}
+	meaningseparator = {'acc':('([ .])--','\g<1>BREAK --'), 'md':(';','BREAK'), 'ap90':('<b>[-]{2}([0-9]+)</b>','BREAK<b>\g<1></b>'), 'ben':(' <b>','BREAK <b>'), 'bhs':('([(]<b>[0-9]+</b>[)])','BREAK\g<1>'), 'bor':(' <br>',' BREAK')}
 	if dictId in meaningseparator:
 		instr = meaningseparator[dictId][0]
 		outstr = meaningseparator[dictId][1]
@@ -52,8 +52,10 @@ if __name__=="__main__":
 			print counter
 		counter += 1
 		#print heading1
-		if dictId not in ['ae','mwe']:
+		if dictId not in ['ae','mwe','bor']:
 			heading = transcoder.transcoder_processString(heading1,'slp1','deva')
+		else:
+			heading = heading1
 		#text = etree.tostring(entry[x], method='text', encoding='utf-8')
 		html = etree.tostring(entry[x], method='html', encoding='utf-8')
 		html = re.sub('\[Page[0-9+ abc-]+\]','',html)
@@ -61,6 +63,7 @@ if __name__=="__main__":
 		html = html.replace('<b>--Comp.</b>','BREAK<b>--Comp.</b>BREAK') # ap90
 		html = html.decode('utf-8')
 		html = html.replace(u'<b><s>º',u'BREAK<b><s>º') # ap90
+		#print html.encode('utf-8')
 		if dictId in meaningseparator and re.search(instr,html):
 			html = re.sub(instr,outstr,html)
 		html = re.sub(u'[(](<b><s>--[a-zA-Z]+</s>)',u'BREAK\g<1>',html) # ap90
@@ -71,7 +74,7 @@ if __name__=="__main__":
 		if dictId in ['ben']:
 			html = html.replace(' <i>','BREAK <i>')
 			html = html.replace('i. e.BREAK <i>','i.e. <i>')
-		if dictId in ['acc','ap90','ben']:
+		if dictId in ['acc','ap90','ben','bhs']:
 			html = transcoder.transcoder_processString(html,'as','roman')
 			html = html.replace(u'ç',u'ś')
 			html = html.replace(u'Ç',u'Ś')
@@ -93,7 +96,7 @@ if __name__=="__main__":
 		html = re.sub('[<][^>]*[>]','',html)
 		html = html.replace('BREAK','<BR>')
 		html = html.replace('<BR><BR>','<BR>')
-		html = html.replace('<BR>','\n')
+		#html = html.replace('<BR>','\n')
 		outputfile.write(heading+'\n')
 		outputfile.write(html+'\n\n')
 	outputfile.close()

@@ -69,9 +69,8 @@ if __name__=="__main__":
 		for sans in sanskrittext:
 			html = html.replace('<s>'+sans+'</s>','<s>'+transcoder.transcoder_processString(sans,'slp1','deva')+'</s>')
 		if dictId in ['ben']:
-			sanskrittext1 = re.findall(u'<i>([^<]*)</i>',html)
-			for sans1 in sanskrittext1:
-				html = html.replace('<i>'+sans1+'</i>','<i>'+transcoder.transcoder_processString(sans1,'as','roman')+'</i>')
+			html = html.replace(' <i>','BREAK <i>')
+			html = html.replace('i. e.BREAK <i>','i.e. <i>')
 		if dictId in ['acc','ap90','ben']:
 			html = transcoder.transcoder_processString(html,'as','roman')
 			html = html.replace(u'ç',u'ś')

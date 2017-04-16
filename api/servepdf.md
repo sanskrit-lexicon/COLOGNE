@@ -33,7 +33,9 @@ All items are mandatory.
 ### 1.2.7. Rewrite rules
 
 ```
+RewriteRule ^pdf/([^/]*)/word/([^/]*)$/ http://www.sanskrit-lexicon.uni-koeln.de/scans/awork/apidev/servepdf.php?dict=$1&key=$2
 RewriteRule ^pdf/([^/]*)/word/([^/]*)$ http://www.sanskrit-lexicon.uni-koeln.de/scans/awork/apidev/servepdf.php?dict=$1&key=$2
+RewriteRule ^pdf/([^/]*)/page/([^/]*)$/ http://www.sanskrit-lexicon.uni-koeln.de/scans/$1Scan/2014/web/webtc/servepdf.php?page=$2
 RewriteRule ^pdf/([^/]*)/page/([^/]*)$ http://www.sanskrit-lexicon.uni-koeln.de/scans/$1Scan/2014/web/webtc/servepdf.php?page=$2
 ```
 

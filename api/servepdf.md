@@ -51,5 +51,5 @@ RewriteRule ^pdf/([^/]*)/page/([^/]*)$ http://www.sanskrit-lexicon.uni-koeln.de/
 ```
 ### 1.2.9. Questions
 
-
+	
 

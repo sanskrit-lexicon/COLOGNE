@@ -30,13 +30,23 @@ http://www.sanskrit-lexicon.uni-koeln.de/entries/dictcode/word/{inputtranslitera
 2. outputtransliteration - slp1/deva/hk
 3. accent - yes/no
 
-### Rewrite rule
+### Rewrite rules
 
-`RewriteRule ^entries/([^/]*)/([^/]*)/([^/]*)/([^/]*)/([^/]*) http://www.sanskrit-lexicon.uni-koeln.de/scans/$1Scan/2014/web/webtc/getword.php?key=$2&filter=$4&noLit=off&transLit=$2`
+```
+RewriteRule ^entries/([^/]*)/([^/]*)/([^/]*)/([^/]*)/([^/]+)$ http://www.sanskrit-lexicon.uni-koeln.de/scans/$1Scan/2014/web/webtc/getword.php?key=$2&filter=$4&noLit=off&accent=$5&transLit=$3
+RewriteRule ^entries/([^/]*)/([^/]*)/([^/]*)/([^/]*)/$ http://www.sanskrit-lexicon.uni-koeln.de/scans/$1Scan/2014/web/webtc/getword.php?key=$2&filter=$4&noLit=off&accent=no&transLit=$3
+RewriteRule ^entries/([^/]*)/([^/]*)/([^/]*)/([^/]*)$ http://www.sanskrit-lexicon.uni-koeln.de/scans/$1Scan/2014/web/webtc/getword.php?key=$2&filter=$4&noLit=off&accent=no&transLit=$3
+RewriteRule ^entries/([^/]*)/([^/]*)/([^/]*)/$ http://www.sanskrit-lexicon.uni-koeln.de/scans/$1Scan/2014/web/webtc/getword.php?key=$2&filter=deva&noLit=off&accent=no&transLit=$3
+RewriteRule ^entries/([^/]*)/([^/]*)/([^/]*)$ http://www.sanskrit-lexicon.uni-koeln.de/scans/$1Scan/2014/web/webtc/getword.php?key=$2&filter=deva&noLit=off&accent=no&transLit=$3
+RewriteRule ^entries/([^/]*)/([^/]*)/$ http://www.sanskrit-lexicon.uni-koeln.de/scans/$1Scan/2014/web/webtc/getword.php?key=$2&filter=deva&noLit=off&accent=no&transLit=slp1
+RewriteRule ^entries/([^/]*)/([^/]*)$ http://www.sanskrit-lexicon.uni-koeln.de/scans/$1Scan/2014/web/webtc/getword.php?key=$2&filter=deva&noLit=off&accent=no&transLit=slp1
+```
 
 ### Questions
 
 1. What is the purpose of noLit?
 
+2. List of dictionaries still using 2013 display will have to be handled slightly differently. Their list is needed.
 
+3. 
 

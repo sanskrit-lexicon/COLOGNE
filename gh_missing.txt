@@ -1,5 +1,4 @@
 % this file lists some Sanskrit word forms that were found missing from query results to G.Huet engine or query results were not accurate
-% it will be update as new potential inaccuracies will be found
 % encoding used --- Velthius
 
 cikitrire  being perf_a_3rd_pl of cit is  missing
@@ -8,3 +7,7 @@ aavya        participle_indecl of av is missing
 mimyak.sa  myak.s@perf_2nd_pl or myak.s@perf_3nd_sing  --- error: gives mamyak.sa
 
 root "suu  perf. participle: gives "susuuva.h but there is "suu"sava"ns form (RV 1.167.9)
+
+root van cl.8 impv. atmanepada missing:  vanu.sva (RV 1.169.1d)
+
+root yuj cl.7 root aorist 3rd pl. atmanepada shows ayujan while it should be ayujran  (RV 1.169.2a) 

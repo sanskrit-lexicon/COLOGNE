@@ -41,4 +41,6 @@ check on errors.   If the text of the 'old' line # ln in {CHGFILE} differs
 from the actual text of line#ln in {OLDFILE}, then the program stops with
 an error message.
 
+One other detail of {CHGFILE} format is:
+* lines beginning with a semicolon are treated as comment lines.
 

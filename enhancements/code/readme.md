@@ -44,3 +44,13 @@ an error message.
 One other detail of {CHGFILE} format is:
 * lines beginning with a semicolon are treated as comment lines.
 
+### xmlvalidate.py
+
+python xmlvalidate.py {xml file) {dtd file}
+
+Written for Python 2.7, with lxml module installed.
+
+Checks that the xml file is *valid* in relation to the dtd file.
+
+This may be used in Windows operating system as a functional equivalent
+of the *xmllint* utility of Linux operating systems.

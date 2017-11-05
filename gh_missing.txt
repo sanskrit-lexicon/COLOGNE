@@ -10,4 +10,22 @@ root "suu  perf. participle: gives "susuuva.h but there is "suu"sava"ns form (RV
 
 root van cl.8 impv. atmanepada missing:  vanu.sva (RV 1.169.1d)
 
-root yuj cl.7 root aorist 3rd pl. atmanepada shows ayujan while it should be ayujran  (RV 1.169.2a) 
+root yuj cl.7 root aorist 3rd pl. atmanepada shows ayujan while it should be ayujran  (RV 1.169.2a)
+
+root pii imperfect atmanepada 3rd pl. cl.3 shall be apiipayanta but is
+
+madhu madhvas shall be among neut. sing. gen. but is missing
+
+root vak.s cl.1  perfect atmanepada forms are missing --- like vavak.sire
+
+root v.r cl.5  aorist 3rd pl form avran missing
+
+root vac cl.2  aorist inj 3rd. pl. atmanepada form vocanta is not given
+
+root m.rj cl.2 no present atmanepada forms are given, in particular 1st sing.  m.rje
+
+root yaa cl.2 2nd pl. imperfect ayaatana form is not given
+
+root nam cl.1 not given in atmanepada (example: impv in RV 7.56.17d)
+
+conjugation of t.r.r in Velthius encoding is messed up

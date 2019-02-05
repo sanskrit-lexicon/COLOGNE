@@ -54,3 +54,23 @@ Checks that the xml file is *valid* in relation to the dtd file.
 
 This may be used in Windows operating system as a functional equivalent
 of the *xmllint* utility of Linux operating systems.
+
+
+### dictionary_init.sh
+This downloads a 'working environment' for a given dictionary.  The downloads are from aws blobs.
+
+I suggest you do the following as preparation.
+In your server path  (e.g., \c\xampp\htdocs\),  make a 'cologne' directory.
+Cd into this 'cologne' directory.
+Then  (using a bash syntax -- I use git-bash for Windows under Windows 10):
+`sh dictionary_init.sh mw`
+
+This will create  an 'mw' directory  (\c\xampp\htdocs\cologne\mw)
+and three subdirectories:
+* \c\xampp\htdocs\cologne\mw\orig  the digitizations; latest form is mw.txt
+* \c\xampp\htdocs\cologne\mw\pywork  All the programs used for various updates to mw.txt; also logic for making mw.xml
+   See readme_update.sh  for the current instructions for updating or correcting
+* \c\xampp\htdocs\cologne\mw\web   This contains the display programs
+
+This could be modified to just download the 'web' directory, which is the only part needed for displays.
+

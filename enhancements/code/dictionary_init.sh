@@ -16,6 +16,10 @@ if [ -d $DICT ]; then
  DATE=`date +%Y%m%d`
  #echo "date=$DATE"
  SAVEDIR="$DICT-$DATE"
+ if [ -d $SAVEDIR ]; then
+  echo "ERROR: $SAVEDIR already exists. Please rename $DICT and rerun"
+  exit 1
+ fi
  echo "moving directory $DICT to $SAVEDIR"
  mv $DICT $SAVEDIR
  # check for error
@@ -32,7 +36,9 @@ fi
 mkdir "$DICT"
 cd "$DICT"
 echo "downloading "$DICT"web1.zip  ..."
-curl -o "$DICT"web1.zip http://s3.amazonaws.com/sanskrit-lexicon/web1/"$DICT"web1.zip
+# 08-22-2018. Download from http://s3.amazonaws.com/sanskrit-lexicon/blobs/
+#   rather than from .../web1/.  
+curl -o "$DICT"web1.zip http://s3.amazonaws.com/sanskrit-lexicon/blobs/"$DICT"web1.zip
 unzip "$DICT"web1.zip
 echo "downloading "$DICT"_pywork.zip ..."
 curl -o "$DICT"_pywork.zip http://s3.amazonaws.com/sanskrit-lexicon/blobs/"$DICT"_pywork.zip
@@ -41,12 +47,7 @@ echo "downloading "$DICT"_orig.zip ..."
 curl -o "$DICT"_orig.zip http://s3.amazonaws.com/sanskrit-lexicon/blobs/"$DICT"_orig.zip
 unzip "$DICT"_orig.zip
 
-if [ $DICT = "mw" ]; then
- echo "downloading mwaux for mw"
- curl -o "$DICT"_mwaux.zip http://s3.amazonaws.com/sanskrit-lexicon/blobs/"$DICT"_mwaux.zip
- unzip "$DICT"_mwaux.zip
-fi
 
-echo "You need to add a folder with sqlite3.exe to the 'path' variable"
-echo "of the system environment variables"
-echo "This is required to run, pywork/redo_xml.sh"
+#echo "You need to add a folder with sqlite3.exe to the 'path' variable"
+#echo "of the system environment variables"
+#echo "This is required to run, pywork/redo_xml.sh"

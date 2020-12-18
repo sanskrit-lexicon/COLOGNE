@@ -70,6 +70,7 @@ RewriteRule ^entries/([^/]*)/([^/]*)$ http://sanskrit-lexicon.uni-koeln.de/scans
 		'imgUrl': 'http://sanskrit-lexicon.uni-koeln.de/scans/MWScan/2020/web/webtc/servepdf.php?page=513'
 		'html': 'dictionary entry in HTML format',
 		'text': 'dictionary entry in text format',
+		'xml': 'dictionary entry in xml format',
 		'references': [
 			'Var.', 
 			'Kāv.',

@@ -16,14 +16,14 @@ transLit	slp1
 
 ### 1.1.3. Suggested Clean URL
 
-http://sanskrit-lexicon.uni-koeln.de/dictcode/word/{inputtransliteration}/{outputtransliteration}/{accent}
+http://sanskrit-lexicon.uni-koeln.de/entries/dictcode/word/{inputtransliteration}/{outputtransliteration}/{accent}
 
 ### 1.1.4. Examples
 
-1. http://sanskrit-lexicon.uni-koeln.de/MW/Davala/s/d/y
-2. http://sanskrit-lexicon.uni-koeln.de/PW/अनुभूति/d/h
-3. http://sanskrit-lexicon.uni-koeln.de/MD/raama/i
-4. http://sanskrit-lexicon.uni-koeln.de/MD/sItA
+1. http://sanskrit-lexicon.uni-koeln.de/entries/MW/Davala/s/d/y
+2. http://sanskrit-lexicon.uni-koeln.de/entries/PW/अनुभूति/d/h
+3. http://sanskrit-lexicon.uni-koeln.de/entries/MD/raama/i
+4. http://sanskrit-lexicon.uni-koeln.de/entries/MD/sItA
 
 ### 1.1.5. Allowable values
 

@@ -2,3 +2,5 @@ stardict/output/*.*
 *.pyc
 stardict/data/*
 stardict/trial.txt
+makemd/MD/*
+

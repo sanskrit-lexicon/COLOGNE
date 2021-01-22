@@ -74,3 +74,15 @@ and three subdirectories:
 
 This could be modified to just download the 'web' directory, which is the only part needed for displays.
 
+### scanparse.py
+This is useful to generate 'scan error' lines in the 
+dictionaries/xxx_printchange.txt files
+of sanskrit-lexicon/csl-corrections repository.
+
+The input is assumed to be like an xxx_error.txt file, such as
+https://github.com/sanskrit-lexicon/CORRECTIONS/blob/master/english_error/output/ap90_error.txt.
+
+The execution is 
+`python scanparse.py xxx_error.txt parse1.txt parse2.txt`
+The parse1.txt file is then in format for inserting into xxx_printchange.txt.
+

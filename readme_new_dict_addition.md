@@ -32,6 +32,30 @@
 ```
 10. Add the following line to csl-pywork/v02/redo_cologne_all.sh file. `sh generate_dict.sh xxx  ../../XXXScan/2020/`
 11. Add the following line to csl-pywork/v02/redo_xampp_all.sh file. `sh generate_dict.sh xxx  ../../xxx`
+12. Similarly, Add the following line to csl-websanlexicon/v02/redo_cologne_all.sh file. `sh generate_web.sh xxx  ../../XXXScan/2020/`
+  * For regeneration just of the dictionary displays (Basic, etc.) at Cologne
+13. Similarly, Add the following line to csl-websanlexicon/v02/redo_xampp_all.sh file. `sh generate_web.sh xxx  ../../xxx`
+  * For regeneration just of the dictionary displays (Basic, etc.) in local installation.
+14. Modify csl-websanlexicon/v02/makotemplates/web/webtc/dictinfo.php.
+    * add line to '$cologne_pdfpages_urls' associative array, e.g.
+    * "ARMH"=>"//www.sanskrit-lexicon.uni-koeln.de/scans/ARMHScan/2020/web/pdfpages"
+15. Modify csl-apidev/dictinfo.php, in two places:
+   * To `$dictyear`, add e.g. `"ARMH"=>"2020"`
+   * To `$cologne_pdfpages_urls`, add same as in `14` above.
+16. Modify csl-apidev/sample/dictnames.js, add line to `dictnames`, e.g.
+   * `['ARMH','Abhidhānaratnamālā of Halāyudha']`
+17. Modify csl-apidev/simple-search/v1.1/parse_uri.php, add item to 
+   * `$parmvalues['dict']`,  e.g. 'armh'
+18. Modify hwnorm1/sanhw1/sanhw1.py in two places:
+   * in `dictyear` array, add `"ARMH":"2020"`
+   * in `san_san_dicts` array, add `"ARMH"`
+     * for sanskrit-english dictionary, modify `san_en_dicts`
+     * etc.
+   * Note that the 'redo' procedure of hwnorm1/sanhw1 (see the readme therein)
+     has to be redone after the pywork/v02 generate_dict script is run and
+   * also the hwnorm1c.sqlite file has to be copied to csl-apidev, and
+     csl-apidev has to be pushed in order for the csl-apidev displays to work
+     for the new dictionary (displays such as simple-search and servepdf)
 
 Doing steps upto `sh generate_dict.sh xxx  ../../xxx` added the XXX dictionary for local usage.
 But it did not have the line breaks properly displayed. It also did not have Sanskrit text properly marked up for transliteration facility. So, even with 'Devanagari' as output, I used to get 'SLP1' output only.

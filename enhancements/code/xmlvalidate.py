@@ -2,7 +2,7 @@
    Use additional lxml module to validate an xml file against an
    external DTD file.
    Usage:
-   python xmlvalidate.py <xmlfilename> <dtdfilename>
+   python3 xmlvalidate.py <xmlfilename> <dtdfilename>
 """
 from lxml import etree
 import sys

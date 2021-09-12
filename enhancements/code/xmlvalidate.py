@@ -21,7 +21,7 @@ def validate(xmlfile,dtdfile):
 
 if __name__ == "__main__":
  if len(sys.argv) != 3:
-  print "Usage: python xmlvalidate.py <xmlfilename> <dtdfilename>"
+  print("Usage: python3 xmlvalidate.py <xmlfilename> <dtdfilename>")
   exit(1)
  xmlfile = sys.argv[1]
  dtdfile = sys.argv[2]

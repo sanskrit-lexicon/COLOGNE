@@ -1,0 +1,6 @@
+<H> 46
+<bio> 193
+<bot> 3681
+<div> 648
+<lang> 27
+<symbol> 1

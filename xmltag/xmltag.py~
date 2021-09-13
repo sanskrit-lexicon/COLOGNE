@@ -1,0 +1,58 @@
+""" langchk.py  April 2, 2015
+ Find those dictionaries where the meta file mentions other languages
+ usage: python26 langchk.py langchk.txt
+"""
+import sys,re
+import codecs
+import os.path,time
+# dictyear has all dictionary codes, with the 'year'.
+# This 'year' is required to locate the files
+# This is a Python dictionary data structure, quite like a PHP associative array
+dictyear={"ACC":"2020" , "AE":"2020" , "AP":"2020" , "AP90":"2020",
+       "BEN":"2020" , "BHS":"2020" , "BOP":"2020" , "BOR":"2020",
+       "BUR":"2020" , "CAE":"2020" , "CCS":"2020" , "GRA":"2020",
+       "GST":"2020" , "IEG":"2020" , "INM":"2020" , "KRM":"2020",
+       "MCI":"2020" , "MD":"2020" , "MW":"2020" , "MW72":"2020",
+       "MWE":"2020" , "PD":"2020" , "PE":"2020" , "PGN":"2020",
+       "PUI":"2020" , "PWG":"2020" , "PW":"2020" , "SCH":"2020",
+       "SHS":"2020" , "SKD":"2020" , "SNP":"2020" , "STC":"2020",
+          "VCP":"2020" , "VEI":"2020" , "WIL":"2020" , "YAT":"2020",
+          "LAN":"2020"}
+
+def chkgreek(path):
+ ans=[]
+ f = codecs.open(path,"r","utf-8") 
+ ntot = 0
+ nline = 0
+ for line in f:
+  instances = re.findall(r'<lang n="greek">.*?</lang>',line)
+  ntot = ntot + len(instances)
+  if len(instances) != 0:
+   nline = nline + 1
+ f.close()
+ return ntot,nline
+
+
+def gather(fileout):
+ fout = codecs.open(fileout,"w","utf-8")
+ n=0
+ for code in dictyear:
+  year = dictyear[code]
+  dictlo = code.lower()  
+  n = n + 1
+  # Take into account relative location of this program file
+  dirbase =  "../../csl-orig/v02/%s" %dictlo
+  filename = "%s.txt" % dictlo
+  inpath = "%s/%s" %(dirbase,filename)
+  if os.path.exists(inpath):
+   ngreek,nline = chkgreek(inpath) # number of instances of <lang n="greek">.*?</lang>
+   out = "%s %s greek in %s lines\n" %(dictlo,ngreek,nline)
+  else:
+   out = "NO FILE : %s\n" % inpath
+  fout.write(out)
+ fout.close()
+ print("%s lines written to %s" %(n,fileout))
+if __name__=="__main__":
+ fileout = sys.argv[1] # output path
+ gather(fileout)
+

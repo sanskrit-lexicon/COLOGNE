@@ -1,0 +1,3 @@
+## list xml tags  in each dictionary
+
+python xmltags.py <dictlo> xmltags_dictlo.txt

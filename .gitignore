@@ -3,4 +3,5 @@ stardict/output/*.*
 stardict/data/*
 stardict/trial.txt
 makemd/MD/*
+temp*
 

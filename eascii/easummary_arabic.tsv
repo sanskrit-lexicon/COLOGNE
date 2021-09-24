@@ -1,0 +1,50 @@
+char	hex	count	char name	dict #	dict #	dict #	dict #	dict #
+آ	\u0622	2	ARABIC LETTER ALEF WITH MADDA ABOVE	mw    1	mw72  1			
+أ	\u0623	1	ARABIC LETTER ALEF WITH HAMZA ABOVE	mw72  1				
+إ	\u0625	14	ARABIC LETTER ALEF WITH HAMZA BELOW	mw    4	mw72  3	pw    4	pwg   3	
+ا	\u0627	211	ARABIC LETTER ALEF	gst   1	mw    51	mw72  27	pw    42	pwg   89
+				wil   1				
+ب	\u0628	81	ARABIC LETTER BEH	mw    19	mw72  19	pw    16	pwg   26	wil   1
+ة	\u0629	14	ARABIC LETTER TEH MARBUTA	mw    4	mw72  3	pw    2	pwg   5	
+ت	\u062a	65	ARABIC LETTER TEH	mw    17	mw72  16	pw    10	pwg   21	wil   1
+ث	\u062b	8	ARABIC LETTER THEH	mw    2	mw72  2	pw    2	pwg   2	
+ج	\u062c	23	ARABIC LETTER JEEM	gst   1	mw    4	mw72  3	pw    3	pwg   11
+				wil   1				
+ح	\u062d	36	ARABIC LETTER HAH	mw    12	mw72  3	pw    9	pwg   11	wil   1
+خ	\u062e	20	ARABIC LETTER KHAH	mw    6	mw72  4	pw    3	pwg   7	
+د	\u062f	101	ARABIC LETTER DAL	mw    25	mw72  16	pw    20	pwg   40	
+ذ	\u0630	3	ARABIC LETTER THAL	mw    1	mw72  1	pwg   1		
+ر	\u0631	128	ARABIC LETTER REH	gst   1	mw    34	mw72  22	pw    16	pwg   52
+				wil   3				
+ز	\u0632	24	ARABIC LETTER ZAIN	mw    7	mw72  5	pw    4	pwg   6	wil   2
+س	\u0633	29	ARABIC LETTER SEEN	mw    9	mw72  4	pw    5	pwg   11	
+ش	\u0634	55	ARABIC LETTER SHEEN	mw    17	mw72  4	pw    12	pwg   22	
+ص	\u0635	16	ARABIC LETTER SAD	mw    7	mw72  3	pw    2	pwg   4	
+ط	\u0637	1	ARABIC LETTER TAH	pwg   1				
+ع	\u0639	24	ARABIC LETTER AIN	mw    8	mw72  4	pw    5	pwg   7	
+غ	\u063a	17	ARABIC LETTER GHAIN	mw    5	mw72  2	pw    2	pwg   8	
+ف	\u0641	21	ARABIC LETTER FEH	mw    8	mw72  3	pw    2	pwg   7	wil   1
+ق	\u0642	31	ARABIC LETTER QAF	mw    10	mw72  6	pw    4	pwg   11	
+ك	\u0643	33	ARABIC LETTER KAF	mw    7	mw72  4	pw    3	pwg   19	
+ل	\u0644	99	ARABIC LETTER LAM	mw    25	mw72  16	pw    18	pwg   39	wil   1
+م	\u0645	129	ARABIC LETTER MEEM	mw    41	mw72  21	pw    24	pwg   42	wil   1
+ن	\u0646	116	ARABIC LETTER NOON	gst   1	mw    29	mw72  16	pw    19	pwg   50
+				wil   1				
+ه	\u0647	94	ARABIC LETTER HEH	mw    28	mw72  13	pw    18	pwg   34	wil   1
+و	\u0648	78	ARABIC LETTER WAW	mw    20	mw72  20	pw    8	pwg   29	wil   1
+ى	\u0649	19	ARABIC LETTER ALEF MAKSURA	mw    3	mw72  4	pw    3	pwg   9	
+ي	\u064a	91	ARABIC LETTER YEH	mw    22	mw72  15	pw    18	pwg   34	wil   2
+ٍ	\u064d	2	ARABIC KASRATAN	mw    1	pwg   1			
+َ	\u064e	8	ARABIC FATHA	mw    4	pw    1	pwg   3		
+ُ	\u064f	7	ARABIC DAMMA	mw    3	mw72  1	pw    1	pwg   2	
+ِ	\u0650	28	ARABIC KASRA	mw    11	mw72  5	pw    6	pwg   6	
+ّ	\u0651	13	ARABIC SHADDA	mw    2	mw72  2	pw    4	pwg   5	
+ْ	\u0652	25	ARABIC SUKUN	mw    6	mw72  4	pw    8	pwg   7	
+٣	\u0663	2	ARABIC-INDIC DIGIT THREE	pwg   2				
+پ	\u067e	27	ARABIC LETTER PEH	mw    9	mw72  5	pw    1	pwg   12	
+ٿ	\u067f	2	ARABIC LETTER TEHEH	mw    1	mw72  1			
+چ	\u0686	3	ARABIC LETTER TCHEH	mw72  1	pwg   2			
+ڭ	\u06ad	4	ARABIC LETTER NG	pw    1	pwg   3			
+گ	\u06af	4	ARABIC LETTER GAF	mw    2	mw72  2			
+ۀ	\u06c0	1	ARABIC LETTER HEH WITH YEH ABOVE	mw    1				
+ی	\u06cc	1	ARABIC LETTER FARSI YEH	gst   1				

@@ -1,0 +1,207 @@
+char	hex	count	char name	dict #	dict #	dict #	dict #	dict #
+ΐ	\u0390	21	GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS	lan   1	mw    1	mw72  17	pwg   2	
+Α	\u0391	7	GREEK CAPITAL LETTER ALPHA	gst   1	mw    2	mw72  2	pwg   1	vei   1
+Β	\u0392	11	GREEK CAPITAL LETTER BETA	lan   2	mw    4	mw72  1	pw    1	pwg   1
+				vei   2				
+Γ	\u0393	3	GREEK CAPITAL LETTER GAMMA	mw72  1	pwg   2			
+Δ	\u0394	14	GREEK CAPITAL LETTER DELTA	lan   8	mw    2	mw72  2	pwg   1	vei   1
+Ε	\u0395	5	GREEK CAPITAL LETTER EPSILON	lan   3	mw    1	mw72  1		
+Ζ	\u0396	11	GREEK CAPITAL LETTER ZETA	lan   2	mw    3	mw72  2	pw    2	pwg   2
+Θ	\u0398	1	GREEK CAPITAL LETTER THETA	mw72  1				
+Κ	\u039a	12	GREEK CAPITAL LETTER KAPPA	lan   1	mw    3	mw72  3	pwg   4	vei   1
+Λ	\u039b	4	GREEK CAPITAL LETTER LAMDA	lan   1	mw    1	mw72  2		
+Μ	\u039c	18	GREEK CAPITAL LETTER MU	lan   5	mw    3	mw72  8	pwg   2	
+Ν	\u039d	12	GREEK CAPITAL LETTER NU	lan   3	mw    1	mw72  6	pwg   2	
+Ο	\u039f	5	GREEK CAPITAL LETTER OMICRON	lan   1	mw    1	mw72  3		
+Π	\u03a0	37	GREEK CAPITAL LETTER PI	lan   5	mw    4	mw72  13	pw    2	pwg   2
+				stc   1	vei   10			
+Ρ	\u03a1	1	GREEK CAPITAL LETTER RHO	pwg   1				
+Σ	\u03a3	23	GREEK CAPITAL LETTER SIGMA	lan   2	mw    3	mw72  7	pwg   2	vei   9
+Τ	\u03a4	31	GREEK CAPITAL LETTER TAU	lan   1	mw    5	mw72  20	pw    1	pwg   2
+				vei   2				
+Φ	\u03a6	11	GREEK CAPITAL LETTER PHI	lan   1	mw    3	mw72  5	pwg   2	
+ά	\u03ac	707	GREEK SMALL LETTER ALPHA WITH TONOS	gra   30	lan   86	md    3	mw    97	mw72  424
+				pw    11	pwg   45	vei   11		
+έ	\u03ad	859	GREEK SMALL LETTER EPSILON WITH TONOS	gra   34	lan   142	mw    172	mw72  453	pw    3
+				pwg   39	vei   16			
+ή	\u03ae	460	GREEK SMALL LETTER ETA WITH TONOS	gra   16	gst   2	lan   61	md    3	mw    76
+				mw72  237	pw    15	pwg   42	vei   8	
+ί	\u03af	794	GREEK SMALL LETTER IOTA WITH TONOS	gra   43	lan   132	mw    136	mw72  413	pw    14
+				pwg   47	vei   9			
+ΰ	\u03b0	8	GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS	mw72  8				
+α	\u03b1	4020	GREEK SMALL LETTER ALPHA	bhs   1	gra   98	gst   7	lan   381	md    2
+				mw    368	mw72  1106	pw    1386	pwg   608	stc   1
+				vei   56	wil   6			
+β	\u03b2	2073	GREEK SMALL LETTER BETA	bhs   1	gra   4	gst   2	lan   60	mw    45
+				mw72  140	pw    1322	pwg   474	vei   19	wil   6
+γ	\u03b3	1570	GREEK SMALL LETTER GAMMA	bhs   1	gra   37	gst   3	lan   104	mw    140
+				mw72  304	pw    626	pwg   320	vei   30	wil   5
+δ	\u03b4	1343	GREEK SMALL LETTER DELTA	cae   1	gra   34	gst   6	lan   157	md    3
+				mw    173	mw72  414	pw    310	pwg   217	vei   20
+				wil   7	yat   1			
+ε	\u03b5	1617	GREEK SMALL LETTER EPSILON	bhs   1	cae   1	gra   53	inm   1	lan   279
+				md    4	mw    236	mw72  649	pw    182	pwg   189
+				stc   2	vei   19	wil   1		
+ζ	\u03b6	369	GREEK SMALL LETTER ZETA	gra   3	gst   2	lan   20	mw    32	mw72  128
+				pw    99	pwg   70	vei   13	wil   2	
+η	\u03b7	721	GREEK SMALL LETTER ETA	gra   20	lan   85	mw    105	mw72  340	pw    72
+				pwg   78	vei   20	wil   1		
+θ	\u03b8	647	GREEK SMALL LETTER THETA	bur   3	gra   30	lan   106	mw    100	mw72  306
+				pw    40	pwg   54	vei   8		
+ι	\u03b9	1374	GREEK SMALL LETTER IOTA	gra   44	gst   3	lan   247	md    1	mw    236
+				mw72  669	pw    41	pwg   109	stc   1	vei   23
+κ	\u03ba	1298	GREEK SMALL LETTER KAPPA	bhs   1	gra   62	lan   202	mw    257	mw72  622
+				pw    41	pwg   95	stc   1	vei   16	wil   1
+λ	\u03bb	1175	GREEK SMALL LETTER LAMDA	bhs   2	gra   28	lan   205	mw    176	mw72  632
+				pw    30	pwg   82	stc   1	vei   16	wil   3
+μ	\u03bc	1578	GREEK SMALL LETTER MU	bhs   1	gra   78	gst   6	lan   272	md    3
+				mw    260	mw72  817	pw    31	pwg   95	vei   15
+ν	\u03bd	2124	GREEK SMALL LETTER NU	bhs   1	cae   1	gra   94	gst   8	lan   324
+				md    5	mw    389	mw72  1072	pw    53	pwg   148
+				snp   1	vei   27	wil   1		
+ξ	\u03be	216	GREEK SMALL LETTER XI	gra   7	gst   1	lan   27	mw    37	mw72  103
+				pw    11	pwg   28	snp   1	vei   1	
+ο	\u03bf	2321	GREEK SMALL LETTER OMICRON	bhs   1	gra   68	gst   6	lan   390	md    1
+				mw    403	mw72  1194	pw    53	pwg   175	vei   30
+π	\u03c0	1171	GREEK SMALL LETTER PI	bhs   1	gra   48	gst   1	lan   192	md    2
+				mw    191	mw72  622	pw    19	pwg   87	vei   8
+ρ	\u03c1	2097	GREEK SMALL LETTER RHO	gra   97	gst   5	lan   352	md    5	mw    352
+				mw72  1077	pw    43	pwg   131	vei   35	
+ς	\u03c2	2454	GREEK SMALL LETTER FINAL SIGMA	cae   1	gra   87	gst   2	lan   419	md    1
+				mw    421	mw72  1297	pw    39	pwg   152	stc   1
+				vei   34				
+σ	\u03c3	1172	GREEK SMALL LETTER SIGMA	bur   1	gra   45	lan   193	mw    200	mw72  667
+				pw    10	pwg   41	vei   15		
+τ	\u03c4	1574	GREEK SMALL LETTER TAU	gra   61	gst   1	lan   268	md    3	mw    255
+				mw72  835	pw    28	pwg   96	stc   1	vei   26
+υ	\u03c5	632	GREEK SMALL LETTER UPSILON	cae   1	gra   26	gst   4	lan   99	mw    106
+				mw72  317	pw    21	pwg   45	snp   1	stc   1
+				vei   11				
+φ	\u03c6	487	GREEK SMALL LETTER PHI	bur   1	gra   17	gst   1	lan   82	mw    89
+				mw72  253	pw    9	pwg   25	vei   10	
+χ	\u03c7	546	GREEK SMALL LETTER CHI	bur   2	gra   42	gst   1	lan   86	md    1
+				mw    81	mw72  283	pw    12	pwg   35	vei   3
+ψ	\u03c8	43	GREEK SMALL LETTER PSI	lan   13	mw    6	mw72  24		
+ω	\u03c9	1247	GREEK SMALL LETTER OMEGA	gra   86	lan   182	mw    228	mw72  689	pw    6
+				pwg   49	vei   7			
+ϊ	\u03ca	13	GREEK SMALL LETTER IOTA WITH DIALYTIKA	mw    3	mw72  9	pwg   1		
+ϋ	\u03cb	8	GREEK SMALL LETTER UPSILON WITH DIALYTIKA	gra   1	lan   1	mw    2	mw72  4	
+ό	\u03cc	958	GREEK SMALL LETTER OMICRON WITH TONOS	gra   39	lan   152	md    1	mw    172	mw72  529
+				pw    10	pwg   46	vei   9		
+ύ	\u03cd	530	GREEK SMALL LETTER UPSILON WITH TONOS	bhs   1	gra   33	lan   80	mw    108	mw72  278
+				pw    8	pwg   18	vei   4		
+ώ	\u03ce	141	GREEK SMALL LETTER OMEGA WITH TONOS	gra   3	lan   20	mw    27	mw72  78	pw    2
+				pwg   9	vei   2			
+ϛ	\u03db	2	GREEK SMALL LETTER STIGMA	md    2				
+ϝ	\u03dd	115	GREEK SMALL LETTER DIGAMMA	gra   1	lan   53	mw    34	mw72  27	
+ϰ	\u03f0	3	GREEK KAPPA SYMBOL	bur   2	gst   1			
+ϳ	\u03f3	19	GREEK LETTER YOT	lan   18	mw72  1			
+ϴ	\u03f4	1	GREEK CAPITAL THETA SYMBOL	mw72  1				
+ϸ	\u03f8	23	GREEK SMALL LETTER SHO	lan   23				
+ἀ	\u1f00	310	GREEK SMALL LETTER ALPHA WITH PSILI	cae   2	gra   22	gst   1	lan   59	md    2
+				mw    47	mw72  134	pw    11	pwg   31	vei   1
+ἁ	\u1f01	19	GREEK SMALL LETTER ALPHA WITH DASIA	lan   6	mw    5	mw72  7	pwg   1	
+ἄ	\u1f04	178	GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA	gra   17	lan   30	mw    35	mw72  77	pwg   15
+				vei   4				
+ἅ	\u1f05	30	GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA	bhs   1	lan   12	mw    5	mw72  12	
+ἆ	\u1f06	2	GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI	lan   1	mw72  1			
+ἇ	\u1f07	1	GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI	lan   1				
+Ἀ	\u1f08	11	GREEK CAPITAL LETTER ALPHA WITH PSILI	gst   1	lan   2	mw72  3	pw    1	pwg   3
+				vei   1				
+Ἄ	\u1f0c	5	GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA	lan   1	mw72  2	pw    1	pwg   1	
+ἐ	\u1f10	221	GREEK SMALL LETTER EPSILON WITH PSILI	gra   9	gst   1	lan   47	mw    38	mw72  103
+				pw    4	pwg   17	vei   2		
+ἑ	\u1f11	47	GREEK SMALL LETTER EPSILON WITH DASIA	gra   1	lan   11	mw    7	mw72  26	pwg   2
+ἔ	\u1f14	167	GREEK SMALL LETTER EPSILON WITH PSILI AND OXIA	gra   7	lan   49	mw    29	mw72  77	pwg   5
+ἕ	\u1f15	52	GREEK SMALL LETTER EPSILON WITH DASIA AND OXIA	gra   1	lan   11	mw    8	mw72  31	pwg   1
+Ἐ	\u1f18	2	GREEK CAPITAL LETTER EPSILON WITH PSILI	gra   1	lan   1			
+Ἑ	\u1f19	3	GREEK CAPITAL LETTER EPSILON WITH DASIA	mw72  1	pw    1	pwg   1		
+ἠ	\u1f20	30	GREEK SMALL LETTER ETA WITH PSILI	gra   1	lan   8	mw    5	mw72  13	pw    2
+				pwg   1				
+ἡ	\u1f21	21	GREEK SMALL LETTER ETA WITH DASIA	gra   2	lan   6	mw    5	mw72  8	
+ἢ	\u1f22	1	GREEK SMALL LETTER ETA WITH PSILI AND VARIA	lan   1				
+ἤ	\u1f24	10	GREEK SMALL LETTER ETA WITH PSILI AND OXIA	gra   1	lan   4	mw    1	mw72  4	
+ἥ	\u1f25	26	GREEK SMALL LETTER ETA WITH DASIA AND OXIA	gra   3	lan   4	mw    6	mw72  10	pw    1
+				pwg   2				
+ἦ	\u1f26	13	GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI	lan   7	mw72  4	pwg   2		
+ἧ	\u1f27	9	GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI	lan   1	mw    3	mw72  5		
+Ἡ	\u1f29	2	GREEK CAPITAL LETTER ETA WITH DASIA	lan   1	mw72  1			
+Ἥ	\u1f2d	3	GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA	mw72  2	pwg   1			
+ἰ	\u1f30	100	GREEK SMALL LETTER IOTA WITH PSILI	gra   3	lan   16	mw    23	mw72  49	pw    2
+				pwg   7				
+ἱ	\u1f31	50	GREEK SMALL LETTER IOTA WITH DASIA	gra   2	lan   7	mw    6	mw72  29	pw    1
+				pwg   4	vei   1			
+ἲ	\u1f32	1	GREEK SMALL LETTER IOTA WITH PSILI AND VARIA	pwg   1				
+ἴ	\u1f34	70	GREEK SMALL LETTER IOTA WITH PSILI AND OXIA	gra   2	lan   13	mw    12	mw72  38	pwg   5
+ἵ	\u1f35	25	GREEK SMALL LETTER IOTA WITH DASIA AND OXIA	gra   2	lan   6	mw    2	mw72  10	pwg   5
+ἶ	\u1f36	38	GREEK SMALL LETTER IOTA WITH PSILI AND PERISPOMENI	gra   1	lan   11	mw    9	mw72  14	pwg   3
+ἷ	\u1f37	7	GREEK SMALL LETTER IOTA WITH DASIA AND PERISPOMENI	lan   4	mw    1	mw72  2		
+Ἰ	\u1f38	1	GREEK CAPITAL LETTER IOTA WITH PSILI	lan   1				
+Ἱ	\u1f39	1	GREEK CAPITAL LETTER IOTA WITH DASIA	lan   1				
+ὀ	\u1f40	126	GREEK SMALL LETTER OMICRON WITH PSILI	gra   8	lan   21	mw    24	mw72  64	pwg   8
+				snp   1				
+ὁ	\u1f41	38	GREEK SMALL LETTER OMICRON WITH DASIA	lan   6	mw    9	mw72  20	pw    1	pwg   2
+ὄ	\u1f44	84	GREEK SMALL LETTER OMICRON WITH PSILI AND OXIA	gra   5	lan   14	mw    21	mw72  34	pwg   10
+ὅ	\u1f45	33	GREEK SMALL LETTER OMICRON WITH DASIA AND OXIA	gra   1	lan   12	mw    5	mw72  11	pw    1
+				pwg   3				
+Ὀ	\u1f48	6	GREEK CAPITAL LETTER OMICRON WITH PSILI	lan   1	mw72  3	pwg   2		
+Ὄ	\u1f4c	1	GREEK CAPITAL LETTER OMICRON WITH PSILI AND OXIA	mw72  1				
+ὐ	\u1f50	70	GREEK SMALL LETTER UPSILON WITH PSILI	cae   1	gra   2	lan   16	mw    14	mw72  28
+				pw    3	pwg   5	vei   1		
+ὑ	\u1f51	68	GREEK SMALL LETTER UPSILON WITH DASIA	gra   2	lan   12	mw    18	mw72  30	pw    1
+				pwg   5				
+ὔ	\u1f54	24	GREEK SMALL LETTER UPSILON WITH PSILI AND OXIA	gra   1	lan   7	mw    1	mw72  12	pwg   3
+ὕ	\u1f55	28	GREEK SMALL LETTER UPSILON WITH DASIA AND OXIA	lan   9	mw    6	mw72  11	pwg   2	
+ὖ	\u1f56	37	GREEK SMALL LETTER UPSILON WITH PSILI AND PERISPOMENI	gra   1	lan   7	md    1	mw    6	mw72  19
+				pw    1	pwg   2			
+ὗ	\u1f57	4	GREEK SMALL LETTER UPSILON WITH DASIA AND PERISPOMENI	lan   1	mw    1	mw72  1	vei   1	
+Ὑ	\u1f59	3	GREEK CAPITAL LETTER UPSILON WITH DASIA	lan   1	mw72  1	pwg   1		
+ὠ	\u1f60	27	GREEK SMALL LETTER OMEGA WITH PSILI	gra   2	lan   4	mw    7	mw72  12	pwg   2
+ὡ	\u1f61	3	GREEK SMALL LETTER OMEGA WITH DASIA	lan   1	mw    1	mw72  1		
+ὤ	\u1f64	11	GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA	gra   1	lan   2	mw    2	mw72  6	
+ὥ	\u1f65	11	GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA	lan   4	md    1	mw    2	mw72  2	pw    1
+				pwg   1				
+ὦ	\u1f66	6	GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI	gra   1	lan   2	mw    2	mw72  1	
+ὰ	\u1f70	4	GREEK SMALL LETTER ALPHA WITH VARIA	gra   1	lan   2	pwg   1		
+ὲ	\u1f72	2	GREEK SMALL LETTER EPSILON WITH VARIA	lan   1	mw    1			
+ὴ	\u1f74	3	GREEK SMALL LETTER ETA WITH VARIA	gra   1	pwg   2			
+ή	\u1f75	2	GREEK SMALL LETTER ETA WITH OXIA	mw    2				
+ὶ	\u1f76	4	GREEK SMALL LETTER IOTA WITH VARIA	lan   1	pwg   3			
+ί	\u1f77	1	GREEK SMALL LETTER IOTA WITH OXIA	mw    1				
+ὸ	\u1f78	16	GREEK SMALL LETTER OMICRON WITH VARIA	gra   1	lan   15			
+ό	\u1f79	1	GREEK SMALL LETTER OMICRON WITH OXIA	mw    1				
+ὺ	\u1f7a	1	GREEK SMALL LETTER UPSILON WITH VARIA	lan   1				
+ώ	\u1f7d	1	GREEK SMALL LETTER OMEGA WITH OXIA	mw    1				
+ᾰ	\u1fb0	3	GREEK SMALL LETTER ALPHA WITH VRACHY	lan   2	mw72  1			
+ᾱ	\u1fb1	31	GREEK SMALL LETTER ALPHA WITH MACRON	gra   1	lan   12	mw72  18		
+ᾳ	\u1fb3	1	GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI	mw72  1				
+ᾴ	\u1fb4	1	GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI	mw72  1				
+ᾶ	\u1fb6	30	GREEK SMALL LETTER ALPHA WITH PERISPOMENI	gra   1	lan   7	mw    6	mw72  15	vei   1
+ᾷ	\u1fb7	4	GREEK SMALL LETTER ALPHA WITH PERISPOMENI AND YPOGEGRAMMENI	lan   1	mw72  2	pwg   1		
+᾽	\u1fbd	30	GREEK KORONIS	gst   1	lan   8	mw    3	mw72  3	pw    4
+				pwg   11				
+᾿	\u1fbf	6	GREEK PSILI	mw    6				
+ῃ	\u1fc3	2	GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI	mw72  1	pwg   1			
+ῆ	\u1fc6	96	GREEK SMALL LETTER ETA WITH PERISPOMENI	gra   8	lan   11	mw    13	mw72  55	pw    1
+				pwg   5	vei   3			
+ῇ	\u1fc7	3	GREEK SMALL LETTER ETA WITH PERISPOMENI AND YPOGEGRAMMENI	mw72  3				
+῎	\u1fce	1	GREEK PSILI AND OXIA	mw    1				
+῏	\u1fcf	1	GREEK PSILI AND PERISPOMENI	mw72  1				
+ῐ	\u1fd0	5	GREEK SMALL LETTER IOTA WITH VRACHY	lan   1	mw72  4			
+ῑ	\u1fd1	14	GREEK SMALL LETTER IOTA WITH MACRON	gra   1	lan   8	mw72  5		
+ΐ	\u1fd3	1	GREEK SMALL LETTER IOTA WITH DIALYTIKA AND OXIA	gra   1				
+ῖ	\u1fd6	140	GREEK SMALL LETTER IOTA WITH PERISPOMENI	gra   4	lan   26	mw    26	mw72  72	pw    2
+				pwg   10				
+῞	\u1fde	1	GREEK DASIA AND OXIA	mw    1				
+ῠ	\u1fe0	2	GREEK SMALL LETTER UPSILON WITH VRACHY	lan   1	mw72  1			
+ῡ	\u1fe1	16	GREEK SMALL LETTER UPSILON WITH MACRON	lan   4	mw72  12			
+ῤ	\u1fe4	17	GREEK SMALL LETTER RHO WITH PSILI	lan   2	mw72  15			
+ῥ	\u1fe5	77	GREEK SMALL LETTER RHO WITH DASIA	lan   9	mw72  62	pw    1	pwg   5	
+ῦ	\u1fe6	121	GREEK SMALL LETTER UPSILON WITH PERISPOMENI	gra   2	lan   26	mw    17	mw72  66	pw    1
+				pwg   5	vei   4			
+ῴ	\u1ff4	3	GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI	lan   1	mw72  1	pwg   1		
+ῶ	\u1ff6	66	GREEK SMALL LETTER OMEGA WITH PERISPOMENI	gra   2	lan   10	mw    10	mw72  36	pw    1
+				pwg   4	stc   1	vei   2		
+ῷ	\u1ff7	3	GREEK SMALL LETTER OMEGA WITH PERISPOMENI AND YPOGEGRAMMENI	lan   2	mw72  1			
+´	\u1ffd	1	GREEK OXIA	pwg   1				
+῾	\u1ffe	13	GREEK DASIA	lan   1	mw    10	pwg   2		

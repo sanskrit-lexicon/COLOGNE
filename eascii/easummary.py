@@ -169,17 +169,6 @@ class EA(object):
   self.c = c
   self.counts = {}  # counts[dictlo] = N
 
-def filter_greek_version0(eacodes):
- # not as desired, since some combining characters are 0300-0332
- eacodes1 = {}
- chars = eacodes.keys()
- for c in chars:
-  hex = "%04x" % ord(c)
-  if hex.startswith(('03','1f')):
-   # Greek and Coptic, Greek extended
-   eacodes1[c] = eacodes[c]
- return eacodes1
-
 def filter_greek(eacodes):
  # not as desired, since some combining characters are 0300-0332
  eacodes1 = {}
@@ -200,12 +189,23 @@ def filter_arabic(eacodes):
    eacodes1[c] = eacodes[c]
  return eacodes1
 
+def filter_cyrillic(eacodes):
+ # not as desired, since some combining characters are 0300-0332
+ eacodes1 = {}
+ chars = eacodes.keys()
+ for c in chars:
+  name = unicodedata.name(c)
+  if name.startswith('CYRILLIC'):
+   eacodes1[c] = eacodes[c]
+ return eacodes1
+
+
 def filter_rest(eacodes):
  eacodes1 = {}
  chars = eacodes.keys()  
  for c in chars:
   name = unicodedata.name(c)
-  if not name.startswith(('GREEK','ARABIC')):
+  if not name.startswith(('GREEK','ARABIC','CYRILLIC')):
    eacodes1[c] = eacodes[c]
  return eacodes1
 
@@ -241,6 +241,10 @@ if __name__=="__main__":
  agg_arabic = filter_arabic(agg)
  fileout_arabic = "%s_arabic.tsv" %fileout
  write_ea(fileout_arabic,agg_arabic)
+ # Cyrillic
+ agg_cyrillic = filter_cyrillic(agg)
+ fileout_cyrillic = "%s_cyrillic.tsv" %fileout
+ write_ea(fileout_cyrillic,agg_cyrillic)
  # The rest
  agg_rest = filter_rest(agg)
  fileout_rest = "%s.tsv" % fileout

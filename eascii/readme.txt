@@ -20,7 +20,7 @@ sh catall.sh > all_ea.txt
 
 # another view of which dictionaries have each extended ascii character.
 # dictlos variable has list of dictionary codes. excludes restricted dictionaries
-# generate easummary_greek.tsv, easummary_arabic.tsv, easummary.tsv
+# generate easummary_greek.tsv, easummary_arabic.tsv, easummary_cyrillic.tsv, easummary.tsv
 python easummary.py ../../../cologne/csl-orig easummary
 
 # Consider ONLY the metalines

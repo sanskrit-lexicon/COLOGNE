@@ -1,0 +1,130 @@
+BEGIN Dictionary acc
+46 entry instances in 36 lines
+0 non-entry instances in 0 lines
+36 change transactions written to changes/acc_changes.txt
+210469 lines read from ../../../../cologne/csl-orig/v02/acc/acc.txt
+210469 records written to temporig/acc.txt
+36 change transactions from changes/acc_changes.txt
+36 of type new
+END Dictionary acc
+
+BEGIN Dictionary ap90
+4050 entry instances in 3369 lines
+9 non-entry instances in 7 lines
+3369 change transactions written to changes/ap90_changes.txt
+267088 lines read from ../../../../cologne/csl-orig/v02/ap90/ap90.txt
+267088 records written to temporig/ap90.txt
+3369 change transactions from changes/ap90_changes.txt
+3369 of type new
+END Dictionary ap90
+
+BEGIN Dictionary ben
+506 entry instances in 469 lines
+6 non-entry instances in 6 lines
+469 change transactions written to changes/ben_changes.txt
+151243 lines read from ../../../../cologne/csl-orig/v02/ben/ben.txt
+151243 records written to temporig/ben.txt
+469 change transactions from changes/ben_changes.txt
+469 of type new
+END Dictionary ben
+
+BEGIN Dictionary gst
+205 entry instances in 150 lines
+2 non-entry instances in 2 lines
+150 change transactions written to changes/gst_changes.txt
+57036 lines read from ../../../../cologne/csl-orig/v02/gst/gst.txt
+57036 records written to temporig/gst.txt
+150 change transactions from changes/gst_changes.txt
+150 of type new
+END Dictionary gst
+
+BEGIN Dictionary ieg
+45 entry instances in 37 lines
+0 non-entry instances in 0 lines
+37 change transactions written to changes/ieg_changes.txt
+53139 lines read from ../../../../cologne/csl-orig/v02/ieg/ieg.txt
+53139 records written to temporig/ieg.txt
+37 change transactions from changes/ieg_changes.txt
+37 of type new
+END Dictionary ieg
+
+BEGIN Dictionary inm
+19532 entry instances in 15740 lines
+649 non-entry instances in 525 lines
+15740 change transactions written to changes/inm_changes.txt
+144646 lines read from ../../../../cologne/csl-orig/v02/inm/inm.txt
+144646 records written to temporig/inm.txt
+15740 change transactions from changes/inm_changes.txt
+15740 of type new
+END Dictionary inm
+
+BEGIN Dictionary krm
+1 entry instances in 1 lines
+0 non-entry instances in 0 lines
+1 change transactions written to changes/krm_changes.txt
+56231 lines read from ../../../../cologne/csl-orig/v02/krm/krm.txt
+56231 records written to temporig/krm.txt
+1 change transactions from changes/krm_changes.txt
+1 of type new
+END Dictionary krm
+
+BEGIN Dictionary mci
+65 entry instances in 54 lines
+2 non-entry instances in 1 lines
+54 change transactions written to changes/mci_changes.txt
+87793 lines read from ../../../../cologne/csl-orig/v02/mci/mci.txt
+87793 records written to temporig/mci.txt
+54 change transactions from changes/mci_changes.txt
+54 of type new
+END Dictionary mci
+
+BEGIN Dictionary yat
+2 entry instances in 2 lines
+0 non-entry instances in 0 lines
+2 change transactions written to changes/yat_changes.txt
+162362 lines read from ../../../../cologne/csl-orig/v02/yat/yat.txt
+162362 records written to temporig/yat.txt
+2 change transactions from changes/yat_changes.txt
+2 of type new
+END Dictionary yat
+
+BEGIN Dictionary mw72
+21109 entry instances in 12416 lines
+4 non-entry instances in 4 lines
+12416 change transactions written to changes/mw72_changes.txt
+443092 lines read from ../../../../cologne/csl-orig/v02/mw72/mw72.txt
+443092 records written to temporig/mw72.txt
+12416 change transactions from changes/mw72_changes.txt
+12416 of type new
+END Dictionary mw72
+
+BEGIN Dictionary pwg
+4 entry instances in 4 lines
+0 non-entry instances in 0 lines
+4 change transactions written to changes/pwg_changes.txt
+1149416 lines read from ../../../../cologne/csl-orig/v02/pwg/pwg.txt
+1149416 records written to temporig/pwg.txt
+4 change transactions from changes/pwg_changes.txt
+4 of type new
+END Dictionary pwg
+
+BEGIN Dictionary shs
+3 entry instances in 3 lines
+0 non-entry instances in 0 lines
+3 change transactions written to changes/shs_changes.txt
+196773 lines read from ../../../../cologne/csl-orig/v02/shs/shs.txt
+196773 records written to temporig/shs.txt
+3 change transactions from changes/shs_changes.txt
+3 of type new
+END Dictionary shs
+
+BEGIN Dictionary vei
+10 entry instances in 8 lines
+5 non-entry instances in 4 lines
+8 change transactions written to changes/vei_changes.txt
+72607 lines read from ../../../../cologne/csl-orig/v02/vei/vei.txt
+72607 records written to temporig/vei.txt
+8 change transactions from changes/vei_changes.txt
+8 of type new
+END Dictionary vei
+

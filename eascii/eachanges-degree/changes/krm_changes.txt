@@ -1,0 +1,4 @@
+29247 old <F>4. <s>‘ºavahArADArAvAyAnAmupasaMKyAnam’ (vA</s>. 3-3-122) <s>iti saMjYAyAM GApavAdo GaY .</s></F>
+;
+29247 new <F>4. <s>‘°avahArADArAvAyAnAmupasaMKyAnam’ (vA</s>. 3-3-122) <s>iti saMjYAyAM GApavAdo GaY .</s></F>
+; ----

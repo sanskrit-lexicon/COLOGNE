@@ -1,0 +1,610 @@
+17174 old <div n="lb">As a feminine, {#ºsamA#} is taken in the sense of {#jAti,#} sophism.
+;
+17174 new <div n="lb">As a feminine, {#°samA#} is taken in the sense of {#jAti,#} sophism.
+; ----
+19117 old <div n="lb">but more probably {#anuttaº#} and {#daSan,#} samāsānta aff. {#qac,#}
+;
+19117 new <div n="lb">but more probably {#anutta°#} and {#daSan,#} samāsānta aff. {#qac,#}
+; ----
+21030 old {#anuyAyitA#}¦ f. ({#-tA#}) or {#ºtva#} n. ({#-tvam#}) <sup>1</sup> The being a follower.
+;
+21030 new {#anuyAyitA#}¦ f. ({#-tA#}) or {#°tva#} n. ({#-tvam#}) <sup>1</sup> The being a follower.
+; ----
+21216 old <div n="lb">3º or 2º or 1º 45'S. and in 224º or 224º 5'E., and must in-
+;
+21216 new <div n="lb">3° or 2° or 1° 45'S. and in 224° or 224° 5'E., and must in-
+; ----
+21243 old <div n="lb">position is 8º 15'N. Lat. 98º 14'36'' E. L. E. {#anurADa#} and {#pura#}.
+;
+21243 new <div n="lb">position is 8° 15'N. Lat. 98° 14'36'' E. L. E. {#anurADa#} and {#pura#}.
+; ----
+21577 old <div n="lb">anuvachana {#‘anu cAha’#} follows immediately the praisha {#mEtrAº#}.
+;
+21577 new <div n="lb">anuvachana {#‘anu cAha’#} follows immediately the praisha {#mEtrA°#}.
+; ----
+23398 old {#anfRatA#}¦ f. ({#-tA#}) or {#ºtva#} n. ({#-tvam#}) Freedom from debt. E.
+;
+23398 new {#anfRatA#}¦ f. ({#-tA#}) or {#°tva#} n. ({#-tvam#}) Freedom from debt. E.
+; ----
+23510 old {#anfSaMsatA#}¦ f. ({#-tA#}) or {#ºtva#} n. ({#-tvam#}) Mildness. Compare
+;
+23510 new {#anfSaMsatA#}¦ f. ({#-tA#}) or {#°tva#} n. ({#-tvam#}) Mildness. Compare
+; ----
+24120 old <div n="lb">compound in {#ºmeKalA-AntAH,#} when {#Anta#} could be taken
+;
+24120 new <div n="lb">compound in {#°meKalA-AntAH,#} when {#Anta#} could be taken
+; ----
+24174 old <div n="lb">(var. lect. {#ºsAndro layaH#})--E. {#antar#} and {#karaRa#}.
+;
+24174 new <div n="lb">(var. lect. {#°sAndro layaH#})--E. {#antar#} and {#karaRa#}.
+; ----
+24412 old <div n="lb">edit., viz. {#SabdAdiByo'ntaHpratizWAnAcca . Sabdaºº#}.] E. {#antar#}
+;
+24412 new <div n="lb">edit., viz. {#SabdAdiByo'ntaHpratizWAnAcca . Sabda°°#}.] E. {#antar#}
+; ----
+24565 old <div n="lb">{#vAnAnAmanyAsAmfcAmantasTA#} (the Mss. {#saMstuvAnAmaº#} or v. 1.
+;
+24565 new <div n="lb">{#vAnAnAmanyAsAmfcAmantasTA#} (the Mss. {#saMstuvAnAma°#} or v. 1.
+; ----
+24566 old <div n="lb">{#saMstutAnAmaº#}) {#antaravasTitA Bavati . anye hi prARAScakzuH-#}
+;
+24566 new <div n="lb">{#saMstutAnAma°#}) {#antaravasTitA Bavati . anye hi prARAScakzuH-#}
+; ----
+24567 old <div n="lb">{#SrotrAdayaH . ato'smAtprARAdAraByorDvAScaranti#} (v. 1. {#ºrantI-#}
+;
+24567 new <div n="lb">{#SrotrAdayaH . ato'smAtprARAdAraByorDvAScaranti#} (v. 1. {#°rantI-#}
+; ----
+24568 old <div n="lb">{#ti .#}) {#. pAyUpasTayonyo'nye#} (the Mss. {#pAyUpasTayo nye#} or {#ºsTa-#}
+;
+24568 new <div n="lb">{#ti .#}) {#. pAyUpasTayonyo'nye#} (the Mss. {#pAyUpasTayo nye#} or {#°sTa-#}
+; ----
+24572 old <div n="lb">(Mss. {#ºvAM#}) {#tezAM maDye'vAYco'ntasTAH#} (Mss. {#sTA#}) {#prARA#}
+;
+24572 new <div n="lb">(Mss. {#°vAM#}) {#tezAM maDye'vAYco'ntasTAH#} (Mss. {#sTA#}) {#prARA#}
+; ----
+24573 old <div n="lb">(v. 1. {#prARAgrA#}) {#iti tAndarSayati#} (Mss. {#tAM daº#}) {#. SocizkeSa-#}
+;
+24573 new <div n="lb">(v. 1. {#prARAgrA#}) {#iti tAndarSayati#} (Mss. {#tAM da°#}) {#. SocizkeSa-#}
+; ----
+24575 old <div n="lb">the word {#Bavanti (avAYco'ntasTA ha Bavantyaº)#} would have
+;
+24575 new <div n="lb">the word {#Bavanti (avAYco'ntasTA ha Bavantya°)#} would have
+; ----
+24576 old <div n="lb">moreover to be substituted for {#Bavati (ººha Bavatyaº)#} in the
+;
+24576 new <div n="lb">moreover to be substituted for {#Bavati (°°ha Bavatya°)#} in the
+; ----
+24623 old <div n="lb">stroying. (The femin. {#ºrA#} is grammatically incorrect.) E.
+;
+24623 new <div n="lb">stroying. (The femin. {#°rA#} is grammatically incorrect.) E.
+; ----
+24876 old <div n="lb">and compare with {#antare#} or {#ºrA gfhA#} the word {#antevAsin#}
+;
+24876 new <div n="lb">and compare with {#antare#} or {#°rA gfhA#} the word {#antevAsin#}
+; ----
+25561 old <div n="lb">{#hItam = tvadarTam#} &c. (not {#tvAmantareRaº#}), thus referring
+;
+25561 new <div n="lb">{#hItam = tvadarTam#} &c. (not {#tvAmantareRa°#}), thus referring
+; ----
+25710 old <div n="lb">(where the neglect of Sandhi {#ºle uº#} is either a misprint
+;
+25710 new <div n="lb">(where the neglect of Sandhi {#°le u°#} is either a misprint
+; ----
+25789 old <div n="lb">{#ºhe#} be correct, and the word did not occur in another case
+;
+25789 new <div n="lb">{#°he#} be correct, and the word did not occur in another case
+; ----
+25858 old <div n="lb">{#yoge#} (v. 1. {#ºSAsaMyoge#}) {#'ntarDAnam#} ‘Disappearance arises
+;
+25858 new <div n="lb">{#yoge#} (v. 1. {#°SAsaMyoge#}) {#'ntarDAnam#} ‘Disappearance arises
+; ----
+25977 old <div n="lb">or being in the interior of the earth; e. g. {#ºsIni sattvAni#}.
+;
+25977 new <div n="lb">or being in the interior of the earth; e. g. {#°sIni sattvAni#}.
+; ----
+26770 old <div n="lb">{#BoktFRAM tannArIº#}) refers probably also to the {#antyajA#}.--
+;
+26770 new <div n="lb">{#BoktFRAM tannArI°#}) refers probably also to the {#antyajA#}.--
+; ----
+28178 old <div n="lb">fem. {#ºdI#} is in the vaidik literature udātta on the last syl-
+;
+28178 new <div n="lb">fem. {#°dI#} is in the vaidik literature udātta on the last syl-
+; ----
+30135 old <div n="lb">11. 20. 21: {#pitAputrasuhfdBrAtfºº . ezAmapatitAnAM ca tyAgI#} &c.;
+;
+30135 new <div n="lb">11. 20. 21: {#pitAputrasuhfdBrAtf°° . ezAmapatitAnAM ca tyAgI#} &c.;
+; ----
+30637 old <div n="lb">{#Bakti#} &c. &c. are {#anvaº;#} thus Patanj. observes on the word
+;
+30637 new <div n="lb">{#Bakti#} &c. &c. are {#anva°;#} thus Patanj. observes on the word
+; ----
+; not entry
+32100 old <>a. {%Tatpur.%}--126{%a,%} 1. 48, r. {#vatI#}.--131{%b,%} 1. 48, r. enemy.--137{%b,%} 1. 54, r. {%Bahuvr.%}--138{%b,%} 1. 43, d. the instance {#prakftiº#} and 141{%b,%}
+;
+32100 new <>a. {%Tatpur.%}--126{%a,%} 1. 48, r. {#vatI#}.--131{%b,%} 1. 48, r. enemy.--137{%b,%} 1. 54, r. {%Bahuvr.%}--138{%b,%} 1. 43, d. the instance {#prakfti°#} and 141{%b,%}
+; ----
+; not entry
+32101 old <>1. 55, d. the instance {#tayoraº#}.--143{%b,%} 1. 12, r. {#-SiH#}.--145{%b,%} 1. 18, r. {#-NgikA#} (p. {#kA#}).--147{%a,%} 1. 34, r. {#rTikA#} (p. {#kA#}); 1. 45, r. {#-SiH#}.--
+;
+32101 new <>1. 55, d. the instance {#tayora°#}.--143{%b,%} 1. 12, r. {#-SiH#}.--145{%b,%} 1. 18, r. {#-NgikA#} (p. {#kA#}).--147{%a,%} 1. 34, r. {#rTikA#} (p. {#kA#}); 1. 45, r. {#-SiH#}.--
+; ----
+34367 old <div n="lb">{#aparIº = avicAritakaraRaSIlena#}). E. {#aparIkzita#} and {#kArin#}.
+;
+34367 new <div n="lb">{#aparI° = avicAritakaraRaSIlena#}). E. {#aparIkzita#} and {#kArin#}.
+; ----
+34380 old <div n="lb">{#aparIº#} instead of {#apariº#}.
+;
+34380 new <div n="lb">{#aparI°#} instead of {#apari°#}.
+; ----
+34739 old <div n="lb">{#apalyUº#} is doubtless the correct one, since the reading of the
+;
+34739 new <div n="lb">{#apalyU°#} is doubtless the correct one, since the reading of the
+; ----
+34766 old <div n="lb">{#'pavadamAnasya rAvaRasya gfhaM yayO#} (comm. {#apavaº = kupyato#}
+;
+34766 new <div n="lb">{#'pavadamAnasya rAvaRasya gfhaM yayO#} (comm. {#apava° = kupyato#}
+; ----
+35022 old {#apavAritaka#}¦ n. ({#-kam#}) Only in the instrum. {#ºkena#}. (In theatrical
+;
+35022 new {#apavAritaka#}¦ n. ({#-kam#}) Only in the instrum. {#°kena#}. (In theatrical
+; ----
+35852 old <div n="lb">to {%Pāṇ.%} V. 4. 30. {#‘vasuapasºº’#} (misprinted in the present
+;
+35852 new <div n="lb">to {%Pāṇ.%} V. 4. 30. {#‘vasuapas°°’#} (misprinted in the present
+; ----
+35854 old <div n="lb">{#yasºº’#}) explain {#apasyAH#} as meaning ‘water’; and while {%Ma-%}
+;
+35854 new <div n="lb">{#yas°°’#}) explain {#apasyAH#} as meaning ‘water’; and while {%Ma-%}
+; ----
+36213 old {#apAMvatsa#}¦ Tatpur. m. ({#-saH#}) The name of a star (3º N. L.
+;
+36213 new {#apAMvatsa#}¦ Tatpur. m. ({#-saH#}) The name of a star (3° N. L.
+; ----
+36214 old <div n="lb">183º Long. or 3º N. L. 180º Lat.). E. {#apAm#} (genit. plur.
+;
+36214 new <div n="lb">183° Long. or 3° N. L. 180° Lat.). E. {#apAm#} (genit. plur.
+; ----
+36499 old <div n="lb">being {#NIp#} (and not optionally {#ºpAt#} as in several other
+;
+36499 new <div n="lb">being {#NIp#} (and not optionally {#°pAt#} as in several other
+; ----
+36575 old <div n="lb">In the {%Kaṇāda-Sūtra%} {#prARApAnanimezonmezaºº#} it is explained
+;
+36575 new <div n="lb">In the {%Kaṇāda-Sūtra%} {#prARApAnanimezonmeza°°#} it is explained
+; ----
+37296 old <div n="lb">{#kalApAsyaM tam#} ({%Nalod.%} 1. 35, where {%Benary'%}s reading {#kilAº#}
+;
+37296 new <div n="lb">{#kalApAsyaM tam#} ({%Nalod.%} 1. 35, where {%Benary'%}s reading {#kilA°#}
+; ----
+37297 old <div n="lb">is preferable to {%Yates'%} {#kalAº#}). E. {#as#} (cl. 4.) with {#apa,#}
+;
+37297 new <div n="lb">is preferable to {%Yates'%} {#kalA°#}). E. {#as#} (cl. 4.) with {#apa,#}
+; ----
+37364 old <div n="lb">{#dArTaº . iha kasmAnna Bavati . sarpizo'pi syAt . gomUtrasyApi#}
+;
+37364 new <div n="lb">{#dArTa° . iha kasmAnna Bavati . sarpizo'pi syAt . gomUtrasyApi#}
+; ----
+37371 old <div n="lb">{#TamA Bavizyati ..#} {%Kaiyyaṭa%} on {%Patanjali:%} {#apiº . iheti .#}
+;
+37371 new <div n="lb">{#TamA Bavizyati ..#} {%Kaiyyaṭa%} on {%Patanjali:%} {#api° . iheti .#}
+; ----
+37374 old <div n="lb">{#itaro(ºrA?)BavatyevAtrApeH saMjYetyAha .. kiM ca syAditi . nema#}
+;
+37374 new <div n="lb">{#itaro(°rA?)BavatyevAtrApeH saMjYetyAha .. kiM ca syAditi . nema#}
+; ----
+37594 old <div n="lb">{#mAnapi#} (instead of {#caturo'pi vfº#}); frequently used in this
+;
+37594 new <div n="lb">{#mAnapi#} (instead of {#caturo'pi vf°#}); frequently used in this
+; ----
+37924 old <div n="lb">{%Śaṅkara%} on the {%Vedānta Sūtra:%} {#svApyayasaMpattyoraººH svApyayaH#}
+;
+37924 new <div n="lb">{%Śaṅkara%} on the {%Vedānta Sūtra:%} {#svApyayasaMpattyora°°H svApyayaH#}
+; ----
+37989 old <div n="lb">{#nam . apIvyadarSanaM SyAmaM taqidvAsasamacyutam#} (comm. {#apIº#}
+;
+37989 new <div n="lb">{#nam . apIvyadarSanaM SyAmaM taqidvAsasamacyutam#} (comm. {#apI°#}
+; ----
+37992 old <div n="lb">Viṣṇu; comm. {#apIº = atisundaraM BaktivizayaM darSanaM yasya#}),
+;
+37992 new <div n="lb">Viṣṇu; comm. {#apI° = atisundaraM BaktivizayaM darSanaM yasya#}),
+; ----
+37997 old <div n="lb">that his reading {#apIvyaº#} has been adopted on account of
+;
+37997 new <div n="lb">that his reading {#apIvya°#} has been adopted on account of
+; ----
+38033 old <div n="lb">{#BAvanAtaScittaprasAdanam#} (one comm. {#apuº = apuRyavat;#} an-
+;
+38033 new <div n="lb">{#BAvanAtaScittaprasAdanam#} (one comm. {#apu° = apuRyavat;#} an-
+; ----
+38987 old <div n="lb">{#yoryatsAmAnyamekatvatvaM#} (the Ms. reads {#ºmekatvaM#} which is wrong)
+;
+38987 new <div n="lb">{#yoryatsAmAnyamekatvatvaM#} (the Ms. reads {#°mekatvaM#} which is wrong)
+; ----
+38992 old <div n="lb">{#tvamutpAdyEkadA#} (? Ms. {#ºtpAScEkadA#}) {#Bavati tadagrIyakzaRe#} (Ms.
+;
+38992 new <div n="lb">{#tvamutpAdyEkadA#} (? Ms. {#°tpAScEkadA#}) {#Bavati tadagrIyakzaRe#} (Ms.
+; ----
+39011 old <div n="lb">{#tvasAmAnyajYAnaviSizwadravyajYAnaM#} (Ms. {#ºmAnyajYAviSizwe draºº#})
+;
+39011 new <div n="lb">{#tvasAmAnyajYAnaviSizwadravyajYAnaM#} (Ms. {#°mAnyajYAviSizwe dra°°#})
+; ----
+39295 old <div n="lb">Mit. who quote this verse (8<sup>vo</sup> ed. p. 43{%a,%} 1. 1; 4<sup>to</sup> ed. {#vyaº#}
+;
+39295 new <div n="lb">Mit. who quote this verse (8<sup>vo</sup> ed. p. 43{%a,%} 1. 1; 4<sup>to</sup> ed. {#vya°#}
+; ----
+39299 old <div n="lb">8<sup>vo</sup> ed. p. 74, 1. 9, 4<sup>to</sup> ed. {#vyaº#} fol. 20{%a,%} 1. 15. E. {#a#} neg. and {#pIgaRqa#}.
+;
+39299 new <div n="lb">8<sup>vo</sup> ed. p. 74, 1. 9, 4<sup>to</sup> ed. {#vya°#} fol. 20{%a,%} 1. 15. E. {#a#} neg. and {#pIgaRqa#}.
+; ----
+39360 old <div n="lb">{%kshara%} {#Aº#} fol. 16{%a,%} 1. 15 and 16 (comp. also {%Stenzler'%}s v. 1.
+;
+39360 new <div n="lb">{%kshara%} {#A°#} fol. 16{%a,%} 1. 15 and 16 (comp. also {%Stenzler'%}s v. 1.
+; ----
+39569 old <div n="lb">meaningless {#‘ºnAmiM#} (?)’ in the present publication of Ex-
+;
+39569 new <div n="lb">meaningless {#‘°nAmiM#} (?)’ in the present publication of Ex-
+; ----
+40958 old <div n="lb">{#raRaºº#}) {#sahayogasya praDAnApraDAnatvAviSezokteH#} &c. {#… . na#}
+;
+40958 new <div n="lb">{#raRa°°#}) {#sahayogasya praDAnApraDAnatvAviSezokteH#} &c. {#… . na#}
+; ----
+41702 old <div n="lb">present ed. of the {%Kāvyapr.%} reads it p. 77: {#prakrAntaprasidDAºº;#}
+;
+41702 new <div n="lb">present ed. of the {%Kāvyapr.%} reads it p. 77: {#prakrAntaprasidDA°°;#}
+; ----
+42614 old <div n="lb">{#nDarvopsaºº#} sic) {#ganDarvaSabdo'psaraHSabdaSca nirucyate . ganDena#}
+;
+42614 new <div n="lb">{#nDarvopsa°°#} sic) {#ganDarvaSabdo'psaraHSabdaSca nirucyate . ganDena#}
+; ----
+42790 old <div n="lb">in the {%Vārtt.%} {#apoyAniº#} to {%Pāṇ.%} VI. 3. 1., but on its cor-
+;
+42790 new <div n="lb">in the {%Vārtt.%} {#apoyAni°#} to {%Pāṇ.%} VI. 3. 1., but on its cor-
+; ----
+42805 old <div n="lb">read also {#ºmatizu#} and {#apsumatiH,#} but Ms. 831 of the {%Kāś.:%}
+;
+42805 new <div n="lb">read also {#°matizu#} and {#apsumatiH,#} but Ms. 831 of the {%Kāś.:%}
+; ----
+42806 old <div n="lb">{#ºmatuzu#} and {#apsumantO#}.]--E. {#apsu#} (loc. plur. of {#ap#}) and {#mati#}.
+;
+42806 new <div n="lb">{#°matuzu#} and {#apsumantO#}.]--E. {#apsu#} (loc. plur. of {#ap#}) and {#mati#}.
+; ----
+43356 old <div n="lb">{#kuº;#} ed. {%Johnson:%} {#…nirbudDestu kuº#}). E. {#a#} priv. and {#boDa#}.
+;
+43356 new <div n="lb">{#ku°;#} ed. {%Johnson:%} {#…nirbudDestu ku°#}). E. {#a#} priv. and {#boDa#}.
+; ----
+43807 old <L>5810<pc>230-b<k1>abBra<k2>abBraº
+;
+43807 new <L>5810<pc>230-b<k1>abBra<k2>abBra°
+; ----
+43808 old {#abBraº#}.¦ All compounds beginning thus see s. v. {#aBraº#}.
+;
+43808 new {#abBra°#}.¦ All compounds beginning thus see s. v. {#aBra°#}.
+; ----
+43827 old <L>5814<pc>230-b<k1>abBri<k2>abBriº
+;
+43827 new <L>5814<pc>230-b<k1>abBri<k2>abBri°
+; ----
+43828 old {#abBriº#}.¦ All compounds beginning thus see s. v. {#aBriº#}.
+;
+43828 new {#abBri°#}.¦ All compounds beginning thus see s. v. {#aBri°#}.
+; ----
+44129 old <div n="lb">{%Mit.%} {#prAº#} fol. 91 {%b.%} ff., {%Raghunand.%} I. p. 317 ff. &c. &c. E. {#a#}
+;
+44129 new <div n="lb">{%Mit.%} {#prA°#} fol. 91 {%b.%} ff., {%Raghunand.%} I. p. 317 ff. &c. &c. E. {#a#}
+; ----
+44166 old <div n="lb">(thus ed. Seramp. and Bonn; {%Johnson:%} {#ºraBajyamAnam#}) {#.#}
+;
+44166 new <div n="lb">(thus ed. Seramp. and Bonn; {%Johnson:%} {#°raBajyamAnam#}) {#.#}
+; ----
+44619 old <div n="lb">{#BaktisamIpasamfdDivyfdDyarTABAvaººvacanezu#}. <sup>2</sup> Absence, want,
+;
+44619 new <div n="lb">{#BaktisamIpasamfdDivyfdDyarTABAva°°vacanezu#}. <sup>2</sup> Absence, want,
+; ----
+44871 old <div n="lb">{#guptaH;#} but it would seem as if {#ºBiguptaH#} is a misreading for
+;
+44871 new <div n="lb">{#guptaH;#} but it would seem as if {#°BiguptaH#} is a misreading for
+; ----
+44872 old <div n="lb">{#ºBikxptaH#} and that the meaning of the sentence is: ‘Purusha
+;
+44872 new <div n="lb">{#°BikxptaH#} and that the meaning of the sentence is: ‘Purusha
+; ----
+44996 old <div n="lb">to the E. I. H. and the R. S., this verse runs: {#ºººvirA-#}
+;
+44996 new <div n="lb">to the E. I. H. and the R. S., this verse runs: {#°°°virA-#}
+; ----
+45607 old <div n="lb">({%Kālasaṅkalita%} p. 353); its place is 60º or 62º N., the longi-
+;
+45607 new <div n="lb">({%Kālasaṅkalita%} p. 353); its place is 60° or 62° N., the longi-
+; ----
+45609 old <div n="lb">ties, is 265º, 266º 40’, or 268º ({%Colebr. Ess.%} II. p. 341).
+;
+45609 new <div n="lb">ties, is 265°, 266° 40’, or 268° ({%Colebr. Ess.%} II. p. 341).
+; ----
+45617 old <div n="lb">in which case it takes 3º20' from the former and 1º 40’
+;
+45617 new <div n="lb">in which case it takes 3°20' from the former and 1° 40’
+; ----
+45618 old <div n="lb">from the latter, thus consisting of 5º; it is chiefly used for
+;
+45618 new <div n="lb">from the latter, thus consisting of 5°; it is chiefly used for
+; ----
+45622 old <div n="lb">{#rukIrtiH suveSaH . dvijavarasuraBakto vyaktavANmAnavaH (ºNmAnasaH ?)#}
+;
+45622 new <div n="lb">{#rukIrtiH suveSaH . dvijavarasuraBakto vyaktavANmAnavaH (°NmAnasaH ?)#}
+; ----
+46430 old <div n="lb">and four E. I. H. Mss. {#ºkAvanamrAm#}). E. {#aBi#} and {#namra,#}
+;
+46430 new <div n="lb">and four E. I. H. Mss. {#°kAvanamrAm#}). E. {#aBi#} and {#namra,#}
+; ----
+46505 old <div n="lb">{#sapurohitaH#} (Mss. {#ºtam#}) {#.. navo navo'si mAsAnte jAyamAnaH#}
+;
+46505 new <div n="lb">{#sapurohitaH#} (Mss. {#°tam#}) {#.. navo navo'si mAsAnte jAyamAnaH#}
+; ----
+46537 old <div n="lb">{#RasyAM karpUrapawo#} (ed. {%Seramp.%} {#ºpawako#}) {#nAma rajakaH . sa cE-#}
+;
+46537 new <div n="lb">{#RasyAM karpUrapawo#} (ed. {%Seramp.%} {#°pawako#}) {#nAma rajakaH . sa cE-#}
+; ----
+46781 old <div n="lb">{#tmA vitaTABiniveSavAn#} ({%Mit.:%} {#vitaº = asatkAryABinive-#}
+;
+46781 new <div n="lb">{#tmA vitaTABiniveSavAn#} ({%Mit.:%} {#vita° = asatkAryABinive-#}
+; ----
+46784 old <div n="lb">({%Kullūka:%} {#vitaº nAsti paralokaH . deha evAtmeti;#} {%Medhā-%}
+;
+46784 new <div n="lb">({%Kullūka:%} {#vita° nAsti paralokaH . deha evAtmeti;#} {%Medhā-%}
+; ----
+46787 old <div n="lb">{#lIyAnKalu me'BiniveSaH#}); {%comm.%} {#ahiº = aBilAzaH,#} i. e.
+;
+46787 new <div n="lb">{#lIyAnKalu me'BiniveSaH#}); {%comm.%} {#ahi° = aBilAzaH,#} i. e.
+; ----
+46793 old <div n="lb">{%Vyāḍi%} on {%Hemach.%} 6. 136. or v. 1500.; {%Mallin.:%} {#aBiº = A-#}
+;
+46793 new <div n="lb">{%Vyāḍi%} on {%Hemach.%} 6. 136. or v. 1500.; {%Mallin.:%} {#aBi° = A-#}
+; ----
+46856 old <div n="lb">{#janmABinizkramaRaºººº saMdarSanatAyE saMvartate#}. In Buddhistic
+;
+46856 new <div n="lb">{#janmABinizkramaRa°°°° saMdarSanatAyE saMvartate#}. In Buddhistic
+; ----
+46965 old <div n="lb">may be read, viz. either {#ºte marziRi#} or {#te'marziRi;#} hence
+;
+46965 new <div n="lb">may be read, viz. either {#°te marziRi#} or {#te'marziRi;#} hence
+; ----
+46973 old <div n="lb">{#rziRi saMskfte#} is probably also to be read {#nyAyye'maº,#}
+;
+46973 new <div n="lb">{#rziRi saMskfte#} is probably also to be read {#nyAyye'ma°,#}
+; ----
+47154 old <div n="lb">(Ms. {#ºtskandannAdiº#} sic) {#. A vipattiriti padaviBAgaH#}]. E.
+;
+47154 new <div n="lb">(Ms. {#°tskandannAdi°#} sic) {#. A vipattiriti padaviBAgaH#}]. E.
+; ----
+47268 old <div n="lb">{#SnAntABipUjitayoH;#} or {%Vārtt.:%} {#praSnAntABipUjitaºº#}. E. {#pUj#}
+;
+47268 new <div n="lb">{#SnAntABipUjitayoH;#} or {%Vārtt.:%} {#praSnAntABipUjita°°#}. E. {#pUj#}
+; ----
+47484 old <div n="lb">{#ruca dIptAvaBiprItO ca#} ({%Mādh.:%} {#aBiº = aBilAzaH#}). E.
+;
+47484 new <div n="lb">{#ruca dIptAvaBiprItO ca#} ({%Mādh.:%} {#aBi° = aBilAzaH#}). E.
+; ----
+48203 old <div n="lb">{%jadeva%} (on the {%Yoga S.%} {#vivekaKyAtiºº#}): {#pratipakzaBAvanAba-#}
+;
+48203 new <div n="lb">{%jadeva%} (on the {%Yoga S.%} {#vivekaKyAti°°#}): {#pratipakzaBAvanAba-#}
+; ----
+48566 old <div n="lb">{#tyAº:#} {%Arjunam.:%} = {#sarvadA madekanizWAnAm;#} {%Śaṅkara:%} = {#sa-#}
+;
+48566 new <div n="lb">{#tyA°:#} {%Arjunam.:%} = {#sarvadA madekanizWAnAm;#} {%Śaṅkara:%} = {#sa-#}
+; ----
+48590 old <div n="lb">{#rAjakAryoºº#}) {#.…vizamasTASca nAseDyA na cEtAnnAhvaye-#}
+;
+48590 new <div n="lb">{#rAjakAryo°°#}) {#.…vizamasTASca nAseDyA na cEtAnnAhvaye-#}
+; ----
+49139 old <div n="lb">(v. 1. {#anatilulitaº#} which seems less correct) ‘the golden
+;
+49139 new <div n="lb">(v. 1. {#anatilulita°#} which seems less correct) ‘the golden
+; ----
+49343 old <div n="lb">{#saMgrahaRaM BrAtfBAryARAM SvaSrvASca;#} {%Viram.:%} {#yannopaºº iti gOta-#}
+;
+49343 new <div n="lb">{#saMgrahaRaM BrAtfBAryARAM SvaSrvASca;#} {%Viram.:%} {#yannopa°° iti gOta-#}
+; ----
+49521 old <div n="lb">or {#…ºvarman,#} to a Vaiśya: {#AyuzmAneDIndrapAlitA 3#} or
+;
+49521 new <div n="lb">or {#…°varman,#} to a Vaiśya: {#AyuzmAneDIndrapAlitA 3#} or
+; ----
+49522 old <div n="lb">{#…ºpAlita;#} or with {#BoH, AyuzmAneDi devadatta BoH 3#} or
+;
+49522 new <div n="lb">{#…°pAlita;#} or with {#BoH, AyuzmAneDi devadatta BoH 3#} or
+; ----
+49667 old <div n="lb">reach coincide in reading {#aBiºº,#} the corresponding pas-
+;
+49667 new <div n="lb">reach coincide in reading {#aBi°°,#} the corresponding pas-
+; ----
+49696 old <div n="lb">instead of {#saKIBirati vAsaº#} (comm. {#vAsagfhe . ati atyarTam#}
+;
+49696 new <div n="lb">instead of {#saKIBirati vAsa°#} (comm. {#vAsagfhe . ati atyarTam#}
+; ----
+49912 old <div n="lb">{#syamaryAdAººº aBivyaktizu;#} or {%Sāhityad.:%} {#leKyaprasTApanEH sni-#}
+;
+49912 new <div n="lb">{#syamaryAdA°°° aBivyaktizu;#} or {%Sāhityad.:%} {#leKyaprasTApanEH sni-#}
+; ----
+50182 old <div n="lb">{#aº = kftapAtakatve prasidDAnadfzwapAtakAnapi#}); or the {%Mit.%} when
+;
+50182 new <div n="lb">{#a° = kftapAtakatve prasidDAnadfzwapAtakAnapi#}); or the {%Mit.%} when
+; ----
+50227 old <div n="lb">(v. 1. {#ºDi#}) {#yadyamasya bfhaspate'BiSasteramuYcaH#} ({%Mahīdh.:%} {#aBi-#}
+;
+50227 new <div n="lb">(v. 1. {#°Di#}) {#yadyamasya bfhaspate'BiSasteramuYcaH#} ({%Mahīdh.:%} {#aBi-#}
+; ----
+50529 old <div n="lb">{#tadA nitarAM nitambinIBiH#} ({%Mallin.:%} {#vanaº = vanaBramaRasaNgAt#});
+;
+50529 new <div n="lb">{#tadA nitarAM nitambinIBiH#} ({%Mallin.:%} {#vana° = vanaBramaRasaNgAt#});
+; ----
+50666 old <div n="lb">{#so aBizAca fzvAn#} ({%Sāyaṇa:%} {#aº = SatrUnAmaBiBAvukAn#}).
+;
+50666 new <div n="lb">{#so aBizAca fzvAn#} ({%Sāyaṇa:%} {#a° = SatrUnAmaBiBAvukAn#}).
+; ----
+50687 old <div n="lb">stance, {#aBi sAvakIyati;#} the mentioned {%Vārtt.%} {#na vAº#} then
+;
+50687 new <div n="lb">stance, {#aBi sAvakIyati;#} the mentioned {%Vārtt.%} {#na vA°#} then
+; ----
+51674 old <div n="lb">{#hAjvAlaH#} (R. A. S. {#prasaktArcirmaºº#}) {#sPuliNgarahito hitaH#}
+;
+51674 new <div n="lb">{#hAjvAlaH#} (R. A. S. {#prasaktArcirma°°#}) {#sPuliNgarahito hitaH#}
+; ----
+51734 old <div n="lb">their beginning words: {#yA ozaDIH,…puzpavatI, brAhmaRaº,#}
+;
+51734 new <div n="lb">their beginning words: {#yA ozaDIH,…puzpavatI, brAhmaRa°,#}
+; ----
+51736 old <div n="lb">{#purohito gacCedvedimUlaM tadEva tu#} (R. A. S.: {#ºmUlaM tu devituM#}) {#.#}
+;
+51736 new <div n="lb">{#purohito gacCedvedimUlaM tadEva tu#} (R. A. S.: {#°mUlaM tu devituM#}) {#.#}
+; ----
+51782 old <div n="lb">{#pUjayitvA dvijAnprArTya (ºnprArcya?) hyanyAnBfMgotUmuKyakEH#} ({%sic%}) {#.#}
+;
+51782 new <div n="lb">{#pUjayitvA dvijAnprArTya (°nprArcya?) hyanyAnBfMgotUmuKyakEH#} ({%sic%}) {#.#}
+; ----
+52086 old <div n="lb">bably {#azwO mfº#}), infusion of fruits, hot water, Sahasra-
+;
+52086 new <div n="lb">bably {#azwO mf°#}), infusion of fruits, hot water, Sahasra-
+; ----
+52089 old <div n="lb">cloud-water in a second ({#meGatoyapUrRaº#}), water of the Sara-
+;
+52089 new <div n="lb">cloud-water in a second ({#meGatoyapUrRa°#}), water of the Sara-
+; ----
+52090 old <div n="lb">svatī in a third ({#sArasvatatoyapUrRaº#}), sea-water in a fourth
+;
+52090 new <div n="lb">svatī in a third ({#sArasvatatoyapUrRa°#}), sea-water in a fourth
+; ----
+52091 old <div n="lb">({#sAgarodakapUrRaº#}), water mixed with lotus-pollen ({#padmareRu-#}
+;
+52091 new <div n="lb">({#sAgarodakapUrRa°#}), water mixed with lotus-pollen ({#padmareRu-#}
+; ----
+52092 old <div n="lb">{#miSritajalapUrRaº#}) in a fifth, cascade-water in a sixth ({#nirjJa-#}
+;
+52092 new <div n="lb">{#miSritajalapUrRa°#}) in a fifth, cascade-water in a sixth ({#nirjJa-#}
+; ----
+52093 old <div n="lb">{#rodakapUrRaº#}), water from various places of pilgrimage in a
+;
+52093 new <div n="lb">{#rodakapUrRa°#}), water from various places of pilgrimage in a
+; ----
+52094 old <div n="lb">seventh ({#sarvatIrTAmbupUrRaº#}) and pure water in an eighth jar
+;
+52094 new <div n="lb">seventh ({#sarvatIrTAmbupUrRa°#}) and pure water in an eighth jar
+; ----
+52702 old <div n="lb">{#nAgamatyadButaM#} (Ms. {#ºtyudButaM,#} not as in the present edition
+;
+52702 new <div n="lb">{#nAgamatyadButaM#} (Ms. {#°tyudButaM,#} not as in the present edition
+; ----
+52703 old <div n="lb">{#ºtyudDutaM#}) {#mahAsarpamiva#} (the Ms. has not the reading {#ºsayamiva#})
+;
+52703 new <div n="lb">{#°tyudDutaM#}) {#mahAsarpamiva#} (the Ms. has not the reading {#°sayamiva#})
+; ----
+52717 old <div n="lb">{#puRyAºº#}) {#. ye budDaDarmAnpratikzepsyanti lABasatkAraSlokABiBUtA#}
+;
+52717 new <div n="lb">{#puRyA°°#}) {#. ye budDaDarmAnpratikzepsyanti lABasatkAraSlokABiBUtA#}
+; ----
+53330 old <div n="lb">{#i#} or {#u,#} e. g. {#aBisusUzati#} or {#ºte#} from VIII. 3. 64.; {%Patanj.:%}
+;
+53330 new <div n="lb">{#i#} or {#u,#} e. g. {#aBisusUzati#} or {#°te#} from VIII. 3. 64.; {%Patanj.:%}
+; ----
+53424 old <div n="lb">where people flock together’ and the writing {#aBizyaº#} is
+;
+53424 new <div n="lb">where people flock together’ and the writing {#aBizya°#} is
+; ----
+54182 old <div n="lb">{#vAvfDe . tenAºº#}. Hence the word has become the epithet or
+;
+54182 new <div n="lb">{#vAvfDe . tenA°°#}. Hence the word has become the epithet or
+; ----
+54651 old <div n="lb">{%Kāś.%} on {%Pāṇ.%} {#BfSAdiByoºº#} (III. 1. 12.): {#aBfSo BfSo Bavati#}
+;
+54651 new <div n="lb">{%Kāś.%} on {%Pāṇ.%} {#BfSAdiByo°°#} (III. 1. 12.): {#aBfSo BfSo Bavati#}
+; ----
+54680 old <div n="lb">(ed. Calc. 1827; the reading {#ºSvarABedaH#} in Dr. {%Röer'%}s ed.
+;
+54680 new <div n="lb">(ed. Calc. 1827; the reading {#°SvarABedaH#} in Dr. {%Röer'%}s ed.
+; ----
+54856 old <div n="lb">{#ca saptarAtraM yavAnpibet#} ({%Kull.:%} {#aº = aBojyAnnAnAm;#} {%Me-%}
+;
+54856 new <div n="lb">{#ca saptarAtraM yavAnpibet#} ({%Kull.:%} {#a° = aBojyAnnAnAm;#} {%Me-%}
+; ----
+55023 old <div n="lb">{#tatElAdikam;#} but he proposes also to take {#aByaº#} as an
+;
+55023 new <div n="lb">{#tatElAdikam;#} but he proposes also to take {#aBya°#} as an
+; ----
+55062 old <div n="lb">{#mahe drOpadi pARqaputrAn#} (where the {%ablative%} {#zaº guº#} is not
+;
+55062 new <div n="lb">{#mahe drOpadi pARqaputrAn#} (where the {%ablative%} {#za° gu°#} is not
+; ----
+55118 old <div n="lb">{#yenAByanujYAto yo DarmastanniboData#} ({%Kull.:%} {#hfº = antaHkaraRa-#}
+;
+55118 new <div n="lb">{#yenAByanujYAto yo DarmastanniboData#} ({%Kull.:%} {#hf° = antaHkaraRa-#}
+; ----
+55210 old <div n="lb">writings, is to be analyzed therefore: {#vAhya-AByaº-kaº#}.
+;
+55210 new <div n="lb">writings, is to be analyzed therefore: {#vAhya-ABya°-ka°#}.
+; ----
+55302 old <div n="lb">{#mitatrAsamAsvAntASezadigjagat#} ({%Jayam.:%} {#aByaº = aBigata-#}
+;
+55302 new <div n="lb">{#mitatrAsamAsvAntASezadigjagat#} ({%Jayam.:%} {#aBya° = aBigata-#}
+; ----
+55473 old <div n="lb">In a {%legal%} sense the {#aByaº#} is therefore the instigator of a
+;
+55473 new <div n="lb">In a {%legal%} sense the {#aBya°#} is therefore the instigator of a
+; ----
+55658 old <div n="lb">{#naScAByavaharaRaM tO darSapUrRamAsO#} ({%Sāy.:%} {#Basmaº = apsUKyaBa-#}
+;
+55658 new <div n="lb">{#naScAByavaharaRaM tO darSapUrRamAsO#} ({%Sāy.:%} {#Basma° = apsUKyaBa-#}
+; ----
+55793 old <div n="lb">{%nam.:%} {#svAº = vedAByAsa;#} (comp. {#vyasana#} in the same sense,
+;
+55793 new <div n="lb">{%nam.:%} {#svA° = vedAByAsa;#} (comp. {#vyasana#} in the same sense,
+; ----
+55822 old <div n="lb">{#SizwAH kaTaM tAnnAnuSAsati . ityatrAhAByasUyante (ºyAM te?)#}
+;
+55822 new <div n="lb">{#SizwAH kaTaM tAnnAnuSAsati . ityatrAhAByasUyante (°yAM te?)#}
+; ----
+55826 old <div n="lb">spiteful; ({%Śaṅk.%} on the word {#aByaº#} in the quoted verse:
+;
+55826 new <div n="lb">spiteful; ({%Śaṅk.%} on the word {#aBya°#} in the quoted verse:
+; ----
+56004 old <div n="lb">take {#sUº#} as equivalent to {#sUryAByudaya#} and {#aByaº#} as expressing
+;
+56004 new <div n="lb">take {#sU°#} as equivalent to {#sUryAByudaya#} and {#aBya°#} as expressing
+; ----
+56006 old <div n="lb">of a neuter {#ºtam#}. But {%Kullūka'%}s reading seems better as
+;
+56006 new <div n="lb">of a neuter {#°tam#}. But {%Kullūka'%}s reading seems better as
+; ----
+56169 old <div n="lb">{#BirAmiSrAScAtakEH parirAwiBiH#} ({%Jayam. Bhar.:%} {#aByAº =#}
+;
+56169 new <div n="lb">{#BirAmiSrAScAtakEH parirAwiBiH#} ({%Jayam. Bhar.:%} {#aByA° =#}
+; ----
+56306 old <div n="lb">{#atastadaDizWitaSca kawamAroQumarhati#} (Ms. {#ºmarhamiti#}) {#. BUyizWa#}
+;
+56306 new <div n="lb">{#atastadaDizWitaSca kawamAroQumarhati#} (Ms. {#°marhamiti#}) {#. BUyizWa#}
+; ----
+56331 old <div n="lb">{#'ByAroha ityAKyA#}] {#. ABimuKyenArohayatyanena#} (ed. {%Röer:%} {#ºha-#}
+;
+56331 new <div n="lb">{#'ByAroha ityAKyA#}] {#. ABimuKyenArohayatyanena#} (ed. {%Röer:%} {#°ha-#}
+; ----
+56357 old <div n="lb">{#gasUtre . ASvalAyano'pi purastAººº prayuNkta iti#} [--the first
+;
+56357 new <div n="lb">{#gasUtre . ASvalAyano'pi purastA°°° prayuNkta iti#} [--the first
+; ----
+56361 old <div n="lb">have the more correct reading {#ºByArohaRIyAya jyotizwo-#}
+;
+56361 new <div n="lb">have the more correct reading {#°ByArohaRIyAya jyotizwo-#}
+; ----
+56362 old <div n="lb">{#mAya tasyEkA dIºº--#}] {#. pavitra iti saMjYAsaMvyavahArArTA#}).
+;
+56362 new <div n="lb">{#mAya tasyEkA dI°°--#}] {#. pavitra iti saMjYAsaMvyavahArArTA#}).
+; ----
+56371 old <div n="lb">{#rohaRIyaH;#} {%Vyākhyā%} E. I. H.: {#kxº iti . jyotizwoma ityanu-#}
+;
+56371 new <div n="lb">{#rohaRIyaH;#} {%Vyākhyā%} E. I. H.: {#kx° iti . jyotizwoma ityanu-#}
+; ----
+56534 old <div n="lb">{%Śatap.%} V. 3. 1. 11. and {%Weber'%}s ed. read {#ukzRaº#} for {#pyukzRa#}
+;
+56534 new <div n="lb">{%Śatap.%} V. 3. 1. 11. and {%Weber'%}s ed. read {#ukzRa°#} for {#pyukzRa#}
+; ----
+56672 old <div n="lb">{#ºSasya, ºSam#} &c. are better referred to a neuter.]
+;
+56672 new <div n="lb">{#°Sasya, °Sam#} &c. are better referred to a neuter.]
+; ----

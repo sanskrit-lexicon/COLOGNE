@@ -1,0 +1,12 @@
+37321 old <>motion from the sun amounts to 6º. 19. (In grammar) The instru-
+;
+37321 new <>motion from the sun amounts to 6°. 19. (In grammar) The instru-
+; ----
+48487 old <>arc to 90º. 7. A plant, Piring or Asparac, (Medicago esculenta.)
+;
+48487 new <>arc to 90°. 7. A plant, Piring or Asparac, (Medicago esculenta.)
+; ----
+57842 old {#goDUma#}¦ m. ({#-maH#}) Wheat: see the next. E. {#guD-vAº uma .#}
+;
+57842 new {#goDUma#}¦ m. ({#-maH#}) Wheat: see the next. E. {#guD-vA° uma .#}
+; ----

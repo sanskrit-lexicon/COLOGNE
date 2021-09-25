@@ -1,0 +1,1906 @@
+; not entry
+309 old <P>º denotes abbreviations, which may be
+;
+309 new <P>° denotes abbreviations, which may be
+; ----
+2640 old <div n="lb">read {%ādhyº,%} q. <ab>cf.</ab>
+;
+2640 new <div n="lb">read {%ādhy°,%} q. <ab>cf.</ab>
+; ----
+4857 old <div n="lb">from, <ls>Hariv.</ls> 1014 (<ab>corr.</ab> {%ºcāriṇaḥ%}). {@2.@}
+;
+4857 new <div n="lb">from, <ls>Hariv.</ls> 1014 (<ab>corr.</ab> {%°cāriṇaḥ%}). {@2.@}
+; ----
+6493 old <div n="lb">to be read {%ābhyº%}). {@4.@} Secret, <ls>Daśak.</ls>
+;
+6493 new <div n="lb">to be read {%ābhy°%}). {@4.@} Secret, <ls>Daśak.</ls>
+; ----
+6692 old <div n="lb">23 (read {#ABrAº#} {%ābhrāº%}).
+;
+6692 new <div n="lb">23 (read {#ABrA°#} {%ābhrā°%}).
+; ----
+9164 old <div n="lb">{%upāśnīyāt,%} instead of {%ºśnīyº,%} on account
+;
+9164 new <div n="lb">{%upāśnīyāt,%} instead of {%°śnīy°,%} on account
+; ----
+10452 old <div n="lb">that; {%cāº%} must be read instead of
+;
+10452 new <div n="lb">that; {%cā°%} must be read instead of
+; ----
+10453 old <div n="lb">{%nāº%}).
+;
+10453 new <div n="lb">{%nā°%}).
+; ----
+10616 old <div n="lb"><ls>Bhartṛ.</ls> 2, 60 (read {%prāṇāº%}). {@6.@} A
+;
+10616 new <div n="lb"><ls>Bhartṛ.</ls> 2, 60 (read {%prāṇā°%}). {@6.@} A
+; ----
+13077 old <div n="lb">{%ºtī,%} <ab>fem.</ab> of the <ab>pres.</ab> partic.), <ab>f.</ab> Night,
+;
+13077 new <div n="lb">{%°tī,%} <ab>fem.</ab> of the <ab>pres.</ab> partic.), <ab>f.</ab> Night,
+; ----
+14277 old <div n="lb">{%ºchhayā,%} involuntarily, <ls>Man.</ls> 11, 124.
+;
+14277 new <div n="lb">{%°chhayā,%} involuntarily, <ls>Man.</ls> 11, 124.
+; ----
+15458 old <div n="lb">in the sense of the <ab>adv.</ab> {%ºta + m%}). --
+;
+15458 new <div n="lb">in the sense of the <ab>adv.</ab> {%°ta + m%}). --
+; ----
+15561 old <div n="lb">ib. <ab>v. r.</ab> (read {%ucchilº%}).
+;
+15561 new <div n="lb">ib. <ab>v. r.</ab> (read {%ucchil°%}).
+; ----
+18572 old <div n="lb">excellent disguise. {%niº%} (<ab>vb.</ab> {%kṛṣ%} with
+;
+18572 new <div n="lb">excellent disguise. {%ni°%} (<ab>vb.</ab> {%kṛṣ%} with
+; ----
+18574 old <div n="lb">vile disguise; {%aspaṣṭa- (a-spº),%} Con-
+;
+18574 new <div n="lb">vile disguise; {%aspaṣṭa- (a-sp°),%} Con-
+; ----
+19429 old <div n="lb">to be corrected to {%uhyº,%} <ab>pass.</ab> of {%vah,%}
+;
+19429 new <div n="lb">to be corrected to {%uhy°,%} <ab>pass.</ab> of {%vah,%}
+; ----
+20869 old <div n="lb">(sic instead of {%ºḍauº%}), <ab>i. e.</ab> {%guḍa-,%} boiled
+;
+20869 new <div n="lb">(sic instead of {%°ḍau°%}), <ab>i. e.</ab> {%guḍa-,%} boiled
+; ----
+20872 old <div n="lb"><ls>Rām.</ls> 2, 69, 10 ({%tilodana%} instead of {%ºlauº%}).
+;
+20872 new <div n="lb"><ls>Rām.</ls> 2, 69, 10 ({%tilodana%} instead of {%°lau°%}).
+; ----
+20875 old <div n="lb">stead of {%ºtauº%}), <ab>i. e.</ab> {%-bhūta-,%} a dish of
+;
+20875 new <div n="lb">stead of {%°tau°%}), <ab>i. e.</ab> {%-bhūta-,%} a dish of
+; ----
+20966 old <div n="lb">must be corrected {%yatrottº%}).
+;
+20966 new <div n="lb">must be corrected {%yatrott°%}).
+; ----
+21973 old <div n="lb"><ab>n.</ab> {%ºmad.%} Who, what, which of many,
+;
+21973 new <div n="lb"><ab>n.</ab> {%°mad.%} Who, what, which of many,
+; ----
+21981 old <div n="lb">pron. n. {%ºrad,%} Who, what, which of
+;
+21981 new <div n="lb">pron. n. {%°rad,%} Who, what, which of
+; ----
+23052 old <div n="lb">ableness, <ls>Pañc.</ls> 217, 23, {%ºtāṃ gataḥ,%}
+;
+23052 new <div n="lb">ableness, <ls>Pañc.</ls> 217, 23, {%°tāṃ gataḥ,%}
+; ----
+23329 old <div n="lb">corrected to {%ºṇikā%}), the pericarp of a
+;
+23329 new <div n="lb">corrected to {%°ṇikā%}), the pericarp of a
+; ----
+23620 old <div n="lb">of the gods. 3. a saint. {%Ṣaṭkº,%} <ab>i. e.</ab>
+;
+23620 new <div n="lb">of the gods. 3. a saint. {%Ṣaṭk°,%} <ab>i. e.</ab>
+; ----
+23799 old <div n="lb"><ls>Pañc.</ls> 184, 18 (where {%kālº%} must be
+;
+23799 new <div n="lb"><ls>Pañc.</ls> 184, 18 (where {%kāl°%} must be
+; ----
+23800 old <div n="lb">changed to {%kalº%}). {@2.@} Joyful, <ls>Bhāg. P.</ls>
+;
+23800 new <div n="lb">changed to {%kal°%}). {@2.@} Joyful, <ls>Bhāg. P.</ls>
+; ----
+24051 old <div n="lb">must be corrected to {%kālº.%} 
+;
+24051 new <div n="lb">must be corrected to {%kāl°.%} 
+; ----
+24079 old <div n="lb"><ls>Bhag.</ls> 8, 5. {@ -- <ab>Comp.</ab>@} {%Duṣkaº,%} <ab>i. e.</ab> {%dus-,%}
+;
+24079 new <div n="lb"><ls>Bhag.</ls> 8, 5. {@ -- <ab>Comp.</ab>@} {%Duṣka°,%} <ab>i. e.</ab> {%dus-,%}
+; ----
+24304 old <div n="lb">{%-candrikā-kusuma-tamaḥ-havº,%} <ab>adj.</ab>
+;
+24304 new <div n="lb">{%-candrikā-kusuma-tamaḥ-hav°,%} <ab>adj.</ab>
+; ----
+24555 old <div n="lb">siderate, <ls>Rām.</ls> 3, 45, 17. {%ºyam,%} <ab>adv.</ab>
+;
+24555 new <div n="lb">siderate, <ls>Rām.</ls> 3, 45, 17. {%°yam,%} <ab>adv.</ab>
+; ----
+25702 old <div n="lb"><ab>Acc.</ab> {%ºtham,%} <ab>adv.</ab> {@1.@} For a special end,
+;
+25702 new <div n="lb"><ab>Acc.</ab> {%°tham,%} <ab>adv.</ab> {@1.@} For a special end,
+; ----
+25758 old <div n="lb">{%ṇāyas,%} or {%ºyasa + a,%} {@I.@} <ab>adj.</ab>, <ab>f.</ab> {%sī,%} Of
+;
+25758 new <div n="lb">{%ṇāyas,%} or {%°yasa + a,%} {@I.@} <ab>adj.</ab>, <ab>f.</ab> {%sī,%} Of
+; ----
+25976 old <div n="lb">one whose lifetime is elapsed (or {%ºkam,%}
+;
+25976 new <div n="lb">one whose lifetime is elapsed (or {%°kam,%}
+; ----
+27711 old <div n="lb">prince, <ls>Lass.</ls> 7, 2. {%Sanatkº,%} <ab>i. e.</ab> {%sanad-,%}
+;
+27711 new <div n="lb">prince, <ls>Lass.</ls> 7, 2. {%Sanatk°,%} <ab>i. e.</ab> {%sanad-,%}
+; ----
+27943 old <div n="lb">8403 ({%cukūrdayadbhiḥ,%} read {%cokūrdº%}).
+;
+27943 new <div n="lb">8403 ({%cukūrdayadbhiḥ,%} read {%cokūrd°%}).
+; ----
+29134 old <div n="lb">{@2.@} Prepared; {%su-parº,%} Well prepared, 
+;
+29134 new <div n="lb">{@2.@} Prepared; {%su-par°,%} Well prepared, 
+; ----
+29137 old <div n="lb">4, 437; {%kāla-parº,%} Seasonable, <ls>Rām.</ls> 5,
+;
+29137 new <div n="lb">4, 437; {%kāla-par°,%} Seasonable, <ls>Rām.</ls> 5,
+; ----
+29740 old <div n="lb">{%ºyeta,%} 1, 5597. {%kṛpāyita,%} <ab>n.</ab> Lamenta- 
+;
+29740 new <div n="lb">{%°yeta,%} 1, 5597. {%kṛpāyita,%} <ab>n.</ab> Lamenta- 
+; ----
+29906 old <div n="lb">cinity, <ls>Śāk.</ls> 23, 23. {%ºṭam,%} <ab>adv.</ab> Near, 
+;
+29906 new <div n="lb">cinity, <ls>Śāk.</ls> 23, 23. {%°ṭam,%} <ab>adv.</ab> Near, 
+; ----
+30351 old <div n="lb">person. {%Hemakº,%} <ab>i. e.</ab> {%heman-,%} <ab>m.</ab> fire. 
+;
+30351 new <div n="lb">person. {%Hemak°,%} <ab>i. e.</ab> {%heman-,%} <ab>m.</ab> fire. 
+; ----
+30400 old <div n="lb">collected into the larger braid. {%Vyomakº,%}
+;
+30400 new <div n="lb">collected into the larger braid. {%Vyomak°,%}
+; ----
+32340 old <div n="lb">{%-kṣaṇa + m,%} and {%ºṇāt,%} <ab>adv.</ab> instantly,
+;
+32340 new <div n="lb">{%-kṣaṇa + m,%} and {%°ṇāt,%} <ab>adv.</ab> instantly,
+; ----
+34140 old <div n="lb"><ls>Man.</ls> 1, 144. {%ºlena,%} <ab>instr.</ab> entirely, <ls>Man.</ls>
+;
+34140 new <div n="lb"><ls>Man.</ls> 1, 144. {%°lena,%} <ab>instr.</ab> entirely, <ls>Man.</ls>
+; ----
+34240 old <div n="lb">{@II.@} {%ºlam,%} <ab>adv.</ab> Moving gently, <ls>Rām.</ls> 2,
+;
+34240 new <div n="lb">{@II.@} {%°lam,%} <ab>adv.</ab> Moving gently, <ls>Rām.</ls> 2,
+; ----
+34502 old <div n="lb">{%gṛñº%}), <ab>f.</ab> A preparation of hemp (?),
+;
+34502 new <div n="lb">{%gṛñ°%}), <ab>f.</ab> A preparation of hemp (?),
+; ----
+35517 old <div n="lb">{%Sa-,%} <ab>adj.</ab> proud; {%ºvam,%} <ab>adv.</ab> haughtily,
+;
+35517 new <div n="lb">{%Sa-,%} <ab>adj.</ab> proud; {%°vam,%} <ab>adv.</ab> haughtily,
+; ----
+36638 old <div n="lb">15, 3. {%ºtam,%} <ab>adv.</ab> privily, <ls>Pañc.</ls> 231,
+;
+36638 new <div n="lb">15, 3. {%°tam,%} <ab>adv.</ab> privily, <ls>Pañc.</ls> 231,
+; ----
+37166 old <div n="lb"><ls>Rigv.</ls> i. 64, 12 ({%gṛṇīmasi,%} <ab>ved.</ab> for {%ºmas%}).
+;
+37166 new <div n="lb"><ls>Rigv.</ls> i. 64, 12 ({%gṛṇīmasi,%} <ab>ved.</ab> for {%°mas%}).
+; ----
+37708 old <div n="lb">73. {%ºvam,%} <ab>adv.</ab> condescendingly, 5, 17.
+;
+37708 new <div n="lb">73. {%°vam,%} <ab>adv.</ab> condescendingly, 5, 17.
+; ----
+37981 old <div n="lb">anomalous infin. of the causal for {%ºgrā-%}
+;
+37981 new <div n="lb">anomalous infin. of the causal for {%°grā-%}
+; ----
+38168 old <div n="lb">haps is to be read {%grāmasāmº%}). {@3.@} As
+;
+38168 new <div n="lb">haps is to be read {%grāmasām°%}). {@3.@} As
+; ----
+38662 old <div n="lb">9, 64 ({%ºtāṃ nayati śravaṇam,%} She makes
+;
+38662 new <div n="lb">9, 64 ({%°tāṃ nayati śravaṇam,%} She makes
+; ----
+39639 old <div n="lb">Cruel, <ls>MBh.</ls> 1, 6752. {@II.@} {%ºḍam,%} <ab>adv.</ab>
+;
+39639 new <div n="lb">Cruel, <ls>MBh.</ls> 1, 6752. {@II.@} {%°ḍam,%} <ab>adv.</ab>
+; ----
+39711 old <div n="lb">{%ºram,%} <ab>adv.</ab> 188. {@II.@} <ab>n.</ab> Cleverness,
+;
+39711 new <div n="lb">{%°ram,%} <ab>adv.</ab> 188. {@II.@} <ab>n.</ab> Cleverness,
+; ----
+40049 old <div n="lb">{@3.@} Swift, <ls>Hariv.</ls> 4104; {%ºlam,%} <ab>adv.</ab>
+;
+40049 new <div n="lb">{@3.@} Swift, <ls>Hariv.</ls> 4104; {%°lam,%} <ab>adv.</ab>
+; ----
+40261 old <div n="lb">{%samudº%} instead of {%sadudº%}). {@2.@} To
+;
+40261 new <div n="lb">{%samud°%} instead of {%sadud°%}). {@2.@} To
+; ----
+40435 old <div n="lb">{%ºmam,%} <ab>adv.</ab> At last, <ls>Man.</ls> 2, 194.
+;
+40435 new <div n="lb">{%°mam,%} <ab>adv.</ab> At last, <ls>Man.</ls> 2, 194.
+; ----
+41671 old <div n="lb"><ab>adj.</ab> not long, <ls>MBh.</ls> 1, 3860; {%ºram,%}
+;
+41671 new <div n="lb"><ab>adj.</ab> not long, <ls>MBh.</ls> 1, 3860; {%°ram,%}
+; ----
+41673 old <div n="lb">{%ºreṇa, rāya,%} and {%rāt,%} <ab>adv.</ab> soon, <ls>MBh.</ls>
+;
+41673 new <div n="lb">{%°reṇa, rāya,%} and {%rāt,%} <ab>adv.</ab> soon, <ls>MBh.</ls>
+; ----
+42236 old <div n="lb">{@2.@} Recollection, <ls>Pañc.</ls> 35, 11. ({%ºnāṃ%}
+;
+42236 new <div n="lb">{@2.@} Recollection, <ls>Pañc.</ls> 35, 11. ({%°nāṃ%}
+; ----
+42367 old <div n="lb">read {%karmaceṣṭābhiº%}). 3. exertion,
+;
+42367 new <div n="lb">read {%karmaceṣṭābhi°%}). 3. exertion,
+; ----
+42615 old <div n="lb">able, <ls>Yājñ.</ls> 1, 212. {%ºtam,%} <ab>adv.</ab> Faultless,
+;
+42615 new <div n="lb">able, <ls>Yājñ.</ls> 1, 212. {%°tam,%} <ab>adv.</ab> Faultless,
+; ----
+42708 old <div n="lb">{@2.@} {%channa,%} <ls>Rām.</ls> 1, 74, 16; {%ºnam,%} <ab>adv.</ab>
+;
+42708 new <div n="lb">{@2.@} {%channa,%} <ls>Rām.</ls> 1, 74, 16; {%°nam,%} <ab>adv.</ab>
+; ----
+42736 old <div n="lb">107. {%ºnam,%} <ab>adv.</ab> {@1.@} Privately, <ls>Man.</ls> 9,
+;
+42736 new <div n="lb">107. {%°nam,%} <ab>adv.</ab> {@1.@} Privately, <ls>Man.</ls> 9,
+; ----
+42848 old <div n="lb">cultivated. {@III.@} {%ºdam,%} <ab>adv.</ab> by one's
+;
+42848 new <div n="lb">cultivated. {@III.@} {%°dam,%} <ab>adv.</ab> by one's
+; ----
+42991 old <div n="lb">ticeship. {%ºtāṃ vraj,%} To become a pupil,
+;
+42991 new <div n="lb">ticeship. {%°tāṃ vraj,%} To become a pupil,
+; ----
+43207 old {#CucCundara#}¦ {%chucchundara,%} and {#ºri#}
+;
+43207 new {#CucCundara#}¦ {%chucchundara,%} and {#°ri#}
+; ----
+43427 old <div n="lb">Lower, <ls>MBh.</ls> 14, 1137. {@7.@} {%ºyam,%} <ab>adv.</ab>
+;
+43427 new <div n="lb">Lower, <ls>MBh.</ls> 14, 1137. {@7.@} {%°yam,%} <ab>adv.</ab>
+; ----
+43790 old <div n="lb">private; <ab>loc.</ab> {%ºne,%} privately, <ls>Pañc.</ls> 58,
+;
+43790 new <div n="lb">private; <ab>loc.</ab> {%°ne,%} privately, <ls>Pañc.</ls> 58,
+; ----
+43929 old <div n="lb">Kāma. {%Sarojº,%} <ab>i. e.</ab> {%saras-,%} <ab>n.</ab> a lotus. --
+;
+43929 new <div n="lb">Kāma. {%Saroj°,%} <ab>i. e.</ab> {%saras-,%} <ab>n.</ab> a lotus. --
+; ----
+45260 old <div n="lb">89, 69. {@4.@} {%ºmam,%} <ab>adv.</ab> Astray, <ls>MBh.</ls> 5,
+;
+45260 new <div n="lb">89, 69. {@4.@} {%°mam,%} <ab>adv.</ab> Astray, <ls>MBh.</ls> 5,
+; ----
+45294 old <div n="lb">2, 42, 2 <ls>Gorr.</ls> {%Saptajº,%} <ab>i. e.</ab> {%saptan-,%} <ab>m.</ab>
+;
+45294 new <div n="lb">2, 42, 2 <ls>Gorr.</ls> {%Saptaj°,%} <ab>i. e.</ab> {%saptan-,%} <ab>m.</ab>
+; ----
+45816 old <div n="lb">tion (<ab>ved.</ab>). {%ºam,%} <ab>adv.</ab> Silently, <ls>MBh.</ls> 2,
+;
+45816 new <div n="lb">tion (<ab>ved.</ab>). {%°am,%} <ab>adv.</ab> Silently, <ls>MBh.</ls> 2,
+; ----
+46059 old <div n="lb">11, 145. <ab>Abl.</ab> {%ºnāt,%} without one's know-
+;
+46059 new <div n="lb">11, 145. <ab>Abl.</ab> {%°nāt,%} without one's know-
+; ----
+46442 old <div n="lb">16. {@ -- <ab>Comp.</ab>@} {%Saptajº,%} <ab>i. e.</ab> {%saptan-,%} <ab>m.</ab>
+;
+46442 new <div n="lb">16. {@ -- <ab>Comp.</ab>@} {%Saptaj°,%} <ab>i. e.</ab> {%saptan-,%} <ab>m.</ab>
+; ----
+46443 old <div n="lb">Agni. {%Hemajº,%} <ab>i. e.</ab> {%heman-,%} <ab>m.</ab> fire. 
+;
+46443 new <div n="lb">Agni. {%Hemaj°,%} <ab>i. e.</ab> {%heman-,%} <ab>m.</ab> fire. 
+; ----
+47219 old <div n="lb">73. {%ºtham,%} <ab>adv.</ab> Falsely, 8, 94. {%a-vi-%}
+;
+47219 new <div n="lb">73. {%°tham,%} <ab>adv.</ab> Falsely, 8, 94. {%a-vi-%}
+; ----
+47361 old <div n="lb">{@4.@} Much. {%ºtam,%} <ab>adv.</ab> Eternally. <ab>Caus.</ab>
+;
+47361 new <div n="lb">{@4.@} Much. {%°tam,%} <ab>adv.</ab> Eternally. <ab>Caus.</ab>
+; ----
+47490 old <div n="lb"><ab>m.</ab> race, <ls>Bhāg. P.</ls> 1, 12, 15. {%Saptatº,%} <ab>i. e.</ab>
+;
+47490 new <div n="lb"><ab>m.</ab> race, <ls>Bhāg. P.</ls> 1, 12, 15. {%Saptat°,%} <ab>i. e.</ab>
+; ----
+47913 old <div n="lb">sive, much, <ls>Pañc.</ls> i. <ab>d.</ab> 139. {%ºta + m,%}
+;
+47913 new <div n="lb">sive, much, <ls>Pañc.</ls> i. <ab>d.</ab> 139. {%°ta + m,%}
+; ----
+48164 old <div n="lb">{@3.@} Strength, <ls>Ragh.</ls> 11, 77. <ab>Instr.</ab> {%ºsā,%}
+;
+48164 new <div n="lb">{@3.@} Strength, <ls>Ragh.</ls> 11, 77. <ab>Instr.</ab> {%°sā,%}
+; ----
+48783 old <div n="lb"><ls>Mṛcch.</ls> 44, 10; {%ºra + m,%} <ab>adv.</ab> Sound-
+;
+48783 new <div n="lb"><ls>Mṛcch.</ls> 44, 10; {%°ra + m,%} <ab>adv.</ab> Sound-
+; ----
+48977 old <div n="lb">{@II.@} {%ºvat,%} <ab>acc.</ab> ntr., <ab>adv.</ab> {@A.@} combined
+;
+48977 new <div n="lb">{@II.@} {%°vat,%} <ab>acc.</ab> ntr., <ab>adv.</ab> {@A.@} combined
+; ----
+49313 old <div n="lb">zontal (<ab>ved.</ab>). {@II.@} <ab>acc.</ab> <ab>sing.</ab> <ab>n.</ab> {%ºyak,%}
+;
+49313 new <div n="lb">zontal (<ab>ved.</ab>). {@II.@} <ab>acc.</ab> <ab>sing.</ab> <ab>n.</ab> {%°yak,%}
+; ----
+49888 old <div n="lb"><ls>Man.</ls> 8, 364. {@4.@} {%ºyam,%} <ab>adv.</ab> Equally,
+;
+49888 new <div n="lb"><ls>Man.</ls> 8, 364. {@4.@} {%°yam,%} <ab>adv.</ab> Equally,
+; ----
+50106 old <div n="lb">{%ºkam,%} <ab>adv.</ab> Silently, <ls>Rām.</ls> 5, 1, 97.
+;
+50106 new <div n="lb">{%°kam,%} <ab>adv.</ab> Silently, <ls>Rām.</ls> 5, 1, 97.
+; ----
+50179 old <div n="lb">{%ºyam,%} <ab>adv.</ab> Thirdly, <ls>Man.</ls> 8, 129. -- <ab>Cf.</ab>
+;
+50179 new <div n="lb">{%°yam,%} <ab>adv.</ab> Thirdly, <ls>Man.</ls> 8, 129. -- <ab>Cf.</ab>
+; ----
+51420 old <div n="lb">Triple; <ab>acc.</ab> <ab>sing.</ab> <ab>n.</ab> {%ºdham,%} <ab>adv.</ab> In
+;
+51420 new <div n="lb">Triple; <ab>acc.</ab> <ab>sing.</ab> <ab>n.</ab> {%°dham,%} <ab>adv.</ab> In
+; ----
+51650 old <div n="lb">102. {%ºtam,%} <ab>adv.</ab> Swifty, <ls>Rām.</ls> 1, 42, 23.
+;
+51650 new <div n="lb">102. {%°tam,%} <ab>adv.</ab> Swifty, <ls>Rām.</ls> 1, 42, 23.
+; ----
+51651 old <div n="lb">{@II.@} {%tūrṇa, ºṇam,%} <ab>adv.</ab> Quickly, <ls>Pañc.</ls>
+;
+51651 new <div n="lb">{@II.@} {%tūrṇa, °ṇam,%} <ab>adv.</ab> Quickly, <ls>Pañc.</ls>
+; ----
+51674 old <div n="lb">{%ºram,%} <ab>adv.</ab> Quickly, <ls>Pañc.</ls> 46, 1.
+;
+51674 new <div n="lb">{%°ram,%} <ab>adv.</ab> Quickly, <ls>Pañc.</ls> 46, 1.
+; ----
+52222 old <div n="lb">of a temple. {%Rājadº,%} <ab>i. e.</ab> {%rājan-,%} <ab>m.</ab> an
+;
+52222 new <div n="lb">of a temple. {%Rājad°,%} <ab>i. e.</ab> {%rājan-,%} <ab>m.</ab> an
+; ----
+52224 old <div n="lb">two middle ones. {%Hastidº,%} <ab>i. e.</ab> {%hastin-,%}
+;
+52224 new <div n="lb">two middle ones. {%Hastid°,%} <ab>i. e.</ab> {%hastin-,%}
+; ----
+52462 old <div n="lb"><ls>Man.</ls> 9, 239. {%ºyam,%} <ab>adv.</ab> passionately,
+;
+52462 new <div n="lb"><ls>Man.</ls> 9, 239. {%°yam,%} <ab>adv.</ab> passionately,
+; ----
+52466 old <div n="lb">lent. {%ºyam-,%} <ab>adv.</ab> softly, <ls>Śāk.</ls> <ab>d.</ab> 72.
+;
+52466 new <div n="lb">lent. {%°yam-,%} <ab>adv.</ab> softly, <ls>Śāk.</ls> <ab>d.</ab> 72.
+; ----
+52867 old {#daSArRaka#}¦ {%daśārṇaka,%} read {%dāśº,%} <ls>Chr.</ls>
+;
+52867 new {#daSArRaka#}¦ {%daśārṇaka,%} read {%dāś°,%} <ls>Chr.</ls>
+; ----
+54349 old <div n="lb">{%ºdham,%} <ab>adv.</ab> Undoubtedly, <ls>MBh.</ls> 12,
+;
+54349 new <div n="lb">{%°dham,%} <ab>adv.</ab> Undoubtedly, <ls>MBh.</ls> 12,
+; ----
+54554 old <div n="lb">3, 68, 36; {%ºgham,%} <ab>adv.</ab> 2, 62, 3; com-
+;
+54554 new <div n="lb">3, 68, 36; {%°gham,%} <ab>adv.</ab> 2, 62, 3; com-
+; ----
+54643 old <div n="lb">26; <ls>Yājñ.</ls> 2, 218. <ab>Instr.</ab> {%ºkhena,%} With
+;
+54643 new <div n="lb">26; <ls>Yājñ.</ls> 2, 218. <ab>Instr.</ab> {%°khena,%} With
+; ----
+54647 old <div n="lb">18, 8. {%ºkham,%} <ab>adv.</ab> Scarcely, hardly,
+;
+54647 new <div n="lb">18, 8. {%°kham,%} <ab>adv.</ab> Scarcely, hardly,
+; ----
+54687 old {#duHpº#}¦ {%duḥpº,%} see {%duṣpº.%}
+;
+54687 new {#duHp°#}¦ {%duḥp°,%} see {%duṣp°.%}
+; ----
+55143 old <div n="lb"><ab>adj.</ab> guilty, <ls>Rām.</ls> 5, 91, 2. {%Vāgdº,%} <ab>i. e.</ab>
+;
+55143 new <div n="lb"><ab>adj.</ab> guilty, <ls>Rām.</ls> 5, 91, 2. {%Vāgd°,%} <ab>i. e.</ab>
+; ----
+55215 old {#duzKº#}¦ {%duṣkhº,%} see {%duḥkhº.%}
+;
+55215 new {#duzK°#}¦ {%duṣkh°,%} see {%duḥkh°.%}
+; ----
+55415 old <div n="lb">4, 365. <ab>Acc.</ab> {%ºram,%} <ab>adv.</ab> {@1.@} Far, <ls>Rām.</ls>
+;
+55415 new <div n="lb">4, 365. <ab>Acc.</ab> {%°ram,%} <ab>adv.</ab> {@1.@} Far, <ls>Rām.</ls>
+; ----
+55419 old <div n="lb">{%ºreṇa,%} <ab>adv.</ab> Far, <ls>Bhartṛ.</ls> 1, 80. <ab>Abl.</ab>
+;
+55419 new <div n="lb">{%°reṇa,%} <ab>adv.</ab> Far, <ls>Bhartṛ.</ls> 1, 80. <ab>Abl.</ab>
+; ----
+55420 old <div n="lb">{%ºrāt,%} <ab>adv.</ab> {@1.@} From afar, <ls>Man.</ls> 2, 186.
+;
+55420 new <div n="lb">{%°rāt,%} <ab>adv.</ab> {@1.@} From afar, <ls>Man.</ls> 2, 186.
+; ----
+55423 old <div n="lb"><ab>Loc.</ab> {%ºre.%} {@1.@} Far, <ls>Śāk.</ls> <ab>d.</ab> 9. {@2.@} Far
+;
+55423 new <div n="lb"><ab>Loc.</ab> {%°re.%} {@1.@} Far, <ls>Śāk.</ls> <ab>d.</ab> 9. {@2.@} Far
+; ----
+55427 old <div n="lb">{%ºrāt,%} <ab>adv.</ab> near, <ls>Rām.</ls> 3, 50, 15; with <ab>gen.</ab>,
+;
+55427 new <div n="lb">{%°rāt,%} <ab>adv.</ab> near, <ls>Rām.</ls> 3, 50, 15; with <ab>gen.</ab>,
+; ----
+55428 old <div n="lb">2, 92, 17. {%Ati-, ºram,%} <ab>adv.</ab> very far, <ls>Pañc.</ls>
+;
+55428 new <div n="lb">2, 92, 17. {%Ati-, °ram,%} <ab>adv.</ab> very far, <ls>Pañc.</ls>
+; ----
+55429 old <div n="lb">105, 4; {%ºreṇa%} and {%ºre,%} <ab>adv.</ab> the same,
+;
+55429 new <div n="lb">105, 4; {%°reṇa%} and {%°re,%} <ab>adv.</ab> the same,
+; ----
+55431 old <div n="lb">{%dūra,%} <ab>i. e.</ab> {%kiyant-,%} <ab>adj.</ab>, <ab>acc.</ab> {%ºram,%} not
+;
+55431 new <div n="lb">{%dūra,%} <ab>i. e.</ab> {%kiyant-,%} <ab>adj.</ab>, <ab>acc.</ab> {%°ram,%} not
+; ----
+55436 old <div n="lb">{%A-vi,%} <ab>adj.</ab> not very far; {%ºrāt,%} <ab>adv.</ab> near,
+;
+55436 new <div n="lb">{%A-vi,%} <ab>adj.</ab> not very far; {%°rāt,%} <ab>adv.</ab> near,
+; ----
+55438 old <div n="lb">{%ºram,%} <ab>adv.</ab> in a very high degree, <ls>Daśak.</ls>
+;
+55438 new <div n="lb">{%°ram,%} <ab>adv.</ab> in a very high degree, <ls>Daśak.</ls>
+; ----
+55573 old <div n="lb">{%ºḍham,%} <ab>adv.</ab> {@1.@} Tightly, <ls>Prab.</ls> 12, 3. {@2.@}
+;
+55573 new <div n="lb">{%°ḍham,%} <ab>adv.</ab> {@1.@} Tightly, <ls>Prab.</ls> 12, 3. {@2.@}
+; ----
+56488 old <div n="lb"><ls>Chr.</ls> 196, 3. {%Vāgdº,%} <ab>i. e.</ab> {%vāc-,%} <ab>m.</ab> 1.
+;
+56488 new <div n="lb"><ls>Chr.</ls> 196, 3. {%Vāgd°,%} <ab>i. e.</ab> {%vāc-,%} <ab>m.</ab> 1.
+; ----
+56953 old <div n="lb"><ls>Bhāṣāp.</ls> 153 ({%ºtva + ka%} in 30). {@2.@} Fu-
+;
+56953 new <div n="lb"><ls>Bhāṣāp.</ls> 153 ({%°tva + ka%} in 30). {@2.@} Fu-
+; ----
+57135 old <div n="lb">Molten, <ls>Śiś.</ls> 9, 9. {%ºtam,%} <ab>adv.</ab> Instantly,
+;
+57135 new <div n="lb">Molten, <ls>Śiś.</ls> 9, 9. {%°tam,%} <ab>adv.</ab> Instantly,
+; ----
+57397 old <div n="lb">{%ºdvam,%} and <ab>instr.</ab> {%ºdvena,%} <ab>adv.</ab> Two by
+;
+57397 new <div n="lb">{%°dvam,%} and <ab>instr.</ab> {%°dvena,%} <ab>adv.</ab> Two by
+; ----
+57510 old <div n="lb">{%Pakṣa-,%} <ab>n.</ab> a side-door. {%Śakṛddvº,%}
+;
+57510 new <div n="lb">{%Pakṣa-,%} <ab>n.</ab> a side-door. {%Śakṛddv°,%}
+; ----
+57607 old <div n="lb"><ab>f.</ab> {%yā,%} {@1.@} Second, <ls>Man.</ls> 2, 169. {%ºyam,%}
+;
+57607 new <div n="lb"><ab>f.</ab> {%yā,%} {@1.@} Second, <ls>Man.</ls> 2, 169. {%°yam,%}
+; ----
+59671 old <div n="lb">smokeless; <ab>loc.</ab> {%ºme,%} at the time when
+;
+59671 new <div n="lb">smokeless; <ab>loc.</ab> {%°me,%} at the time when
+; ----
+60251 old <div n="lb">{%tvā,%} instead of {%ºdhyāya%}). {%anudhyāta,%}
+;
+60251 new <div n="lb">{%tvā,%} instead of {%°dhyāya%}). {%anudhyāta,%}
+; ----
+60372 old <div n="lb"><ls>Hariv.</ls> 3959. {@IV.@} <ab>adv.</ab> {%ºvam,%} Certainly,
+;
+60372 new <div n="lb"><ls>Hariv.</ls> 3959. {@IV.@} <ab>adv.</ab> {%°vam,%} Certainly,
+; ----
+60657 old <div n="lb">3, 319. {@II.@} {%ºtam,%} <ab>adv.</ab> By night, <ls>Man.</ls> 6,
+;
+60657 new <div n="lb">3, 319. {@II.@} {%°tam,%} <ab>adv.</ab> By night, <ls>Man.</ls> 6,
+; ----
+60685 old <div n="lb"><ls>Mālav.</ls> <ab>d.</ab> 88. {@2.@} {%ºnam,%} <ab>adv.</ab> By day and
+;
+60685 new <div n="lb"><ls>Mālav.</ls> <ab>d.</ab> 88. {@2.@} {%°nam,%} <ab>adv.</ab> By day and
+; ----
+61628 old <div n="lb">Young, <ls>MBh.</ls> 4, 410. {@3.@} {%ºvam,%} <ab>adv.</ab> Just,
+;
+61628 new <div n="lb">Young, <ls>MBh.</ls> 4, 410. {@3.@} {%°vam,%} <ab>adv.</ab> Just,
+; ----
+61663 old <div n="lb">ninety-fourth, 1, 94. {%Saptanº,%} <ab>i. e.</ab>
+;
+61663 new <div n="lb">ninety-fourth, 1, 94. {%Saptan°,%} <ab>i. e.</ab>
+; ----
+61825 old <div n="lb">rather {%nināśº,%} Sought to be destroyed,
+;
+61825 new <div n="lb">rather {%nināś°,%} Sought to be destroyed,
+; ----
+62855 old <div n="lb"><ab>m.</ab> Desire. {@II.@} {%ºmam,%} <ab>acc.</ab> <ab>adv.</ab> {@1.@} Wil-
+;
+62855 new <div n="lb"><ab>m.</ab> Desire. {@II.@} {%°mam,%} <ab>acc.</ab> <ab>adv.</ab> {@1.@} Wil-
+; ----
+63009 old <div n="lb">entire, all, <ls>Man.</ls> 2, 8. <ab>Instr.</ab> {%ºlena,%} <ab>adv.</ab>
+;
+63009 new <div n="lb">entire, all, <ls>Man.</ls> 2, 8. <ab>Instr.</ab> {%°lena,%} <ab>adv.</ab>
+; ----
+63198 old <div n="lb"><ls>Vedāntas.</ls> in <ls>Chr.</ls> 202, 11. 4. {@4.@} {%ºyam,%}
+;
+63198 new <div n="lb"><ls>Vedāntas.</ls> in <ls>Chr.</ls> 202, 11. 4. {@4.@} {%°yam,%}
+; ----
+63203 old <div n="lb">31. 4. {%ºyam,%} <ab>adv.</ab> not perpetually,
+;
+63203 new <div n="lb">31. 4. {%°yam,%} <ab>adv.</ab> not perpetually,
+; ----
+63546 old <div n="lb">490. {@3.@} Conversant, 57. {%ºṇam,%} <ab>adv.</ab>
+;
+63546 new <div n="lb">490. {@3.@} Conversant, 57. {%°ṇam,%} <ab>adv.</ab>
+; ----
+63650 old <div n="lb">{@5.@} {%ºtam%} <ab>acc.</ab>, {%ºtena%} <ab>instr.</ab>, {%ºtāya%} <ab>dat.</ab>,
+;
+63650 new <div n="lb">{@5.@} {%°tam%} <ab>acc.</ab>, {%°tena%} <ab>instr.</ab>, {%°tāya%} <ab>dat.</ab>,
+; ----
+63654 old <div n="lb">{%ºtam,%} <ab>adv.</ab> without a cause, <ls>Śāk.</ls> <ab>d.</ab> 45.
+;
+63654 new <div n="lb">{%°tam,%} <ab>adv.</ab> without a cause, <ls>Śāk.</ls> <ab>d.</ab> 45.
+; ----
+63658 old <div n="lb"><ab>acc.</ab> {%ºtam,%} <ab>adv.</ab> why, <ls>Chr.</ls> 80, 47. {%Ku-%}
+;
+63658 new <div n="lb"><ab>acc.</ab> {%°tam,%} <ab>adv.</ab> why, <ls>Chr.</ls> 80, 47. {%Ku-%}
+; ----
+63821 old <div n="lb">{@4.@} {%ºena,%} <ab>instr.</ab> Certainly, <ls>Ragh.</ls> 17, 49. {@ --@}
+;
+63821 new <div n="lb">{@4.@} {%°ena,%} <ab>instr.</ab> Certainly, <ls>Ragh.</ls> 17, 49. {@ --@}
+; ----
+63854 old <div n="lb">{@4.@} Faithful, Pañc ii. <ab>d.</ab> 190. {%ºram,%}
+;
+63854 new <div n="lb">{@4.@} Faithful, Pañc ii. <ab>d.</ab> 190. {%°ram,%}
+; ----
+63884 old <div n="lb">{@II.@} {%ºkam,%} <ab>adv.</ab> In vain, <ls>Rām.</ls> 3, 35,
+;
+63884 new <div n="lb">{@II.@} {%°kam,%} <ab>adv.</ab> In vain, <ls>Rām.</ls> 3, 35,
+; ----
+63885 old <div n="lb">21. -- Abstr. {#ºtva#} {%nirarthaka + tva,%} <ab>n.</ab>
+;
+63885 new <div n="lb">21. -- Abstr. {#°tva#} {%nirarthaka + tva,%} <ab>n.</ab>
+; ----
+64482 old <div n="lb">Blameless, <ls>MBh.</ls> 3, 13389. {%ºnam,%} <ab>adv.</ab>
+;
+64482 new <div n="lb">Blameless, <ls>MBh.</ls> 3, 13389. {%°nam,%} <ab>adv.</ab>
+; ----
+64505 old <div n="lb">{%vartº%}).
+;
+64505 new <div n="lb">{%vart°%}).
+; ----
+64977 old <div n="lb">tainty, <ls>Nal.</ls> 19, 8. {@4.@} <ab>instr.</ab> {%ºyena,%} and
+;
+64977 new <div n="lb">tainty, <ls>Nal.</ls> 19, 8. {@4.@} <ab>instr.</ab> {%°yena,%} and
+; ----
+64978 old <div n="lb"><ab>abl.</ab> {%ºyāt,%} Certainly, <ls>Lass.</ls> 10, 5; <ls>Hariv.</ls>
+;
+64978 new <div n="lb"><ab>abl.</ab> {%°yāt,%} Certainly, <ls>Lass.</ls> 10, 5; <ls>Hariv.</ls>
+; ----
+65152 old <div n="lb">125. <ab>Abl.</ab> {%ºṣāt,%} Principally, <ls>MBh.</ls> 13,
+;
+65152 new <div n="lb">125. <ab>Abl.</ab> {%°ṣāt,%} Principally, <ls>MBh.</ls> 13,
+; ----
+65227 old <div n="lb">9, where erroneously {%ºkrāmº.%}
+;
+65227 new <div n="lb">9, where erroneously {%°krām°.%}
+; ----
+65711 old <div n="lb">{@5.@} {%ºcais,%} <ab>instr.</ab> <ab>pl.</ab>, <ab>adv.</ab> {@1.@} Below, <ls>Megh.</ls>
+;
+65711 new <div n="lb">{@5.@} {%°cais,%} <ab>instr.</ab> <ab>pl.</ab>, <ab>adv.</ab> {@1.@} Below, <ls>Megh.</ls>
+; ----
+66035 old <div n="lb">{%-bhāva,%} <ab>abl.</ab> {%ºvāt,%} <ab>adv.</ab> Indeed, <ls>MBh.</ls> 3,
+;
+66035 new <div n="lb">{%-bhāva,%} <ab>abl.</ab> {%°vāt,%} <ab>adv.</ab> Indeed, <ls>MBh.</ls> 3,
+; ----
+66275 old <div n="lb">(read {%naiḥsnº%} instead of {%naisnº%}).
+;
+66275 new <div n="lb">(read {%naiḥsn°%} instead of {%naisn°%}).
+; ----
+66307 old <div n="lb">{%naikṛº,%} instead of {%niṣkṛº%}).
+;
+66307 new <div n="lb">{%naikṛ°,%} instead of {%niṣkṛ°%}).
+; ----
+66638 old <div n="lb"><ab>acc.</ab> <ab>n.</ab> {%ºyam,%} <ab>adv.</ab> improperly, <ls>Rām.</ls> 3,
+;
+66638 new <div n="lb"><ab>acc.</ab> <ab>n.</ab> {%°yam,%} <ab>adv.</ab> improperly, <ls>Rām.</ls> 3,
+; ----
+67064 old <div n="lb"><ls>Bhāg. P.</ls> 3, 11, 15. {@ -- <ab>Comp.</ab>@} {%Pañcapº,%}
+;
+67064 new <div n="lb"><ls>Bhāg. P.</ls> 3, 11, 15. {@ -- <ab>Comp.</ab>@} {%Pañcap°,%}
+; ----
+68132 old <div n="lb">woman. {%Satpº,%} <ab>i. e.</ab> {%sant-%} (<ab>ptcple.</ab> <ab>pres.</ab>
+;
+68132 new <div n="lb">woman. {%Satp°,%} <ab>i. e.</ab> {%sant-%} (<ab>ptcple.</ab> <ab>pres.</ab>
+; ----
+68207 old <div n="lb">way. {%satpº,%} <ab>i. e.</ab> {%sant-%} (<ab>ptcple.</ab> <ab>pres.</ab> of
+;
+68207 new <div n="lb">way. {%satp°,%} <ab>i. e.</ab> {%sant-%} (<ab>ptcple.</ab> <ab>pres.</ab> of
+; ----
+68544 old <div n="lb">verses. {%Druta-,%} (<ab>vb.</ab> {%dru%}) {%ºpada + m,%}
+;
+68544 new <div n="lb">verses. {%Druta-,%} (<ab>vb.</ab> {%dru%}) {%°pada + m,%}
+; ----
+69581 old <div n="lb"><ls>Pañc.</ls> i. <ab>d.</ab> 77. {%Niṣpº,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab>
+;
+69581 new <div n="lb"><ls>Pañc.</ls> i. <ab>d.</ab> 77. {%Niṣp°,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab>
+; ----
+70835 old {#pariveSa#}¦ {%pariveśa,%} {#ºveSaka#} {%-veśaka,%}
+;
+70835 new {#pariveSa#}¦ {%pariveśa,%} {#°veSaka#} {%-veśaka,%}
+; ----
+70836 old <div n="lb">{#ºveSana#} {%-veśana,%} {#ºveSavant#} {%-veśavant,%}
+;
+70836 new <div n="lb">{#°veSana#} {%-veśana,%} {#°veSavant#} {%-veśavant,%}
+; ----
+71179 old <div n="lb">{#pAka#} {%parīpāka,%} see {#pariRaº#} {%pariṇāha,%}
+;
+71179 new <div n="lb">{#pAka#} {%parīpāka,%} see {#pariRa°#} {%pariṇāha,%}
+; ----
+71203 old <div n="lb">{%parīhāsa,%} see {#parimAº#} {%parimāº,%} etc.,
+;
+71203 new <div n="lb">{%parīhāsa,%} see {#parimA°#} {%parimā°,%} etc.,
+; ----
+71307 old <div n="lb">the name of several plants. {%Saptapº,%}
+;
+71307 new <div n="lb">the name of several plants. {%Saptap°,%}
+; ----
+73489 old <div n="lb">4, 10 (Lois. {%pārvāyaṇāntº%}).
+;
+73489 new <div n="lb">4, 10 (Lois. {%pārvāyaṇānt°%}).
+; ----
+73566 old <div n="lb">{%Duṣpārº,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> having a
+;
+73566 new <div n="lb">{%Duṣpār°,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> having a
+; ----
+73574 old <div n="lb">{%Duṣpārº,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> having a
+;
+73574 new <div n="lb">{%Duṣpār°,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> having a
+; ----
+74589 old <div n="lb">161 (read {%niṣpīº%} instead of {%nipīº,%} also
+;
+74589 new <div n="lb">161 (read {%niṣpī°%} instead of {%nipī°,%} also
+; ----
+75078 old <div n="lb">42. {%Satpº,%} <ab>i. e.</ab> {%sant-,%} <ab>adj.</ab> having sons
+;
+75078 new <div n="lb">42. {%Satp°,%} <ab>i. e.</ab> {%sant-,%} <ab>adj.</ab> having sons
+; ----
+76479 old <div n="lb">prior; {%ºvam,%} <ab>adv.</ab> formerly. {%A-bhūta-,%}
+;
+76479 new <div n="lb">prior; {%°vam,%} <ab>adv.</ab> formerly. {%A-bhūta-,%}
+; ----
+77974 old <div n="lb">shaken. {%Niṣpraº,%} <ab>i. e.</ab> {%nis-,%} 1. <ab>adj.</ab>
+;
+77974 new <div n="lb">shaken. {%Niṣpra°,%} <ab>i. e.</ab> {%nis-,%} 1. <ab>adj.</ab>
+; ----
+78114 old <div n="lb">{%Ati-,%} <ab>adj.</ab> generally known. {%Duṣprº,%}
+;
+78114 new <div n="lb">{%Ati-,%} <ab>adj.</ab> generally known. {%Duṣpr°,%}
+; ----
+78115 old <div n="lb"><ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> dark. {%Niṣprº,%} <ab>i. e.</ab> {%nis-,%}
+;
+78115 new <div n="lb"><ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> dark. {%Niṣpr°,%} <ab>i. e.</ab> {%nis-,%}
+; ----
+78292 old <div n="lb">fore-arm, <ls>Śāk.</ls> <ab>d.</ab> 133. {@2.@} and {%ºṭa + ka,%}
+;
+78292 new <div n="lb">fore-arm, <ls>Śāk.</ls> <ab>d.</ab> 133. {@2.@} and {%°ṭa + ka,%}
+; ----
+78471 old <div n="lb">{%ºṇī kṛ,%} To put in order, to array,
+;
+78471 new <div n="lb">{%°ṇī kṛ,%} To put in order, to array,
+; ----
+78604 old <div n="lb">{%Niṣprº,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab> not moving, <ls>MBh.</ls>
+;
+78604 new <div n="lb">{%Niṣpr°,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab> not moving, <ls>MBh.</ls>
+; ----
+79129 old <div n="lb">Crossing over. {@ -- <ab>Comp.</ab>@} {%Duṣprº,%} <ab>i. e.</ab>
+;
+79129 new <div n="lb">Crossing over. {@ -- <ab>Comp.</ab>@} {%Duṣpr°,%} <ab>i. e.</ab>
+; ----
+79982 old <div n="lb">199, 11. {%Niṣprº,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab>, <ab>f.</ab> {%bhā,%}
+;
+79982 new <div n="lb">199, 11. {%Niṣpr°,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab>, <ab>f.</ab> {%bhā,%}
+; ----
+80036 old <div n="lb">in front, <ls>Rām.</ls> 6, 90, 11. {@II.@} {%ºkham,%} <ab>adv.</ab>
+;
+80036 new <div n="lb">in front, <ls>Rām.</ls> 6, 90, 11. {@II.@} {%°kham,%} <ab>adv.</ab>
+; ----
+80192 old <div n="lb">{@ -- <ab>Comp.</ab>@} {%Duṣprº,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> diffi-
+;
+80192 new <div n="lb">{@ -- <ab>Comp.</ab>@} {%Duṣpr°,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> diffi-
+; ----
+80459 old <div n="lb">{%pratīkāśa,%} see {%pratikº.%}
+;
+80459 new <div n="lb">{%pratīkāśa,%} see {%pratik°.%}
+; ----
+80477 old {#pratIGAta#}¦ {%pratīghāta,%} see {%pratighº.%}
+;
+80477 new {#pratIGAta#}¦ {%pratīghāta,%} see {%pratigh°.%}
+; ----
+80513 old <div n="lb">stream, <ls>Vikr.</ls> <ab>d.</ab> 24. {@ -- <ab>Comp.</ab>@} {%Niṣprº,%}
+;
+80513 new <div n="lb">stream, <ls>Vikr.</ls> <ab>d.</ab> 24. {@ -- <ab>Comp.</ab>@} {%Niṣpr°,%}
+; ----
+80525 old {#pratIhAra#}¦ {%pratīhāra,%} see {%pratihº.%}
+;
+80525 new {#pratIhAra#}¦ {%pratīhāra,%} see {%pratih°.%}
+; ----
+80573 old <div n="lb">evident, <ls>Hit.</ls> 85, 21 ({%ºkṣī-kṛta,%} made
+;
+80573 new <div n="lb">evident, <ls>Hit.</ls> 85, 21 ({%°kṣī-kṛta,%} made
+; ----
+80586 old <div n="lb">bility, <ls>Pañc.</ls> 256, 10 ({%ºtayā,%} visibly).
+;
+80586 new <div n="lb">bility, <ls>Pañc.</ls> 256, 10 ({%°tayā,%} visibly).
+; ----
+80832 old <div n="lb">190. {@ -- <ab>Comp.</ab>@} {%Punaḥprº,%} <ab>i. e.</ab> {%punar-,%} <ab>m.</ab>
+;
+80832 new <div n="lb">190. {@ -- <ab>Comp.</ab>@} {%Punaḥpr°,%} <ab>i. e.</ab> {%punar-,%} <ab>m.</ab>
+; ----
+81097 old <div n="lb"><ab>adj.</ab> loving justice, <ls>Man.</ls> 4, 243. {%Niṣprº,%}
+;
+81097 new <div n="lb"><ab>adj.</ab> loving justice, <ls>Man.</ls> 4, 243. {%Niṣpr°,%}
+; ----
+81221 old {#prapOtra#}¦ {%pra-pautra,%} {@1.@} and {#ºtraka#}
+;
+81221 new {#prapOtra#}¦ {%pra-pautra,%} {@1.@} and {#°traka#}
+; ----
+81289 old <div n="lb">istence, <ls>Pañc.</ls> iii. <ab>d.</ab> 187. {%Vidveṣiprº,%}
+;
+81289 new <div n="lb">istence, <ls>Pañc.</ls> iii. <ab>d.</ab> 187. {%Vidveṣipr°,%}
+; ----
+81727 old <div n="lb"><ls>MBh.</ls> 13, 2025 ({%niṣpº%}). 2. useless, <ls>Hit.</ls>
+;
+81727 new <div n="lb"><ls>MBh.</ls> 13, 2025 ({%niṣp°%}). 2. useless, <ls>Hit.</ls>
+; ----
+81728 old <div n="lb">105, 19 {%(niṣpº). Samāna-artha-,%} <ab>adj.</ab>
+;
+81728 new <div n="lb">105, 19 {%(niṣp°). Samāna-artha-,%} <ab>adj.</ab>
+; ----
+81730 old <div n="lb"><ab>d.</ab> 110 (read {%ºnaḥ,%} <ab>cf.</ab> <ls>Kām. Nītis.</ls> 4, 7).
+;
+81730 new <div n="lb"><ab>d.</ab> 110 (read {%°naḥ,%} <ab>cf.</ab> <ls>Kām. Nītis.</ls> 4, 7).
+; ----
+82080 old <div n="lb">temples when in rut. {@ -- <ab>Comp.</ab>@} {%Duṣprº,%}
+;
+82080 new <div n="lb">temples when in rut. {@ -- <ab>Comp.</ab>@} {%Duṣpr°,%}
+; ----
+82121 old <div n="lb">{@ -- <ab>Comp.</ab>@} {%Duṣprº,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab>, <ab>f.</ab> {%śā,%}
+;
+82121 new <div n="lb">{@ -- <ab>Comp.</ab>@} {%Duṣpr°,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab>, <ab>f.</ab> {%śā,%}
+; ----
+82395 old <div n="lb">ship. {@ -- <ab>Comp.</ab>@} {%Duṣprº,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab>
+;
+82395 new <div n="lb">ship. {@ -- <ab>Comp.</ab>@} {%Duṣpr°,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab>
+; ----
+82407 old <div n="lb">{%Duṣprº,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> difficult to be
+;
+82407 new <div n="lb">{%Duṣpr°,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> difficult to be
+; ----
+82538 old <div n="lb">read {%prāsthº,%} q. <ab>cf.</ab>
+;
+82538 new <div n="lb">read {%prāsth°,%} q. <ab>cf.</ab>
+; ----
+82669 old <div n="lb">carelessness, <ls>Pañc.</ls> ii. <ab>d.</ab> 48 ({%ºlayā,%}
+;
+82669 new <div n="lb">carelessness, <ls>Pañc.</ls> ii. <ab>d.</ab> 48 ({%°layā,%}
+; ----
+82908 old <div n="lb"><ab>adj.</ab> dead. {%Niṣprº,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab> 1.
+;
+82908 new <div n="lb"><ab>adj.</ab> dead. {%Niṣpr°,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab> 1.
+; ----
+83083 old <div n="lb">{%Duṣprº,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> difficult to be
+;
+83083 new <div n="lb">{%Duṣpr°,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> difficult to be
+; ----
+84152 old <div n="lb">{@ -- <ab>Comp.</ab>@} {%Avākphº,%} <ab>i. e.</ab> {%avāñc-,%} <ab>adj.</ab>
+;
+84152 new <div n="lb">{@ -- <ab>Comp.</ab>@} {%Avākph°,%} <ab>i. e.</ab> {%avāñc-,%} <ab>adj.</ab>
+; ----
+84162 old <div n="lb">({%ºbhṛt%}); 27 ({%vant%}); <ls>Pañc.</ls> i. <ab>d.</ab> 175
+;
+84162 new <div n="lb">({%°bhṛt%}); 27 ({%vant%}); <ls>Pañc.</ls> i. <ab>d.</ab> 175
+; ----
+84163 old <div n="lb">({%ºṇin%}).
+;
+84163 new <div n="lb">({%°ṇin%}).
+; ----
+84240 old <div n="lb">{@II.@} <ab>f.</ab> {%lā,%} the three myrobalans. {%Niṣphº,%}
+;
+84240 new <div n="lb">{@II.@} <ab>f.</ab> {%lā,%} the three myrobalans. {%Niṣph°,%}
+; ----
+84248 old <div n="lb"><ls>Man.</ls> 3, 95. {%Puraḥphº,%} <ab>i. e.</ab> {%puras-,%}
+;
+84248 new <div n="lb"><ls>Man.</ls> 3, 95. {%Puraḥph°,%} <ab>i. e.</ab> {%puras-,%}
+; ----
+84675 old <div n="lb">macandra Tarkº, to confound). {@4.@}
+;
+84675 new <div n="lb">macandra Tark°, to confound). {@4.@}
+; ----
+85003 old <div n="lb">48, 84. {%Vṛhadbº,%} <ab>i. e.</ab> {%vṛhant-,%} <ab>m.</ab> a
+;
+85003 new <div n="lb">48, 84. {%Vṛhadb°,%} <ab>i. e.</ab> {%vṛhant-,%} <ab>m.</ab> a
+; ----
+85055 old {#balAhaka#}¦ {%balāhaka,%} also {#valAº#}
+;
+85055 new {#balAhaka#}¦ {%balāhaka,%} also {#valA°#}
+; ----
+85056 old <div n="lb">{%valāº,%} <ab>m.</ab> {@1.@} A cloud, <ls>MBh.</ls> 1, 1289;
+;
+85056 new <div n="lb">{%valā°,%} <ab>m.</ab> {@1.@} A cloud, <ls>MBh.</ls> 1, 1289;
+; ----
+85175 old <div n="lb">all, <ls>Vikr.</ls> <ab>d.</ab> 8. <ab>adv.</ab> {%ºṭham,%} For the
+;
+85175 new <div n="lb">all, <ls>Vikr.</ls> <ab>d.</ab> 8. <ab>adv.</ab> {%°ṭham,%} For the
+; ----
+85202 old <div n="lb">13, 2. {@3.@} {%ºtham,%} <ab>adv.</ab> A very long time,
+;
+85202 new <div n="lb">13, 2. {@3.@} {%°tham,%} <ab>adv.</ab> A very long time,
+; ----
+85279 old <div n="lb">Trade, <ls>Hit.</ls> 46, 14 ({%ºyena,%} for traffic).
+;
+85279 new <div n="lb">Trade, <ls>Hit.</ls> 46, 14 ({%°yena,%} for traffic).
+; ----
+85445 old <div n="lb">Camphor. {@4.@} and {#ºkI#} {%kī,%} also {#bAluNkI#}
+;
+85445 new <div n="lb">Camphor. {@4.@} and {#°kI#} {%kī,%} also {#bAluNkI#}
+; ----
+85575 old <div n="lb">{%bimbauṣṭha,%} or {%vimbº,%} <ab>i. e.</ab> {%bimba-oṣ-%}
+;
+85575 new <div n="lb">{%bimbauṣṭha,%} or {%vimb°,%} <ab>i. e.</ab> {%bimba-oṣ-%}
+; ----
+85635 old <div n="lb">{%bibhº%}).
+;
+85635 new <div n="lb">{%bibh°%}).
+; ----
+85687 old <div n="lb">a proper name. {%Durbº%} <ab>i. e.</ab> {%dus-,%} {@I.@} <ab>f.</ab>
+;
+85687 new <div n="lb">a proper name. {%Durb°%} <ab>i. e.</ab> {%dus-,%} {@I.@} <ab>f.</ab>
+; ----
+85694 old <div n="lb"><ab>m.</ab> a proper name. {%Nirbº,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab>
+;
+85694 new <div n="lb"><ab>m.</ab> a proper name. {%Nirb°,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab>
+; ----
+85826 old <div n="lb">ii. <ab>d.</ab> 23; <ls>Rājat.</ls> 5, 380. {%Durbº,%} <ab>i. e.</ab>
+;
+85826 new <div n="lb">ii. <ab>d.</ab> 23; <ls>Rājat.</ls> 5, 380. {%Durb°,%} <ab>i. e.</ab>
+; ----
+85950 old <div n="lb">{%Durbº,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> difficult to be
+;
+85950 new <div n="lb">{%Durb°,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> difficult to be
+; ----
+86365 old <div n="lb">muliebre, <ls>Rājat.</ls> 5, 282. {@ -- <ab>Comp.</ab>@} {%Durbhº,%}
+;
+86365 new <div n="lb">muliebre, <ls>Rājat.</ls> 5, 282. {@ -- <ab>Comp.</ab>@} {%Durbh°,%}
+; ----
+86464 old <div n="lb"><ls>Pañc.</ls> i. <ab>d.</ab> 418. {%Durbhº,%} <ab>i. e.</ab> {%dus-,%}
+;
+86464 new <div n="lb"><ls>Pañc.</ls> i. <ab>d.</ab> 418. {%Durbh°,%} <ab>i. e.</ab> {%dus-,%}
+; ----
+86745 old <div n="lb"><ls>Nal.</ls> 12, 130. {%Sarvatobhº,%} <ab>i. e.</ab> {%sarvatas-,%} 
+;
+86745 new <div n="lb"><ls>Nal.</ls> 12, 130. {%Sarvatobh°,%} <ab>i. e.</ab> {%sarvatas-,%} 
+; ----
+86807 old <div n="lb"><ls>Ragh.</ls> 3, 51. {%Nirbhº,%} <ab>i. e.</ab> {%nis-,%} {@I.@} <ab>adj.</ab>, <ab>f.</ab> {%yā.%}
+;
+86807 new <div n="lb"><ls>Ragh.</ls> 3, 51. {%Nirbh°,%} <ab>i. e.</ab> {%nis-,%} {@I.@} <ab>adj.</ab>, <ab>f.</ab> {%yā.%}
+; ----
+86814 old <div n="lb">fearful, <ls>Pañc.</ls> 45, 8. {%ºyam,%} <ab>adv.</ab> with
+;
+86814 new <div n="lb">fearful, <ls>Pañc.</ls> 45, 8. {%°yam,%} <ab>adv.</ab> with
+; ----
+86851 old <div n="lb">{%Durbhº,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab>, <ab>f.</ab> {%rā,%} 1. diffi-
+;
+86851 new <div n="lb">{%Durbh°,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab>, <ab>f.</ab> {%rā,%} 1. diffi-
+; ----
+86854 old <div n="lb"><ab>d.</ab> 168. {%Nirbhº,%} <ab>i. e.</ab> {%nis-,%} {@I.@} <ab>adj.</ab>, <ab>f.</ab> {%rā.%}
+;
+86854 new <div n="lb"><ab>d.</ab> 168. {%Nirbh°,%} <ab>i. e.</ab> {%nis-,%} {@I.@} <ab>adj.</ab>, <ab>f.</ab> {%rā.%}
+; ----
+86858 old <div n="lb"><ls>Pañc.</ls> 259, 3; <ls>Kathās.</ls> 6, 126. {@II.@} {%ºram,%}
+;
+86858 new <div n="lb"><ls>Pañc.</ls> 259, 3; <ls>Kathās.</ls> 6, 126. {@II.@} {%°ram,%}
+; ----
+87015 old <div n="lb">(read {%ºbharts-ayat%}). -- With {#ni#} {%ni,%} To
+;
+87015 new <div n="lb">(read {%°bharts-ayat%}). -- With {#ni#} {%ni,%} To
+; ----
+87017 old <div n="lb">{%nirbhº%}). -- With {#nis#} {%nis,%} {@1.@} To menace,
+;
+87017 new <div n="lb">{%nirbh°%}). -- With {#nis#} {%nis,%} {@1.@} To menace,
+; ----
+87111 old <div n="lb">the first being, <ls>Ragh.</ls> 13, 8. {%Durvāgbhº,%}
+;
+87111 new <div n="lb">the first being, <ls>Ragh.</ls> 13, 8. {%Durvāgbh°,%}
+; ----
+87113 old <div n="lb">{%Punarbhº,%} <ab>i. e.</ab> {%punar-,%} <ab>m.</ab> regeneration,
+;
+87113 new <div n="lb">{%Punarbh°,%} <ab>i. e.</ab> {%punar-,%} <ab>m.</ab> regeneration,
+; ----
+87298 old <div n="lb">morrow, 119, 1. {@<ab>Comp.</ab>@} {%Tatprº,%} <ab>i. e.</ab>
+;
+87298 new <div n="lb">morrow, 119, 1. {@<ab>Comp.</ab>@} {%Tatpr°,%} <ab>i. e.</ab>
+; ----
+87338 old <div n="lb">{%Adhobhº,%} <ab>i. e.</ab> {%adhas-,%} <ab>m.</ab> 1. the lower
+;
+87338 new <div n="lb">{%Adhobh°,%} <ab>i. e.</ab> {%adhas-,%} <ab>m.</ab> 1. the lower
+; ----
+87347 old <div n="lb">of heritage, <ls>Man.</ls> 9, 103. {%Digbhº,%} <ab>i. e.</ab>
+;
+87347 new <div n="lb">of heritage, <ls>Man.</ls> 9, 103. {%Digbh°,%} <ab>i. e.</ab>
+; ----
+87757 old <div n="lb">{%hurvantyā bhāvaº%}). {@7.@} Gesture. {@8.@}
+;
+87757 new <div n="lb">{%hurvantyā bhāva°%}). {@7.@} Gesture. {@8.@}
+; ----
+87813 old <div n="lb">{%yighº,%} <ab>i. e.</ab> {%sthāyin-,%} <ab>m.</ab> 1. fixed con-
+;
+87813 new <div n="lb">{%yigh°,%} <ab>i. e.</ab> {%sthāyin-,%} <ab>m.</ab> 1. fixed con-
+; ----
+87867 old <div n="lb">a wanton woman. {@ -- <ab>Comp.</ab>@} {%Avaśyabhº,%}
+;
+87867 new <div n="lb">a wanton woman. {@ -- <ab>Comp.</ab>@} {%Avaśyabh°,%}
+; ----
+87880 old <div n="lb">See {%śubhaṃbhº.%}
+;
+87880 new <div n="lb">See {%śubhaṃbh°.%}
+; ----
+88070 old <div n="lb">tailed {%ºvant%}), {%+ a%} (with {%r%} for {%n%}), {@I.@}
+;
+88070 new <div n="lb">tailed {%°vant%}), {%+ a%} (with {%r%} for {%n%}), {@I.@}
+; ----
+88184 old <div n="lb">2. indestructible. <ab>n.</ab> a diamond. {%Durbhº,%}
+;
+88184 new <div n="lb">2. indestructible. <ab>n.</ab> a diamond. {%Durbh°,%}
+; ----
+88779 old <div n="lb">produced. {%Sadbhº,%} <ab>i. e.</ab> {%sant-%} (<ab>ptcple.</ab>
+;
+88779 new <div n="lb">produced. {%Sadbh°,%} <ab>i. e.</ab> {%sant-%} (<ab>ptcple.</ab>
+; ----
+88805 old <div n="lb"><ls>Bhartṛ.</ls> 2, 91. {%Durbhº,%} <ab>i. e.</ab> {%dus-,%} adj,
+;
+88805 new <div n="lb"><ls>Bhartṛ.</ls> 2, 91. {%Durbh°,%} <ab>i. e.</ab> {%dus-,%} adj,
+; ----
+89048 old <div n="lb">not to be perceived, <ls>Śiś.</ls> 9, 12. {%Durvº,%}
+;
+89048 new <div n="lb">not to be perceived, <ls>Śiś.</ls> 9, 12. {%Durv°,%}
+; ----
+89209 old <div n="lb">month Āśvina. {%Viyadbhº,%} <ab>i. e.</ab> {%viyat-,%} <ab>f.</ab>
+;
+89209 new <div n="lb">month Āśvina. {%Viyadbh°,%} <ab>i. e.</ab> {%viyat-,%} <ab>f.</ab>
+; ----
+89445 old <div n="lb">{@1.@} Modest, humble; {%ºtam,%} humbly,
+;
+89445 new <div n="lb">{@1.@} Modest, humble; {%°tam,%} humbly,
+; ----
+89448 old <div n="lb">{@4.@} {%ºtam%} <ab>adv.</ab> Hidden, <ls>Pañc.</ls> 105, 4;
+;
+89448 new <div n="lb">{@4.@} {%°tam%} <ab>adv.</ab> Hidden, <ls>Pañc.</ls> 105, 4;
+; ----
+89449 old <div n="lb">secretly, <ls>Man.</ls> 9, 263. {@5.@} {%ºtam,%} <ab>adv.</ab>
+;
+89449 new <div n="lb">secretly, <ls>Man.</ls> 9, 263. {@5.@} {%°tam,%} <ab>adv.</ab>
+; ----
+89452 old <div n="lb"><ls>Megh.</ls> 83; {%ºtam%} with {%kṛ,%} To dismiss
+;
+89452 new <div n="lb"><ls>Megh.</ls> 83; {%°tam%} with {%kṛ,%} To dismiss
+; ----
+89455 old <div n="lb">very lonely. {%ºtam,%} <ab>adv.</ab> 1. secretly,
+;
+89455 new <div n="lb">very lonely. {%°tam,%} <ab>adv.</ab> 1. secretly,
+; ----
+89483 old <div n="lb">{%kuṃsa,%} {#BrakuMSa#} and {#ºsa#} {%bhrakuṃśa%}
+;
+89483 new <div n="lb">{%kuṃsa,%} {#BrakuMSa#} and {#°sa#} {%bhrakuṃśa%}
+; ----
+89484 old <div n="lb">and {%ºsa,%} and {#BrukuMSa#} and {#ºsa#} {%bhru-%}
+;
+89484 new <div n="lb">and {%°sa,%} and {#BrukuMSa#} and {#°sa#} {%bhru-%}
+; ----
+89485 old <div n="lb">{%kuṃśa, ºsa,%} and {#BrUkuMSa, ºsa#} {%bhrūkuṃ-%}
+;
+89485 new <div n="lb">{%kuṃśa, °sa,%} and {#BrUkuMSa, °sa#} {%bhrūkuṃ-%}
+; ----
+89486 old <div n="lb">{%śa, ºsa,%} <ab>m.</ab> A male actor in female
+;
+89486 new <div n="lb">{%śa, °sa,%} <ab>m.</ab> A male actor in female
+; ----
+89624 old <div n="lb">{%ºśam,%} <ab>adv.</ab> {@1.@} Much, <ls>Pañc.</ls> iii. <ab>d.</ab>
+;
+89624 new <div n="lb">{%°śam,%} <ab>adv.</ab> {@1.@} Much, <ls>Pañc.</ls> iii. <ab>d.</ab>
+; ----
+89631 old <div n="lb">{%Su-,%} <ab>adj.</ab> much, exceeding. {%ºśam,%} <ab>adv.</ab>
+;
+89631 new <div n="lb">{%Su-,%} <ab>adj.</ab> much, exceeding. {%°śam,%} <ab>adv.</ab>
+; ----
+89692 old <div n="lb">cutpurse, <ls>Man.</ls> 9, 277. {%Durbhº,%} <ab>i. e.</ab>
+;
+89692 new <div n="lb">cutpurse, <ls>Man.</ls> 9, 277. {%Durbh°,%} <ab>i. e.</ab>
+; ----
+89854 old <div n="lb">74, 31. {%Nirbhº,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab> not
+;
+89854 new <div n="lb">74, 31. {%Nirbh°,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab> not
+; ----
+90086 old {#BrakuMSa#}¦ and {#ºsa#} {%bhrakuṃśa, ºsa,%} see
+;
+90086 new {#BrakuMSa#}¦ and {#°sa#} {%bhrakuṃśa, °sa,%} see
+; ----
+90257 old <div n="lb">10. {@ -- <ab>Comp.</ab>@} {%Durbhº,%} <ab>i. e.</ab> {%dus-,%} <ab>m.</ab> A
+;
+90257 new <div n="lb">10. {@ -- <ab>Comp.</ab>@} {%Durbh°,%} <ab>i. e.</ab> {%dus-,%} <ab>m.</ab> A
+; ----
+90341 old {#BrukuMSa#}¦ and {#ºsa#} {%bhrukuṃśa%} and {%ºsa,%}
+;
+90341 new {#BrukuMSa#}¦ and {#°sa#} {%bhrukuṃśa%} and {%°sa,%}
+; ----
+90382 old {#BrUkuMSa#}¦ and {#ºsa#} {%bhrūkuṃśa%} and {%ºsa,%}
+;
+90382 new {#BrUkuMSa#}¦ and {#°sa#} {%bhrūkuṃśa%} and {%°sa,%}
+; ----
+90391 old <div n="lb">({%bhru-%}); <ls>Pañc.</ls> 220, 1 ({%bhṛº%}).
+;
+90391 new <div n="lb">({%bhru-%}); <ls>Pañc.</ls> 220, 1 ({%bhṛ°%}).
+; ----
+90529 old {#makzu#}¦ and {#ºkzU#} {%makṣū̆%} (properly <ab>loc.</ab>
+;
+90529 new {#makzu#}¦ and {#°kzU#} {%makṣū̆%} (properly <ab>loc.</ab>
+; ----
+91135 old <div n="lb">2211. {%Durmº,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> 1. foolish,
+;
+91135 new <div n="lb">2211. {%Durm°,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> 1. foolish,
+; ----
+91194 old <div n="lb">gnat. {@ -- <ab>Comp.</ab>@} {%Nirmº,%} <ab>i. e.</ab> {%nis-%} and {%vi-.%}
+;
+91194 new <div n="lb">gnat. {@ -- <ab>Comp.</ab>@} {%Nirm°,%} <ab>i. e.</ab> {%nis-%} and {%vi-.%}
+; ----
+91332 old <div n="lb">same, ib. 191, 18 (read {%ºmādº%}). -- With
+;
+91332 new <div n="lb">same, ib. 191, 18 (read {%°mād°%}). -- With
+; ----
+91376 old <div n="lb">for making furrows. {@ -- <ab>Comp.</ab>@} {%Durmº,%}
+;
+91376 new <div n="lb">for making furrows. {@ -- <ab>Comp.</ab>@} {%Durm°,%}
+; ----
+91382 old <div n="lb"><ls>Kathās.</ls> 18, 129. {%Nirmº,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab>
+;
+91382 new <div n="lb"><ls>Kathās.</ls> 18, 129. {%Nirm°,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab>
+; ----
+91580 old <div n="lb"><ls>Daśak.</ls> in <ls>Chr.</ls> 201, 13. {@II.@} {%ºram.%}
+;
+91580 new <div n="lb"><ls>Daśak.</ls> in <ls>Chr.</ls> 201, 13. {@II.@} {%°ram.%}
+; ----
+91860 old <div n="lb"><ls>Rām.</ls> 4, 4, 20. {%Durmº,%} <ab>i. e.</ab> {%dus-,%} 1. <ab>n.</ab>
+;
+91860 new <div n="lb"><ls>Rām.</ls> 4, 4, 20. {%Durm°,%} <ab>i. e.</ab> {%dus-,%} 1. <ab>n.</ab>
+; ----
+91996 old <div n="lb">{%Durmº,%} <ab>i. e.</ab> {%dus-,%} <ab>m.</ab> a wicked man,
+;
+91996 new <div n="lb">{%Durm°,%} <ab>i. e.</ab> {%dus-,%} <ab>m.</ab> a wicked man,
+; ----
+91997 old <div n="lb"><ls>MBh.</ls> 8, 2117. {%Nirmº,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab>
+;
+91997 new <div n="lb"><ls>MBh.</ls> 8, 2117. {%Nirm°,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab>
+; ----
+92093 old <div n="lb">{@<ab>Comp.</ab>@} See {%Ku-. Durmº,%} <ab>i. e.</ab> {%dus-,%} {@I.@} <ab>adj.</ab>
+;
+92093 new <div n="lb">{@<ab>Comp.</ab>@} See {%Ku-. Durm°,%} <ab>i. e.</ab> {%dus-,%} {@I.@} <ab>adj.</ab>
+; ----
+92148 old <div n="lb">See {%Ku-. Durmº,%} <ab>i. e.</ab> {%dus-,%} <ab>m.</ab> bad
+;
+92148 new <div n="lb">See {%Ku-. Durm°,%} <ab>i. e.</ab> {%dus-,%} <ab>m.</ab> bad
+; ----
+92149 old <div n="lb">advice, <ls>Bhartṛ.</ls> 2, 34. {%Nirmº,%} <ab>i. e.</ab> {%nis-,%}
+;
+92149 new <div n="lb">advice, <ls>Bhartṛ.</ls> 2, 34. {%Nirm°,%} <ab>i. e.</ab> {%nis-,%}
+; ----
+92179 old <div n="lb">Vedas. {@3.@} Initiated. {@II.@} {%ºvat,%} <ab>adv.</ab>
+;
+92179 new <div n="lb">Vedas. {@3.@} Initiated. {@II.@} {%°vat,%} <ab>adv.</ab>
+; ----
+92213 old <div n="lb">lors). {@ -- <ab>Comp.</ab>@} {%Durmº,%} <ab>i. e.</ab> {%dus-,%} <ab>m.</ab> a
+;
+92213 new <div n="lb">lors). {@ -- <ab>Comp.</ab>@} {%Durm°,%} <ab>i. e.</ab> {%dus-,%} <ab>m.</ab> a
+; ----
+92405 old <div n="lb">bling, <ls>Megh.</ls> 35 (read {%āmandrº%}).
+;
+92405 new <div n="lb">bling, <ls>Megh.</ls> 35 (read {%āmandr°%}).
+; ----
+92505 old <div n="lb">{%Unmº,%} <ab>i. e.</ab> {%ud-,%} <ab>adj.</ab> radiant, <ls>Ragh.</ls> 16,
+;
+92505 new <div n="lb">{%Unm°,%} <ab>i. e.</ab> {%ud-,%} <ab>adj.</ab> radiant, <ls>Ragh.</ls> 16,
+; ----
+92531 old <div n="lb">({%ºkata%}); <ls>Pañc.</ls> 9, 5 ({%ºkata%}).
+;
+92531 new <div n="lb">({%°kata%}); <ls>Pañc.</ls> 9, 5 ({%°kata%}).
+; ----
+92569 old {#marIci#}¦ {%marīci%} (also {%ºcī,%} <ab>f.</ab>, <ls>Rām.</ls> 1,
+;
+92569 new {#marIci#}¦ {%marīci%} (also {%°cī,%} <ab>f.</ab>, <ls>Rām.</ls> 1,
+; ----
+92725 old <div n="lb"><ls>Utt. Rāmac.</ls> 128, 5. {%Śiromº,%} <ab>i. e.</ab> {%śiras-,%} <ab>m.</ab> a
+;
+92725 new <div n="lb"><ls>Utt. Rāmac.</ls> 128, 5. {%Śirom°,%} <ab>i. e.</ab> {%śiras-,%} <ab>m.</ab> a
+; ----
+92783 old <div n="lb">tures), <ls>Man.</ls> 8, 309. {%Durmº,%} <ab>i. e.</ab> {%dus%}
+;
+92783 new <div n="lb">tures), <ls>Man.</ls> 8, 309. {%Durm°,%} <ab>i. e.</ab> {%dus%}
+; ----
+92785 old <div n="lb">113, 4. {%Nirmº,%} <ab>i. e.</ab> {%nis-,%} {@I@} <ab>adj.</ab> 1.
+;
+92785 new <div n="lb">113, 4. {%Nirm°,%} <ab>i. e.</ab> {%nis-,%} {@I@} <ab>adj.</ab> 1.
+; ----
+92816 old <div n="lb">{%ºṣam,%} <ab>adv.</ab> angrily, <ls>Mṛcch.</ls> 19, 17.
+;
+92816 new <div n="lb">{%°ṣam,%} <ab>adv.</ab> angrily, <ls>Mṛcch.</ls> 19, 17.
+; ----
+92825 old <div n="lb">{%Durmº,%} <ab>i. e.</ab> {%dus-,%} {@I.@} <ab>adj.</ab> difficult to be
+;
+92825 new <div n="lb">{%Durm°,%} <ab>i. e.</ab> {%dus-,%} {@I.@} <ab>adj.</ab> difficult to be
+; ----
+92850 old <div n="lb">{%Nirmº,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab>, <ab>f.</ab> {%lā.%} 1. stainless,
+;
+92850 new <div n="lb">{%Nirm°,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab>, <ab>f.</ab> {%lā.%} 1. stainless,
+; ----
+93117 old <div n="lb">{%luṅga%} and {%ºga + ka,%} <ab>m.</ab> The brain.
+;
+93117 new <div n="lb">{%luṅga%} and {%°ga + ka,%} <ab>m.</ab> The brain.
+; ----
+93393 old <div n="lb"><ab>d.</ab> 100, where {%kāryānº,%} to be inferred
+;
+93393 new <div n="lb"><ab>d.</ab> 100, where {%kāryān°,%} to be inferred
+; ----
+93470 old <div n="lb"><ls>Suśr.</ls> 1, 125, 9. {%Nirmº,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab>
+;
+93470 new <div n="lb"><ls>Suśr.</ls> 1, 125, 9. {%Nirm°,%} <ab>i. e.</ab> {%nis-,%} <ab>adj.</ab>
+; ----
+93600 old <div n="lb">44 in Berl. Monatsb. 1864, 410; {%ºram,%}
+;
+93600 new <div n="lb">44 in Berl. Monatsb. 1864, 410; {%°ram,%}
+; ----
+93797 old <div n="lb">daries, <ls>Rām.</ls> 2, 12, 108. {%ºra + m,%} <ab>adv.</ab>
+;
+93797 new <div n="lb">daries, <ls>Rām.</ls> 2, 12, 108. {%°ra + m,%} <ab>adv.</ab>
+; ----
+94057 old <div n="lb">honour, <ls>Hit.</ls> ii. <ab>d.</ab> 41. {%Nirmº,%} <ab>i. e.</ab> {%nis-,%}
+;
+94057 new <div n="lb">honour, <ls>Hit.</ls> ii. <ab>d.</ab> 41. {%Nirm°,%} <ab>i. e.</ab> {%nis-,%}
+; ----
+94317 old <div n="lb">{%Durmº,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> using tricks,
+;
+94317 new <div n="lb">{%Durm°,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> using tricks,
+; ----
+94461 old <div n="lb">anus, <ls>Pañc.</ls> i. <ab>d.</ab> 458. {%Unmº,%} <ab>i. e.</ab>
+;
+94461 new <div n="lb">anus, <ls>Pañc.</ls> i. <ab>d.</ab> 458. {%Unm°,%} <ab>i. e.</ab>
+; ----
+95151 old <div n="lb">also before vowels, {%mīḷhº%} for {%mīḍhº,%}
+;
+95151 new <div n="lb">also before vowels, {%mīḷh°%} for {%mīḍh°,%}
+; ----
+95332 old <div n="lb"><ab>m.</ab> {@1.@} A looking-glass, <ls>Śiś.</ls> 9, 73 ({%muº%}).
+;
+95332 new <div n="lb"><ab>m.</ab> {@1.@} A looking-glass, <ls>Śiś.</ls> 9, 73 ({%mu°%}).
+; ----
+95341 old <div n="lb">9, 27 ({%muº%}); <ls>Utt. Rāmac.</ls> 14, 5 ({%da-%}
+;
+95341 new <div n="lb">9, 27 ({%mu°%}); <ls>Utt. Rāmac.</ls> 14, 5 ({%da-%}
+; ----
+95342 old <div n="lb">{%śana-muº,%} bud-like teeth). {@2.@} The
+;
+95342 new <div n="lb">{%śana-mu°,%} bud-like teeth). {@2.@} The
+; ----
+95399 old <div n="lb">{%Adhomº,%} <ab>i. e.</ab> {%adhas-,%} <ab>adj.</ab>, <ab>f.</ab> {%khī.%} 1.
+;
+95399 new <div n="lb">{%Adhom°,%} <ab>i. e.</ab> {%adhas-,%} <ab>adj.</ab>, <ab>f.</ab> {%khī.%} 1.
+; ----
+95402 old <div n="lb">{%Abhi-,%} see s. v. {%Ayomº,%} <ab>i. e.</ab> {%ayas-,%} <ab>adj.</ab>
+;
+95402 new <div n="lb">{%Abhi-,%} see s. v. {%Ayom°,%} <ab>i. e.</ab> {%ayas-,%} <ab>adj.</ab>
+; ----
+95403 old <div n="lb">iron-pointed, <ls>Rām.</ls> 3, 53, 53. {%Avāṅmº,%}
+;
+95403 new <div n="lb">iron-pointed, <ls>Rām.</ls> 3, 53, 53. {%Avāṅm°,%}
+; ----
+95410 old <div n="lb">the north, <ls>Man.</ls> 2, 52. {%Unmº,%} <ab>i. e.</ab> {%ud-,%}
+;
+95410 new <div n="lb">the north, <ls>Man.</ls> 2, 52. {%Unm°,%} <ab>i. e.</ab> {%ud-,%}
+; ----
+95459 old <div n="lb">epithet of Rāvaṇa, <ls>Megh.</ls> 59. {%Diṅmº,%}
+;
+95459 new <div n="lb">epithet of Rāvaṇa, <ls>Megh.</ls> 59. {%Diṅm°,%}
+; ----
+95461 old <div n="lb"><ls>Daśak.</ls> in <ls>Chr.</ls> 180, 12. {%Durmº,%} <ab>i. e.</ab> {%dus-,%}
+;
+95461 new <div n="lb"><ls>Daśak.</ls> in <ls>Chr.</ls> 180, 12. {%Durm°,%} <ab>i. e.</ab> {%dus-,%}
+; ----
+95513 old <div n="lb">war. {%Ṣaṇmº,%} <ab>i. e.</ab> {%ṣaṣ-,%} <ab>m.</ab> a proper
+;
+95513 new <div n="lb">war. {%Ṣaṇm°,%} <ab>i. e.</ab> {%ṣaṣ-,%} <ab>m.</ab> a proper
+; ----
+95657 old <div n="lb"><ls>Pañc.</ls> 174, 25. {%Jīvanmº%} <ab>i. e.</ab> {%jīvant-,%} 
+;
+95657 new <div n="lb"><ls>Pañc.</ls> 174, 25. {%Jīvanm°%} <ab>i. e.</ab> {%jīvant-,%} 
+; ----
+96849 old <div n="lb"><ab>d.</ab> 54 ({%ºla%}); <ls>Utt. Rāmac.</ls> 15, 16 ({%ºlī%}).
+;
+96849 new <div n="lb"><ab>d.</ab> 54 ({%°la%}); <ls>Utt. Rāmac.</ls> 15, 16 ({%°lī%}).
+; ----
+97477 old <div n="lb">{%varuṇa,%} or {%ºṇi,%} <ab>i. e.</ab> {%mitrāvaruṇa%}
+;
+97477 new <div n="lb">{%varuṇa,%} or {%°ṇi,%} <ab>i. e.</ab> {%mitrāvaruṇa%}
+; ----
+97615 old <div n="lb">{%ºgham,%} <ab>adv.</ab> In vain, <ls>Bhag.</ls> 3, 16. {@2.@}
+;
+97615 new <div n="lb">{%°gham,%} <ab>adv.</ab> In vain, <ls>Bhag.</ls> 3, 16. {@2.@}
+; ----
+98332 old <div n="lb"><ls>Pañc.</ls> 192, 12. {@4.@} {%ºnāt,%} Necessarily,
+;
+98332 new <div n="lb"><ls>Pañc.</ls> 192, 12. {@4.@} {%°nāt,%} Necessarily,
+; ----
+98337 old <div n="lb">ing, <ls>Hit.</ls> 20, 8, <ab>M.M.</ab> {@II.@} {%ºnam,%} <ab>adv.</ab>
+;
+98337 new <div n="lb">ing, <ls>Hit.</ls> 20, 8, <ab>M.M.</ab> {@II.@} {%°nam,%} <ab>adv.</ab>
+; ----
+98520 old <div n="lb"><ab>instr.</ab> {%ºchayā,%} <ls>Pañc.</ls> iii. <ab>d.</ab> 2 (with-
+;
+98520 new <div n="lb"><ab>instr.</ab> {%°chayā,%} <ls>Pañc.</ls> iii. <ab>d.</ab> 2 (with-
+; ----
+98621 old <div n="lb"><ls>Böhtl. Ind. Spr.</ls> 408. {%ºnam,%} <ab>adv.</ab>, <ls>Ṛt.</ls> 1, 9. {%Mukha-,%}
+;
+98621 new <div n="lb"><ls>Böhtl. Ind. Spr.</ls> 408. {%°nam,%} <ab>adv.</ab>, <ls>Ṛt.</ls> 1, 9. {%Mukha-,%}
+; ----
+98710 old <div n="lb">52, 12. {%ºtam,%} <ab>adv.</ab> {@1.@} Forcibly, <ls>Ṛt.</ls>
+;
+98710 new <div n="lb">52, 12. {%°tam,%} <ab>adv.</ab> {@1.@} Forcibly, <ls>Ṛt.</ls>
+; ----
+99382 old <div n="lb">A stock of cattle. {@ -- <ab>Comp.</ab>@} {%Niryº,%} <ab>i. e.</ab>
+;
+99382 new <div n="lb">A stock of cattle. {@ -- <ab>Comp.</ab>@} {%Niry°,%} <ab>i. e.</ab>
+; ----
+99835 old <div n="lb">{@10.@} {%ºtam,%} <ab>adv.</ab> Well, <ls>Vikr.</ls> 12, 6. {@11.@}
+;
+99835 new <div n="lb">{@10.@} {%°tam,%} <ab>adv.</ab> Well, <ls>Vikr.</ls> 12, 6. {@11.@}
+; ----
+100516 old <div n="lb">of a brute animal, <ls>Man.</ls> 4, 200. {%Duryº,%}
+;
+100516 new <div n="lb">of a brute animal, <ls>Man.</ls> 4, 200. {%Dury°,%}
+; ----
+101053 old <div n="lb">{%rajanīcara,%} see s.v. {%rajaniº.%}
+;
+101053 new <div n="lb">{%rajanīcara,%} see s.v. {%rajani°.%}
+; ----
+101606 old <div n="lb">{%Ati-,%} <ab>m.</ab> (or <ab>adv.</ab> {%ºsa + m%}), excessive 
+;
+101606 new <div n="lb">{%Ati-,%} <ab>m.</ab> (or <ab>adv.</ab> {%°sa + m%}), excessive 
+; ----
+101670 old <div n="lb">216, 21. {%ºtam,%} <ab>adv.</ab> without stopping,
+;
+101670 new <div n="lb">216, 21. {%°tam,%} <ab>adv.</ab> without stopping,
+; ----
+102565 old <div n="lb"><ls>Man.</ls> 5, 65. {%pañcarº,%} <ab>i. e.</ab> {%pañcan-,%}
+;
+102565 new <div n="lb"><ls>Man.</ls> 5, 65. {%pañcar°,%} <ab>i. e.</ab> {%pañcan-,%}
+; ----
+102573 old <div n="lb">{%saptarº,%} <ab>i. e.</ab> {%saptan-,%} <ab>n.</ab> A period of
+;
+102573 new <div n="lb">{%saptar°,%} <ab>i. e.</ab> {%saptan-,%} <ab>n.</ab> A period of
+; ----
+103129 old <div n="lb">Harsh, unkind, <ls>Pañc.</ls> iv. <ab>d.</ab> 62 ({%rūº%});
+;
+103129 new <div n="lb">Harsh, unkind, <ls>Pañc.</ls> iv. <ab>d.</ab> 62 ({%rū°%});
+; ----
+103130 old <div n="lb">uncouth, <ls>Pañc.</ls> v. <ab>d.</ab> 6 ({%rŭº,%} but <ab>cf.</ab>
+;
+103130 new <div n="lb">uncouth, <ls>Pañc.</ls> v. <ab>d.</ab> 6 ({%rŭ°,%} but <ab>cf.</ab>
+; ----
+103132 old <div n="lb">({%rŭº%}); cruel, <ls>Śāk.</ls> <ab>d.</ab> 191 ({%rūº%}). {@3.@}
+;
+103132 new <div n="lb">({%rŭ°%}); cruel, <ls>Śāk.</ls> <ab>d.</ab> 191 ({%rū°%}). {@3.@}
+; ----
+103473 old <div n="lb">11; perverse, <ls>Pañc.</ls> 199, 4; {%ºdham,%}
+;
+103473 new <div n="lb">11; perverse, <ls>Pañc.</ls> 199, 4; {%°dham,%}
+; ----
+104559 old <div n="lb">22. {%Durlº,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> difficult to be
+;
+104559 new <div n="lb">22. {%Durl°,%} <ab>i. e.</ab> {%dus-,%} <ab>adj.</ab> difficult to be
+; ----
+104594 old <div n="lb">marked. {@ -- <ab>Comp.</ab>@} {%Duḥsº,%} <ab>i.e.</ab> {%dus-,%} <ab>adj.</ab>
+;
+104594 new <div n="lb">marked. {@ -- <ab>Comp.</ab>@} {%Duḥs°,%} <ab>i.e.</ab> {%dus-,%} <ab>adj.</ab>
+; ----
+104602 old <div n="lb"><ls>Vikr.</ls> 54, 4 (? look, perhaps <ab>corr.</ab> {%ºlak- %}
+;
+104602 new <div n="lb"><ls>Vikr.</ls> 54, 4 (? look, perhaps <ab>corr.</ab> {%°lak- %}
+; ----
+105031 old <div n="lb"><ab>d.</ab> 64. {%ºjam,%} <ab>acc.</ab> <ab>sing.</ab> <ab>n.</ab> <ab>adv.</ab> bashfully,
+;
+105031 new <div n="lb"><ab>d.</ab> 64. {%°jam,%} <ab>acc.</ab> <ab>sing.</ab> <ab>n.</ab> <ab>adv.</ab> bashfully,
+; ----
+105442 old <div n="lb">tion, <ls>Utt. Rāmac.</ls> 14, 6. {@4.@} {%ºtam,%} <ab>adv.</ab>
+;
+105442 new <div n="lb">tion, <ls>Utt. Rāmac.</ls> 14, 6. {@4.@} {%°tam,%} <ab>adv.</ab>
+; ----
+105452 old <div n="lb">tiful, <ls>Ṛt.</ls> 1, 28; <ls>Bhartṛ.</ls> 3, 28. {%ºtam,%} <ab>adv.</ab>
+;
+105452 new <div n="lb">tiful, <ls>Ṛt.</ls> 1, 28; <ls>Bhartṛ.</ls> 3, 28. {%°tam,%} <ab>adv.</ab>
+; ----
+105463 old <div n="lb"><ls>Pañc.</ls> 87, 11 (or <ab>n.</ab> Joy; {%ºtena,%} Joy-
+;
+105463 new <div n="lb"><ls>Pañc.</ls> 87, 11 (or <ab>n.</ab> Joy; {%°tena,%} Joy-
+; ----
+106252 old <div n="lb">{%ºnam,%} <ab>adv.</ab> Inwardly, <ls>Pañc.</ls> 185, 3. --
+;
+106252 new <div n="lb">{%°nam,%} <ab>adv.</ab> Inwardly, <ls>Pañc.</ls> 185, 3. --
+; ----
+106309 old <div n="lb">{%Sa-līla,%} <ab>adj.</ab> wanton, sportive. {%ºlam,%}
+;
+106309 new <div n="lb">{%Sa-līla,%} <ab>adj.</ab> wanton, sportive. {%°lam,%}
+; ----
+106818 old <div n="lb"><ls>Hit.</ls> 88, 18 (read {%tvadgṛhaº%}). {%Jana-,%}
+;
+106818 new <div n="lb"><ls>Hit.</ls> 88, 18 (read {%tvadgṛha°%}). {%Jana-,%}
+; ----
+106831 old <div n="lb">52, 22; <ls>Bhāg. P.</ls> 1, 5, 7. {@II.@} <ab>m.</ab> {%ºka,%}
+;
+106831 new <div n="lb">52, 22; <ls>Bhāg. P.</ls> 1, 5, 7. {@II.@} <ab>m.</ab> {%°ka,%}
+; ----
+107508 old <div n="lb">{%Ardha-,%} <ab>adj.</ab> half uttered; {%ºtena,%} <ab>instr.</ab>
+;
+107508 new <div n="lb">{%Ardha-,%} <ab>adj.</ab> half uttered; {%°tena,%} <ab>instr.</ab>
+; ----
+108273 old <div n="lb">forest, <ls>MBh.</ls> 5, 863 {%(ºvana). Paraśu-,%}
+;
+108273 new <div n="lb">forest, <ls>MBh.</ls> 5, 863 {%(°vana). Paraśu-,%}
+; ----
+109008 old <div n="lb">void of. {@2.@} Excepted. {@II.@} {%ºjam,%} <ab>adv.</ab> Ex-
+;
+109008 new <div n="lb">void of. {@2.@} Excepted. {@II.@} {%°jam,%} <ab>adv.</ab> Ex-
+; ----
+109322 old <div n="lb">1, 15, 46 (<ls>Brāhmaṇav.</ls> read {%ºdhanaḥ%}).
+;
+109322 new <div n="lb">1, 15, 46 (<ls>Brāhmaṇav.</ls> read {%°dhanaḥ%}).
+; ----
+109345 old <div n="lb"><ab>Caus.</ab> of {%vṛdh%}), {%+ ana;%} also {#ºnaka#} {%ºna%}
+;
+109345 new <div n="lb"><ab>Caus.</ab> of {%vṛdh%}), {%+ ana;%} also {#°naka#} {%°na%}
+; ----
+109542 old <div n="lb">see {%barº.%}
+;
+109542 new <div n="lb">see {%bar°.%}
+; ----
+109759 old <div n="lb"><ab>superl.</ab> {%ºbhatama,%} dearest, <ls>Bhartṛ.</ls> 2,
+;
+109759 new <div n="lb"><ab>superl.</ab> {%°bhatama,%} dearest, <ls>Bhartṛ.</ls> 2,
+; ----
+109859 old <div n="lb"><ls>Pañc.</ls> 38, 3. {@2.@} <ab>abl.</ab> {%ºśāt,%} at the end of
+;
+109859 new <div n="lb"><ls>Pañc.</ls> 38, 3. {@2.@} <ab>abl.</ab> {%°śāt,%} at the end of
+; ----
+109882 old <div n="lb"><ls>Hit.</ls> ii. <ab>d.</ab> 173. {%ºśam,%} <ab>adv.</ab> necessarily,
+;
+109882 new <div n="lb"><ls>Hit.</ls> ii. <ab>d.</ab> 173. {%°śam,%} <ab>adv.</ab> necessarily,
+; ----
+111101 old <div n="lb">{%vāṇijya,%} see {%bāṇº.%}
+;
+111101 new <div n="lb">{%vāṇijya,%} see {%bāṇ°.%}
+; ----
+111138 old <div n="lb">side; {%ºte,%} <ab>loc.</ab> to the windward, <ls>Man.</ls> 3, 203.
+;
+111138 new <div n="lb">side; {%°te,%} <ab>loc.</ab> to the windward, <ls>Man.</ls> 3, 203.
+; ----
+112629 old <div n="lb">ing, <ls>Pañc.</ls> 88, 6; {%ºpam,%} <ab>adv.</ab> 1. in an
+;
+112629 new <div n="lb">ing, <ls>Pañc.</ls> 88, 6; {%°pam,%} <ab>adv.</ab> 1. in an
+; ----
+112635 old <div n="lb"><ls>Bhāṣāp.</ls> 57. {%ºpam,%} <ab>adv.</ab> without hesitation,
+;
+112635 new <div n="lb"><ls>Bhāṣāp.</ls> 57. {%°pam,%} <ab>adv.</ab> without hesitation,
+; ----
+112828 old <div n="lb">18 (<ab>corr.</ab> {%ºsenenoº%}); 1, 10.
+;
+112828 new <div n="lb">18 (<ab>corr.</ab> {%°seneno°%}); 1, 10.
+; ----
+113057 old <div n="lb">tion, <ls>Ragh.</ls> 1, 91; <ab>instr.</ab> {%ºnena,%} without
+;
+113057 new <div n="lb">tion, <ls>Ragh.</ls> 1, 91; <ab>instr.</ab> {%°nena,%} without
+; ----
+113164 old <div n="lb">323. {%ºram,%} <ab>adv.</ab> without long reflec-
+;
+113164 new <div n="lb">323. {%°ram,%} <ab>adv.</ab> without long reflec-
+; ----
+113769 old <div n="lb">knowing, <ls>Chr.</ls> 5, 6 (<ab>loc.</ab> {%ºte pituḥ,%} with-
+;
+113769 new <div n="lb">knowing, <ls>Chr.</ls> 5, 6 (<ab>loc.</ab> {%°te pituḥ,%} with-
+; ----
+114203 old <div n="lb">8, <ab>M.M.</ab> {@II.@} {%ºdham,%} <ab>adv.</ab> 1. thus,
+;
+114203 new <div n="lb">8, <ab>M.M.</ab> {@II.@} {%°dham,%} <ab>adv.</ab> 1. thus,
+; ----
+114219 old <div n="lb">110; manifold, <ls>Hit.</ls> 46, 14. {%Pṛthagvº,%}
+;
+114219 new <div n="lb">110; manifold, <ls>Hit.</ls> 46, 14. {%Pṛthagv°,%}
+; ----
+114221 old <div n="lb">{%Bahu-,%} <ab>adj.</ab> various, multiform. {%ºdham,%}
+;
+114221 new <div n="lb">{%Bahu-,%} <ab>adj.</ab> various, multiform. {%°dham,%}
+; ----
+114233 old <div n="lb">easy way. {@II.@} {%ºdham,%} <ab>adv.</ab> easily.
+;
+114233 new <div n="lb">easy way. {@II.@} {%°dham,%} <ab>adv.</ab> easily.
+; ----
+114456 old <div n="lb">modest, <ls>Ṛt.</ls> 6, 21. {%ºyam-,%} <ab>adv.</ab> humbly,
+;
+114456 new <div n="lb">modest, <ls>Ṛt.</ls> 6, 21. {%°yam-,%} <ab>adv.</ab> humbly,
+; ----
+114752 old <div n="lb">418 ({%ºpad%}); <ls>Ragh.</ls> 18, 34 ({%ºpad,%} death).
+;
+114752 new <div n="lb">418 ({%°pad%}); <ls>Ragh.</ls> 18, 34 ({%°pad,%} death).
+; ----
+115062 old <div n="lb">({%ºtāṃ nī,%} To make fruitless).
+;
+115062 new <div n="lb">({%°tāṃ nī,%} To make fruitless).
+; ----
+115136 old <div n="lb">{@ -- <ab>Comp.</ab>@} {%Digviº,%} <ab>i. e.</ab> {%diś-,%} <ab>m.</ab> a quarter
+;
+115136 new <div n="lb">{@ -- <ab>Comp.</ab>@} {%Digvi°,%} <ab>i. e.</ab> {%diś-,%} <ab>m.</ab> a quarter
+; ----
+115495 old <div n="lb">see {%bimbº.%}
+;
+115495 new <div n="lb">see {%bimb°.%}
+; ----
+115575 old <div n="lb">8; <ls>Pañc.</ls> i. <ab>d.</ab> 35; {%ºlam,%} <ab>adv.</ab> Rarely,
+;
+115575 new <div n="lb">8; <ls>Pañc.</ls> i. <ab>d.</ab> 35; {%°lam,%} <ab>adv.</ab> Rarely,
+; ----
+115579 old <div n="lb">close; {%ºlam,%} <ab>adv.</ab> closely, <ls>Śāk.</ls> <ab>d.</ab> 55;
+;
+115579 new <div n="lb">close; {%°lam,%} <ab>adv.</ab> closely, <ls>Śāk.</ls> <ab>d.</ab> 55;
+; ----
+115660 old <div n="lb">{@1.@} Cessation, rest, <ls>Man.</ls> 2, 73; {%ºmaṃ%}
+;
+115660 new <div n="lb">{@1.@} Cessation, rest, <ls>Man.</ls> 2, 73; {%°maṃ%}
+; ----
+115892 old <div n="lb">26; {%ºsam,%} <ab>adv.</ab> by expressive looks,
+;
+115892 new <div n="lb">26; {%°sam,%} <ab>adv.</ab> by expressive looks,
+; ----
+116036 old <div n="lb"><ab>d.</ab> 39 ({%viº%}). {@2.@} A yoke for carrying
+;
+116036 new <div n="lb"><ab>d.</ab> 39 ({%vi°%}). {@2.@} A yoke for carrying
+; ----
+116238 old <div n="lb">{%-vivekatva,%} see s. v. {%nirviº.%}
+;
+116238 new <div n="lb">{%-vivekatva,%} see s. v. {%nirvi°.%}
+; ----
+116445 old <div n="lb">18 read also {%nirvº%}).
+;
+116445 new <div n="lb">18 read also {%nirv°%}).
+; ----
+116966 old <div n="lb">treachery(?), <ls>Rām.</ls> 3, 52, 48. {%ºśam,%}
+;
+116966 new <div n="lb">treachery(?), <ls>Rām.</ls> 3, 52, 48. {%°śam,%}
+; ----
+117612 old <div n="lb">103. {@3.@} Detail; <ab>instr.</ab> {%ºreṇa,%} Fully, at
+;
+117612 new <div n="lb">103. {@3.@} Detail; <ab>instr.</ab> {%°reṇa,%} Fully, at
+; ----
+117675 old <div n="lb">ligible. {@3.@} {%ºṭam,%} <ab>adv.</ab> Evidently, <ls>Indr.</ls> 
+;
+117675 new <div n="lb">ligible. {@3.@} {%°ṭam,%} <ab>adv.</ab> Evidently, <ls>Indr.</ls> 
+; ----
+117717 old <div n="lb">ful, <ls>Hit.</ls> 54, 18. 3. {%ºyam,%} <ab>adv.</ab> surprised,
+;
+117717 new <div n="lb">ful, <ls>Hit.</ls> 54, 18. 3. {%°yam,%} <ab>adv.</ab> surprised,
+; ----
+117776 old <div n="lb">{%visrambhin,%} see {%viśrº.%}
+;
+117776 new <div n="lb">{%visrambhin,%} see {%viśr°.%}
+; ----
+118765 old <div n="lb">teacher, <ls>Rām.</ls> 4, 17, 36. {%Chandovº,%}
+;
+118765 new <div n="lb">teacher, <ls>Rām.</ls> 4, 17, 36. {%Chandov°,%}
+; ----
+118767 old <div n="lb">{%Tejovº,%} <ab>i. e.</ab> {%tejas-,%} <ab>n.</ab> power and be-
+;
+118767 new <div n="lb">{%Tejov°,%} <ab>i. e.</ab> {%tejas-,%} <ab>n.</ab> power and be-
+; ----
+118791 old <div n="lb">Vedas. {%Sadvº,%} <ab>i. e.</ab> {%sant-%} (<ab>vb.</ab> 1. {%as%}),
+;
+118791 new <div n="lb">Vedas. {%Sadv°,%} <ab>i. e.</ab> {%sant-%} (<ab>vb.</ab> 1. {%as%}),
+; ----
+118953 old <div n="lb">back, <ls>Mālav.</ls> 71, 1 (read {%nivº%}). {@2.@} To
+;
+118953 new <div n="lb">back, <ls>Mālav.</ls> 71, 1 (read {%niv°%}). {@2.@} To
+; ----
+119146 old <div n="lb">Whole. {@11.@} Solitary. {@ -- <ab>Comp.</ab>@} {%Sadvṛº,%}
+;
+119146 new <div n="lb">Whole. {@11.@} Solitary. {@ -- <ab>Comp.</ab>@} {%Sadvṛ°,%}
+; ----
+119359 old <div n="lb">{@3.@} Heaped. {@4.@} Large. {@<ab>Comp.</ab>@} {%Tapovº,%}
+;
+119359 new <div n="lb">{@3.@} Heaped. {@4.@} Large. {@<ab>Comp.</ab>@} {%Tapov°,%}
+; ----
+120100 old <div n="lb">10; {%ºdhitva,%} <ab>n.</ab> its abstract, <ls>Rām.</ls> 1,
+;
+120100 new <div n="lb">10; {%°dhitva,%} <ab>n.</ab> its abstract, <ls>Rām.</ls> 1,
+; ----
+121111 old <div n="lb">embarrassed, <ls>Rājat.</ls> 5, 60. {%ºyam,%} <ab>adv.</ab>
+;
+121111 new <div n="lb">embarrassed, <ls>Rājat.</ls> 5, 60. {%°yam,%} <ab>adv.</ab>
+; ----
+121837 old <div n="lb"><ab>d.</ab> 130 (read {%koṣasvalº%}).
+;
+121837 new <div n="lb"><ab>d.</ab> 130 (read {%koṣasval°%}).
+; ----
+121876 old <div n="lb"><ls>MBh.</ls> 13, 5994. 3. {%ºkam,%} <ab>adv.</ab> sin-
+;
+121876 new <div n="lb"><ls>MBh.</ls> 13, 5994. 3. {%°kam,%} <ab>adv.</ab> sin-
+; ----
+121877 old <div n="lb">cerely, <ls>Bhāg. P.</ls> 2, 7, 42; <ab>cf.</ab> {%ºka + tas,%}
+;
+121877 new <div n="lb">cerely, <ls>Bhāg. P.</ls> 2, 7, 42; <ab>cf.</ab> {%°ka + tas,%}
+; ----
+122224 old <div n="lb">{%ºjam,%} <ab>adv.</ab> {@1.@} honestly, <ls>Amar.</ls> 79. 2.
+;
+122224 new <div n="lb">{%°jam,%} <ab>adv.</ab> {@1.@} honestly, <ls>Amar.</ls> 79. 2.
+; ----
+122227 old <div n="lb">{%ºjam,%} <ab>adv.</ab> cunningly, under a pre-
+;
+122227 new <div n="lb">{%°jam,%} <ab>adv.</ab> cunningly, under a pre-
+; ----
+122379 old <div n="lb">56. {%Vāgvyº,%} <ab>i. e.</ab> {%vāc-,%} <ab>m.</ab> conversa-
+;
+122379 new <div n="lb">56. {%Vāgvy°,%} <ab>i. e.</ab> {%vāc-,%} <ab>m.</ab> conversa-
+; ----
+123035 old <div n="lb">5, 4; <ls>Vikr.</ls> 10, 12. 3. modest. {%ºḍam,%}
+;
+123035 new <div n="lb">5, 4; <ls>Vikr.</ls> 10, 12. 3. modest. {%°ḍam,%}
+; ----
+123526 old <div n="lb">{%śaṅkita%} with {%nis%}), <ab>acc.</ab> {%ºtam,%} <ab>adv.</ab>
+;
+123526 new <div n="lb">{%śaṅkita%} with {%nis%}), <ab>acc.</ab> {%°tam,%} <ab>adv.</ab>
+; ----
+123554 old <div n="lb"><ab>M.M.</ab> {%ºkam,%} <ab>adv.</ab> courageously, Da-
+;
+123554 new <div n="lb"><ab>M.M.</ab> {%°kam,%} <ab>adv.</ab> courageously, Da-
+; ----
+123558 old <div n="lb">25. {%ºkam-,%} <ab>adv.</ab> without fear, <ls>Hit.</ls> ii.
+;
+123558 new <div n="lb">25. {%°kam-,%} <ab>adv.</ab> without fear, <ls>Hit.</ls> ii.
+; ----
+124123 old <div n="lb">proclaimed, <ls>Rājat.</ls> 5, 361. {%ºdam,%} <ab>adv.</ab>
+;
+124123 new <div n="lb">proclaimed, <ls>Rājat.</ls> 5, 361. {%°dam,%} <ab>adv.</ab>
+; ----
+124167 old <div n="lb">{%ºtam,%} <ab>adv.</ab> {@a.@} Enough, <ls>Utt. Rāmac.</ls> 71,
+;
+124167 new <div n="lb">{%°tam,%} <ab>adv.</ab> {@a.@} Enough, <ls>Utt. Rāmac.</ls> 71,
+; ----
+124551 old <div n="lb">({%ºvaṇabhº%}).
+;
+124551 new <div n="lb">({%°vaṇabh°%}).
+; ----
+124823 old <div n="lb">mino, <ls>MBh.</ls> 5, 1225 (read {%ºkā-dhūrtān,%}
+;
+124823 new <div n="lb">mino, <ls>MBh.</ls> 5, 1225 (read {%°kā-dhūrtān,%}
+; ----
+124868 old <div n="lb"><ls>MBh.</ls> 6, 3375. {%ºyam,%} <ab>adv.</ab> free from
+;
+124868 new <div n="lb"><ls>MBh.</ls> 6, 3375. {%°yam,%} <ab>adv.</ab> free from
+; ----
+125259 old <div n="lb">stone, <ls>Bhartṛ.</ls> 2, 36 (read {%śāṇoº%}). {@2.@} A
+;
+125259 new <div n="lb">stone, <ls>Bhartṛ.</ls> 2, 36 (read {%śāṇo°%}). {@2.@} A
+; ----
+125811 old <div n="lb">101 (with {%na,%} perishable); {%ºtam,%} <ab>adv.</ab>
+;
+125811 new <div n="lb">101 (with {%na,%} perishable); {%°tam,%} <ab>adv.</ab>
+; ----
+126228 old <div n="lb">{@9.@} Abandoned, <ls>Ragh.</ls> 2, 41 ({%ºlī kṛ,%} To
+;
+126228 new <div n="lb">{@9.@} Abandoned, <ls>Ragh.</ls> 2, 41 ({%°lī kṛ,%} To
+; ----
+126366 old <div n="lb">23 (read {%ºśirodharoddeśaº%}). {@ -- <ab>Comp.</ab>@}
+;
+126366 new <div n="lb">23 (read {%°śirodharoddeśa°%}). {@ -- <ab>Comp.</ab>@}
+; ----
+126402 old <div n="lb">bathing-place, <ls>Śṛṅgārat.</ls> 1 (read {%ºlam,%}
+;
+126402 new <div n="lb">bathing-place, <ls>Śṛṅgārat.</ls> 1 (read {%°lam,%}
+; ----
+126732 old <div n="lb"><ls>Pañc.</ls> iii. <ab>d.</ab> 52. {@3.@} {%ºram,%} <ab>adv.</ab> Swiftly,
+;
+126732 new <div n="lb"><ls>Pañc.</ls> iii. <ab>d.</ab> 52. {@3.@} {%°ram,%} <ab>adv.</ab> Swiftly,
+; ----
+126733 old <div n="lb"><ls>Pañc.</ls> 128, 4. <ab>Comparat.</ab> {%ºratara + m,%}
+;
+126733 new <div n="lb"><ls>Pañc.</ls> 128, 4. <ab>Comparat.</ab> {%°ratara + m,%}
+; ----
+126762 old <div n="lb"><ab>Comparat.</ab> {%ºlatara,%} Cooler, <ls>Śiś.</ls> 9, 4.
+;
+126762 new <div n="lb"><ab>Comparat.</ab> {%°latara,%} Cooler, <ls>Śiś.</ls> 9, 4.
+; ----
+127818 old <div n="lb">987. {%Catuḥśṛº,%} <ab>i. e.</ab> {%catur-,%} <ab>m.</ab> the
+;
+127818 new <div n="lb">987. {%Catuḥśṛ°,%} <ab>i. e.</ab> {%catur-,%} <ab>m.</ab> the
+; ----
+128047 old <div n="lb">{%ºṣam, ṣa + tas,%} <ab>adv.</ab> completely, Ka-
+;
+128047 new <div n="lb">{%°ṣam, ṣa + tas,%} <ab>adv.</ab> completely, Ka-
+; ----
+128267 old <div n="lb">{%Niḥśº,%} <ab>i. e.</ab> {%nis-%} and {%Vi-,%} <ab>adj.</ab> free front
+;
+128267 new <div n="lb">{%Niḥś°,%} <ab>i. e.</ab> {%nis-%} and {%Vi-,%} <ab>adj.</ab> free front
+; ----
+128271 old <div n="lb"><ls>Hit.</ls> 77, 1; sad, <ls>Ṛt.</ls> 6, 16. {%ºkam,%} <ab>adv.</ab> 
+;
+128271 new <div n="lb"><ls>Hit.</ls> 77, 1; sad, <ls>Ṛt.</ls> 6, 16. {%°kam,%} <ab>adv.</ab> 
+; ----
+128947 old <div n="lb">minded. <ab>Acc.</ab> {%ºdham,%} <ab>adv.</ab> {@1.@} Without
+;
+128947 new <div n="lb">minded. <ab>Acc.</ab> {%°dham,%} <ab>adv.</ab> {@1.@} Without
+; ----
+129509 old <div n="lb">{@I.@} <ab>adj.</ab> Happy. {@II.@} {%ºsam,%} <ab>adv.</ab> Well.
+;
+129509 new <div n="lb">{@I.@} <ab>adj.</ab> Happy. {@II.@} {%°sam,%} <ab>adv.</ab> Well.
+; ----
+129555 old <div n="lb"><ls>Pañc.</ls> 234, 6; i. <ab>d.</ab> 14, read {%ºṭhī;%} Da-
+;
+129555 new <div n="lb"><ls>Pañc.</ls> 234, 6; i. <ab>d.</ab> 14, read {%°ṭhī;%} Da-
+; ----
+129818 old <div n="lb">13, 28 ({#ºkamaya#} {%ka + maya,%} <ab>adj.</ab> Made
+;
+129818 new <div n="lb">13, 28 ({#°kamaya#} {%ka + maya,%} <ab>adj.</ab> Made
+; ----
+130328 old <div n="lb">sixty-third. {%Catuḥṣº%} <ab>i. e.</ab> {%catur-,%}
+;
+130328 new <div n="lb">sixty-third. {%Catuḥṣ°%} <ab>i. e.</ab> {%catur-,%}
+; ----
+130329 old <div n="lb">sixty-fourth. {%Pañcaṣº,%} <ab>i. e.</ab> {%pañcan-,%}
+;
+130329 new <div n="lb">sixty-fourth. {%Pañcaṣ°,%} <ab>i. e.</ab> {%pañcan-,%}
+; ----
+130338 old <div n="lb"><ab>adhy.</ab> 162. {%Catuḥṣº,%} <ab>i. e.</ab> {%catur-,%} <ab>f.</ab>
+;
+130338 new <div n="lb"><ab>adhy.</ab> 162. {%Catuḥṣ°,%} <ab>i. e.</ab> {%catur-,%} <ab>f.</ab>
+; ----
+130339 old <div n="lb">sixty-four, <ls>Man.</ls> 8, 338. {%Pañcaṣº,%}
+;
+130339 new <div n="lb">sixty-four, <ls>Man.</ls> 8, 338. {%Pañcaṣ°,%}
+; ----
+130362 old <div n="lb">third, <ls>MBh.</ls> i. <ab>adhy.</ab> 63. {%Catuḥṣº,%}
+;
+130362 new <div n="lb">third, <ls>MBh.</ls> i. <ab>adhy.</ab> 63. {%Catuḥṣ°,%}
+; ----
+130364 old <div n="lb">sarg. 64. {%Pañcaṣº,%} <ab>i. e.</ab> {%pancan-,%}
+;
+130364 new <div n="lb">sarg. 64. {%Pañcaṣ°,%} <ab>i. e.</ab> {%pancan-,%}
+; ----
+130365 old <div n="lb">sixty-fifth, <ls>MBh.</ls> ii. <ab>adhy.</ab> 65. {%Navaṣº,%}
+;
+130365 new <div n="lb">sixty-fifth, <ls>MBh.</ls> ii. <ab>adhy.</ab> 65. {%Navaṣ°,%}
+; ----
+130919 old {#saMveSaka#}¦ {%saṃveśaka,%} see {%gṛhasaṃvº.%}
+;
+130919 new {#saMveSaka#}¦ {%saṃveśaka,%} see {%gṛhasaṃv°.%}
+; ----
+130956 old <div n="lb">be sure, <ls>Rām.</ls> 5, 23, 25. 2. {%ºyam,%} <ab>adv.</ab>
+;
+130956 new <div n="lb">be sure, <ls>Rām.</ls> 5, 23, 25. 2. {%°yam,%} <ab>adv.</ab>
+; ----
+130963 old <div n="lb"><ls>MBh.</ls> 5, 7080. 3. {%ºyam,%} <ab>adv.</ab> un-
+;
+130963 new <div n="lb"><ls>MBh.</ls> 5, 7080. 3. {%°yam,%} <ab>adv.</ab> un-
+; ----
+131122 old <div n="lb"><ls>Kathās.</ls> 5, 103. {%ºram,%} <ab>adv.</ab> till the
+;
+131122 new <div n="lb"><ls>Kathās.</ls> 5, 103. {%°ram,%} <ab>adv.</ab> till the
+; ----
+131922 old <div n="lb">{@II.@} {%ºgam,%} <ab>adv.</ab> without hesitation,
+;
+131922 new <div n="lb">{@II.@} {%°gam,%} <ab>adv.</ab> without hesitation,
+; ----
+132100 old <div n="lb">neously, {%ºghaḍḍana%}); cohesion. {@6.@} Col-
+;
+132100 new <div n="lb">neously, {%°ghaḍḍana%}); cohesion. {@6.@} Col-
+; ----
+132438 old <div n="lb">to. {@4.@} Eternal. {@5.@} {%ºtam,%} <ab>adv.</ab> Eternally.
+;
+132438 new <div n="lb">to. {@4.@} Eternal. {@5.@} {%°tam,%} <ab>adv.</ab> Eternally.
+; ----
+132460 old <div n="lb">{@9.@} {%ºtam,%} <ab>adv.</ab> Continually. -- With {#atipra#}
+;
+132460 new <div n="lb">{@9.@} {%°tam,%} <ab>adv.</ab> Continually. -- With {#atipra#}
+; ----
+132625 old <div n="lb">tinual, eternal. {@II.@} {%ºtam,%} <ab>adv.</ab> Con-
+;
+132625 new <div n="lb">tinual, eternal. {@II.@} {%°tam,%} <ab>adv.</ab> Con-
+; ----
+132692 old <div n="lb">{%ºkāº%}).
+;
+132692 new <div n="lb">{%°kā°%}).
+; ----
+132835 old <div n="lb">{%ºyam,%} <ab>adv.</ab> {@1.@} Truly, <ls>Vikr.</ls> 71, 18; indeed,
+;
+132835 new <div n="lb">{%°yam,%} <ab>adv.</ab> {@1.@} Truly, <ls>Vikr.</ls> 71, 18; indeed,
+; ----
+133016 old <div n="lb">{%ºṣedatuḥ%}). -- With {#pra#} {%pra,%} {@1.@} To be
+;
+133016 new <div n="lb">{%°ṣedatuḥ%}). -- With {#pra#} {%pra,%} {@1.@} To be
+; ----
+133144 old <div n="lb"><ls>Rājat.</ls> 5, 158 (read {%śūra-sadmº%}). {@3.@}
+;
+133144 new <div n="lb"><ls>Rājat.</ls> 5, 158 (read {%śūra-sadm°%}). {@3.@}
+; ----
+133191 old <div n="lb">friend. {@III.@} {%ºyak,%} <ab>adv.</ab> Together with,
+;
+133191 new <div n="lb">friend. {@III.@} {%°yak,%} <ab>adv.</ab> Together with,
+; ----
+133465 old <div n="lb">{%ºham,%} <ab>adv.</ab> undoubtedly, Somad. <ls>Nal.</ls>
+;
+133465 new <div n="lb">{%°ham,%} <ab>adv.</ab> undoubtedly, Somad. <ls>Nal.</ls>
+; ----
+133904 old <div n="lb">172 ({%dvā%}); <ls>Man.</ls> 7, 157 ({%dvi%}). {%Pañcasº,%}
+;
+133904 new <div n="lb">172 ({%dvā%}); <ls>Man.</ls> 7, 157 ({%dvi%}). {%Pañcas°,%}
+; ----
+133906 old <div n="lb"><ab>adhy.</ab> 175. {%Saptasº,%} <ab>i. e.</ab> {%saptan-,%} <ab>f.</ab>
+;
+133906 new <div n="lb"><ab>adhy.</ab> 175. {%Saptas°,%} <ab>i. e.</ab> {%saptan-,%} <ab>f.</ab>
+; ----
+133919 old <div n="lb">{%Catuḥsº,%} <ab>i. e.</ab> {%catur-,%} seventy-fourth,
+;
+133919 new <div n="lb">{%Catuḥs°,%} <ab>i. e.</ab> {%catur-,%} seventy-fourth,
+; ----
+133920 old <div n="lb"><ls>Rām.</ls> vi. sarga 74. {%Navasº,%} <ab>i. e.</ab> {%navan-,%}
+;
+133920 new <div n="lb"><ls>Rām.</ls> vi. sarga 74. {%Navas°,%} <ab>i. e.</ab> {%navan-,%}
+; ----
+134117 old <div n="lb">nominal declension). {@II.@} {%ºmam,%} A. <ab>adv.</ab>
+;
+134117 new <div n="lb">nominal declension). {@II.@} {%°mam,%} A. <ab>adv.</ab>
+; ----
+134780 old <div n="lb">ciseness; {%ºsena,%} <ab>instr.</ab> Succinctly, <ls>Man.</ls>
+;
+134780 new <div n="lb">ciseness; {%°sena,%} <ab>instr.</ab> Succinctly, <ls>Man.</ls>
+; ----
+135925 old <div n="lb">rects {%ºnaḥ,%} <ab>m.</ab>; the <ab>n.</ab> is against the
+;
+135925 new <div n="lb">rects {%°naḥ,%} <ab>m.</ab>; the <ab>n.</ab> is against the
+; ----
+136144 old <div n="lb">passioned. {@5.@} {%ºsam,%} <ab>adv.</ab> Enraptured,
+;
+136144 new <div n="lb">passioned. {@5.@} {%°sam,%} <ab>adv.</ab> Enraptured,
+; ----
+136916 old <div n="lb">{%cāpsº%}). {@3.@} Light. -- <ab>Cf.</ab> <ab>Goth.</ab> sigis;
+;
+136916 new <div n="lb">{%cāps°%}). {@3.@} Light. -- <ab>Cf.</ab> <ab>Goth.</ab> sigis;
+; ----
+136983 old <div n="lb">(<ab>ved.</ab> <ab>voc.</ab> {%ºvas%}).
+;
+136983 new <div n="lb">(<ab>ved.</ab> <ab>voc.</ab> {%°vas%}).
+; ----
+137711 old <div n="lb">ened, timid, <ls>Vikr.</ls> 28, 10. {%ºsam,%} <ab>adv.</ab>, 28,
+;
+137711 new <div n="lb">ened, timid, <ls>Vikr.</ls> 28, 10. {%°sam,%} <ab>adv.</ab>, 28,
+; ----
+137827 old <div n="lb">53, 12. {@3.@} {%ºyam,%} <ab>adv.</ab> Near, <ls>Indr.</ls> 5, 24.
+;
+137827 new <div n="lb">53, 12. {@3.@} {%°yam,%} <ab>adv.</ab> Near, <ls>Indr.</ls> 5, 24.
+; ----
+138117 old <div n="lb">{%ºtam,%} <ab>adv.</ab> unbecomingly, <ls>Hit.</ls> iii.
+;
+138117 new <div n="lb">{%°tam,%} <ab>adv.</ab> unbecomingly, <ls>Hit.</ls> iii.
+; ----
+139667 old <div n="lb">{%ºratara + m,%} <ab>adv.</ab> Very well, <ls>Pañc.</ls> 88,
+;
+139667 new <div n="lb">{%°ratara + m,%} <ab>adv.</ab> Very well, <ls>Pañc.</ls> 88,
+; ----
+140061 old <div n="lb">Subtle, exact, <ls>Pañc.</ls> 62, 12. {%ºmam,%}
+;
+140061 new <div n="lb">Subtle, exact, <ls>Pañc.</ls> 62, 12. {%°mam,%}
+; ----
+140953 old <div n="lb">3. <ab>pl.</ab> <ab>m.</ab>, and also {#ºnakAH#} {%ºnakāḥ,%} the
+;
+140953 new <div n="lb">3. <ab>pl.</ab> <ab>m.</ab>, and also {#°nakAH#} {%°nakāḥ,%} the
+; ----
+141274 old <div n="lb">{%setº%}).
+;
+141274 new <div n="lb">{%set°%}).
+; ----
+142160 old <div n="lb">11 (read {%dṛṣṭas tanayaḥ stº%}). {@II.@} <ab>m.</ab>,
+;
+142160 new <div n="lb">11 (read {%dṛṣṭas tanayaḥ st°%}). {@II.@} <ab>m.</ab>,
+; ----
+142656 old <div n="lb">10. {@II.@} {%ºkam,%} <ab>adv.</ab> {@1.@} A little, <ls>Pañc.</ls>
+;
+142656 new <div n="lb">10. {@II.@} {%°kam,%} <ab>adv.</ab> {@1.@} A little, <ls>Pañc.</ls>
+; ----
+143088 old <div n="lb">18. {%ºtam,%} <ab>adv.</ab> Truly (as it happened),
+;
+143088 new <div n="lb">18. {%°tam,%} <ab>adv.</ab> Truly (as it happened),
+; ----
+143669 old <div n="lb">{%sthā + vaº,%} <ab>cf.</ab> the next), <ab>f.</ab> {@1.@} A pillar,
+;
+143669 new <div n="lb">{%sthā + va°,%} <ab>cf.</ab> the next), <ab>f.</ab> {@1.@} A pillar,
+; ----
+144003 old <div n="lb">74. {%ºham,%} <ab>adv.</ab> affectionately, <ls>Pañc.</ls>
+;
+144003 new <div n="lb">74. {%°ham,%} <ab>adv.</ab> affectionately, <ls>Pañc.</ls>
+; ----
+144076 old <div n="lb">{%danoº%}). {@2.@} Throbbing, <ls>Mālat.</ls> 5, 3. {@3.@}
+;
+144076 new <div n="lb">{%dano°%}). {@2.@} Throbbing, <ls>Mālat.</ls> 5, 3. {@3.@}
+; ----
+144352 old <div n="lb"><ab>f.</ab> {%hā,%} desirous, Kir, 14, 36. {%ºham,%} <ab>adv.</ab>
+;
+144352 new <div n="lb"><ab>f.</ab> {%hā,%} desirous, Kir, 14, 36. {%°ham,%} <ab>adv.</ab>
+; ----
+144701 old <div n="lb">(of the wind), <ls>Arj.</ls> 8, 6 (read {%sphūrjº%}).
+;
+144701 new <div n="lb">(of the wind), <ls>Arj.</ls> 8, 6 (read {%sphūrj°%}).
+; ----
+144884 old <div n="lb">smiling; {%ºtam,%} <ab>adv.</ab>, <ls>Vikr.</ls> 28, 12; <ls>Rām.</ls>
+;
+144884 new <div n="lb">smiling; {%°tam,%} <ab>adv.</ab>, <ls>Vikr.</ls> 28, 12; <ls>Rām.</ls>
+; ----
+145938 old {#svahastikA#}¦ {%svahastikā%} (<ab>v. r.</ab> {%suhº%}), <ab>i. e.</ab>
+;
+145938 new {#svahastikA#}¦ {%svahastikā%} (<ab>v. r.</ab> {%suh°%}), <ab>i. e.</ab>
+; ----
+147336 old <div n="lb"><ab>corr.</ab> {%ºhasamāna,%} but also irreg.). {@2.@} 
+;
+147336 new <div n="lb"><ab>corr.</ab> {%°hasamāna,%} but also irreg.). {@2.@} 
+; ----
+147474 old <div n="lb">{%urjihānº,%} with <ls>Gorr.</ls> 2, 73, 10). {@2.@} To
+;
+147474 new <div n="lb">{%urjihān°,%} with <ls>Gorr.</ls> 2, 73, 10). {@2.@} To
+; ----
+147793 old <div n="lb">66, 5; {%ºsam,%} <ab>adv.</ab> scornfully, 
+;
+147793 new <div n="lb">66, 5; {%°sam,%} <ab>adv.</ab> scornfully, 
+; ----
+147837 old <div n="lb">({%ºtāṃ yā,%} To grow ridiculous).
+;
+147837 new <div n="lb">({%°tāṃ yā,%} To grow ridiculous).
+; ----
+147860 old <div n="lb">(<ab>anomal.</ab> {%ºhiṇvam%}). {%prahita,%} {@1.@} Dis-
+;
+147860 new <div n="lb">(<ab>anomal.</ab> {%°hiṇvam%}). {%prahita,%} {@1.@} Dis-
+; ----
+147988 old <div n="lb">a Rākṣasa, <ls>Hiḍ.</ls> 2, 1 (read {%hiḍº%}). {@II.@}
+;
+147988 new <div n="lb">a Rākṣasa, <ls>Hiḍ.</ls> 2, 1 (read {%hiḍ°%}). {@II.@}
+; ----
+147989 old <div n="lb"><ab>f.</ab> {%bā,%} His sister, ib. 15 (read {%hiḍº%}).
+;
+147989 new <div n="lb"><ab>f.</ab> {%bā,%} His sister, ib. 15 (read {%hiḍ°%}).
+; ----
+; not entry
+149750 old <div n="lb">{%lāṣa, ºṣin,%} <ls>Megh.</ls> 109; 76.
+;
+149750 new <div n="lb">{%lāṣa, °ṣin,%} <ls>Megh.</ls> 109; 76.
+; ----
+; not entry
+150283 old <HI>330, B, 29, <ab>corr.</ab> {#jAmbuº.#}
+;
+150283 new <HI>330, B, 29, <ab>corr.</ab> {#jAmbu°.#}
+; ----
+; not entry
+150644 old <div n="lb">39, 7 (perhaps <ab>corr.</ab> {%aprāstº%}).
+;
+150644 new <div n="lb">39, 7 (perhaps <ab>corr.</ab> {%aprāst°%}).
+; ----
+; not entry
+151071 old <div n="lb">{%ºram,%} <ab>adv.</ab>..
+;
+151071 new <div n="lb">{%°ram,%} <ab>adv.</ab>..
+; ----
+; not entry
+151183 old <div n="lb"><ab>i. e.</ab> {%valāka + in,%} also {%balº,%} <ab>adj.</ab>,
+;
+151183 new <div n="lb"><ab>i. e.</ab> {%valāka + in,%} also {%bal°,%} <ab>adj.</ab>,
+; ----

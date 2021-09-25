@@ -1,0 +1,148 @@
+4272 old <L>753<pc>042<k1>bA<k2>bAº
+;
+4272 new <L>753<pc>042<k1>bA<k2>bA°
+; ----
+4273 old {%Bāº%}¦ (PJS), contraction of the honorific {%Bāi%} (q. v.)
+;
+4273 new {%Bā°%}¦ (PJS), contraction of the honorific {%Bāi%} (q. v.)
+; ----
+4323 old <div n="lb">or {%ºdivasa;%} also spelt {%va-di,%} cf. {%śu-di;%} abbreviations of separate
+;
+4323 new <div n="lb">or {%°divasa;%} also spelt {%va-di,%} cf. {%śu-di;%} abbreviations of separate
+; ----
+4418 old <div n="lb">ladies in Western India; cf. {%Bāyi, Bā.º%}
+;
+4418 new <div n="lb">ladies in Western India; cf. {%Bāyi, Bā.°%}
+; ----
+4661 old <L>825<pc>047<k1>Ba<k2>Baº
+;
+4661 new <L>825<pc>047<k1>Ba<k2>Ba°
+; ----
+4662 old {%Bhaº%}¦ (PJS), abbreviation of {%Bhagavān%} (especially in
+;
+4662 new {%Bha°%}¦ (PJS), abbreviation of {%Bhagavān%} (especially in
+; ----
+4666 old <L>826<pc>047<k1>BA<k2>BAº
+;
+4666 new <L>826<pc>047<k1>BA<k2>BA°
+; ----
+4667 old {%bhāº%}¦ (PJS), abbreviation of {%bhāryā%} (especially in medieval
+;
+4667 new {%bhā°%}¦ (PJS), abbreviation of {%bhāryā%} (especially in medieval
+; ----
+4897 old <L>868<pc>049<k1>BaM<k2>BaMº
+;
+4897 new <L>868<pc>049<k1>BaM<k2>BaM°
+; ----
+4898 old {%Bhaṃº%}¦ (PJS), abbreviation of {%Bhaṇḍārin%} (especially in
+;
+4898 new {%Bhaṃ°%}¦ (PJS), abbreviation of {%Bhaṇḍārin%} (especially in
+; ----
+5083 old <L>903<pc>051<k1>BawwA<k2>BawwAº
+;
+5083 new <L>903<pc>051<k1>BawwA<k2>BawwA°
+; ----
+5084 old {%Bhaṭṭāº%}¦ (PJS), abbreviation of {%Bhaṭṭāraka%} (in medieval
+;
+5084 new {%Bhaṭṭā°%}¦ (PJS), abbreviation of {%Bhaṭṭāraka%} (in medieval
+; ----
+5812 old <L>1034<pc>059<k1>biM<k2>biMº
+;
+5812 new <L>1034<pc>059<k1>biM<k2>biM°
+; ----
+5813 old {%biṃº%}¦ (PJS), abbreviation of {%bimba,%} ‘an image’ (especia-
+;
+5813 new {%biṃ°%}¦ (PJS), abbreviation of {%bimba,%} ‘an image’ (especia-
+; ----
+6851 old <L>1226<pc>071<k1>CO<k2>COº
+;
+6851 new <L>1226<pc>071<k1>CO<k2>CO°
+; ----
+6852 old {%Chauº%}¦ (PJS), contraction of {%Caudharī (Caturdhara)%} especially
+;
+6852 new {%Chau°%}¦ (PJS), contraction of {%Caudharī (Caturdhara)%} especially
+; ----
+9380 old <div n="lb">{%ºparihṛta%} ({%Ep. Ind.,%} Vol. VI, p. 298, text line 20); also cf.
+;
+9380 new <div n="lb">{%°parihṛta%} ({%Ep. Ind.,%} Vol. VI, p. 298, text line 20); also cf.
+; ----
+13990 old <div n="lb">{%(ºgaṇaka).%}
+;
+13990 new <div n="lb">{%(°gaṇaka).%}
+; ----
+14773 old <div n="lb">or {%ºkhaṇḍalaka%} ({%Ep. Ind.,%} Vol. XXXV, p. 135, text time 22;
+;
+14773 new <div n="lb">or {%°khaṇḍalaka%} ({%Ep. Ind.,%} Vol. XXXV, p. 135, text time 22;
+; ----
+16276 old <L>3008<pc>170<k1>lOki<k2>lOkiº, lOkikaº
+;
+16276 new <L>3008<pc>170<k1>lOki<k2>lOki°, lOkika°
+; ----
+16277 old {%laukiº, laukikaº%}¦ (IA 18), abbreviation of {%laukika-gaṇanayā.%}
+;
+16277 new {%lauki°, laukika°%}¦ (IA 18), abbreviation of {%laukika-gaṇanayā.%}
+; ----
+17394 old <div n="lb">also called {%Mahāsāmant-ādhipati, Antaḥpura-vĕrgaḍĕ (ºādhyakṣa),%}
+;
+17394 new <div n="lb">also called {%Mahāsāmant-ādhipati, Antaḥpura-vĕrgaḍĕ (°ādhyakṣa),%}
+; ----
+19523 old <L>3600<pc>206<k1>mUnA<k2>mUº-nAº
+;
+19523 new <L>3600<pc>206<k1>mUnA<k2>mU°-nA°
+; ----
+19524 old {%Mūº-nāº%}¦ (PJS), contraction of {%Mūla-nāyaka,%} ‘the principal
+;
+19524 new {%Mū°-nā°%}¦ (PJS), contraction of {%Mūla-nāyaka,%} ‘the principal
+; ----
+20024 old {%nandā-viḻakku%}¦ (SII 1, 2), also spelt as {%nondāº, nundāº;%} a
+;
+20024 new {%nandā-viḻakku%}¦ (SII 1, 2), also spelt as {%nondā°, nundā°;%} a
+; ----
+20063 old {%Narasvāmin,%}¦ probably ‘a {%Jāgīrdār%}’; cf. {%ºgrāme mahattama-%}
+;
+20063 new {%Narasvāmin,%}¦ probably ‘a {%Jāgīrdār%}’; cf. {%°grāme mahattama-%}
+; ----
+21892 old {%pañcaparameṣṭhi-pada%}¦ (EI 2), also called {%ºpaṭṭa;%} a slab for
+;
+21892 new {%pañcaparameṣṭhi-pada%}¦ (EI 2), also called {%°paṭṭa;%} a slab for
+; ----
+22527 old <div n="lb">{%vaṭṭi%}), {%pudā-nāḻi%} (or {%pidāº,%} cess on each door or tax for the main-
+;
+22527 new <div n="lb">{%vaṭṭi%}), {%pudā-nāḻi%} (or {%pidā°,%} cess on each door or tax for the main-
+; ----
+23226 old {%paṭṭa-śāla%}¦ (CITD), Sanskrit {%ºśālā;%} a reading hall; probably,
+;
+23226 new {%paṭṭa-śāla%}¦ (CITD), Sanskrit {%°śālā;%} a reading hall; probably,
+; ----
+36227 old <div n="lb">{%naubala-vyāpṛta%} or {%ºvyāpṛtaka,%} etc.
+;
+36227 new <div n="lb">{%naubala-vyāpṛta%} or {%°vyāpṛtaka,%} etc.
+; ----
+36887 old {%a-kūra-cullaka-vaināśi-khaṭv-āvāsa%}¦ (or {%ºsaṃvāsa%}), cf. {%a-kūra-%}
+;
+36887 new {%a-kūra-cullaka-vaināśi-khaṭv-āvāsa%}¦ (or {%°saṃvāsa%}), cf. {%a-kūra-%}
+; ----
+37119 old {%bhūmi-cchidra-nāyena%}¦ or {%ºcchidra-pidhāna-vyāyena,%} ‘in accor-
+;
+37119 new {%bhūmi-cchidra-nāyena%}¦ or {%°cchidra-pidhāna-vyāyena,%} ‘in accor-
+; ----
+37142 old <div n="lb">times {%candr-ārka-ksitiº, candr-ārk-ārṇāva-kṣīti-sarit-parvataº,%} etc.
+;
+37142 new <div n="lb">times {%candr-ārka-ksiti°, candr-ārk-ārṇāva-kṣīti-sarit-parvata°,%} etc.
+; ----
+37387 old <L>6964<pc>397<k1>putrapOtrAdyanvayopaBogA<k2>putra-pOtr-Ady-anvay-opaBogA, ºAnugaminI
+;
+37387 new <L>6964<pc>397<k1>putrapOtrAdyanvayopaBogA<k2>putra-pOtr-Ady-anvay-opaBogA, °AnugaminI
+; ----
+37388 old {%putra-pautr-ādy-anvay-opabhogā, ºānugaminī,%}¦ etc.; same as
+;
+37388 new {%putra-pautr-ādy-anvay-opabhogā, °ānugaminī,%}¦ etc.; same as
+; ----
+41379 old <div n="lb">{%pāda-viṃśaka%} ({%ºviṃśatika%} or {%ºviṃśopaka%}).
+;
+41379 new <div n="lb">{%pāda-viṃśaka%} ({%°viṃśatika%} or {%°viṃśopaka%}).
+; ----
+41477 old <div n="lb">({%ºviṃśatika%} or {%ºviṃśopaka%}) and modern {%paisā%} (q. v.).
+;
+41477 new <div n="lb">({%°viṃśatika%} or {%°viṃśopaka%}) and modern {%paisā%} (q. v.).
+; ----

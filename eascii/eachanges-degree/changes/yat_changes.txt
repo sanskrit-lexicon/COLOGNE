@@ -1,0 +1,8 @@
+5061 old {#anu-svAra#}¦ {#(raH)#} 1. {%m.%} The nasal (º).
+;
+5061 new {#anu-svAra#}¦ {#(raH)#} 1. {%m.%} The nasal (°).
+; ----
+72967 old {#nara-rUpin#}¦ {#(pIº piRI-pi)#} {%a. Idem.%}
+;
+72967 new {#nara-rUpin#}¦ {#(pI° piRI-pi)#} {%a. Idem.%}
+; ----

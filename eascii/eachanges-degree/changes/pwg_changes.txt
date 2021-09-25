@@ -1,0 +1,16 @@
+556472 old <div n="2">— c) {%der Steinbock im Thierkreise%} (oder überh. {%der 10te Bogen von 50º in einem Kreise)%} 
+;
+556472 new <div n="2">— c) {%der Steinbock im Thierkreise%} (oder überh. {%der 10te Bogen von 50° in einem Kreise)%} 
+; ----
+608760 old <div n="3">— β) {%der Steinbock im Thierkreise%} (oder überh. {%der 10te Bogen von 30º in einem Kreise)%} 
+;
+608760 new <div n="3">— β) {%der Steinbock im Thierkreise%} (oder überh. {%der 10te Bogen von 30° in einem Kreise)%} 
+; ----
+613834 old <div n="2">— b) {%der Widder im Thierkreise%} (oder überh. {%der erste Bogen von 30º in einem Kreise)%} 
+;
+613834 new <div n="2">— b) {%der Widder im Thierkreise%} (oder überh. {%der erste Bogen von 30° in einem Kreise)%} 
+; ----
+626692 old {#anyaTAvftti#}¦ streiche das Zeichenº. {%sich ändernd%}: {#duzwe 'pi patyO sADvAnAM nAnyaTAvftti mAnasam#} 
+;
+626692 new {#anyaTAvftti#}¦ streiche das Zeichen°. {%sich ändernd%}: {#duzwe 'pi patyO sADvAnAM nAnyaTAvftti mAnasam#} 
+; ----

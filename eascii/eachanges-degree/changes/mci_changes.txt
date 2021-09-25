@@ -1,0 +1,221 @@
+5460 old <div n="lb">feet ({%ºśarīraṃ ca pakṣāsthicaraṇojjhitam%}
+;
+5460 new <div n="lb">feet ({%°śarīraṃ ca pakṣāsthicaraṇojjhitam%}
+; ----
+5983 old <div n="lb">({%nāgarājaº%} 1. 44. 18); {%nāgarājan%} 1. 16. 13,
+;
+5983 new <div n="lb">({%nāgarāja°%} 1. 44. 18); {%nāgarājan%} 1. 16. 13,
+; ----
+9968 old <div n="lb">4. 48. 3 ({%ºdhanvin%}); 4. 49. 16; 4. 53. 63;
+;
+9968 new <div n="lb">4. 48. 3 ({%°dhanvin%}); 4. 49. 16; 4. 53. 63;
+; ----
+12966 old <div n="lb">1 ({%vajradharaº%}); 1. 215. 13 (pl. {%yair%}
+;
+12966 new <div n="lb">1 ({%vajradhara°%}); 1. 215. 13 (pl. {%yair%}
+; ----
+12973 old <div n="lb">14. 78. 31 ({%vajradharaº%}); 15. 26. 11; {%vajra-%}
+;
+12973 new <div n="lb">14. 78. 31 ({%vajradhara°%}); 15. 26. 11; {%vajra-%}
+; ----
+14403 old <div n="lb">({%śārṅgaº ºdhanvan%}); 10. 13. 6, 9; 12. 200.
+;
+14403 new <div n="lb">({%śārṅga° °dhanvan%}); 10. 13. 6, 9; 12. 200.
+; ----
+15131 old {@Sūcī (Sūcī̆º)@}¦ f.: Name of a particular
+;
+15131 new {@Sūcī (Sūcī̆°)@}¦ f.: Name of a particular
+; ----
+18500 old <div n="lb">1. 2. 236) 1. 1. 16 ({%ºvariṣṭha%}); 1. 2. 29, 30,
+;
+18500 new <div n="lb">1. 2. 236) 1. 1. 16 ({%°variṣṭha%}); 1. 2. 29, 30,
+; ----
+18504 old <div n="lb">24, 52; 1. 2. 31, 32 ({%ºuttama%}), 33, 237
+;
+18504 new <div n="lb">24, 52; 1. 2. 31, 32 ({%°uttama%}), 33, 237
+; ----
+18505 old <div n="lb">({%ºuttama%}) 1. 54. 23 ({%purātana%}); 1. 56.
+;
+18505 new <div n="lb">({%°uttama%}) 1. 54. 23 ({%purātana%}); 1. 56.
+; ----
+20761 old {@Sāvitrīº<sup>3</sup>:@}¦ Name of an Upākhyāna.
+;
+20761 new {@Sāvitrī°<sup>3</sup>:@}¦ Name of an Upākhyāna.
+; ----
+24840 old <div n="lb">copper-red crest ({%? tāmraº ºśikha%}) 6. 3. 24.
+;
+24840 new <div n="lb">copper-red crest ({%? tāmra° °śikha%}) 6. 3. 24.
+; ----
+55783 old <div n="lb">37, 5; ({%upāvṛścānupāvṛścaº%}) 6. 10. 47.
+;
+55783 new <div n="lb">37, 5; ({%upāvṛścānupāvṛśca°%}) 6. 10. 47.
+; ----
+55991 old <div n="lb">few days ({%ºvṛṣṇyandhakottamāḥ/vijahrur%}
+;
+55991 new <div n="lb">few days ({%°vṛṣṇyandhakottamāḥ/vijahrur%}
+; ----
+57433 old <div n="lb">as desired ({%kāmaº ºjava%}) 6. 86. 15; when
+;
+57433 new <div n="lb">as desired ({%kāma° °java%}) 6. 86. 15; when
+; ----
+57619 old <div n="lb">{%api … ºbāhlīkān … krūrān saṃgrāmakar-%}
+;
+57619 new <div n="lb">{%api … °bāhlīkān … krūrān saṃgrāmakar-%}
+; ----
+57825 old <div n="lb">({%ikṣvākunandanam%}) 3. 273. 8; ({%ºnandanaḥ%})
+;
+57825 new <div n="lb">({%ikṣvākunandanam%}) 3. 273. 8; ({%°nandanaḥ%})
+; ----
+58522 old <div n="lb">{%ṣikaº%}) 2. 24. 25. {@C.@} Epic events: (1)
+;
+58522 new <div n="lb">{%ṣika°%}) 2. 24. 25. {@C.@} Epic events: (1)
+; ----
+59099 old <div n="lb">({%kāśikosalān ºkarūṣāṃś ca … ajayad raṇe%})
+;
+59099 new <div n="lb">({%kāśikosalān °karūṣāṃś ca … ajayad raṇe%})
+; ----
+59452 old <div n="lb">towards Arjuna to kill him ({%kaliṅgaº … %}
+;
+59452 new <div n="lb">towards Arjuna to kill him ({%kaliṅga° … %}
+; ----
+59472 old <div n="lb">him (Arjuna) ({%kaliṅgaº … sadāmadān … /%}
+;
+59472 new <div n="lb">him (Arjuna) ({%kaliṅga° … sadāmadān … /%}
+; ----
+59849 old <div n="lb">{%jam/ … ºkāmbojayavanastriyaḥ%}) 11. 22. 11.
+;
+59849 new <div n="lb">{%jam/ … °kāmbojayavanastriyaḥ%}) 11. 22. 11.
+; ----
+59857 old <div n="lb">({%ºkāmbojās … jitāḥ saṃkhye sudurjayāḥ%})
+;
+59857 new <div n="lb">({%°kāmbojās … jitāḥ saṃkhye sudurjayāḥ%})
+; ----
+62733 old <div n="lb">{%lānāṃ kurūṇāṃ ca%}) 8. 18. 56 ({%romaº%}); 14.
+;
+62733 new <div n="lb">{%lānāṃ kurūṇāṃ ca%}) 8. 18. 56 ({%roma°%}); 14.
+; ----
+62734 old <div n="lb">59. 10 ({%romaº%}); causing fear ({%bhayavar-%}
+;
+62734 new <div n="lb">59. 10 ({%roma°%}); causing fear ({%bhayavar-%}
+; ----
+65463 old <div n="lb">{%tu … ºgāndhārāḥ//ete pāpakṛtas tāta%}
+;
+65463 new <div n="lb">{%tu … °gāndhārāḥ//ete pāpakṛtas tāta%}
+; ----
+65567 old <div n="lb">({%gāndhāraº ºstriyaḥ%}) and other women
+;
+65567 new <div n="lb">({%gāndhāra° °striyaḥ%}) and other women
+; ----
+67757 old <div n="lb">{%kāra(? ºram) ādatte piśācāt piśācopaha-%}
+;
+67757 new <div n="lb">{%kāra(? °ram) ādatte piśācāt piśācopaha-%}
+; ----
+68315 old <div n="lb">head-gears and felled them down ({%draviḍaº%}
+;
+68315 new <div n="lb">head-gears and felled them down ({%draviḍa°%}
+; ----
+69493 old <div n="lb">{%cālaº … /nihatya%}) 5. 61. 4-5 (Nī., however,
+;
+69493 new <div n="lb">{%cāla° … /nihatya%}) 5. 61. 4-5 (Nī., however,
+; ----
+73479 old <div n="lb">{%bhojaº … /annapānam apāsyātha samāpetuḥ%}
+;
+73479 new <div n="lb">{%bhoja° … /annapānam apāsyātha samāpetuḥ%}
+; ----
+74131 old <div n="lb">The best among the Matsyas: (i) {%matsyaº%}
+;
+74131 new <div n="lb">The best among the Matsyas: (i) {%matsya°%}
+; ----
+74132 old <div n="lb">{%ºsattama: (matsyabhāratasattamau):%}
+;
+74132 new <div n="lb">{%°sattama: (matsyabhāratasattamau):%}
+; ----
+76291 old <div n="lb">({%yadukulaº ºnandana%}) 7. 157. 26; 8. 49. 11;
+;
+76291 new <div n="lb">({%yadukula° °nandana%}) 7. 157. 26; 8. 49. 11;
+; ----
+77119 old <div n="lb">{%vaṅgaº … /teṣāṃ dvipānāṃ vicakarta%}
+;
+77119 new <div n="lb">{%vaṅga° … /teṣāṃ dvipānāṃ vicakarta%}
+; ----
+77271 old <div n="lb">({%vasātiº … prāyo vikutsitāḥ%}) 8. 30. 47.
+;
+77271 new <div n="lb">({%vasāti° … prāyo vikutsitāḥ%}) 8. 30. 47.
+; ----
+77764 old <div n="lb">Videhas ({%vaidehāº … yayā dhṛtyā jitāḥ saṃ-%}
+;
+77764 new <div n="lb">Videhas ({%vaidehā° … yayā dhṛtyā jitāḥ saṃ-%}
+; ----
+78787 old <div n="lb">(ii) {%vṛṣṇipati:%} (1) Ugrasena ({%vṛṣṇiº ºpati%})
+;
+78787 new <div n="lb">(ii) {%vṛṣṇipati:%} (1) Ugrasena ({%vṛṣṇi° °pati%})
+; ----
+78788 old <div n="lb">14. 84. 15; (2) Kṛṣṇa 5. 61. 12; ({%vṛṣṇiº%}
+;
+78788 new <div n="lb">14. 84. 15; (2) Kṛṣṇa 5. 61. 12; ({%vṛṣṇi°%}
+; ----
+78789 old <div n="lb">{%ºpati%}) 14. 88. 13; (iii) {%vṛṣṇipravara:%} (1)
+;
+78789 new <div n="lb">{%°pati%}) 14. 88. 13; (iii) {%vṛṣṇipravara:%} (1)
+; ----
+78791 old <div n="lb">34; (2) Kṛṣṇa 3. 118. 18 ({%sarvaº%}); 8.
+;
+78791 new <div n="lb">34; (2) Kṛṣṇa 3. 118. 18 ({%sarva°%}); 8.
+; ----
+78792 old <div n="lb">45. 65; (3) Balarāma 3. 118. 18 ({%sarvaº%});
+;
+78792 new <div n="lb">45. 65; (3) Balarāma 3. 118. 18 ({%sarva°%});
+; ----
+78803 old <div n="lb">{%dhakaº ºuttama:%} Kṛṣṇa 7. 79. 1; {@C.@} Pro-
+;
+78803 new <div n="lb">{%dhaka° °uttama:%} Kṛṣṇa 7. 79. 1; {@C.@} Pro-
+; ----
+78830 old <div n="lb">{%vṛṣṇiº mahāratha-:%} (1) Kṛtavarman 9. 20.
+;
+78830 new <div n="lb">{%vṛṣṇi° mahāratha-:%} (1) Kṛtavarman 9. 20.
+; ----
+78859 old <div n="lb">{%vārṣṇeyaº ºpuṃgava:%} Kṛṣṇa 14. 51. 36;
+;
+78859 new <div n="lb">{%vārṣṇeya° °puṃgava:%} Kṛṣṇa 14. 51. 36;
+; ----
+78863 old <div n="lb">95. 1; (b) Tiger among Vṛṣṇis: {%vṛṣṇiº%}
+;
+78863 new <div n="lb">95. 1; (b) Tiger among Vṛṣṇis: {%vṛṣṇi°%}
+; ----
+78864 old <div n="lb">{%ºvyāghra:%} Sātyaki 7. 117. 47, 55; (c)
+;
+78864 new <div n="lb">{%°vyāghra:%} Sātyaki 7. 117. 47, 55; (c)
+; ----
+78875 old <div n="lb">{%ºvṛṣṇiṣu:%} Sātyaki 5. 63. 7. {@H.@} Born in the
+;
+78875 new <div n="lb">{%°vṛṣṇiṣu:%} Sātyaki 5. 63. 7. {@H.@} Born in the
+; ----
+78888 old <div n="lb">Vṛṣṇis: {%vṛṣṇiº ºpura%} 3. 16. 19; 12. 7. 3;
+;
+78888 new <div n="lb">Vṛṣṇis: {%vṛṣṇi° °pura%} 3. 16. 19; 12. 7. 3;
+; ----
+80016 old <div n="lb">reading ({%ºsenebhyaḥ%}) confirms my inter-
+;
+80016 new <div n="lb">reading ({%°senebhyaḥ%}) confirms my inter-
+; ----
+81269 old <div n="lb">(ii) {%ºsātvatapuṃgava:%} Sātyaki 7. 117. 41;
+;
+81269 new <div n="lb">(ii) {%°sātvatapuṃgava:%} Sātyaki 7. 117. 41;
+; ----
+81620 old <div n="lb">kṣatra 7. 41. 13; (c) {%sindhuº ºbhartṛ:%}
+;
+81620 new <div n="lb">kṣatra 7. 41. 13; (c) {%sindhu° °bhartṛ:%}
+; ----
+82088 old <div n="lb">{%bhujam/sindhusauvīraº ºstriyaḥ/%}) 11.
+;
+82088 new <div n="lb">{%bhujam/sindhusauvīra° °striyaḥ/%}) 11.
+; ----
+82869 old <div n="lb">by them ({%ºgāṅgevasṛñjayaiḥ/ … procya-%}
+;
+82869 new <div n="lb">by them ({%°gāṅgevasṛñjayaiḥ/ … procya-%}
+; ----
+; not entry
+84649 old <>(i) Alarka ({%kāśiº ºrāja-%}) 3. 26. 12; (ii)
+;
+84649 new <>(i) Alarka ({%kāśi° °rāja-%}) 3. 26. 12; (ii)
+; ----

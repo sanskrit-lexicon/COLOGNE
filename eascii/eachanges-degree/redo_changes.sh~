@@ -1,0 +1,11 @@
+origdir=../../../../cologne/csl-orig/v02
+for dictlo in acc ap90
+do
+    dig=$origdir/${dictlo}/${dictlo}.txt
+    changes=changes/${dictlo}_changes.txt
+    neworig="temporig"
+    echo "BEGIN Dictionary $dictlo"
+    python make_change.py $dig $changes
+    python updateByLine.py $dig $changes $temporig/${dictlo}.txt
+    echo "END Dictionary $dictlo"
+done

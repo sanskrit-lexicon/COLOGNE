@@ -4,4 +4,5 @@ stardict/data/*
 stardict/trial.txt
 makemd/MD/*
 temp*
-
+# emacs backups
+*~

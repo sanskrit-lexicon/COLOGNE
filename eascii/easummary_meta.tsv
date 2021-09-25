@@ -1,8 +1,8 @@
 char	hex	count	char name	dict #	dict #	dict #	dict #	dict #
 ¯	\u00af	1	MACRON	acc   1				
-°	\u00b0	3089	DEGREE SIGN	bhs   439	cae   1471	md    10	pw    968	pwg   7
-				sch   60	stc   134			
-º	\u00ba	21	MASCULINE ORDINAL INDICATOR	acc   2	ap90  5	gst   2	ieg   12	
+°	\u00b0	3110	DEGREE SIGN	acc   2	ap90  5	bhs   439	cae   1471	gst   2
+				ieg   12	md    10	pw    968	pwg   7	sch   60
+				stc   134				
 á	\u00e1	1	LATIN SMALL LETTER A WITH ACUTE	gra   1				
 —	\u2014	136611	EM DASH	mw    136611				
 ‘	\u2018	4	LEFT SINGLE QUOTATION MARK	ieg   4				

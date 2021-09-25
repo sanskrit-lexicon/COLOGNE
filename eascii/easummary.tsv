@@ -18,19 +18,18 @@ char	hex	count	char name	dict #	dict #	dict #	dict #	dict #
 ¯	\u00af	3110	MACRON	acc   2	bhs   1	bur   4	gst   61	lan   1
 				mw    53	mw72  943	mwe   1	pw    2	pwg   2039
 				skd   3				
-°	\u00b0	253319	DEGREE SIGN	ae    246	bhs   22189	bop   86	bur   12	cae   9849
-				ccs   6679	gra   1	md    4825	mw    55432	mw72  1
-				pw    21456	pwg   83347	sch   24446	shs   1	stc   24742
-				vei   2	wil   5			
+°	\u00b0	298897	DEGREE SIGN	acc   46	ae    246	ap90  4050	ben   506	bhs   22189
+				bop   86	bur   12	cae   9849	ccs   6679	gra   1
+				gst   205	ieg   45	inm   19532	krm   1	mci   65
+				md    4825	mw    55432	mw72  21110	pw    21456	pwg   83351
+				sch   24446	shs   4	stc   24742	vei   12	wil   5
+				yat   2				
 ±	\u00b1	535	PLUS-MINUS SIGN	cae   316	md    218	pwg   1		
 ²	\u00b2	45209	SUPERSCRIPT TWO	md    25	pw    486	wil   44698		
 ³	\u00b3	1	SUPERSCRIPT THREE	sch   1				
 ´	\u00b4	1	ACUTE ACCENT	pwg   1				
 µ	\u00b5	1	MICRO SIGN	mw72  1				
 ¹	\u00b9	502	SUPERSCRIPT ONE	md    500	pwg   2			
-º	\u00ba	45578	MASCULINE ORDINAL INDICATOR	acc   46	ap90  4050	ben   506	gst   205	ieg   45
-				inm   19532	krm   1	mci   65	mw72  21109	pwg   4
-				shs   3	vei   10	yat   2		
 »	\u00bb	1231	RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	bop   1079	pw    55	pwg   59	stc   38	
 ¼	\u00bc	3	VULGAR FRACTION ONE QUARTER	pwg   2	wil   1			
 ½	\u00bd	22	VULGAR FRACTION ONE HALF	bor   1	md    6	pe    1	pwg   10	sch   1

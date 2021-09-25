@@ -2,9 +2,8 @@
 §  (\u00a7)    13 := SECTION SIGN
 ­  (\u00ad)     1 := SOFT HYPHEN
 ¯  (\u00af)   943 := MACRON
-°  (\u00b0)     1 := DEGREE SIGN
+°  (\u00b0) 21110 := DEGREE SIGN
 µ  (\u00b5)     1 := MICRO SIGN
-º  (\u00ba) 21109 := MASCULINE ORDINAL INDICATOR
 Æ  (\u00c6)    64 := LATIN CAPITAL LETTER AE
 Ç  (\u00c7)     1 := LATIN CAPITAL LETTER C WITH CEDILLA
 ×  (\u00d7)    21 := MULTIPLICATION SIGN

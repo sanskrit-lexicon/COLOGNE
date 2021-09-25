@@ -1,6 +1,6 @@
 ¦  (\u00a6)  6780 := BROKEN BAR
 ¯  (\u00af)    61 := MACRON
-º  (\u00ba)   205 := MASCULINE ORDINAL INDICATOR
+°  (\u00b0)   205 := DEGREE SIGN
 Æ  (\u00c6)     6 := LATIN CAPITAL LETTER AE
 à  (\u00e0)     1 := LATIN SMALL LETTER A WITH GRAVE
 æ  (\u00e6)    54 := LATIN SMALL LETTER AE

@@ -4,7 +4,7 @@
 ¦  (\u00a6) 48861 := BROKEN BAR
 §  (\u00a7)     1 := SECTION SIGN
 ¯  (\u00af)     2 := MACRON
-º  (\u00ba)    46 := MASCULINE ORDINAL INDICATOR
+°  (\u00b0)    46 := DEGREE SIGN
 ä  (\u00e4)    45 := LATIN SMALL LETTER A WITH DIAERESIS
 ï  (\u00ef)     2 := LATIN SMALL LETTER I WITH DIAERESIS
 ñ  (\u00f1)  3041 := LATIN SMALL LETTER N WITH TILDE
@@ -61,7 +61,7 @@
 ; ----------------------------------------
 ¦  (\u00a6) 31721 := BROKEN BAR
 §  (\u00a7)     1 := SECTION SIGN
-º  (\u00ba)  4050 := MASCULINE ORDINAL INDICATOR
+°  (\u00b0)  4050 := DEGREE SIGN
 Æ  (\u00c6)     3 := LATIN CAPITAL LETTER AE
 æ  (\u00e6)    22 := LATIN SMALL LETTER AE
 è  (\u00e8)     5 := LATIN SMALL LETTER E WITH GRAVE
@@ -98,7 +98,7 @@
 ; tags for ben
 ; ----------------------------------------
 ¦  (\u00a6) 17316 := BROKEN BAR
-º  (\u00ba)   506 := MASCULINE ORDINAL INDICATOR
+°  (\u00b0)   506 := DEGREE SIGN
 Æ  (\u00c6)     9 := LATIN CAPITAL LETTER AE
 Ñ  (\u00d1)    82 := LATIN CAPITAL LETTER N WITH TILDE
 à  (\u00e0)     1 := LATIN SMALL LETTER A WITH GRAVE
@@ -577,7 +577,7 @@
 ; ----------------------------------------
 ¦  (\u00a6)  6780 := BROKEN BAR
 ¯  (\u00af)    61 := MACRON
-º  (\u00ba)   205 := MASCULINE ORDINAL INDICATOR
+°  (\u00b0)   205 := DEGREE SIGN
 Æ  (\u00c6)     6 := LATIN CAPITAL LETTER AE
 à  (\u00e0)     1 := LATIN SMALL LETTER A WITH GRAVE
 æ  (\u00e6)    54 := LATIN SMALL LETTER AE
@@ -647,7 +647,7 @@
 ; tags for ieg
 ; ----------------------------------------
 ¦  (\u00a6)  7907 := BROKEN BAR
-º  (\u00ba)    45 := MASCULINE ORDINAL INDICATOR
+°  (\u00b0)    45 := DEGREE SIGN
 ×  (\u00d7)     1 := MULTIPLICATION SIGN
 á  (\u00e1)     1 := LATIN SMALL LETTER A WITH ACUTE
 é  (\u00e9)     1 := LATIN SMALL LETTER E WITH ACUTE
@@ -696,7 +696,7 @@
 ; ----------------------------------------
 ¦  (\u00a6) 12787 := BROKEN BAR
 §  (\u00a7) 27724 := SECTION SIGN
-º  (\u00ba) 19532 := MASCULINE ORDINAL INDICATOR
+°  (\u00b0) 19532 := DEGREE SIGN
 Æ  (\u00c6)     1 := LATIN CAPITAL LETTER AE
 ×  (\u00d7)     1 := MULTIPLICATION SIGN
 á  (\u00e1)  1029 := LATIN SMALL LETTER A WITH ACUTE
@@ -745,7 +745,7 @@
 ; tags for krm
 ; ----------------------------------------
 ¦  (\u00a6)  2061 := BROKEN BAR
-º  (\u00ba)     1 := MASCULINE ORDINAL INDICATOR
+°  (\u00b0)     1 := DEGREE SIGN
 ×  (\u00d7)     1 := MULTIPLICATION SIGN
 —  (\u2014)  5528 := EM DASH
 ‘  (\u2018) 14818 := LEFT SINGLE QUOTATION MARK
@@ -758,7 +758,7 @@
 ; ----------------------------------------
 ¦  (\u00a6)  2643 := BROKEN BAR
 §  (\u00a7)     1 := SECTION SIGN
-º  (\u00ba)    65 := MASCULINE ORDINAL INDICATOR
+°  (\u00b0)    65 := DEGREE SIGN
 á  (\u00e1)     1 := LATIN SMALL LETTER A WITH ACUTE
 ñ  (\u00f1)  2110 := LATIN SMALL LETTER N WITH TILDE
 Ā  (\u0100)   486 := LATIN CAPITAL LETTER A WITH MACRON
@@ -1093,9 +1093,8 @@
 §  (\u00a7)    13 := SECTION SIGN
 ­  (\u00ad)     1 := SOFT HYPHEN
 ¯  (\u00af)   943 := MACRON
-°  (\u00b0)     1 := DEGREE SIGN
+°  (\u00b0) 21110 := DEGREE SIGN
 µ  (\u00b5)     1 := MICRO SIGN
-º  (\u00ba) 21109 := MASCULINE ORDINAL INDICATOR
 Æ  (\u00c6)    64 := LATIN CAPITAL LETTER AE
 Ç  (\u00c7)     1 := LATIN CAPITAL LETTER C WITH CEDILLA
 ×  (\u00d7)    21 := MULTIPLICATION SIGN
@@ -1633,11 +1632,10 @@
 §  (\u00a7)    14 := SECTION SIGN
 «  (\u00ab)    59 := LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
 ¯  (\u00af)  2039 := MACRON
-°  (\u00b0) 83347 := DEGREE SIGN
+°  (\u00b0) 83351 := DEGREE SIGN
 ±  (\u00b1)     1 := PLUS-MINUS SIGN
 ´  (\u00b4)     1 := ACUTE ACCENT
 ¹  (\u00b9)     2 := SUPERSCRIPT ONE
-º  (\u00ba)     4 := MASCULINE ORDINAL INDICATOR
 »  (\u00bb)    59 := RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
 ¼  (\u00bc)     2 := VULGAR FRACTION ONE QUARTER
 ½  (\u00bd)    10 := VULGAR FRACTION ONE HALF
@@ -1958,8 +1956,7 @@
 ; tags for shs
 ; ----------------------------------------
 ¦  (\u00a6) 47313 := BROKEN BAR
-°  (\u00b0)     1 := DEGREE SIGN
-º  (\u00ba)     3 := MASCULINE ORDINAL INDICATOR
+°  (\u00b0)     4 := DEGREE SIGN
 Æ  (\u00c6)    47 := LATIN CAPITAL LETTER AE
 Ñ  (\u00d1)     2 := LATIN CAPITAL LETTER N WITH TILDE
 æ  (\u00e6)   230 := LATIN SMALL LETTER AE
@@ -2112,8 +2109,7 @@
 ; tags for vei
 ; ----------------------------------------
 ¦  (\u00a6)  3834 := BROKEN BAR
-°  (\u00b0)     2 := DEGREE SIGN
-º  (\u00ba)    10 := MASCULINE ORDINAL INDICATOR
+°  (\u00b0)    12 := DEGREE SIGN
 É  (\u00c9)     2 := LATIN CAPITAL LETTER E WITH ACUTE
 ×  (\u00d7)     6 := MULTIPLICATION SIGN
 Ü  (\u00dc)    37 := LATIN CAPITAL LETTER U WITH DIAERESIS
@@ -2287,7 +2283,7 @@
 ; tags for yat
 ; ----------------------------------------
 ¦  (\u00a6) 45212 := BROKEN BAR
-º  (\u00ba)     2 := MASCULINE ORDINAL INDICATOR
+°  (\u00b0)     2 := DEGREE SIGN
 Æ  (\u00c6)    34 := LATIN CAPITAL LETTER AE
 æ  (\u00e6)    69 := LATIN SMALL LETTER AE
 Ā  (\u0100)    12 := LATIN CAPITAL LETTER A WITH MACRON

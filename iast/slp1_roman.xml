@@ -27,7 +27,7 @@
 <e> <s>SKT</s> <in>o/</in> <out>\u00f3</out> </e>
 <e> <s>SKT</s> <in>E/</in> <out>\u0061\u00ed</out> </e>
 <e> <s>SKT</s> <in>O/</in> <out>\u0061\u00fa</out> </e>
-<e> <s>SKT</s> <in>M/</in> <out>\u1e41\u0301</out> </e>
+<e> <s>SKT</s> <in>M/</in> <out>\u1e43\u0301</out> </e>
 <e> <s>SKT</s> <in>H/</in> <out>\u1e25\u0301</out> </e>
 
 <e> <s>SKT</s> <in>a^</in> <out>\u00e2</out> </e>
@@ -44,7 +44,7 @@
 <e> <s>SKT</s> <in>o^</in> <out>\u00f4</out> </e>
 <e> <s>SKT</s> <in>E^</in> <out>\u0061\u00ee</out> </e>
 <e> <s>SKT</s> <in>O^</in> <out>\u0061\u00fb</out> </e>
-<e> <s>SKT</s> <in>M^</in> <out>\u1e41\u0302</out> </e>
+<e> <s>SKT</s> <in>M^</in> <out>\u1e43\u0302</out> </e>
 <e> <s>SKT</s> <in>H^</in> <out>\u1e25\u0302</out> </e>
 
 <e> <s>SKT</s> <in>a\</in> <out>\u00e0</out> </e>
@@ -61,7 +61,7 @@
 <e> <s>SKT</s> <in>o\</in> <out>\u00f2</out> </e>
 <e> <s>SKT</s> <in>E\</in> <out>\u0061\u00ec</out> </e>
 <e> <s>SKT</s> <in>O\</in> <out>\u0061\u00f9</out> </e>
-<e> <s>SKT</s> <in>M\</in> <out>\u1e41\u0300</out> </e>
+<e> <s>SKT</s> <in>M\</in> <out>\u1e43\u0300</out> </e>
 <e> <s>SKT</s> <in>H\</in> <out>\u1e25\u0300</out> </e>
 
 <e> <s>SKT</s> <in>f</in> <out>\u1e5b</out> </e> 
@@ -78,15 +78,15 @@
 <e> <s>SKT</s> <in>q</in> <out>\u1e0d</out> </e>
 <e> <s>SKT</s> <in>R</in> <out>\u1e47</out> </e>
 <e> <s>SKT</s> <in>S</in> <out>\u015b</out> </e>
-<e> <s>SKT</s> <in>z</in> <out>\u1e63</out><next>SKT</next> </e>
+<e> <s>SKT</s> <in>z</in> <out>\u1e63</out> </e>
 
 <e> <s>SKT</s> <in>H</in> <out>\u1e25</out> </e>
 <e> <s>SKT</s> <in>M</in> <out>\u1e43</out> </e> <!-- dot below 07-09-2018 -->
 <e> <s>SKT</s> <in>'</in> <out>'</out> </e>
 
 <!--
-<e> <s>SKT</s> <in>L</in> <out>\u1e37</out> </e>
-<e> <s>SKT</s> <in>|</in> <out>\u1e37h</out> </e>
+ <e> <s>SKT</s> <in>L</in> <out>\u1e37</out> </e>
+ <e> <s>SKT</s> <in>|</in> <out>\u1e37h</out> </e>
  \u1e37  (lower-case L with dot under) is used for slp1 vowel 'x'.
  There is no authoritative iast substitute for slp1 L.
 
@@ -99,9 +99,9 @@ We choose \u0142  Latin small letter L with stroke
 
 <!-- ~ candrabindu.  Use m with combining candrabindu 
 Another possibility is \u0303 (combining tilde) but this is hard to enter
-<e> <s>SKT</s> <in>~</in> <out>\u0303</out></e>
-<e> <s>SKT</s> <in>U~</in> <out>\u016b\u0303</out></e>
-<e> <s>SKT</s> <in>kU~</in> <out>kūm̐</out></e>
+  <e> <s>SKT</s> <in>~</in> <out>\u0303</out></e>
+  <e> <s>SKT</s> <in>U~</in> <out>\u016b\u0303</out></e>
+  <e> <s>SKT</s> <in>kU~</in> <out>kūm̐</out></e>
 -->
 <e> <s>SKT</s> <in>~</in> <out>m̐</out></e>
 
@@ -109,7 +109,7 @@ Another possibility is \u0303 (combining tilde) but this is hard to enter
   can occur with Devanagari.
   We give a partial solution, based on cases sufficient form MW
   Convert ai -> a + i-diaresis, similarly for au
-<e> <s>SKT</s> <in>\</in> <out></out></e>
+  <e> <s>SKT</s> <in>\</in> <out></out></e>
 -->
 <e> <s>SKT</s> <in>ai</in> <out>aï</out></e>
 <e> <s>SKT</s> <in>au</in> <out>aü</out></e>

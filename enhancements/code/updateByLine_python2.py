@@ -20,10 +20,9 @@
   (b) For 'ins', the inserted line ('uvw') is inserted AFTER this line
   (c) For 'del', the text part is ignored (should typically be blank,
       and there should be a space character after 'del': '1234 del '
- Nov 27, 2018. Changed print X to print(X), for python3 compatibility.
 """
 #
-from __future__ import print_function
+
 import re,sys
 import codecs
 class Change(object):
@@ -32,11 +31,11 @@ class Change(object):
   m = re.search(r'^([0-9]+) old (.*)$',oldline)
   m1 = re.search(r'^([0-9]+) (new|ins|del) (.*)$',newline)
   if (not m) or (not m1):
-   print('Change error(1) @ line %s:' % n)
+   print 'Change error(1) @ line %s:' % n
    out= 'oldline=%s' % oldline
-   print(out.encode('utf-8'))
+   print out.encode('utf-8')
    out= 'newline=%s' % newline
-   print(out.encode('utf-8'))
+   print out.encode('utf-8')
    exit(1)
   self.chgcode = m1.group(2)
   nold = m.group(1)
@@ -45,19 +44,19 @@ class Change(object):
   nnew = m1.group(1)
   newtext = m1.group(3)
   if nold != nnew:
-   print('Change error(2) @ line %s:' % n)
-   print('nold(%s) != nnew(%s)' % (nold,nnew))
+   print 'Change error(2) @ line %s:' % n
+   print 'nold(%s) != nnew(%s)' % (nold,nnew)
    out= 'oldline=%s' % oldline
-   print(out.encode('utf-8'))
+   print out.encode('utf-8')
    out= 'newline=%s' % newline
-   print(out.encode('utf-8'))
+   print out.encode('utf-8')
    exit(1)   
   if (not m) or (not m1):
-   print('Change error(2) @ line %s:' % n)
+   print 'Change error(2) @ line %s:' % n
    out= 'oldline=%s' % oldline
-   print(out.encode('utf-8'))
+   print out.encode('utf-8')
    out= 'newline=%s' % newline
-   print(out.encode('utf-8'))
+   print out.encode('utf-8')
    exit(1)
   self.lnumstr = nold # same as nnew
   self.oldtext = oldtext
@@ -81,7 +80,7 @@ def init_changein(changein ):
    changes.append(chgrec)
  f.close()
  if (n % 2) != 0:
-  print("ERROR init_changein: Expected EVEN number of lines in",changein)
+  print "ERROR init_changein: Expected EVEN number of lines in",changein
   exit(1)
  return changes
 def update(filein,changein,fileout):
@@ -91,7 +90,7 @@ def update(filein,changein,fileout):
  with codecs.open(filein,encoding='utf-8',mode='r') as f:
   # recs is a list of lines, to accomodate 'ins' and 'del'
   recs = [[line.rstrip('\n\r')] for line in f]
-  print(len(recs),"lines read from",filein)
+  print len(recs),"lines read from",filein
  # process change records
  # counter for each type ('new','ins','del') of change record
  counter = {}
@@ -101,24 +100,24 @@ def update(filein,changein,fileout):
   try:
    oldrec = recs[irec]
   except:
-   print("lnum error: ",change.lnumstr)
+   print "lnum error: ",change.lnumstr
    exit(1)
   # oldrec is a list of lines, typically with just 1 line.
   # We assume there is always at least 1 element in this tuple, and
   # that it's text matches the 'oldtext' of the change
   if len(oldrec)==0:
-   print("update ERROR #1. record has been deleted for linenum=",lnum)
+   print "update ERROR #1. record has been deleted for linenum=",lnum
    exit(1)
   oldtext = oldrec[0]
   if oldtext != change.oldtext:
-   print("CHANGE ERROR #2: Old mismatch line %s of %s" %(change.n,changein))
-   print("Change record lnum =",lnum)
+   print "CHANGE ERROR #2: Old mismatch line %s of %s" %(change.n,changein)
+   print "Change record lnum =",lnum
    out = "Change old text:\n%s" % change.oldtext
-   print(out.encode('utf-8'))
+   print out.encode('utf-8')
    out = "Change old input:\n%s" % oldtext
-   print(out.encode('utf-8'))
+   print out.encode('utf-8')
    out = "line from %s:" % filein
-   print(out.encode('utf-8'))
+   print out.encode('utf-8')
    exit(1)
   code = change.chgcode
   # update counter
@@ -148,13 +147,13 @@ def update(filein,changein,fileout):
    nout = nout + 1
  fout.close()
  # write summary of changes performed
- print(nout,"records written to",fileout)
- print("%s change transactions from %s" % (len(changes),changein))
+ print nout,"records written to",fileout
+ print "%s change transactions from %s" % (len(changes),changein)
  # summary of types of changes transacted
  codes = counter.keys()
  outarr = ["%s of type %s"%(counter[key],key) for key in codes]
  out = ', '.join(outarr)
- print(out)
+ print out
 if __name__=="__main__":
  filein = sys.argv[1]
  changein = sys.argv[2]

@@ -1,0 +1,19 @@
+# rewrite rule for XAMPP
+# ref: https://stackoverflow.com/questions/8291712/using-clean-urls-in-restful-api
+# assume this file in cologne directory, and csl-apidev is subfolder
+RewriteEngine On
+RewriteRule api/(.*$) csl-apidev/api_trial.php
+#RewriteRule ^simple$ /simple/
+# changed 12-10-2020 with refactor of list-0.2s_rw.php 
+# list-0.2s_xampp_rw.pp no longer needed.
+#RewriteRule ^simple/(.*$) csl-apidev/simple-search/v1.0/list-0.2s_xampp_rw.php
+#RewriteRule ^simple$ csl-apidev/simple-search/v1.0/list-0.2s_xampp_rw.php
+RewriteRule ^simple1.0/(.*$) csl-apidev/simple-search/v1.0/list-0.2s_rw.php
+RewriteRule ^simple1.0$ csl-apidev/simple-search/v1.0/list-0.2s_rw.php
+
+RewriteRule ^simple/(.*$) csl-apidev/simple-search/v1.1/list-0.2s_rw.php
+RewriteRule ^simple$ csl-apidev/simple-search/v1.1/list-0.2s_rw.php
+
+RewriteRule ^simple(1.1a)/(.*$) csl-apidev/simple-search/v$1/list-0.2s_rw.php
+RewriteRule ^simple(1.1a)$ csl-apidev/simple-search/v$1/list-0.2s_rw.php
+

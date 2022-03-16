@@ -1,6 +1,6 @@
 To install in Windows
   Windows 10 Home, 20H2 installed 10/18/2021
-Needed software:
+Needed software:  
 xampp https://www.apachefriends.org/index.html
   use the default installilocation: /c/xampp:
   windows Defender Firewall has blocked some features of this app
@@ -52,7 +52,19 @@ sqlite https://sqlite.org/download.html
       c:\xampp\sqlite\
   Open new gitbash terminal and 'sqlite3 --version' to be sure it is there.
   
-  
+zip  This is used to create zip-archives in
+     /c/xampp/htdocs/cologne/xxx/downloads. These archives are not essential.
+     If you want them created, then 'zip.exe' is needed.
+     Do you already have it?
+       in GitBash terminal, try 'zip --version'.
+     If you don't have zip, then install GOW (Gnu on Windows)"
+       https://github.com/bmatzelle/gow/.
+       Download the installer 'Gow-x.y.z.exe' from
+       https://github.com/bmatzelle/gow/releases.
+       Run the installer.
+     Open a new GitBash terminal, try 'zip --version'.  You should now
+       have zip.
+
 Assume rest of installation in /c/ directory
 
 # make directories in which repositories will be cloned.
@@ -87,3 +99,23 @@ start up xampp Apache  (the other Xampp modules are not used)
 In browser, url http://localhost/cologne
    You should get the 'Cologne Digital Sanskrit Dictionaries' home page.
 Click on md (the dictionary we initialized above)
+-----------------------------------------------------
+# Install all the dictionaires:
+cd  /c/xampp/htdocs/cologne/csl-pywork/v02
+# You can do them one at a time (as with md) for the various dictionary codes,
+#   or for just the dictionary codes you want.
+#   see redo_xampp_all.sh  to see the dictionary codes.
+# OR
+# You can run a script which installs all the dictionaries.
+sh redo_xampp_all.sh
+-----------------------------------------------------
+# activate simple-search.
+# copy the .htaccess file to your cologne directory
+# in gitBash terminal,
+cd /c/xampp/htdocs/cologne
+curl https://raw.githubusercontent.com/sanskrit-lexicon/COLOGNE/master/localinstall/xampp/.htaccess -o .htaccess
+
+Now go to home page (http://localhost/cologne) and click on 'simple'.
+(or go directly to url http://localhost/cologne/simple/)
+This simple display should work
+-----------------------------------------------------

@@ -1,0 +1,122 @@
+After installing dictionary files downloaded from cologne, one has to change the permissions to make them executable.  The following command makes the owner have read, write, and execute permission, and the group member and public have read and execute permission.
+chmod -R 755 cologne/mw
+To check that permissions have been granted:
+ls -l mw
+ls -l mw/web
+
+dicts.txt  contains all the dictionary codes that you can download 
+       download1.sh is a bash script.  It should go into the new 'cologne' directory.
+       'sh download1.sh' acc  will download and install cologne/acc/web
+       Note 0: script requires 'curl' and 'unzip' commands, and some bash syntax for upper-casing a string.
+       Note 1: script fails for lrv since year is 2022. easy workaround for this one.
+       Note 2:  'sh download1.sh xxx' may behave oddly  if directory 'cologne/xxx' already is present.
+       Note 3: You could write a download1_all.sh script, but I would do one at a time.
+       Note 4: It is possible that the differences between line-endings on Mac and Windows will cause the script to fail.
+
+When you're done with these downloads, we can discuss 
+1) local scanned images
+2) Optional installations, such as 'home page', several others.
+
+Jim
+
+download2.sh is a copy of download1.sh
+Changed 2nd line to: dictup=`echo $dictlo | tr '[:lower:]' '[:upper:]'`
+
+=====PDFs=====
+In local installation, the 'cologne/scans' directory will contain the local scans.
+The individual image files for dictionary xxx are in directory cologne/scans/xxx/pdfpages
+To get a new set of images, for dictionary 'xxx',  you can retrieve from the Github repository
+  https://github.com/sanskrit-lexicon-scans/xxx.
+For example, if your browser is at url https://github.com/sanskrit-lexicon-scans/lrv, click on the Green 'code' button, and then 'Download zip' button.
+When downloaded, unzip and move the pdfpages directory so it is at cologne/scans/xxx/pdfpages.
+NOTE: The previously downloaded images should also work, if their 'pdfpages' are moved/copied into proper location cologne/scans/xxx/pdfpages.
+When you've got the various image files, try a couple of cases to be sure the local images are working as expected.  (do a 'right-click inspect' on an image file to check it is using the localhost version).
+When this is done, next step could be to get a home page, and a few additional things (such as apidev).
+
+==============
+JIM:  pwkvn images are already in PW(K), but we had no digitization of these Verbesserungen und Nachtrage pages.
+pwkvn was treated as a separate dictionary, and not integrated into pw.txt.
+There is a useful display using pwkvn:  https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/pwkvn/03/index.html
+The new images for:
+New images for Grassman Sanskrit Wortebuch
+New images pages for SabdaKalpaDruma Sanskrit dictionary
+are of better quality.
+JIM:  Hopefully, yes.  Also, the MW images you had recently have been replaced -- they are somewhat better.
+Whether you use these newer images is your choice.  None of the images are 'perfect'.
+
+And several other projects such as Harivamsa and Ramayana.  Do you know what is the state of these projects?
+JIM: Also Rg Veda and Atharvaved. Some progress has been made in generating links to specific editions.
+In case of Harivamsa and Ramayana (maybe MBH), the links lead to specific pdf images.
+I don't think these links will use 'local' versions of images, e.g. for Ramayana. So, from point of view of the displays, there is no reason to download these.
+
+================Cologne Home Page on localhost==========
+Besides the basic, etc. displays, there are several other features available to a local installation of CDSL.
+
+First one is the homepage.
+1.  cd cologne
+2. git clone https://github.com/sanskrit-lexicon/csl-homepage.git
+You will now have a 'cologne/csl-homepage' folder
+3. cp csl-homepage/index_xampp.html  index.html
+  # Now cologne/index.html  is the local installation homepage
+In your browser, go to url localhost/cologne/
+You should see the local version of homepage.
+It is similar to, but not identical to, the Cologne home page.
+The dictionary links should work using your local versions.
+
+When homepage is working for you,  there are several other repositories which will make some of the other homepage links work locally.
+
+Jim
+
+================local csl-apidev==========
+1. git clone https://github.com/sanskrit-lexicon/csl-apidev.git
+2. To get the 'simple-search' link on homepage to work, there is needed an .htaccess file in cologne directory.
+This file is available at https://github.com/sanskrit-lexicon/COLOGNE/blob/master/localinstall/xampp/.htaccess
+    -- right-click 'raw', save-link-as -- then move downloaded .htaccess to cologne directory.
+
+How to activate htaccess
+https://phoenixnap.com/kb/how-to-set-up-enable-htaccess-apache
+
+.htaccess  does is a rewrite of a url from
+   http://localhost/cologne/simple/
+ to
+   http://localhost/cologne/csl-apidev/simple-search/v1.1/list-0.2s_rw.php
+See help TechnicalHelpNotes: apacheConfiguration.txt
+
+Now, the homepage link to simple-search should work and you will see
+localhost/cologne/simple/
+
+This has two 'major modes', depending on 'input'.
+1. When 'input' is 'simple",  many of the vagaries of spelling are resolved.
+e.g.  with MW dictionary, try 'ansa', 'pankti'.  Also try some things with ap90 dictionary.
+2. When 'input'  is 'slp1' (or any of the others, including devanagari),
+    This is quite similar to list display, except you get 'suggestions'.
+    This is the display I use most often.
+
+There are some other 'experimental' displays not currently mentioned on home page, such as
+  http://localhost/cologne/csl-apidev/sample/dalglob1.php
+  http://localhost/cologne/csl-apidev/pwkvn/
+I have been undecided on whether these should be mentioned.
+
+When csl-apidev is working for you, I'll try to recall other repositories that enhance the local installation.
+
+Jim
+
+================additional repositories============
+Here are other repositories that may enhance the local installation.
+The terminal should be in the cologne directory when you do the 'git clone'
+1. csl-doc 'Documentation' (front-matter)
+  git clone https://github.com/sanskrit-lexicon/csl-doc.git
+2. csl-inflect 'MW Inflected forms' Look up inflected forms.
+   git clone https://github.com/sanskrit-lexicon/csl-inflect.git
+This is still a work in progress.  Current version uses a combination of my algorithms, with many derived from Gerard's data.  Maybe someday it will be more complete.
+3. csl-kale 'Kale Higher Sanskrit Grammar, 1894 (Scanned)' also used by csl-inflect
+   git clone https://github.com/sanskrit-lexicon/csl-kale.git
+4. csl-whitroot  'Whitney's Roots, 1885 (Scanned)'
+Also Linked to in MW displays for some roots
+   git clone https://github.com/sanskrit-lexicon/csl-whitroot.git
+5. csl-westergaard  'Westergaard Linguae Sanscritae, 1841 (Scanned)'
+Also linked to in MW displays for some roots
+   git clone https://github.com/sanskrit-lexicon/csl-westergaard.git
+6. csl-santam 'Sanskrit and Tamil Dictionaries, 2005'
+   git clone https://github.com/sanskrit-lexicon/csl-santam.git
+   php version of this very early display.  Several long-time users still prefer this.

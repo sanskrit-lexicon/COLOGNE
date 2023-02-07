@@ -1,0 +1,183 @@
+How to install the Cologne dictionaries on MacOS.
+Open the Terminal
+
+MacOS comes with Apache installed.  To check open a Web browser and type
+
+localhost
+
+If you get "It works!" Apache is installed and ready to go.
+
+If not type:
+
+% sudo httpd -k start
+
+Then enter your password.
+Then type in your browser:
+
+http://localhost/
+
+You should get "It works!"
+
+I. First make sure you have Mac Xcode Developer Tools which can be gotten from the AppStore.
+
+II. Install the Homebrew package manager
+See the instructions at
+
+https://brew.sh
+
+which instructs to paste the following in the terminal.
+
+% /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+Help with Homebrew is available at https://docs.brew.sh
+
+Follow the instructions at the end of the installation script output to your terminal at
+
+==> Next steps:
+
+to put Homebrew in your PATH.
+
+Then make sure Homebrew is up to date:
+
+% brew update
+
+III. Install ant
+% brew install ant
+
+IV. Install php
+% brew install php
+[If that doesn't work try: brew tap shivammathur/php]
+
+1. Follow the instructions at the end of the installation script output to your terminal at:
+
+==> Caveats
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php@8.3/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+etc.
+==
+You may not have to add the line.  Search for php and remove the # before it if it is there.
+
+2. The two files: index.php index.html, don't have to be in that order.  Whichever is first will show up first when you open a browser to localhost.
+
+3. Because MacOS comes with apache installed, when you install php with Homebrew it may not locate the installed apache.  Then if you install apache using Homebrew using
+
+% brew install httpd
+
+you will have two versions.
+
+Either of the following command tells which httpd.conf file is being used.
+
+% httpd -t -D DUMP_INCLUDES
+% apachectl -t -D DUMP_INCLUDES
+
+
+In this case, put a symbolic link in the Homebrew version to the original.  The location of the original is:
+
+/private/etc/apache2/httpd.conf
+
+of the Homebrew version
+
+/opt/homebrew/etc/httpd/httpd.conf
+
+% cd /opt/homebrew/etc/httpd
+% mv httpd.conf homebrew-httpd.conf
+% ln -s httpd.conf /private/etc/apache2/httpd.conf
+
+4. Edit the original httpd.conf to make the changes specified under Caveats above and elsewhere below.
+
+5. Add ServerName to httpd.conf
+/private/etc/apache2/httpd.conf
+ServerName localhost
+
+6. Restart Apache
+% sudo httpd -k restart
+
+7. Allow PHP to allocate memory
+In
+
+/opt/homebrew/etc/php/8.3/php.ini-production
+
+and if you still get unwanted warnings in the dictionary then also in
+
+/opt/homebrew/etc/php/8.3/php.ini
+
+remove the semicolon before
+
+pcre.jit=1
+
+% open /opt/homebrew/etc/php/8.3/
+
+Edit:
+
+/opt/homebrew/etc/php/8.3/php.ini-production
+
+8. Make sure that the file:
+
+/opt/homebrew/opt/php@8.3/lib/httpd/modules/libphp.so
+
+has executable permissions, and that the entire php directory does.  Homebrew failed to change permissions in the php directory it installed.
+
+% cd /opt/homebrew/opt/
+% chmod -R 555 php@8.3
+[Could use 755 instead of 555 which will also give write permissions to the owner]
+
+9.  If when you restart Apache you get the following error:
+
+[so:error] [pid 22710] AH06665: No code signing authority for module at /opt/homebrew/opt/php@8.3/lib/httpd/modules/libphp.so specified in LoadModule directive.
+httpd: Syntax error on line 188 of /private/etc/apache2/httpd.conf: Code signing absent - not loading module at: /opt/homebrew/opt/php@8.3/lib/httpd/modules/libphp.so
+
+execute the following commands
+
+% find -L /etc/apache2 -type f -print0 | xargs -0 grep -i "^loadmodule.*php"
+% codesign --sign <YourDigitalSignature> --force --keychain ~/Library/Keychains/login.keychain-db /opt/homebrew/opt/php@8.3/lib/httpd/modules/libphp.so
+
+The latter will answer with:
+
+/opt/homebrew/opt/php@8.3/lib/httpd/modules/libphp.so: replacing existing signature
+
+Then restart Apache:
+
+% sudo httpd -k restart                                                                                                                      
+
+which will then give a message:
+
+[pid 22922] AH06662: Allowing module loading process to continue for module at /opt/homebrew/opt/php@8.3/lib/httpd/modules/libphp.so because module signature matches authority "<YourDigitalSignature>" specified in LoadModule directive
+
+V. To install the Cologne simple search you'll need to use Jim Funderburk's htaccess.txt.
+
+htaccess  does is a rewrite of a url from
+   http://localhost/cologne/simple/
+ to
+   http://localhost/cologne/csl-apidev/simple-search/v1.1/list-0.2s_rw.php
+
+For this to work, do the following:
+
+1. Activate htaccess.  Uncomment another line in httpd.conf in order to load the mod_rewrite module.  Enable it by removing the # at the beginning of this line:
+
+#LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+
+2. To allow rewrites only in the cologne directory, add at httpd.conf after other Directory elements (in my file after line 289):
+
+<Directory /Library/WebServer/Documents/cologne>
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+
+3. Researt apache
+
+% sudo httpd -k restart                                                                                                                      
+
+4. Change the name of Jim's htaccess.txt in the cologne directory to ".htaccess".  This will require password verification in the GUI interface or sudo priveleges on the command line (% sudo mv htaccess.txt .htaccess).  The file will disappear from view because files with initial dot are usually hidden.  You can see them by using the -a option in an ls command:
+
+% cd cologne
+% ls -a .htaccess
+

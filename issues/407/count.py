@@ -49,7 +49,7 @@ def count_one(dictlo,regex):
 def get_dictlos_all():
  x =  'acc ae ap90 ben bhs bop bor bur cae ' +\
  'ccs gra gst ieg inm  krm mci md mw mw72 ' +\
- 'mwe pe pgn pui    pw pwg sch shs skd ' +\
+ 'mwe pe pgn pui  pwkvn  pw pwg sch shs skd ' +\
  'snp stc vcp vei wil  yat lan armh'
  dictlos = re.split(r' +',x)
  print(len(dictlos),"dictionary codes known")

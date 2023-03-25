@@ -1,0 +1,15 @@
+; ------------------------------------------------------
+; pwkvn: 4 instances of [^<][/\\^][fxaiueoFXAIUEO]
+; ------------------------------------------------------
+; ----------------
+; i/a 
+25939  : (<hw>{#arcatrya#}</hw>) <hw>{#arcatri/a#}</hw>, so zu lesen. 
+; ----------------
+; i/a 
+51520  : <hw>{#arcatrya^#}</hw> (<hw>{#arcatri/a#}</hw>) I. 5. 
+; ----------------
+; o/a 
+68995  : <L>16952<pc>7-338-d<k1>goagra<k2>go/agra
+; ----------------
+; o/a 
+68996  : <hw>{#go/agra#}</hw> II. <ab>Vgl.</ab> <ls>PISCHEL</ls>, Vedische <lb/>Studien 51. 

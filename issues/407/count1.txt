@@ -1,0 +1,38 @@
+; Number of instances of [^<][/\\^][fxaiueoFXAIUEO]
+acc   4056 #-4056
+ae    0 
+ap90  0 
+ben   0 
+bhs   1 C-1
+bop   22 #-4, ?-18
+bor   0 
+bur   1 ?-1
+cae   17 V-17
+ccs   17 C-5, V-12
+gra   175 C-154, V-20, ?-1
+gst   0 
+ieg   0 
+inm   3 C-1, ?-2
+krm   13 V-2, ?-11
+mci   374 C-76, V-100, ?-198
+md    0 
+mw    3 V-3
+mw72  0 
+mwe   0 
+pe    0 
+pgn   0 
+pui   1 ?-1
+pwkvn 4 V-4
+pw    298 C-2, V-296
+pwg   86 V-86
+sch   1 V-1
+shs   0 
+skd   0 
+snp   0 
+stc   52 ?-52
+vcp   0 
+vei   0 
+wil   0 
+yat   0 
+lan   1 V-1
+armh  0 

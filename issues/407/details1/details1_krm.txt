@@ -1,0 +1,40 @@
+; ------------------------------------------------------
+; krm: 10 instances of [^<][/\\^][fxaiueoFXAIUEO]
+; ------------------------------------------------------
+; ......................................................
+; 2 instances with character before accent of type Vowel
+; ----------------
+; a^A 
+1565   : <s>arvaka^AH-rvikA, arvivizakaH-zikA</s>,
+; ----------------
+; a^A ::  ^A 
+55206  : 41 11 <s>arvaka^A:- ^AarvakaH-</s>-
+; ......................................................
+; 9 instances with character before accent of type Other
+; ----------------
+; >^A 
+1342   : (37) {@<s>‘arca pUjAyAm’</s>@}¦ (X<s>-curAdiH</s>-1809. <s>se</s>. <s>u</s>. <s>^A ADfzIyaH .</s>)
+; ----------------
+; >^A 
+1357   : <div n="P"><s>^A</s>. <s>‘ADfzAdvA’ (ga</s>. <s>sU</s>.) <s>iti Rico vEkalpikatvam . ‘SezAt kartari</s>
+; ----------------
+; >^A 
+1567   : <s>^A ‘aParvitAkANkzitamarvakaM satAM mAMsAdisaYcarvakaduzwaBarvakam .</s>
+; ----------------
+;  ^A 
+20968  : <s>kvipi-jew-jeq-jezO-jezaH, iti rUpARi iti viSezaH . ^A jezaH .</s>
+; ----------------
+; -^A 
+50585  : <s>rUpARi sarvARyapi BOvAdikakarvativat</s> (173<s>-^A) jYeyAni .</s>
+; ----------------
+; -^A 
+50590  : <s>BOvAdikakarvativat</s> (173<s>-^A</s>.) <s>rUpARi boDyAni .</s>
+; ----------------
+; a^A ::  ^A 
+55206  : 41 11 <s>arvaka^A:- ^AarvakaH-</s>-
+; ----------------
+; >^A ::  ^A 
+55208  : 42 2 <s>^A arhaRIyam, ^A arhaRIyam</s>,
+; ----------------
+; >^A ::  ^A 
+55231  : 56 2 <s>^A duraMhaH, iti rUpARi . iti rUpARi . ^A duraMhaH .</s>

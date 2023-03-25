@@ -1,0 +1,15 @@
+; <L>8387<pc>552-1<k1>pitfgraha<k2>pitfgraha
+95501 old {%pitṝn/unmādyati sa tu kṣipraṃ sa jñeyaḥ P°ḥ%}).
+;
+95501 new {%pitṝn / unmādyati sa tu kṣipraṃ sa jñeyaḥ P°ḥ%}).
+;---------------------------------------------------
+; <L>11819<pc>725-2<k1>vetasikA<k2>vetasikA
+127872 old ({%°ṃ gatvā Pitāmahaniṣevitāṃ/aśvamedham avāpnoti gacched%}
+;
+127872 new ({%°ṃ gatvā Pitāmahaniṣevitāṃ / aśvamedham avāpnoti gacched%}
+;---------------------------------------------------
+; <L>12416<pc>758-1<k1>vyAsa<k2>vyAsa
+133821 old {%sanātanaṃ/itihāsam imaṃ cakre puṇyaṃ Satyavatīsutaḥ%}, sc.
+;
+133821 new {%sanātanaṃ / itihāsam imaṃ cakre puṇyaṃ Satyavatīsutaḥ%}, sc.
+;---------------------------------------------------

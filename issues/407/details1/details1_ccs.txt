@@ -1,0 +1,58 @@
+; ------------------------------------------------------
+; ccs: 17 instances of [^<][/\\^][fxaiueoFXAIUEO]
+; ------------------------------------------------------
+; ......................................................
+; 5 instances with character before accent of type Consonant
+; ----------------
+; d/i 
+55052  : <L>11975<pc>212-2<k1>nitodin<k2>nitod/in
+; ----------------
+; d/i 
+55053  : {#nitod/in#}¦ stechend, bohrend.
+; ----------------
+; y^A 
+91861  : {%f.%} {#yogy^A#} Veranstalung, Werk,
+; ----------------
+; c/i 
+114911 : <L>24798<pc>447-1<k1>Sucidant<k2>Suc/idant
+; ----------------
+; c/i 
+114912 : {#Suc/idant#}¦ hellzahnig.
+; ......................................................
+; 12 instances with character before accent of type Vowel
+; ----------------
+; a/i 
+25926  : <L>5722<pc>098-2<k1>kzipraizu<k2>(kzipra/izu
+; ----------------
+; a/i 
+25927  : {#(kzipra/izu#}¦ = {#kzipre/zu#} schnelle Pfeile habend.
+; ----------------
+; o/a 
+39466  : <L>8576<pc>153-2<k1>tiroahnya<k2>tiro/ahnya
+; ----------------
+; o/a 
+39467  : {#tiro/ahnya#}¦ übertägig, vorgestrig.
+; ----------------
+; a/A 
+46700  : <L>10166<pc>180-2<k1>dUraADI<k2>dUra/ADI
+; ----------------
+; a/A 
+46701  : {#dUra/ADI#}¦ sich in die Ferne sehnend.
+; ----------------
+; e/a 
+46792  : <L>10188<pc>181-1<k1>dUreanta<k2>dUre/anta
+; ----------------
+; e/a 
+46793  : {#dUre/anta#}¦ ferne endend.
+; ----------------
+; a/u 
+69278  : <L>15083<pc>265-2<k1>prauga<k2>pra/uga
+; ----------------
+; a/u 
+69279  : {#pra/uga#}¦ {%n.%} Vorderteil der Wegendeichsel;
+; ----------------
+; a/U 
+120710 : <L>26027<pc>470-2<k1>sadyaUti<k2>sadya/Uti
+; ----------------
+; a/U 
+120711 : {#sadya/Uti#}¦ rasch helfend.

@@ -1,0 +1,883 @@
+; ------------------------------------------------------
+; pw: 292 instances of [^<][/\\^][fxaiueoFXAIUEO]
+; ------------------------------------------------------
+; ......................................................
+; 2 instances with character before accent of type Consonant
+; ----------------
+; d/I 
+143423 : <L>29745<pc>2088-2<k1>kUdI<k2>kUd/I<e>100
+; ----------------
+; d/I 
+143424 : {#kUd/I#}¦ <lex>f.</lex> {%Reisbündel , Büschel.%}
+; ......................................................
+; 290 instances with character before accent of type Vowel
+; ----------------
+; i/a 
+774    : {#(akuDrya^k)#}¦ {#akuDri/ak#} <ab>Adv.</ab> {%ziellos.%}
+; ----------------
+; a/U 
+3304   : {#agnyADAna#}¦ und {#agnyADe/ya#} <lex>n.</lex> {%das Anlegen des heiligen Feuers.%} {#agnyADeya/Upa/#} <lex>n.</lex> <ls>ŚAT. BR. 11,1,1,7.</ls> {#°SarkarA/#} <lex>f.</lex> <ls>13,8,4,11.</ls> {#°hAvi/s#} <ls>10,1,5,1.</ls>
+; ----------------
+; i^a 
+6609   : {#(ajrya^)#}¦ {#ajri^a#} <lex>Adj.</lex> {%auf der Ebene befindlich.%}
+; ----------------
+; i/a 
+7911   : {#(atiGnya^)#}¦ {#atiGni/a#} <lex>Adj.</lex> {%am höchsten stehend%} <ls>AV. 11,7,16.</ls>
+; ----------------
+; i/a 
+11920  : {#(adyUtya^)#}¦ {#adyUti/a#} <lex>n.</lex> {%unglückliches Spiel.%}
+; ----------------
+; i/a 
+12478  : {#aDarAcI/na#}¦ , {#(aDarAcya^)#} {#aDarAci/a#} und {#aDarA/Yc#} (<lex>f.</lex> {#°rA/cI#}) <lex>Adj.</lex>
+; ----------------
+; i/a 
+13543  : {#(aDizavaRya^)#}¦ {#aDizavaRi/a#} <lex>m.</lex> <ab>Du.</ab> {%die beiden Theile der <is>Soma</is>-Presse.%}
+; ----------------
+; i/a 
+16867  : {#anavaDarzya^#}¦ {#anavaDarzi/a#} <lex>Adj.</lex> {%dem man nicht trotzen kann.%}
+; ----------------
+; i/a 
+23013  : {#(anUpya^)#}¦ {#anUpi/a#} <lex>Adj.</lex> {%in Teichen oder Sümpfen befindlich.%}
+; ----------------
+; i/a 
+28902  : <div n="1">— 1) <lex>Adj.</lex> {#apasi/a#} (<lex>f.</lex> {#apasI/#}) {%aquosus.%}
+; ----------------
+; i/a 
+29606  : {#(apikakzya^)#}¦ {#°kakzi/a#} <lex>Adj.</lex> {%in der Gegend der Achselgruben befindlich.%}
+; ----------------
+; i/a 
+29755  : {#apIcya#}¦ {#apIci/a#} <lex>Adj.</lex>
+; ----------------
+; u/A 
+32022  : {#apvA#}¦ {#apu/A#} <lex>f.</lex> {%eine <ab>best.</ab> Krankheit.%} Auch personif.
+; ----------------
+; a/u 
+34107  : {#aBiplava/#}¦ <lex>m.</lex> {%eine <ab>best.</ab> sechstägige <is>Soma</is>-Feier.%} {#pfzWyABiplava/u#}.
+; ----------------
+; i/a 
+39456  : {#ambya^m#}¦ d.i. {#ambi/am#} <ab>Acc.</ab> von {#amvI/#}.
+; ----------------
+; a/u 
+42721  : {#arkASvameDa*#}¦ <lex>n.</lex> <ab>Sg.</ab> (<ls>KĀŚ.</ls> zu <ls>P. 2,6,4</ls>) und {#°Da/u#} <lex>m.</lex> <ab>Du.</ab> {%die Begehung <is>Arka</is> und das Rossopfer%} <ls>AV. 11,7,7.</ls> <ls>ŚAT. BR. 9,4,2,18. 10,6,5,8.</ls> {#°Da/vant#} <lex>Adj.</lex> {%den A. u. d. R. erhaltend%} <ls>TS. 2,2,7,5.</ls> {#°Di/n#} <lex>Adj.</lex> {%den A. u. d. R. begehend%} <ls>5,7,5,3.</ls>
+; ----------------
+; i/a 
+45206  : 2. {#(arya^)#}¦ {#ari/a#} <lex>Adj.</lex> {%hold.%}
+; ----------------
+; i/a 
+58986  : {#asurya^#}¦ und {#asuri/a#}
+; ----------------
+; i/a :: i/a 
+60211  : {#(asmadrya^Yc)#}¦ {#asmadri/aYc#} <lex>Adj.</lex> {%uns zugewandt.%} <ab>Adv.</ab> {#°dyak#} und {#°dri/ak#}.
+; ----------------
+; i/a 
+60797  : {#(ahanya^)#}¦ {#ahani/a#} <lex>Adj.</lex> {%diurnus , täglich.%}
+; ----------------
+; i/a 
+62066  : {#(AkAyya^)#}¦ {#AkAyi/a#} <lex>Adj.</lex> {%begehrenswerth.%}
+; ----------------
+; i/a 
+63800  : {#(ANgUzya^)#}¦ {#ANgUzi/a#} <lex>Adj.</lex> {%laut preisend , schallend.%}
+; ----------------
+; i/a 
+67254  : 1. {#Adya^#}¦ {#Adi/a#}
+; ----------------
+; i/a 
+71422  : {#Ayuzya^#}¦ , {#Ayuzi/a#}
+; ----------------
+; e/a 
+72224  : <L>15546<pc>1184-1<k1>AreaGa<k2>Are/aGa<e>100
+; ----------------
+; e/a 
+72225  : {#Are/aGa#}¦ <lex>Adj.</lex> (<lex>f.</lex> {#A#}) {%ohne Uebel.%}
+; ----------------
+; e/a 
+72228  : <L>15547<pc>1184-1<k1>Areavadya<k2>Are/avadya<e>100
+; ----------------
+; e/a 
+72229  : {#Are/avadya#}¦ <lex>Adj.</lex> {%ohne Tadel.%}
+; ----------------
+; u/a 
+75626  : {#(ASva^pas)#}¦ {#ASu/apas#} <lex>Adj.</lex> {%rasch handelnd.%}
+; ----------------
+; u/a 
+75697  : {#(ASva^Sva)#}¦ {#ASu/aSva#} <lex>Adj.</lex> {%rasche Rosse habend.%}
+; ----------------
+; i/a 
+76841  : {#Asya^#}¦ {#Asi/a#} <lex>n.</lex>
+; ----------------
+; a/U 
+78629  : <L>16746<pc>1202-2<k1>itaUti<k2>ita/Uti<e>100
+; ----------------
+; a/U 
+78630  : {#ita/Uti#}¦ <lex>Adj.</lex>
+; ----------------
+; i/a 
+83203  : {#ukTya^#}¦ {#ukTi/a#}
+; ----------------
+; A/a 
+83285  : {#(ukzaRyA/yana)#}¦ {#ukzaRiA/ana#} <lex>m.</lex> <ab>Patron.</ab>
+; ----------------
+; i/a 
+83626  : {#ucaTya#}¦ {#ucaTi/a#}
+; ----------------
+; a/A 
+85709  : <L>18159<pc>1222-1<k1>uttarataAyatana<k2>uttarata/Ayatana<e>100
+; ----------------
+; a/A 
+85710  : {#uttarata/Ayatana#}¦ <lex>Adj.</lex> (<lex>f.</lex> {#A#}) {%zur Linken seinen Platz habend.%}
+; ----------------
+; i/a 
+87560  : {#(utsya^)#}¦ {#utsi/a#} <lex>Adj.</lex> {%aus Quellen — , aus Brunnen stammend.%}
+; ----------------
+; i/a 
+88190  : {#udanya#}¦ {#udani/a#}
+; ----------------
+; i/a 
+88884  : {#(udApya^m)#}¦ {#udApi/am#} <ab>Adv.</ab> {%gegen den Strom.%}
+; ----------------
+; i/a 
+89193  : {#(udIcya^)#}¦ {#udIci/a#} und {#udIcya/#}
+; ----------------
+; i/a 
+92883  : {#(upadeSya^)#}¦ {#upadeSi/a , upadeSya#} <lex>Adj.</lex> {%was gelehrt wird.%}
+; ----------------
+; i/a 
+93327  : {#(upapakzya^)#}¦ {#upapakzi/a#} <lex>Adj.</lex> {%an der Achsel befindlich.%}
+; ----------------
+; i/a 
+94615  : {#(upavAkya^)#}¦ {#°vAki/a#} und ( {#°vA/cya#}) {#°vA/cia#} <lex>Adj.</lex> {%anzureden , zu preisen.%}
+; ----------------
+; a/u 
+96942  : {#uBaya/taHprauga#}¦ ( {#uBaya/taHpra/uga#} (<ls>ŚAT. BR.</ls>). <lex>Adj.</lex> {%auf beiden Seiten mit einem <is>Prauga</is> versehen.%} <ab>Subst.</ab> {%eine Solche geometrische Figur%} <ls>ŚULBAS. 1,57. 3,172. fg.</ls>
+; ----------------
+; i/U 
+98029  : {#(urvyU^ti)#}¦ ( {#urvi/Uti#} <lex>Adj.</lex> {%weithin Hülfe bringend.%}
+; ----------------
+; i/a 
+99630  : {#(Urjavya^)#}¦ {#Urjavi/a#} <lex>Adj.</lex> {%nahrungsreich , kraftreich.%}
+; ----------------
+; u/a 
+100467 : {#Urva/#}¦ {#Uru/a#} <lex>m.</lex>
+; ----------------
+; i/a 
+100604 : {#*UzmaRa#}¦ und ( {#UzmaRya#}) {#UzmaRi/a#} <lex>Adj.</lex> {%dampfend.%}
+; ----------------
+; i/a 
+105646 : {#enasya^#}¦ {#enasi/a#} <lex>Adj.</lex>
+; ----------------
+; i/a 
+106127 : {#(ezEzya^)#}¦ {#ezEzi/a#} <lex>Adj.</lex> {%suchenswerth , wünschenswerth.%}
+; ----------------
+; i/a 
+106161 : 2. {#ezya#}¦ , {#ezi/a#} <lex>Adj.</lex>
+; ----------------
+; i/a 
+107243 : {#(okya/)#}¦ {#oki/a#}
+; ----------------
+; i/a 
+110111 : 2. {#kakzya^#}¦ ( {#kakzi/a#})
+; ----------------
+; i/A 
+110113 : <div n="1">— 2) <lex>f.</lex> {#kakzyA^#} ( {#kakzi/A#})
+; ----------------
+; i/A 
+114586 : <div n="1">— 2) <lex>f.</lex> {#kanyA^ , kani/A#}
+; ----------------
+; i/a 
+120511 : {#karmaRya/#}¦ ( {#karma/Ri/a#})
+; ----------------
+; u/a 
+155618 : {#kva^#}¦ ( {#ku/a#} ) <ab>Adv.</ab>
+; ----------------
+; a/i 
+157948 : {#(kziprezu)#}¦ {#kzipra/izu#} <lex>Adj.</lex> {%schnelle Pfeile habend%} <ls>12,15.</ls>
+; ----------------
+; i/a 
+177461 : 2. {#(gehya^)#}¦ , {#gehi/a#} <lex>n.</lex> {%res familiaris.%}
+; ----------------
+; o/a 
+177560 : <L>36410<pc>2178-2<k1>goagra<k2>go/agra<e>100
+; ----------------
+; o/a 
+177561 : {#go/agra#}¦ <lex>Adj.</lex> (<lex>f.</lex> {#A#}) {%wobei Rinder (Kühe , Milch) das Erste — , Vornehmste sind.%}
+; ----------------
+; o/a 
+177572 : <L>36413<pc>2178-2<k1>goarRas<k2>go/arRas<e>100
+; ----------------
+; o/a 
+177573 : {#go/arRas#}¦ <lex>Adj.</lex>
+; ----------------
+; o/f 
+177590 : <L>36417<pc>2178-2<k1>gofjIka<k2>go/fjIka<e>100
+; ----------------
+; o/f 
+177591 : {#go/fjIka#}¦ <lex>Adj.</lex> {%mit Milch gemischt.%}
+; ----------------
+; o/o 
+177594 : <L>36418<pc>2178-2<k1>goopaSa<k2>go/opaSa<e>100
+; ----------------
+; o/o 
+177595 : {#go/opaSa#}¦ <lex>Adj.</lex> {%mit einer Flechte oder einem Büschel von rindsledernen Riemen versehen.%}
+; ----------------
+; i/a 
+183345 : {#grAmya/#}¦ ( {#grAmi/a#})
+; ----------------
+; i/a 
+183625 : {#grAhya#}¦ ( {#grAhi/a#})
+; ----------------
+; e/a 
+185516 : <L>37922<pc>2199-2<k1>GAseajra<k2>GAse/ajra<e>100
+; ----------------
+; e/a 
+185517 : {#GAse/ajra#}¦ <lex>Adj.</lex> {%Esslust erregend.%}
+; ----------------
+; i/a 
+201384 : {#Candasya^#}¦ ( {#Candasi/a#})
+; ----------------
+; i/a 
+210214 : {#(jArya)#}¦ {#jari/a#} <lex>n.</lex> {%Vertraulichkeit. Liebe.%} Nach <ls>SĀY.</ls> <lex>Adj.</lex> = {#stutya#}.
+; ----------------
+; U/A 
+212903 : {#(juhvAMsya)#}¦ {#juhU/Asia#} <lex>Adj.</lex> {%dessen Mund voller Zungen (Flammen) ist.%}
+; ----------------
+; i/A 
+214441 : {#jyA/yaMs#}¦ , {#ji/AyaMs#} <lex>Adj.</lex>
+; ----------------
+; u/a 
+217638 : {#(taNgalva)#}¦ {#taNgalu/a#} <lex>m.</lex> {%ein <ab>best.</ab> Unhold.%}
+; ----------------
+; o/a 
+227097 : <L>45850<pc>3029-3<k1>tiroahniya<k2>tiro/ahniya<e>000
+; ----------------
+; o/a 
+227098 : {#tiro/ahniya#}¦ (<ls>TS. 7,3,13,1</ls>) und {#°aNnya#} <lex>Adj.</lex> {%übertägig , d.i. vorgestrig.%}
+; ----------------
+; o/a 
+227144 : {#tiro/'hnya#}¦ <lex>Adj.</lex> = {#tiro/ahnya#}.
+; ----------------
+; i/a 
+227765 : {#tizya^#}¦ ( {#(tizi/a)#} {#tizya/#}
+; ----------------
+; i/a 
+238113 : {#trya/mbaka#}¦ , {#tri/ambaka#}
+; ----------------
+; i/a 
+238158 : {#(tryara)#}¦ {#tri/ara#} <lex>Adj.</lex> {%drei Radspeichen habend.%}
+; ----------------
+; i/a 
+238162 : {#tryaruRa#}¦ , {#tri/aruRa#} <lex>m.</lex> <ab>N.pr.</ab> eines Mannes.
+; ----------------
+; i/a 
+238166 : {#(tryaruza)#}¦ {#tri/aruza#} <lex>Adj.</lex> (<lex>f.</lex> {#i#}) {%an drei Stellen röthlich gezeichnet.%}
+; ----------------
+; i/A 
+238288 : {#(tryASir)#}¦ {#tri/ASir#} <lex>Adj.</lex> {%mit drei Milchproducten gemischt.%}
+; ----------------
+; u\a 
+238355 : 3. {#tva\#}¦ , {#tu\a\#}
+; ----------------
+; A/U 
+238851 : {#tvA/dUta#}¦ , {#tuA/UdUta#} <lex>Adj.</lex> {%dich zum Boten habend.%}
+; ----------------
+; i/a 
+239018 : {#(tvezya)#}¦ {#tvezi/a#} <lex>Adj.</lex> {%erschütternd.%}
+; ----------------
+; u/a 
+247585 : {#(dASvaDvara)#}¦ {#dASu/aDvara#} <lex>Adj.</lex> {%dem heiligen Dienst fromm obliegend.%}
+; ----------------
+; i/a 
+251085 : {#(dIrGajihvya^)#}¦ {#dIGajihvi/a#} <lex>Adj.</lex> {%langzüngig.%}
+; ----------------
+; i/a 
+256561 : {#dUtya^#}¦ , {#dUti/a#} <lex>n.</lex> und {#dUtyA#} <lex>f.</lex> {%der Dienst oder das Amt eines Abgesandten , Botschaft.%}
+; ----------------
+; a/A 
+256605 : <L>51789<pc>3109-3<k1>dUraAdiS<k2>dUra/AdiS<e>100
+; ----------------
+; a/A 
+256606 : {#dUra/AdiS#}¦ <lex>Adj.</lex> {%weithin verkündend , — schallend.%}
+; ----------------
+; a/A 
+256609 : <L>51790<pc>3109-3<k1>dUraADI<k2>dUra/ADI<e>100
+; ----------------
+; a/A 
+256610 : {#dUra/ADI#}¦ <lex>Adj.</lex> {%in die Ferne sinnend , sich hinaussehnend.%}
+; ----------------
+; a/u 
+256613 : <L>51791<pc>3109-3<k1>dUraupabdas<k2>dUra/upabdas<e>100
+; ----------------
+; a/u 
+256614 : {#dUra/upabdas#}¦ <lex>Adj.</lex> {%weithin klappernd.%}
+; ----------------
+; e/a 
+256855 : <L>51845<pc>3110-2<k1>dUreanta<k2>dUre/anta<e>100
+; ----------------
+; e/a 
+256856 : {#dUre/anta#}¦ <lex>Adj.</lex> (<lex>f.</lex> {#A#}) {%in weiter Ferne endend.%}
+; ----------------
+; e/a 
+256859 : <L>51846<pc>3110-2<k1>dUreamitra<k2>dUre/amitra<e>100
+; ----------------
+; e/a 
+256860 : {#dUre/amitra#}¦ <lex>Adj.</lex> {%dessen Feinde fern sind.%}
+; ----------------
+; e/a 
+256863 : <L>51847<pc>3110-2<k1>dUrearTa<k2>dUre/arTa<e>100
+; ----------------
+; e/a 
+256864 : {#dUre/arTa#}¦ <lex>Adj.</lex> {%dessen Ziel fern liegt.%}
+; ----------------
+; i/a 
+259090 : {#devadryaYc#}¦ ( {#°dri/aYc#} , schwach {#°drI/c#}) <lex>Adj.</lex> <lex>f.</lex> ( {#°drI/cI#}) {%den Göttern zugewandt%}
+; ----------------
+; i/a 
+260980 : {#(devya)#}¦ {#devi/a#} <lex>n.</lex> {%göttliche Würde , — Macht.%}
+; ----------------
+; a/u 
+263025 : {#dyA/vApfTivI/#}¦ und {#dyA/vApfTivya/u#} (<ls>SUPARṆ. 2,1</ls>) <ab>Nom.</ab> <ab>Du.</ab> <lex>f.</lex> <ab>dass.</ab> zu belegen ausserdem {#°vI/ByAm , °vyo/s#} und {#°vI/s#} (mit der Endung des <ab>Pl.</ab>). {#°pfTivyoH sAmanI dve#} und {#°pfTivyoHviparIte#} <ls>ĀRṢ. BR.</ls>
+; ----------------
+; I/a 
+265184 : {#(droRyaSva)#}¦ {#droRI/aSva#} <lex>Adj.</lex> {%Tröge%} (d. i. {%Regenwolken) zu Rossen habend.%}
+; ----------------
+; u/a 
+265314 : {#(drvanna)#}¦ {#dru/anna#} <lex>Adj.</lex> {%Holz zur Speise habend.%}
+; ----------------
+; u/A 
+265611 : {#dvA/daSan#}¦ , {#du/AdaSan#} und {#dvAdaSa/n#} <lex>Adj.</lex> <ab>Pl.</ab> {%zwölf.%}
+; ----------------
+; i/A 
+268606 : <L>54328<pc>3140-1<k1>dviAsya<k2>dvi/Asya<e>107
+; ----------------
+; i/A :: i/A 
+268607 : {#dvi/Asya#}¦ , {#dvi/AsiAsiA#} <lex>Adj.</lex> (<lex>f.</lex> {#A#}) {%zweimäulig%} <ls>AV. 5,19,10. 8,6,22.</ls>
+; ----------------
+; i/a 
+269778 : {#Danvanya#}¦ , {#Danvani/a#} <lex>Adj.</lex> (<lex>f.</lex> {#A#}) {%auf trockenem Lande befindlich.%}
+; ----------------
+; i/a 
+273370 : 2. {#DAnya/#}¦ und {#DAni/a#}
+; ----------------
+; i/a 
+275003 : 2. {#(DIrya)#}¦ {#DIri/a#} <lex>n.</lex> {%Einsicht , Verständigkeit.%}
+; ----------------
+; u/o 
+276732 : {#(DfzRvojas)#}¦ {#DfzRu/ojas#} <lex>Adj.</lex> {%mit tüchtiger Kraft ausgerüstet.%}
+; ----------------
+; i/a 
+278259 : {#(Dvanya)#}¦ {#Dvani/a#} <lex>m.</lex> <ab>N.pr.</ab> eines Mannes.
+; ----------------
+; i/a 
+281184 : {#(naBanya)#}¦ {#naBani/a#} <lex>Adj.</lex> etwa {%durchdringend.%}
+; ----------------
+; i/a 
+281698 : {#namasya^#}¦ , {#namasi/a#} <lex>Adj.</lex>
+; ----------------
+; i/a 
+284634 : {#(nahuzya)#}¦ {#nahuzi/a#}
+; ----------------
+; i/a 
+288375 : 1. {#nAvya^#}¦ , {#nAvi/a#}
+; ----------------
+; i/a 
+290672 : {#(niDAnya)#}¦ {#niDAni/a#} <lex>Adj.</lex> {%zum Niedersetzen <ab>u.s.w.</ab> geeignet.%}
+; ----------------
+; i/a 
+294698 : {#(nirbADya)#}¦ {#nirbADi/a#} <lex>Adj.</lex> {%Alles zu beseitigen vermögend%} <ls>ĀPAST. ŚR. 3,14,2</ls> (<ab>v.l.</ab> zu <ls>AV. 6,75,1</ls> ; auch {#eRaM#} st. {#enaM#} , wie <ls>TBR.</ls> ).
+; ----------------
+; i/a 
+301871 : {#(nIviBArya)#}¦ {#nIviBAri/a#} <lex>Adj.</lex> {%im Schurz zutragen.%}
+; ----------------
+; i/A 
+301883 : {#(nIvyA)#}¦ {#nIvi/A#} <lex>f.</lex> etwa {%Gewand.%}
+; ----------------
+; i/a 
+304176 : {#(nErbADya)#}¦ , {#nErbaDi/a#} <lex>Adj.</lex> = {#nirbADya^#}.
+; ----------------
+; i/a 
+304849 : {#nya/Yc#}¦ , {#ni/aYc#}
+; ----------------
+; i/a 
+304853 : <div n="1">— 2) {#nya^k ni/ak#} <ab>Adv.</ab>
+; ----------------
+; i^a 
+304882 : {#(nyayana)#}¦ {#ni^a/yana#} <lex>n.</lex> {%Eingang oder Sammelplatz.%}
+; ----------------
+; i/a 
+304898 : {#nya^rbuda#}¦ , {#ni/arbuda#} <lex>n.</lex> {%hundert Millionen.%}
+; ----------------
+; i/a 
+304902 : {#(nyarbudi)#}¦ {#ni/arbudi#} <lex>m.</lex> <ab>N.pr.</ab> eines göttlichen Wesens.
+; ----------------
+; i/o 
+305356 : {#nyokas#}¦ , {#ni/okas#} <lex>Adj.</lex> {%heimisch , angewöhnt , behaglich.%}
+; ----------------
+; i/a 
+306067 : {#pakzya#}¦ , {#pakzi/a#} <lex>Adj.</lex> <lex>f.</lex> {#A#})
+; ----------------
+; i/a 
+306521 : {#(pacatya)#}¦ , {#pacati/a#} <lex>Adj.</lex> {%gekocht , gar.%}
+; ----------------
+; i/A 
+311365 : <div n="1">— 3) <lex>f.</lex> {#paTyA^ , paTi/A#}
+; ----------------
+; a/u 
+314160 : <L>63145<pc>4029-2<k1>parauru<k2>para/uru<e>100
+; ----------------
+; a/u 
+314161 : {#para/uru#}¦ <lex>Adj.</lex> (<lex>f.</lex> {#°urvI#}) {%aussen — , hinten breit.%}
+; ----------------
+; i/a 
+322668 : {#parvatya/#}¦ und {#parvati/a#} <lex>Adj.</lex> {%zum Berg — , zum Fels gehörig.%}
+; ----------------
+; i/a 
+324714 : {#(pastya)#}¦ {#pasti/a#}
+; ----------------
+; i/A 
+324732 : {#(pastyAvant)#}¦ {#pasti/Avant#} <lex>Adj.</lex>
+; ----------------
+; i/A 
+325334 : {#(pAkyA)#}¦ {#pAki/A#} <lex>f.</lex> {%Einfalt%} , Nur im gleichlautenden <ab>Instr.</ab> {%in Einfalt , im Unverstand.%}
+; ----------------
+; i/a 
+325507 : {#pAjasya^#}¦ {#pAjasi/a#} <lex>n.</lex> {%Bauchgegend beim Thier , die Weichen.%}
+; ----------------
+; i/a 
+331642 : {#(pAzya)#}¦ {#pAzi/a#} <lex>n.</lex>
+; ----------------
+; i/o 
+331644 : <div n="1">— 2) <ab>Du.</ab> {%die beiden <is>Soma</is>-Steine.%} <ab>Gen.</ab> {#pAzyo^s#} lies {#pAzi/os#}.
+; ----------------
+; i/a 
+338895 : {#purIzya^#}¦ {#purIzi/a#} <lex>Adj.</lex> (<ab>vgl.</ab> <ls>KUHN'S Z. 24,64</ls>).
+; ----------------
+; i/a 
+339811 : {#(puruzya)#}¦ {#puruzi/a#} <lex>Adj.</lex> {%menschlich.%}
+; ----------------
+; o/a 
+339900 : <L>68356<pc>4102-2<k1>puroagni<k2>puro/agni<e>100
+; ----------------
+; o/a 
+339901 : {#puro/agni#}¦ <lex>m.</lex> {%vorderer <is>Agni</is> , Vorfeuer.%}
+; ----------------
+; i/a 
+344628 : {#(pUzarya)#}¦ {#pUzari/a#} <lex>Adj.</lex> {%wohlgenährt%} <ls>ṚV. 10,106,5.</ls>
+; ----------------
+; i/a 
+346361 : 1. {#pfzWya#}¦ , {#pfzWi/a#}
+; ----------------
+; a/u 
+348801 : <L>70201<pc>4126-2<k1>prauga<k2>pra/uga<e>100
+; ----------------
+; a/u 
+348802 : {#pra/uga#}¦
+; ----------------
+; i/a 
+352379 : {#(pratikAmya)#}¦ {#pratikAmi/a#} <lex>Adj.</lex> {%nach Wunsch beschaffen.%}
+; ----------------
+; i/a 
+358729 : {#(praTamavAsya)#}¦ , {#°vAsi/a#} <lex>Adj.</lex> {%früher getragen.%}
+; ----------------
+; i/i 
+359118 : {#pradAvya^#}¦ <lex>Adj.</lex> in Verbindung mit {#agni/i = pradavya^#} <ls>ĀPAST. ŚR. 9,3,22. 13,24,16. 16,19.</ls>
+; ----------------
+; i/a 
+359458 : {#(praDanya)#}¦ {#praDani/a#} <lex>Adj.</lex> (<lex>f.</lex> {#a#}) {%den Kampfpreis%} oder {%die Beute bildend.%}
+; ----------------
+; a/u 
+362200 : {#*prayuga#}¦ soll die ursprüngliche Form von {#pra/uga#} sein.
+; ----------------
+; a/o 
+362334 : {#prayogacandrikA#}¦ <lex>f.</lex> (<ls>OPP. CAT. 1</ls>) {#prayogacintAmaRi#}. <lex>m.</lex> , {#prayogatattva#} <lex>n.</lex> {#prayogadarpaRa#} <lex>m.</lex> , {#prayogadIpa#} <lex>m.</lex> , {#pra/ogadIpikA#} <lex>f.</lex> und {#prayogapadDati#} <lex>f.</lex> Titel von Werken.
+; ----------------
+; i/a 
+363455 : {#(pravAyya)#}¦ {#pravAyi/a#} <lex>n.</lex> etwa {%Flüchtigkeit.%}
+; ----------------
+; i/e 
+366521 : {#(prahye)#}¦ {#prahi/e#} <ab>Dat.</ab> <ab>Infin.</ab> zu 1. {#hi#} mit {#pra#} <ls>ṚV. 10,109,3.</ls>
+; ----------------
+; i/a 
+370561 : {#(prASavya)#}¦ {#prASavi/a#} <lex>m.</lex> <ab>Pl.</ab> {%Speisevorrath , Lebensmittel.%}
+; ----------------
+; i/a 
+377357 : {#barhizya^#}¦ , {#barhizi/a#}
+; ----------------
+; i/a 
+382297 : 1. {#bAhuvIrya#}¦ , {#°vIri/a#} <lex>n.</lex> {%Stärke der Arme.%}
+; ----------------
+; u/o 
+382470 : 1. {#(bAhvojas)#}¦ {#bAhu/ojas#} <lex>n.</lex> {%Kraft der Arme.%}
+; ----------------
+; u/o 
+382474 : 2. {#(bAhvojas)#}¦ {#bAhu/ojas#} <lex>Adj.</lex> {%armkräftig.%}
+; ----------------
+; i/a 
+384331 : {#buDnya^#}¦ , {#buDni/a#}
+; ----------------
+; A/f 
+393645 : <L>79238<pc>4257-1<k1>BAfjIka<k2>BA/fjIka<e>100
+; ----------------
+; A/f 
+393646 : {#BA/fjIka#}¦ <lex>Adj.</lex> {%lichtstrahlend.%}
+; ----------------
+; i/a 
+395840 : {#BAvya#}¦ , {#BAvi/a#}
+; ----------------
+; i/a 
+398343 : {#Bujizya#}¦ , {#Bjizi/a#}
+; ----------------
+; a/i 
+398785 : <div n="1">— 3) {#tira/ivEte/na#} {#boBavat#} {%das halte er geheim , verberge er.%}
+; ----------------
+; i/a 
+403445 : 1. {#Bojya#}¦ , {#Boji/a#}
+; ----------------
+; i/a 
+408145 : 1. {#matya^#}¦ , {#mati/a#} <lex>n.</lex>
+; ----------------
+; i/a 
+408575 : {#(maTavya)#}¦ {#maTavi/a#} <ls>AV. 2,35,2</ls> fehlerhaft für {#maDavya/#}.
+; ----------------
+; i/a :: i/a 
+409812 : {#(madryaYc)#}¦ {#madri/aYc#} <lex>Adj.</lex> {%gegen mich gewandt.%} {#madri/ak#} <ab>Adv.</ab> {%zu mir her.%}
+; ----------------
+; u/a 
+412250 : {#(mananya)#}¦ {#mananu/a#} <lex>Adj.</lex> nach <ls>SĀY.</ls> = {#stutya#}.
+; ----------------
+; i/a 
+412796 : {#manuzya^#}¦ , {#manuzi/a#}
+; ----------------
+; a/A 
+418989 : {#(mahayAyya)#}¦ {#maha/A/yia#} <lex>n.</lex> {%Ergötzung , Lustigkeit.%}
+; ----------------
+; a/u 
+426430 : {#*mAMsOdanika#}¦ <lex>Adj.</lex> (<lex>f.</lex> {#I#}) von {#AMsa/udana#}.
+; ----------------
+; i/a 
+430711 : {#(mArjAlya)#}¦ {#mArjAli/a#} <lex>Adj.</lex> {%der sich gern reinigen lässt , Reinigung liebend.%}
+; ----------------
+; a/u 
+432578 : <div n="1">— 2) <lex>m.</lex> <ab>N.pr.</ab> eines Lehrers und eines Sohnes des <is>Divodāsa</is>. <ab>Pl.</ab> {#mitra/uvas#} {%die Nachkommen <is>Mitrayu</is>'s%} ; soll auch <ab>Pl.</ab> zu {#mEtreya#} sein.
+; ----------------
+; i/a 
+432820 : {#mitrya^#}¦ , {#mitri/a#} <lex>Adj.</lex> = {#mitra/ya#}. *Am Ende einen Comp. {%zu den Freunden%} des und des {%gehörig.%}
+; ----------------
+; o/a 
+432963 : <L>86913<pc>5079-1<k1>miToavadyapa<k2>miTo/avadyapa<e>100
+; ----------------
+; o/a 
+432964 : {#miTo/avadyapa#}¦ <lex>Adj.</lex> {%gegenseitig Mangel%} oder {%Noth von sich abwendend.%}
+; ----------------
+; a/u 
+450933 : {#yavasin#}¦ und {#yavasyu#} in {#suyavasi/#} und {#suyavasya/u#}.
+; ----------------
+; i/a 
+452616 : {#(yAdrADyam)#}¦ {#yAdrADi/am#} <lex>Adj.</lex> {%so weit es sich thun lässt , so gut%} oder {%so schnell als möglich.%} Nach <ls>SĀY.</ls> <lex>Adj.</lex> {%für die Gehenden%} ( {%Lebenden%} ) {%erreichbar.%}
+; ----------------
+; i/a 
+455357 : {#yUTya#}¦ , {#yUTi/a#}
+; ----------------
+; i/a 
+460363 : 2. {#(raRya)#}¦ {#raRi/a#} <ls>AV. 9,3,6.</ls> von unbekannter Red.
+; ----------------
+; i/a 
+462227 : {#ra/Tya#}¦ , {#ra/Tia#} und {#raTi/a#}
+; ----------------
+; i/a 
+462236 : <div n="2">— b) {#raTya^#} ( {#raTi/a#}) etwas {%Wagenrennen , Wagenkampf%} ; {%Wagenzug%} <ls>ṚV. 3,36,6</ls> ( {#raTya^miva#} gemeint). Vielleicht auch {%Fuhrwerk.%}
+; ----------------
+; i/a 
+466029 : {#rAjanya^#}¦ , {#rAjani/a#}
+; ----------------
+; i/a 
+467422 : <div n="1">— 2) <lex>n.</lex> (auch {#rA/jya#} , {#rAjya^#} und {#rAji/a#}) {%Herrschaft , Königthum , — über%} (<ab>Loc.</ab>) ; {%Reich%} (also = {#rAzwra#}). {#rAjyaM#} {#kar#} , {#kAray#} , {#upa As#} und {#vi-DA#} so <ab>v.a.</ab> {%regieren.%} Am Ende eines Comp. {%Herrschaft des und H. über%} ; am Ende eines <lex>adj.</lex> Comp. <lex>f.</lex> {#A#}.
+; ----------------
+; i/a :: i/A 
+470453 : {#rItya^p#}¦ , {#rIti/ap#} (stark {#rItyA^p#} , {#rIti/Ap#}) <lex>Adj.</lex> {%Wasser strömend.%}
+; ----------------
+; i/a 
+476418 : {#lakzmaRya#}¦ , {#lakzmaRi/a#}
+; ----------------
+; i/a :: i/A 
+491859 : {#vapuzya#}¦ , {#vapuzi/a#} <lex>Adj.</lex> (<lex>f.</lex> {#vapuzi/A#}) <lex>Adj.</lex> {%wundersam , wunderbar schön.%}
+; ----------------
+; i/a 
+492356 : {#(vayya)#}¦ {#vayi/a#} <lex>m.</lex> {%Gefährte , Genosse.%} Nach <ls>SĀY.</ls> auch<ab>N.pr.</ab> verschiedener Personen.
+; ----------------
+; i/a 
+494020 : {#varuRya^#}¦ , {#varuRi/a#} <lex>Adj.</lex> (<lex>f.</lex> {#A#}) {%von <is>Varuṇa</is> kommend , im gehörig.%} <ab>u.s.w.</ab> {#Apa/H#} {%stehendes Wasser.%}
+; ----------------
+; i/a 
+494101 : {#varUTya#}¦ , {#varUTi/a#} <lex>Adj.</lex> {%Schirm — , Schutz gewährend.%}
+; ----------------
+; i/a 
+497430 : {#varzya^#}¦ , {#varzi/a#} und {#va/rzya#}
+; ----------------
+; i/a 
+499200 : {#vasavya^#}¦ , {#vasavi/a#}
+; ----------------
+; i/a 
+513729 : {#(vijenya)#}¦ {#vijeni/a#} <lex>Adj.</lex> {%fern.%}
+; ----------------
+; i/a 
+515344 : {#(vidaTya)#}¦ {#vidaTi/a#} <lex>Adj.</lex> {%in eine Versammlung — , in eine Gemeinde , in einen Rath tauglich%} <ab>u.s.w.</ab> ; {%festlich.%}
+; ----------------
+; i/a 
+526676 : {#viSya^#}¦ {#viSi/a#}
+; ----------------
+; i/a 
+527370 : {#viSvadAvya/#}¦ , {#°dAvi/a#} <lex>Adj.</lex> {%allsengend%} <ls>MAITR. S. 1,6,7 (98,5).</ls>
+; ----------------
+; i/a 
+528310 : {#(viSvANgya)#}¦ {#viSvANgi/a#} <lex>Adj.</lex> {%in allen Gliedern befindlich%} <ls>AV. 9,8,5.</ls>
+; ----------------
+; i/a 
+531048 : <div n="1">— 2) <ab>Adv.</ab> {#°dryak) vizvadri/ak#} {%nach den beiden Seiten hinaus , weg.%}
+; ----------------
+; u/a 
+532697 : {#vIqva^Nga#}¦ , {#viLu/aNga#} <lex>Adj.</lex> {%festgliederig.%}
+; ----------------
+; i/a 
+533966 : {#vIrya^#}¦ {#vIri/a#}
+; ----------------
+; i/a 
+534039 : {#vIrya^vant#}¦ , {#vIri/avant#}
+; ----------------
+; i/a 
+534734 : {#(vfjanya)#}¦ {#vfjani/a#} <lex>Adj.</lex> {%was in Dörfern%} <ab>u.s.w.</ab> {%wohnt.%}
+; ----------------
+; i/a 
+539924 : <div n="1">— 3) <lex>n.</lex> {#veSya , veSi/a#}
+; ----------------
+; i/a 
+543899 : {#vyaMsa#}¦ , {#vi/aMsa#}
+; ----------------
+; i/a 
+544027 : 1. {#vyaNga#}¦ , {#vi/aNga#}
+; ----------------
+; i/a 
+544037 : 2. {#vyaNga#}¦ {#vi/aNga#}
+; ----------------
+; i/a 
+545123 : {#(vyalkaSA)#}¦ {#vi/alkaSA#} <lex>f.</lex> {%eine <ab>best.</ab> Pflanze.%}
+; ----------------
+; i/a 
+545574 : {#vyaSva#}¦ , {#vi/aSva#}
+; ----------------
+; i/A 
+546437 : {#vyADI#}¦ , {#vi/ADI#} <lex>f.</lex> {%Sorge.%}
+; ----------------
+; i/A 
+546578 : {#vyA^pti#}¦ , {#vi/Apti#} <lex>f.</lex>
+; ----------------
+; i/A 
+546737 : {#vyAla#}¦ , {#vi/Ala#}
+; ----------------
+; i/u 
+547461 : {#vyu^zwi#}¦ , {#vi/uzwi#} <lex>f.</lex>
+; ----------------
+; i/f 
+547600 : {#vyf^dDi#}¦ , {#vi/fdDi#} <lex>f.</lex>
+; ----------------
+; i/e 
+547612 : {#(vyenas)#}¦ {#vi/enas#} <lex>Adj.</lex> {%schuldlos.%}
+; ----------------
+; i/e 
+547616 : {#(vyenI)#}¦ {#vi/enI#} <lex>Adj.</lex> <lex>f.</lex> {%bunt schillernd.%}
+; ----------------
+; i/E 
+547625 : {#(vyElaba)#}¦ {#vi/Elaba#} <lex>Adj.</lex> {%allerlei Lärm machend.%}
+; ----------------
+; i/o 
+547637 : {#(vyodana)#}¦ {#vi/odana#} , <ab>Loc.</ab> nach <ls>SĀY.</ls> = {#viviDe 'nne labDe sati#}.
+; ----------------
+; i/o 
+547694 : 1. {#vyoman#}¦ , {#vi/oman#}
+; ----------------
+; i/o 
+547814 : {#vyoza#}¦ , {#vi/oza#}
+; ----------------
+; i/a 
+548503 : 1. {#(vratya)#}¦ {#vrati/a#} <lex>Adj.</lex> {%gehorsam , treu%} ; mit <ab>Gen.</ab>
+; ----------------
+; i/a 
+550387 : {#Sagmi/ya#}¦ , {#Sagmya#} und {#Sagmi/a#} <lex>Adj.</lex> (<lex>f.</lex> {#A#}) = {#Sagma/#}.
+; ----------------
+; i/a 
+552014 : {#(SataDanya)#}¦ {#SataDani/a#} <lex>Adj.</lex> {%den Preis von Hundert werth.%}
+; ----------------
+; i/a 
+553737 : {#(SapaTeyya)#}¦ {#Sapateyi/a#} <lex>m.</lex> {%Flucher.%}
+; ----------------
+; i/a 
+553741 : {#(SapaTya)#}¦ {#SapaTi/a#} <lex>Adj.</lex> {%auf Fluch beruhend.%}
+; ----------------
+; i/A 
+556170 : <div n="1">— 2) <lex>f.</lex> {#SaravyA^ , Saravi/A#} {%Pfeilschuss%} ; später als {%Pfeilhagel%} erklärt.
+; ----------------
+; i/a 
+560898 : {#(SAmulya)#}¦ {#SAmuli/a#} und {#SAmUla/#} <lex>n.</lex> {%ein wollenes Hemd.%}
+; ----------------
+; i/a 
+568155 : {#SIrzaRya^#}¦ und {#SIrzaRi/a#}
+; ----------------
+; i/a 
+572533 : {#(SUzya)#}¦ {#SUzi/a#} <lex>Adj.</lex> {%klingend , jauchzend.%}
+; ----------------
+; i/A 
+576460 : {#(SyAvyA)#}¦ {#SyAvi/A#} <lex>f.</lex> etwa {%Dunkelheit.%}
+; ----------------
+; i/a 
+577290 : 1. {#(Sravasya)#}¦ {#Sravasi/a#} <lex>n.</lex>
+; ----------------
+; i/a 
+577297 : 2. {#(Sravasya)#}¦ {#Sravasi/a#} <lex>Adj.</lex> {%eilig , behend.%}
+; ----------------
+; a/f 
+579559 : <L>115321<pc>6277-2<k1>Srutafzi<k2>Sruta/fzi<e>100
+; ----------------
+; a/f 
+579560 : {#Sruta/fzi#}¦ ( {#Sruta/rzi#} zu sprechen) <lex>Adj.</lex> {%berühmte <is>Ṛṣi</is> habend.%}
+; ----------------
+; A/i 
+585783 : {#saMvatsaratama#}¦ <lex>Adj.</lex> (<lex>f.</lex> {#I#}) {%über's Jahr kommend.%} {#°tamI/ rA/itrim#} so <ab>v.a.</ab> {%heute über's Jahr.%}
+; ----------------
+; i/a 
+586696 : {#(saMveSya)#}¦ {#saMveSi/a#} <lex>Adj.</lex> {%zu betreten , zu besitzen.%}
+; ----------------
+; i/a 
+588192 : {#(saMsrAvya)#}¦ {#saMsrAvi/a#} <lex>Adj.</lex> {%zusammengeflossen , gemischt.%}
+; ----------------
+; i/a 
+591474 : {#(sacaTya)#}¦ {#sacaTi/a#} <lex>Adj.</lex> etwa {%gehörig , gebührend.%}
+; ----------------
+; i/a 
+591843 : {#sajAtya#}¦ , {#sajAti/a#}
+; ----------------
+; a/U 
+596069 : <L>118630<pc>7036-2<k1>sadyaUti<k2>sadya/Uti<e>100
+; ----------------
+; a/U 
+596070 : {#sadya/Uti#}¦ <lex>Adj.</lex> {%alsbald oder täglich helfend.%}
+; ----------------
+; o/a 
+596221 : <L>118665<pc>7036-3<k1>sadyoarTa<k2>sadyo/arTa<e>100
+; ----------------
+; o/a 
+596222 : {#sadyo/arTa#}¦ <lex>Adj.</lex> {%rasch zu Ziele kommend.%}
+; ----------------
+; i/a 
+596521 : {#(saDanya)#}¦ {#saDani/a#} <lex>Adj.</lex> {%von Gaben — , von Schätzen begleitet%} <ls>ṚV. 10,50,3.</ls>
+; ----------------
+; i/a 
+596541 : {#(saDamAdya)#}¦ {#saDamAdi/a#}
+; ----------------
+; i/a 
+596673 : {#saDryaYc#}¦ , {#saDri/aYc#}
+; ----------------
+; i/a :: I/a 
+596678 : <div n="1">— 2) {#saDryak , saDri/ak#} oder {#saDrI/ak#} <ab>Adv.</ab>
+; ----------------
+; i/a 
+597945 : {#saMdeSya^#}¦ und {#saMdeSi/a#} <lex>Adj.</lex>
+; ----------------
+; i/a 
+599498 : {#saparya#}¦ {#sapari/a#}
+; ----------------
+; i/a 
+602239 : {#(samanya)#}¦ {#samani/a#} <lex>Adj.</lex> {%zu einer Festversammlung geeignet , festlich%} (Kleid) <ls>ṚV. 9,97,2.</ls>
+; ----------------
+; i/A 
+602874 : 2. {#(samarya)#}¦ {#samari/A#} <lex>Adj.</lex>
+; ----------------
+; i/a 
+604323 : {#samApya#}¦ {#samApi/a#}
+; ----------------
+; i/a 
+606295 : {#samudrya#}¦ {#samudri/a#} <lex>Adj.</lex> {%marinus%} <ls>SV. 11,2,2,9,3.</ls>
+; ----------------
+; A/i 
+610894 : <div n="p">— Mit {#upodA#} {%hervorkriechen aus%} (einer Höhle) <ls>21,12.</ls> {#upodA/isfpta#} {%ausgekrochen%}
+; ----------------
+; i/a 
+617657 : {#sahasya^#}¦ {#sahasi/a#}
+; ----------------
+; i/a 
+620904 : {#(sAdanya)#}¦ {#sAdani/a#} <lex>Adj.</lex> {%häuslich.%}
+; ----------------
+; i/a 
+622760 : 2. {#sAmanya#}¦ , {#sAmani/a#} <lex>Adj.</lex> {%zu singen geschickt.%}
+; ----------------
+; i/a 
+634257 : {#(sudevya)#}¦ {#sudevi/a#} <lex>n.</lex> {%die Schaar der rechten , guten Götter.%}
+; ----------------
+; i/a 
+637058 : {#(suprAvya)#}¦ {#suprAvi/a#} <lex>Adj.</lex> <ab>dass.</ab>
+; ----------------
+; a/A 
+638749 : <L>127301<pc>7159-3<k1>sumnaApi<k2>sumna/Api<e>100
+; ----------------
+; a/A 
+638750 : {#sumna/Api#}¦ <lex>Adj.</lex> etwa {%in Gunst nahe.%}
+; ----------------
+; i/a 
+662761 : {#srotasya#}¦ , {#srotasi/a#}
+; ----------------
+; u/a 
+663080 : {#svaNga#}¦ , {#su/aNga#}
+; ----------------
+; u/a 
+665074 : 3. {#sva^r#}¦ , {#su/ar#} , {#su/var#} (<ls>TS.</ls> <ls>TBR.</ls>). <lex>Indecl.</lex> im Sinne eines <ab>Nomin.</ab> , <ab>Acc.</ab> , <ab>Loc.</ab> (<ls>ṚV.</ls> <ls>HEMĀDRI 1,449,20</ls>), <ab>Abl.</ab> (<ls>NAIṢ. 6,99</ls>) und <ab>Gen.</ab>
+; ----------------
+; u/a 
+665121 : {#(svaraMkfta)#}¦ {#su/araMkfta#} <lex>Adj.</lex> {%wohl hergerichtet%} ( {#yajYa#}).
+; ----------------
+; u/a 
+665852 : {#(svarcakzas)#}¦ {#su/arcakzas#} <lex>Adj.</lex> {%aussehend wie Licht.%}
+; ----------------
+; u/a 
+665860 : {#(svarcanas)#}¦ {#su/arcanas#} <lex>Adj.</lex> etwa {%angenehm wie das Himmelslicht%} oder {%dem Himmel gefällig.%}
+; ----------------
+; u/a 
+666185 : {#svarRara#}¦ {#su/arRari#}
+; ----------------
+; u/a 
+666396 : {#svarpati#}¦ {#su/arpati#} <lex>m.</lex>
+; ----------------
+; u/A 
+666416 : {#sva^rBAnu#}¦ {#su/ArBAnu#} <lex>m.</lex>
+; ----------------
+; u/a 
+666432 : {#(svarmIlha)#}¦ {#su/armI|a#}
+; ----------------
+; i/A 
+666438 : {#svarya#}¦ {#svari/A#} <lex>Adj.</lex> (<lex>f.</lex> {#A#}) ved. {#svarI/#}
+; ----------------
+; u/a 
+666501 : {#svarvant#}¦ {#su/arvant#} {#su/varvant#} (<ls>TS.</ls>) <lex>Adj.</lex>
+; ----------------
+; u/a 
+666539 : {#(svarzAti)#}¦ {#su/arzAti#} <lex>f.</lex> {%Gewinnung des Lichts%} <ab>u.s.w.</ab>
+; ----------------
+; u/a 
+666728 : {#(svavas)#}¦ und {#(svavaMs)#} {#su/a°#} <lex>Adj.</lex> {%guten Schutz habend , — gewährend , hülfreich.%}
+; ----------------
+; u/A 
+667482 : {#(svAtata)#}¦ {#su/Atata#} <lex>Adj.</lex>
+; ----------------
+; u/A 
+668431 : {#svASita#}¦ , {#su/ASita#} <lex>Adj.</lex> {%wohl gesättigt.%}
+; ----------------
+; u/A 
+668588 : {#(svAhuta)#}¦ {#su/Ahuta#} <lex>Adj.</lex> {%dem man wohl — , richtig geopfert hat.%}
+; ----------------
+; u/i 
+668663 : 2. {#svi^zwa#}¦ , {#su/izwa#}.
+; ----------------
+; u/i 
+668689 : 1. {#svi^zwi#}¦ , {#su/izwi#} <lex>f.</lex> {%Gelingen des Opfers , ein gelungenes , richtiges Opfer%} <ls>JĀTAKAM. 10,8.</ls>
+; ----------------
+; a/e 
+668913 : {#(svEtu)#}¦ {#sva/etu#} <lex>Adj.</lex> etwa {%den eigenen Gang gehend.%}
+; ----------------
+; i/a 
+679655 : 1. {#hfdayya^#}¦ , {#hfdayi/a#} <lex>Adj.</lex> (<lex>f.</lex> {#A#}) {%in Herzen befindlich%} ; auch so <ab>v.a.</ab> {%lieb.%}

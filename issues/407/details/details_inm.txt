@@ -1,0 +1,12 @@
+; ------------------------------------------------------
+; inm: 3 instances of [^<][/\\^][fxaiueoFXAIUEO]
+; ------------------------------------------------------
+; ----------------
+; n/u 
+95501  : {%pitṝn/unmādyati sa tu kṣipraṃ sa jñeyaḥ P°ḥ%}).
+; ----------------
+; ṃ/a 
+127872 : ({%°ṃ gatvā Pitāmahaniṣevitāṃ/aśvamedham avāpnoti gacched%}
+; ----------------
+; ṃ/i 
+133821 : {%sanātanaṃ/itihāsam imaṃ cakre puṇyaṃ Satyavatīsutaḥ%}, sc.

@@ -1,0 +1,507 @@
+; ------------------------------------------------------
+; gra: 168 instances of [^<][/\\^][fxaiueoFXAIUEO]
+; ------------------------------------------------------
+; ----------------
+; :\I 
+2      : %***This_File_is_E:\INDIEN06-JUL-OKT\GRAS.ALL,_Last_update_25.11.06
+; ----------------
+; y/a 
+154    : <L>26<pc>0004<k1>akuDryac<k2>a-kuDry/ac
+; ----------------
+; y/a 
+1365   : <L>207<pc>0023<k1>ajrya<k2>ajry/a
+; ----------------
+; y/a 
+2187   : <L>319<pc>0039<k1>adyUtya<k2>a-dyUty/a
+; ----------------
+; y/a 
+2517   : <L>370<pc>0047<k1>aDizavaRya<k2>aDizavaRy/a
+; ----------------
+; y/a 
+3561   : <L>545<pc>0061<k1>anUkya<k2>anUky/a
+; ----------------
+; y/a 
+4287   : <L>651<pc>0074<k1>apasya<k2>apasy/a
+; ----------------
+; y/a 
+4403   : <L>671<pc>0076<k1>apikakzya<k2>apikakzy/a
+; ----------------
+; y/a 
+4444   : <L>679<pc>0077<k1>apIcya<k2>apIcy/a
+; ----------------
+; y/a 
+6796   : <L>1036<pc>0112<k1>arcatrya<k2>arcatry/a
+; ----------------
+; y/a 
+7039   : <L>1073<pc>0116<k1>arya<k2>ary/a
+; ----------------
+; y/a 
+7060   : <L>1076<pc>0116<k1>aryamya<k2>aryamy/a
+; ----------------
+; y/a 
+9171   : <L>1348<pc>0156<k1>asurya<k2>asury/a
+; ----------------
+; y/a 
+9183   : <L>1349<pc>0156<k1>asurya<k2>asury/a
+; ----------------
+; y/a 
+9378   : <L>1383<pc>0159<k1>asmadryac<k2>asmadry/ac
+; ----------------
+; i/a 
+9534   : <L>1403<pc>0163<k1>ahania<k2>ahani/a
+; ----------------
+; y/a 
+9837   : <L>1446<pc>0171<k1>AkAyya<k2>AkAyy/a
+; ----------------
+; y/a 
+9960   : <L>1468<pc>0172<k1>ANgUzya<k2>ANgUzy/a
+; ----------------
+; v/a 
+11027  : <L>1641<pc>0188<k1>ASvapas<k2>ASv/apas
+; ----------------
+; v/a 
+11038  : <L>1643<pc>0188<k1>ASvaSva<k2>ASv/aSva
+; ----------------
+; v/a 
+11044  : <L>1644<pc>0188<k1>ASvaSvya<k2>ASv/aSvya
+; ----------------
+; y/a 
+11194  : <L>1666<pc>0191<k1>Asya<k2>Asy/a
+; ----------------
+; y/a 
+13115  : <L>1854<pc>0243<k1>ukTya<k2>ukTy/a
+; ----------------
+; y/a 
+13304  : <L>1872<pc>0247<k1>ucaTya<k2>ucaTy/a
+; ----------------
+; y/a 
+13533  : <L>1903<pc>0252<k1>udanya<k2>udany/a
+; ----------------
+; y/a 
+13922  : <L>1970<pc>0257<k1>upavAkya<k2>upavAky/a
+; ----------------
+; y/U 
+14510  : <L>2059<pc>0266<k1>urvyUti<k2>urvy/Uti
+; ----------------
+; y/a 
+14858  : <L>2104<pc>0273<k1>Urjavya<k2>Urjavy/a
+; ----------------
+; y/a 
+15027  : <L>2131<pc>0276<k1>UzmaRya<k2>UzmaRy/a
+; ----------------
+; y/a 
+16450  : <L>2329<pc>0304<k1>ezEzya<k2>ezEzy/a
+; ----------------
+; y/a 
+16496  : <L>2338<pc>0304<k1>okya<k2>oky/a
+; ----------------
+; y/a 
+16786  : <L>2382<pc>0309<k1>kakzya<k2>kakzy/a
+; ----------------
+; y/A 
+17003  : <L>2417<pc>0313<k1>kanyA<k2>kany/A
+; ----------------
+; y/a 
+17264  : <L>2464<pc>0316<k1>karmaRya<k2>karmaRy/a
+; ----------------
+; v/a 
+19701  : <L>2770<pc>0361<k1>kva<k2>kv/a
+; ----------------
+; y/a 
+22026  : <L>3030<pc>0407<k1>gehya<k2>gehy/a
+; ----------------
+; y/a 
+22702  : <L>3120<pc>0419<k1>grAhya<k2>grAhy/a
+; ----------------
+; y/a 
+24758  : <L>3357<pc>0461<k1>Candasya<k2>Candasy/a
+; ----------------
+; y/a 
+25906  : <L>3494<pc>0485<k1>jArya<k2>jAry/a
+; ----------------
+; a/a 
+26205  : <L>3524<pc>0491<k1>jIrASva<k2>jIrA/Sva, jIra/aSva
+; ----------------
+; v/A 
+26493  : <L>3546<pc>0497<k1>juhvAsya<k2>juhv/Asya
+; ----------------
+; a/a 
+27479  : <L>3649<pc>0520<k1>tanUpA<k2>tanU-pA/, tanU-pa/a
+; ----------------
+; y/a 
+28080  : <L>3714<pc>0531<k1>tavasya<k2>tavasy/a
+; ----------------
+; o/a 
+28404  : <L>3763<pc>0536<k1>tiroahnya<k2>tiro/ahnya
+; ----------------
+; y/a 
+28427  : <L>3767<pc>0537<k1>tizya<k2>tizy/a
+; ----------------
+; y/a 
+29914  : <L>3975<pc>0561<k1>tryambaka<k2>try/ambaka
+; ----------------
+; y/a 
+29919  : <L>3976<pc>0561<k1>tryaruRa<k2>try/aruRa
+; ----------------
+; y/a 
+29925  : <L>3977<pc>0561<k1>tryaruza<k2>try/aruza
+; ----------------
+; y/A 
+29935  : <L>3979<pc>0561<k1>tryASir<k2>try/ASir
+; ----------------
+; y/a 
+30285  : <L>4023<pc>0568<k1>tvezya<k2>tvezy/a
+; ----------------
+; v/a 
+31841  : <L>4206<pc>0597<k1>dASvaDvara<k2>dASv/aDvara
+; ----------------
+; a/a 
+31916  : <L>4214<pc>0599<k1>dAsvat<k2>dA/svat, da/asvat
+; ----------------
+; y/a :: i/a 
+32414  : <L>4266<pc>0611<k1>dIrGajihvya<k2>dIrGa-jihvy/a, dIrGa-jihvi/a
+; ----------------
+; y/a 
+33292  : <L>4387<pc>0624<k1>dUtya<k2>dUty/a
+; ----------------
+; i/a 
+33746  : <L>4442<pc>0634<k1>devadriac<k2>devadri/ac
+; ----------------
+; y/a 
+34069  : <L>4490<pc>0638<k1>devya<k2>devy/a
+; ----------------
+; y/a 
+34157  : <L>4502<pc>0640<k1>dozaRya<k2>dozaRy/a
+; ----------------
+; y/a :: i/a 
+34393  : <L>4530<pc>0644<k1>dyUtya<k2>dyUty/a, dyUti/a
+; ----------------
+; y/a 
+34763  : <L>4583<pc>0649<k1>droRyaSva<k2>droRy/aSva
+; ----------------
+; y/a 
+35742  : <L>4674<pc>0677<k1>DAnya<k2>DAny/a
+; ----------------
+; y/a 
+36126  : <L>4717<pc>0687<k1>DIrya<k2>DIry/a
+; ----------------
+; y/a 
+36721  : <L>4782<pc>0698<k1>Dvanya<k2>Dvany/a
+; ----------------
+; y/a 
+37107  : <L>4832<pc>0708<k1>naBanya<k2>naBany/a
+; ----------------
+; y/a 
+37271  : <L>4847<pc>0712<k1>namasya<k2>namasy/a
+; ----------------
+; y/a 
+37740  : <L>4900<pc>0721<k1>nahuzya<k2>nahuzy/a
+; ----------------
+; y/A 
+37962  : <L>4934<pc>0726<k1>nAvyA<k2>nAvy/A
+; ----------------
+; y/a 
+38263  : <L>4976<pc>0730<k1>niDAnya<k2>niDAny/a
+; ----------------
+; y/a 
+39552  : <L>5147<pc>0756<k1>nyac<k2>ny/ac
+; ----------------
+; y/o 
+39582  : <L>5151<pc>0758<k1>nyokas<k2>ny/okas
+; ----------------
+; y/a 
+39649  : <L>5160<pc>0758<k1>pakzya<k2>pakzy/a
+; ----------------
+; y/a 
+39707  : <L>5165<pc>0759<k1>pacatya<k2>pacaty/a
+; ----------------
+; y/A 
+40203  : <L>5224<pc>0768<k1>paTyA<k2>paTy/A
+; ----------------
+; y/a 
+41285  : <L>5352<pc>0792<k1>parvatya<k2>parvaty/a
+; ----------------
+; y/a 
+41457  : <L>5381<pc>0795<k1>paSavya<k2>paSavy/a
+; ----------------
+; y/a 
+41567  : <L>5400<pc>0797<k1>pastya<k2>pasty/a
+; ----------------
+; y/A 
+41578  : <L>5402<pc>0797<k1>pastyA<k2>pasty/A
+; ----------------
+; y/A 
+41588  : <L>5403<pc>0797<k1>pastyAvat<k2>pasty/Avat
+; ----------------
+; y/A 
+41825  : <L>5416<pc>0804<k1>pAkyA<k2>pAky/A
+; ----------------
+; i/a 
+41842  : <L>5418<pc>0805<k1>pAjasia<k2>pAjasi/a
+; ----------------
+; y/a 
+41867  : <L>5422<pc>0805<k1>pAtalya<k2>pAtaly/a
+; ----------------
+; y/a 
+42147  : <L>5466<pc>0810<k1>pAzya<k2>pAzy/a
+; ----------------
+; y/a 
+42958  : <L>5567<pc>0827<k1>purIzya<k2>purIzy/a
+; ----------------
+; y/a 
+43384  : <L>5636<pc>0834<k1>puruzya<k2>puruzy/a
+; ----------------
+; y/a 
+44126  : <L>5729<pc>0849<k1>pUzarya<k2>pUzary/a
+; ----------------
+; y/a 
+44732  : <L>5805<pc>0861<k1>pfzWya<k2>pfzWy/a
+; ----------------
+; y/a 
+45526  : <L>5920<pc>0876<k1>praDanya<k2>praDany/a
+; ----------------
+; y/a 
+46413  : <L>6068<pc>0889<k1>prASavya<k2>prASavy/a
+; ----------------
+; v/a 
+46864  : <L>6129<pc>0896<k1>Palgva<k2>Palgv/a
+; ----------------
+; y/a 
+47124  : <L>6163<pc>0900<k1>barhizya<k2>barhizy/a
+; ----------------
+; y/a 
+47595  : <L>6219<pc>0909<k1>buDnya<k2>buDny/a
+; ----------------
+; a/a 
+48715  : <L>6362<pc>0934<k1>BAs<k2>BA/s, Ba/as
+; ----------------
+; y/a 
+49956  : <L>6457<pc>0965<k1>Bojya<k2>Bojy/a
+; ----------------
+; y/a 
+50767  : <L>6547<pc>0983<k1>madryac<k2>madry/ac
+; ----------------
+; y/a :: i/a 
+51317  : <L>6613<pc>0998<k1>manuzya<k2>manuzy/a, manuzi/a
+; ----------------
+; y/a 
+52910  : <L>6806<pc>1036<k1>mArjAlya<k2>mArjAly/a
+; ----------------
+; y/a 
+53143  : <L>6839<pc>1041<k1>mitrya<k2>mitry/a
+; ----------------
+; y/a 
+55537  : <L>7061<pc>1098<k1>yamya<k2>yamy/a
+; ----------------
+; y/a 
+55990  : <L>7108<pc>1109<k1>yAdrADya<k2>yAd-rADy/a
+; ----------------
+; y/a 
+56747  : <L>7176<pc>1125<k1>yUTya<k2>yUTy/a
+; ----------------
+; y/a 
+57582  : <L>7287<pc>1141<k1>raTya<k2>raTy/a
+; ----------------
+; y/a 
+58375  : <L>7365<pc>1158<k1>rAjanya<k2>rAjany/a
+; ----------------
+; y/a 
+58933  : <L>7424<pc>1169<k1>rItyap<k2>rIty/ap
+; ----------------
+; y/a 
+59810  : <L>7518<pc>1187<k1>lakzmaRya<k2>lakzmaRy/a
+; ----------------
+; y/a 
+61176  : <L>7666<pc>1213<k1>vapuzya<k2>vapuzy/a
+; ----------------
+; y/a 
+61378  : <L>7695<pc>1217<k1>vayya<k2>vayy/a
+; ----------------
+; y/a 
+61590  : <L>7726<pc>1221<k1>varuRya<k2>varuRy/a
+; ----------------
+; y/a 
+61619  : <L>7730<pc>1222<k1>varUTya<k2>varUTy/a
+; ----------------
+; y/a 
+61845  : <L>7762<pc>1225<k1>varzya<k2>varzy/a
+; ----------------
+; y/a :: i/a 
+62243  : <L>7793<pc>1234<k1>vasavya<k2>vasavy/a, vasavi/a
+; ----------------
+; y/a 
+63309  : <L>7915<pc>1259<k1>vAyavya<k2>vAyavy/a
+; ----------------
+; a/a 
+63354  : <L>7921<pc>1260<k1>vAr<k2>vA/r, va/ar<h>1
+; ----------------
+; a/a 
+63361  : <L>7922<pc>1260<k1>vAr<k2>vA/r, va/ar<h>2
+; ----------------
+; y/a 
+63796  : <L>7981<pc>1269<k1>vijenya<k2>vijeny/a
+; ----------------
+; y/a 
+64134  : <L>8005<pc>1278<k1>vidaTya<k2>vidaTy/a
+; ----------------
+; y/a 
+65188  : <L>8150<pc>1297<k1>viSya<k2>viSy/a
+; ----------------
+; v/a 
+66279  : <L>8302<pc>1315<k1>vIqvaNga<k2>vIqv/aNga
+; ----------------
+; y/a 
+66482  : <L>8333<pc>1318<k1>vIrya<k2>vIry/a
+; ----------------
+; i/a 
+66915  : <L>8357<pc>1329<k1>vfjania<k2>vfjani/a
+; ----------------
+; i/a 
+68091  : <L>8482<pc>1355<k1>veSia<k2>veSi/a
+; ----------------
+; y/a 
+68225  : <L>8506<pc>1357<k1>vyaMsa<k2>vy/aMsa
+; ----------------
+; y/a 
+68340  : <L>8517<pc>1359<k1>vyaDvan<k2>vy/aDvan
+; ----------------
+; y/a 
+68350  : <L>8519<pc>1359<k1>vyalkaSA<k2>vy/alkaSA
+; ----------------
+; y/a 
+68355  : <L>8520<pc>1359<k1>vyaSva<k2>vy/aSva
+; ----------------
+; y/u 
+68416  : <L>8525<pc>1360<k1>vyuzwi<k2>vy/uzwi
+; ----------------
+; y/e 
+68422  : <L>8526<pc>1360<k1>vyeta<k2>vy/eta
+; ----------------
+; y/e 
+68428  : <L>8527<pc>1361<k1>vyenas<k2>vy/enas
+; ----------------
+; y/o 
+68438  : <L>8529<pc>1361<k1>vyoman<k2>vy/oman
+; ----------------
+; y/a 
+68522  : <L>8540<pc>1363<k1>vratya<k2>vraty/a
+; ----------------
+; y/a 
+69112  : <L>8602<pc>1374<k1>SataDanya<k2>SataDany/a
+; ----------------
+; y/a 
+69428  : <L>8653<pc>1378<k1>SapaTya<k2>SapaTy/a
+; ----------------
+; y/A :: i/A 
+69683  : <L>8686<pc>1383<k1>SaravyA<k2>Saravy/A, Saravi/A
+; ----------------
+; y/a 
+70121  : <L>8745<pc>1391<k1>SAmulya<k2>SAmuly/a
+; ----------------
+; y/a 
+70623  : <L>8814<pc>1398<k1>SIrzaRya<k2>SIrzaRy/a
+; ----------------
+; y/a 
+71380  : <L>8898<pc>1412<k1>SUzya<k2>SUzy/a
+; ----------------
+; y/A 
+71697  : <L>8945<pc>1416<k1>SyAvyA<k2>SyAvy/A
+; ----------------
+; y/a 
+71911  : <L>8970<pc>1421<k1>Sravasya<k2>Sravasy/a
+; ----------------
+; y/a 
+73305  : <L>9136<pc>1447<k1>sacaTya<k2>sacaTy/a
+; ----------------
+; y/a 
+73411  : <L>9152<pc>1449<k1>sajAtya<k2>sajAty/a
+; ----------------
+; y/a 
+74084  : <L>9238<pc>1463<k1>saDanya<k2>saDany/a
+; ----------------
+; y/a 
+74176  : <L>9250<pc>1465<k1>saDryac<k2>saDry/ac
+; ----------------
+; y/a 
+74661  : <L>9310<pc>1473<k1>saparya<k2>sapary/a
+; ----------------
+; y/a 
+75056  : <L>9372<pc>1480<k1>samanya<k2>samany/a
+; ----------------
+; y/a 
+75095  : <L>9379<pc>1480<k1>samarya<k2>samary/a
+; ----------------
+; y/a :: i/a 
+76183  : <L>9532<pc>1500<k1>sahasya<k2>sahasy/a, sahasi/a
+; ----------------
+; y/a 
+76323  : <L>9554<pc>1502<k1>sahasrapozya<k2>sahasra-pozy/a
+; ----------------
+; y/a 
+76721  : <L>9619<pc>1508<k1>sAdanya<k2>sAdany/a
+; ----------------
+; y/a 
+76921  : <L>9643<pc>1512<k1>sAmanya<k2>sAmany/a
+; ----------------
+; a/a 
+78118  : <L>9792<pc>1535<k1>sudAs<k2>su-dA/s, su-da/as
+; ----------------
+; y/a 
+78211  : <L>9804<pc>1536<k1>sudevya<k2>sudevy/a
+; ----------------
+; y/a 
+78612  : <L>9868<pc>1542<k1>suprAvya<k2>su-prAvy/a
+; ----------------
+; v/a 
+83403  : <L>10435<pc>1630<k1>svar<k2>sv/ar
+; ----------------
+; v/a 
+83420  : <L>10437<pc>1630<k1>svaraMkfta<k2>sv/araMkfta
+; ----------------
+; v/a 
+83498  : <L>10450<pc>1631<k1>svarcakzas<k2>sv/ar-cakzas
+; ----------------
+; v/a 
+83503  : <L>10451<pc>1631<k1>svarcanas<k2>sv/arcanas
+; ----------------
+; v/a 
+83526  : <L>10455<pc>1632<k1>svarRara<k2>sv/ar-Rara
+; ----------------
+; v/a 
+83533  : <L>10456<pc>1632<k1>svarRf<k2>sv/ar-Rf
+; ----------------
+; v/a 
+83556  : <L>10459<pc>1632<k1>svarpati<k2>sv/ar-pati
+; ----------------
+; v/a :: u/a 
+83563  : <L>10460<pc>1632<k1>svarBAnu<k2>sv/ar-BAnu, su/ar-BAnu
+; ----------------
+; v/a 
+83569  : <L>10461<pc>1632<k1>svarmIQa<k2>sv/ar-mIQa
+; ----------------
+; y/a 
+83576  : <L>10462<pc>1632<k1>svarya<k2>svary/a
+; ----------------
+; v/a 
+83589  : <L>10464<pc>1633<k1>svarvat<k2>sv/arvat
+; ----------------
+; v/a 
+83620  : <L>10467<pc>1633<k1>svarzAti<k2>sv/ar-zAti
+; ----------------
+; v/A 
+83778  : <L>10490<pc>1636<k1>svAtata<k2>sv/Atata
+; ----------------
+; v/A 
+83941  : <L>10515<pc>1638<k1>svASita<k2>sv/ASita
+; ----------------
+; v/A 
+83980  : <L>10522<pc>1639<k1>svAhuta<k2>sv/Ahuta
+; ----------------
+; v/i 
+84009  : <L>10527<pc>1639<k1>svizwa<k2>sv/izwa
+; ----------------
+; y/a 
+84717  : <L>10608<pc>1655<k1>havizya<k2>havizy/a
+; ----------------
+; y/a 
+85879  : <L>10729<pc>1679<k1>hfdayya<k2>hfdayy/a

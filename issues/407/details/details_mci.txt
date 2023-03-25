@@ -1,0 +1,1119 @@
+; ------------------------------------------------------
+; mci: 372 instances of [^<][/\\^][fxaiueoFXAIUEO]
+; ------------------------------------------------------
+; ----------------
+; e/a 
+1039   : {%mayā/ … mayokto gurur āhave/aśvatthāmā%}
+; ----------------
+; ḥ/i 
+3335   : {%naḥ prāhur yathā śaṃsati pāvakaḥ/indrasya%}
+; ----------------
+; m/a 
+4356   : {%na ca dhruvam asauhṛdam/arthayuktyā%}
+; ----------------
+; ḥ/a 
+10452  : {%nyasamasāhasāḥ/anyonyaṃ spardhamānāś%}
+; ----------------
+; //e 
+11052  : {%ṇasya ca//ete praśamane yogā mahāstrasya%}
+; ----------------
+; e/i 
+11926  : {%na sma tāta tvayā raṇe/idam astraṃ%}
+; ----------------
+; i/a 
+12099  : ({%te … brahmāstraṃ pratibhāsyati/anyatra%}
+; ----------------
+; m/a 
+12609  : {%suhṛdāṃ tathā śrutam/anena satyena ni-%}
+; ----------------
+; //a 
+13671  : {%taj jaghāna dhanaṃjayaḥ//astrāṇy astrair%}
+; ----------------
+; ḥ/a 
+13678  : {%saḥ/astraṃ divyaṃ maheṣvāso vāruṇaṃ%}
+; ----------------
+; e/a 
+14181  : {%kṛtāpy evaṃ jāgrati tridaśeśvare/aprameye%}
+; ----------------
+; ḥ/a 
+14197  : {%daivataiḥ/anyeṣāṃ caiva yodhānāṃ sā%}
+; ----------------
+; //e 
+15153  : {%alpīyaḥ sutarāṃ paraiḥ//etad vacanam%}
+; ----------------
+; a/a 
+15762  : {%āyudhaṃ yasya/anyathā prakramaviro-%}
+; ----------------
+; k/a 
+15785  : {%bhāgaiḥ pṛthak pṛthak/asyām eva prasūya-%}
+; ----------------
+; i/u 
+15893  : {%viṣyati/udāharaṇam etad dhi%}) 5. 18. 5-7;
+; ----------------
+; ḥ/a 
+15901  : {%mantrair mantraviśāradāḥ/atharvaveda-%}
+; ----------------
+; ḥ/a 
+15959  : {%śrutīnām uttamā śrutiḥ/avicāryaiva%}
+; ----------------
+; ḥ/a 
+15989  : {%kṛtavān ṛṣiḥ/anukramaṇim adhyāyaṃ%}
+; ----------------
+; i/a 
+16191  : {%mantrān paṭhati/asitam ityādīn%}). [See
+; ----------------
+; //i 
+16237  : {%sarvā śāntiḥ kṛtā bhavet//iti vṛścikada-%}
+; ----------------
+; ḥ/a 
+17142  : {%khyātas te suvistaraḥ/aser utpattisaṃsar-%}
+; ----------------
+; e/a 
+18408  : {%mṛdhe/arjune vimanaske ca gītā bhaga-%}
+; ----------------
+; m/u 
+18459  : {%sāhasrīm cakre bhāratasaṃhitām/upā-%}
+; ----------------
+; a/i 
+18497  : {%ca/iha sarvam anukrāntam uktaṃ gran-%}
+; ----------------
+; t/i 
+18607  : {%jñānam ṛṣiḥ saṃkṣepam abravīt/iṣtaṃ hi%}
+; ----------------
+; m/u 
+18613  : {%hasrīṃ cakre bhāratasaṃhitām/upākhyā-%}
+; ----------------
+; ḥ/a 
+18619  : {%bhūyaḥ saṃkṣepaṃ kṛtavān ṛṣiḥ/anukrama-%}
+; ----------------
+; m/a 
+18746  : {%loke pāṇḍavānāṃ mahātmanām/anyeṣāṃ%}
+; ----------------
+; i/a 
+18961  : {%tāsāṃ guṇāḥ utkṛṣṭaphalasādhanāni/athavā%}
+; ----------------
+; ḥ/a 
+18981  : {%brāhmaṇān pādam antataḥ/akṣayyam%}
+; ----------------
+; //e 
+19273  : {%sattama//evaṃ sa bhagavān devo viśva-%}
+; ----------------
+; ḥ/e 
+19274  : {%mūṛtidharo 'vyayaḥ/etāvad uktvā vacanaṃ%}
+; ----------------
+; m/a 
+19299  : {%na named udyamo hy eva pauruṣam/apy%}
+; ----------------
+; ā/a 
+19562  : {%pañca grāsān prāśnīyāt ṣaḍ vā/akutsayan%}
+; ----------------
+; i/a 
+19969  : {%brāhmaṇaṃ bhavati/agnau samiddhe sa%}
+; ----------------
+; a/a 
+20040  : {%te yat todā madhusādana/avāptam iha%}
+; ----------------
+; m/i 
+20148  : {%potīyam upākhyānam anantaram/indro%}
+; ----------------
+; i/u 
+20434  : {%brahmaghno vai bhavān iti/uktaḥ kṣaṇena%}
+; ----------------
+; e/a 
+20483  : {%antaḥsthair anuśaṃsanti cāpare/agnāv%}
+; ----------------
+; m/i 
+21012  : {%uttamam/idaṃ jñātvāntakāte 'pi gacched%}
+; ----------------
+; ḥ/u 
+21028  : {%āstikaḥ/uktaviparīto nāstikaḥ%} Cr. Ed. 17(2).
+; ----------------
+; ḥ/a 
+21069  : {%yaḥ/abhagnayogo varṣaṃ tu so' śvamedha-%}
+; ----------------
+; ā/u 
+21348  : {%dharmapāśasthitāḥ sadā/upāsate mahātmā-%}
+; ----------------
+; ḥ/e 
+21489  : {%karmeti manor eṣa viniścayaḥ/ekāntena%}
+; ----------------
+; a/a 
+21583  : {%sūdana/anurādhāṃ prārthayate maitraṃ%}
+; ----------------
+; a/a 
+21627  : {%madhusūdana/anurādhāṃ prārthayate%}
+; ----------------
+; e/u 
+21865  : {%pade pūrve samāruhya viśāṃ pate/uttare%}
+; ----------------
+; ḥ/e 
+21897  : {%dvaṃdvaṃ tayor madhye hutāśanaḥ/etad%}
+; ----------------
+; ḥ/a 
+21904  : {%punaḥ/ahas tatrodagayanaṃ rātriḥ syād%}
+; ----------------
+; ḥ/o 
+21921  : {%raviḥ/oṣadhyaḥ ṣaḍrasā medhyās tad%}
+; ----------------
+; a/u 
+21938  : {%sraṃ ca dakṣiṇāyanam eva ca/uttarāyaṇam%}
+; ----------------
+; ḥ/a 
+21943  : {%tamisraṃ andhakāraḥ/andhaṃtamo nāma%}
+; ----------------
+; a/a 
+21945  : {%andhaṃtama eva/ata uttarāyaṇe rātrau%}
+; ----------------
+; ā/a 
+21965  : {%kāṅkṣayā/aiśvaryabhūtaḥ prāṇānām%}
+; ----------------
+; e/e 
+22148  : {%prāpte yuge kalipuraskṛte/ekapāda-%}
+; ----------------
+; ā/u 
+22174  : {%tandrī doṣāḥ krodhādayas tathā/upadravāś%}
+; ----------------
+; ḥ/u 
+22182  : {%kaliyuge 'khilāḥ/utsīdante sayajñāś ca%}
+; ----------------
+; o/a 
+22484  : {%sarvaṃ mayā vibho/arocayan surā dhar-%}
+; ----------------
+; ḥ/a 
+22622  : {%dhāna/kṛtayuge bhavāḥ kārtayugāḥ/atya-%}
+; ----------------
+; ḥ/i 
+22671  : {%paśuḥ/idaṃ kṛtayugaṃ śreṣṭhaṃ kathaṃ%}
+; ----------------
+; a/e 
+22716  : {%yasya ca/eṣa dharmaḥ kṛtayuge … //%} 3.
+; ----------------
+; a/a 
+23098  : {%jyeṣṭhāyāṃ madhusūdana/anurādhāṃ%}
+; ----------------
+; u/e 
+23174  : {%triṣu/ekāpāyena saṃyānti sahasrāṇi śatāni%}
+; ----------------
+; //a 
+23235  : {%utsṛjya tadā tretā pravartate//aśubhasya%}
+; ----------------
+; //a 
+23491  : {%muniḥ//ayanaṃ dakṣiṇaṃ hitvā saṃprāpte%}
+; ----------------
+; ḥ/u 
+23508  : {%gatāḥ/uttarāyaṇamārgeṇa hiraṇyagarbha-%}
+; ----------------
+; m/a 
+23687  : {%mādikam/atharvaṇopaniṣaduktam dhyā-%}
+; ----------------
+; i/e 
+23692  : {%ṣṭhanti/ekavedā dhyānaikaniṣṭhāḥ/%}
+; ----------------
+; ī/e 
+23990  : {%bṛhaspatī/ekarāśau sameṣyanti prapat-%}
+; ----------------
+; a/a 
+24150  : {%ham uta pāṇḍaveya/adya pauṣyaṃ yogam%}
+; ----------------
+; ī/e 
+24290  : {%sūryaś ca tathā tiṣyabṛhaspatī/ekarāśau%}
+; ----------------
+; //e 
+24338  : {%parikīrtitā//etat sahasraparyantam aho%}
+; ----------------
+; //a 
+24374  : {%tasyaiva prasādataḥ//ahnaḥ kṣaye lalāṭāc%}
+; ----------------
+; t/u 
+24407  : {%budhyeta dharmārthau cānucintayet/utthā-%}
+; ----------------
+; //a 
+24567  : {%vān purā mayy abhyabhāṣata//api%}
+; ----------------
+; m/i 
+24613  : {%kāle tu dvādaśīṃ māghapākṣikīm/iṣṭam%}
+; ----------------
+; a/a 
+25574  : {%taḥ kṛtvā yudhyerann acalā iva/anena%}
+; ----------------
+; m/u 
+25590  : {%ṣabham/upāviśan puraskṛtya saptarṣaya%}
+; ----------------
+; //a 
+25673  : {%taṃ samam//aṣṭapañcāśataṃ rājan vipul-%}
+; ----------------
+; ḥ/e 
+25675  : {%pataṃgo 'sau vibhāvasuḥ/etat pramāṇam%}
+; ----------------
+; m/i 
+25752  : {%bhūtapūrvāṃ ca ṣoḍaśīm/imāṃ tu nābhi-%}
+; ----------------
+; i/e 
+25758  : {%'hni bhavati/ekatithivṛddhau ṣoḍaśe vā%}
+; ----------------
+; m/a 
+25784  : {%ṣadinakṣapam/ahorātraṃ mayā dṛṣtaṃ%}
+; ----------------
+; //e 
+25888  : {%trayastriṃśat tu maṇḍalam//ekonaśaṣṭir%}
+; ----------------
+; m/a 
+26008  : {%pam/ahorātraṃ mayā dṛṣṭaṃ tat kṣayāya%}
+; ----------------
+;  /e 
+26320  : {% … śuklakṛṣṇe gatī hy ete … /ekayā yāty%}
+; ----------------
+; //e 
+26559  : {%peṇa bhārata//etasminn eva cārtheyam%}
+; ----------------
+; //a 
+26561  : {%'smin gīyamānā divijātibhiḥ//agnayaḥ%}
+; ----------------
+; ḥ/i 
+26590  : {%ṣāḥ/idam samupasarpanti%}) 1. 158. 13-14;
+; ----------------
+; a/a 
+26753  : {%amareṣu narādhipa/amarāṇāṃ prabhā-%}
+; ----------------
+; m/a 
+26956  : {%kubjasya gaṅgāyās tīram uttamam/aśva-%}
+; ----------------
+; a/u 
+27018  : {%muner nāma/upaspraṣṭuṃ snānādikaṃ%}
+; ----------------
+; ḥ/u 
+27104  : {%dhyām atikramya divākaraḥ/udīcīṃ bha-%}
+; ----------------
+; m/a 
+27183  : {%paramāṃ gatim/abhigamya śriyaṃ rājan%}
+; ----------------
+; t/e 
+27304  : {%tasya dharmaphalaṃ mahat/ekasmin%}
+; ----------------
+; ḥ/i 
+27519  : {%cordhvam āgatāḥ/iha te nyavasan rājan%}
+; ----------------
+; m/a 
+27927  : {%patham/avantīm ṛkṣavantaṃ ca samati-%}
+; ----------------
+; ḥ/a 
+28142  : {%patiḥ/abhiṣiktaḥ suragaṇair varuṇo bhara-%}
+; ----------------
+; ḥ/e 
+28243  : {%dayitā nagāḥ/eṣā prakāśate gaṅgā yudhi-%}
+; ----------------
+; ḥ/e 
+28363  : {%somāḥ somayāgāḥ/etac ca yājñikeṣv eva%}
+; ----------------
+; a/u 
+28562  : {%śailasya kāñcanāmbuvahasya ca/udadhes%}
+; ----------------
+; i/e 
+28755  : {%rāṣṭraṃ yathārājakam āttalakṣmi/evaṃ-%}
+; ----------------
+; a/a 
+29494  : {%bhūtāni rakṣāṃsi balavanti ca/agninā%}
+; ----------------
+; ā/u 
+29758  : {%tathā/upatasthuḥ%}) 9. 46. 22-23; Balarāma
+; ----------------
+; m/a 
+30043  : {%samṛgapaksiṇam/ahāni pañca caikaṃ ca%}
+; ----------------
+;  /e 
+30472  : performed on their banks ({%gaṅgā ca … /etā%}
+; ----------------
+; //a 
+31174  : {%gaṅgām anu caturdaśa//aśvamedhasaha-%}
+; ----------------
+; i/a 
+31294  : {%bālo gauravād abhyupaiṣyati/api mām iti%}
+; ----------------
+; ḥ/u 
+31830  : {%śataśīrṣaiḥ samantataḥ/upetam%}) 3. 155.
+; ----------------
+; ḥ/e 
+31845  : {%gaṇḍikāḥ/ekādaśasahasrāṇi varṣāṇāṃ%}
+; ----------------
+; m/e 
+32422  : {%catvaram/etad rājakuladvāram ākumāraḥ%}
+; ----------------
+; ḥ/u 
+33282  : {%rasaḥ sutaḥ/upaviṣṭo maharṣīṇām uttarī-%}
+; ----------------
+; //o 
+33283  : {%yeṣu bhārata//oṃkāreṇa yathānyāyaṃ%}
+; ----------------
+; ī/i 
+33918  : {%mahābāho devāraṇyavicāriṇī/iṣṭā dhana-%}
+; ----------------
+;  /a 
+34046  : {%dvaitavanaṃ nāma saraḥ … /atremā%}
+; ----------------
+; m/u 
+34161  : {%janam/utsādanam ṛte teṣām vanasthānāṃ%}
+; ----------------
+; e/a 
+34493  : ({%nandanopame/aśokavanikābhyāśe%}) 3.
+; ----------------
+;  /a 
+34871  : {%mahārāja ṣaḍ ete … /avagāḍhā hy ubha-%}
+; ----------------
+; ḥ/a 
+35522  : {%lakṣaṇalakṣitāḥ/adyāpi mudrā dṛśyante%}
+; ----------------
+; t/a 
+36438  : {%aśvam avāsṛjat/asakṛt kṛṣṇasāraṅgam%})
+; ----------------
+; m/a 
+37453  : {%śāśvatam/api varṣasahasreṇa na cāsyānto%}
+; ----------------
+; ḥ/a 
+37906  : {%śrutaseneti yaḥ śrutaḥ/avasad yo mahad-%}
+; ----------------
+; ā/e 
+38036  : {%yathā/evaṃ ye viduḥ … jñānam uttamam%})
+; ----------------
+; k/a 
+38113  : {%pṛthak pṛthak/adṛśyamānā manujair vya-%}
+; ----------------
+; //e 
+38114  : {%caran puruṣarṣabha//evaṃ khyāto nara-%}
+; ----------------
+; ḥ/a 
+38495  : {%dhena paripīḍitāḥ/avagāhya tasmin sarasi%}
+; ----------------
+; p/u 
+38968  : {%ptau kalpap/udviddham uccam/%}); its
+; ----------------
+; m/a 
+39163  : {%ṇām/aviśeṣakaro yasmāt tasmād enaṃ%}
+; ----------------
+; m/a 
+39581  : {%nam/aditiḥ putrakāmā sādhyebhyo deve-%}
+; ----------------
+; e/a 
+39955  : {%yāmune/aśvamedhaphalaṃ labdhvā sva-%}
+; ----------------
+;  /u 
+40050  : {% … /upaspṛśya tapodeṣu kākṣīvān iva mo-%}
+; ----------------
+; a/a 
+40778  : {%iti ca khyātaṃ vanam idaṃ mama/anu%}
+; ----------------
+;  /u 
+41000  : {%vidyātīrtham … /upaspṛśya ca vidyānāṃ%}
+; ----------------
+; a/a 
+41056  : {%rṣabha/aditir yatra putrārthaṃ tadannam%}
+; ----------------
+; m/a 
+41058  : 3. 135. 3: {%annaṃ brahmaudanam/aditiḥ%}
+; ----------------
+; a/a 
+41164  : {%karśana/adyāpi dakṣiṇād deśād vāruṇir na%}
+; ----------------
+; //e 
+41165  : {%nivartate//etat te sarvam ākhyātaṃ yathā%}
+; ----------------
+; e/a 
+41166  : {%vindhyo na vardhate/agastyasya prabhā-%}
+; ----------------
+; //u 
+41242  : {%vāsṛjat//uttatāra tataḥ pāśair vimuktaḥ%}
+; ----------------
+; ā/a 
+41792  : {%taṃ sevyate mayā/atraikāgreṇa manasā%}
+; ----------------
+; m/u 
+41867  : {%giriśobhitam/uttaraṃ tīram etad dhi sata-%}
+; ----------------
+; ḥ/a 
+41919  : {%yānena pathā svargam upeyuṣaḥ/atra vai%}
+; ----------------
+; m/a 
+42031  : {%niṣevitām/aśvamedham avāpnoti gacchec%}
+; ----------------
+; a/e 
+42621  : {%trīṇy eva manujādhipa/ekaṃ maṇimayaṃ%}
+; ----------------
+; ḥ/a 
+42786  : ({%śuciḥ prayatamānasaḥ/aśvamedham avā-%}
+; ----------------
+; e/a 
+43059  : {%rasya ca saṃgame/aśvamedhaṃ daśaguṇaṃ%}
+; ----------------
+; //u 
+43161  : {%vaṇāni ca//udapānāś ca vaprāś ca puṇyāny%}
+; ----------------
+; e/a 
+43167  : {%upaspṛśya rāhugraste divākare/aśvamedha-%}
+; ----------------
+; //e 
+43226  : {%tatra puṇye haimavate girau//ekībhūtās%}
+; ----------------
+; //a 
+43843  : {%saritāṃ varā//amoghā gamanaṃ (amoghā-%}
+; ----------------
+; m/i 
+43845  : {%aham/ity adbhutaṃ mahac cakre tato%}
+; ----------------
+; t/i 
+43929  : {%vaty abhyacintayat/idam antaram ity eva%}
+; ----------------
+; ī/a 
+43941  : bank ({%brahmahatyābhayān nadī/apovāha%}
+; ----------------
+; m/e 
+43962  : {%hrado hy ayam/evam ākulatāṃ yātaḥ%}
+; ----------------
+; i/a 
+44050  : {%tvaṃ sarasvati maruṃ prati/apuṇya eṣa%}
+; ----------------
+; u/a 
+44123  : {%puṇyābhir divyatoyābhir eva tu/abhyaṣiñcan%}
+; ----------------
+; ḥ/e 
+44167  : {%balinaḥ/evaṃ te mitho vṛddhihetavaḥ%}).
+; ----------------
+; a/e 
+44373  : {%api saubala/etan mama dhanaṃ rājan%})
+; ----------------
+; a/u 
+44521  : {%bharatarṣabha/utseddho vṛkṣarājasya%}) 6.
+; ----------------
+; e/a 
+44607  : {%sundarikāhrade/aśvibhyāṃ rūpavarcasyaṃ%}
+; ----------------
+; m/a 
+45168  : {%mandaraṃ yāti śāśvatam/api varṣasaha-%}
+; ----------------
+; ḥ/a 
+45364  : {%puṇyakṛto janāḥ/asatkarmāṇi kurvantaḥ%}
+; ----------------
+; e/a 
+45588  : {%prasthe himavataḥ śubhe/aruṇāṃ sara-%}
+; ----------------
+; i/a 
+45683  : {%nāṃ bhavān bhājanaṃ bhaviṣyatīti/adya-%}
+; ----------------
+; a/u 
+45778  : {%rata/udīcīṃ diśam āśritya%}) 12. 320. 8-9;
+; ----------------
+; e/a 
+45787  : {%śṛṅge dve sahasaiva dvidhākṛte/adṛśya-%}
+; ----------------
+;  /a 
+45863  : {%devyā tapas taptaṃ śaṃkarārtham … /atas%}
+; ----------------
+; o/a 
+45916  : {%vati prabho/anubhūtaṃ munigaṇaiḥ%}) 13.
+; ----------------
+; ḥ/u 
+46032  : {%prāvṛṣīty arthaḥ/uṣṇo grīṣmo gato 'tīto%}
+; ----------------
+; ḥ/a 
+46338  : {%ṣad ete ratnaparvatāḥ/avagāḍhā hy ubha-%}
+; ----------------
+; n/a 
+46632  : {%surapannagān/ajayat khāṇḍavaprasthe%});
+; ----------------
+; m/a 
+46743  : {%yat tapaḥ samupārjitam/asyāś ca yat tapo%}
+; ----------------
+;  /a 
+47037  : {%pūrayām āsa lakṣmyā … /ayodhyāṃ vyoma%}
+; ----------------
+; a/e 
+47092  : {%droṇaḥ samabhipadyata/evaṃ rājann ahi-%}
+; ----------------
+; m/a 
+47181  : {%uttamam/atrāsya vidhivad yajñāḥ sarve%}
+; ----------------
+; a/i 
+47504  : ({%śāntiṃ gamiṣyāmi yathā tvam āttha/indra-%}
+; ----------------
+; m/i 
+47538  : {%svayam/idaṃ tu nagaraṃ sarvaṃ samudraḥ%}
+; ----------------
+; ḥ/u 
+47619  : {%pañca pāṇḍavāḥ/upaplavye virāṭasya sama-%}
+; ----------------
+;  /a 
+47670  : {%etya ca … /anavāpya śamaṃ tatra kṛṣṇaḥ … /%}
+; ----------------
+; n/u 
+47729  : {%nipātitān/upaplavye mayā sārdhaṃ diṣṭyā%}
+; ----------------
+; i/e 
+47739  : {%janiṣyati/etad asya parikṣittvam garbhas-%}
+; ----------------
+; m/a 
+48072  : {%yāṣ tīram uttamam/aśvatīrthaṃ tad adyāpi%}
+; ----------------
+; a/u 
+48137  : {%ca gaccheta tīrthasevī narādhipa/uṣyaikāṃ%}
+; ----------------
+; m/a 
+48497  : {%hāntaṃ purātanam/arcitaṃ mālyadāmaiś ca%}
+; ----------------
+; a/a 
+48639  : {%mālinīṃ nagarīm atha/aṅgeṣu … //pālayām%}
+; ----------------
+; ā/e 
+48882  : {%bhagavaṃs tadā/ekeṣuṇā devavaraḥ sa%}
+; ----------------
+; ḥ/a 
+49541  : {%samāśritaiḥ/aśaṅkitaiḥ pakṣigaṇaiḥ pragī-%}
+; ----------------
+; t/a 
+49643  : {%'bhavat/atha vāyuḥ samudbhūto dāvāgnir%}
+; ----------------
+; t/a 
+50081  : {%'bhavat/anyaiś ca bahubhir yodhaiḥ sāga-%}
+; ----------------
+;  /e 
+50250  : {%sa … /ekapādasthitas tīvraṃ cacāra suma-%}
+; ----------------
+; //a 
+50251  : {%hat tapaḥ//avākśirās tathā cāpi netrair%}
+; ----------------
+; //e 
+50465  : {%tvā saputrā vastum icchasi//ekarātram%}
+; ----------------
+; i/e 
+50466  : {%uṣitveha dvitīyaṃ yadi vatsyasi/etad vai%}
+; ----------------
+; a/e 
+50657  : {%macakrukasya/etat kurukṣetrasamanta-%}
+; ----------------
+; e/e 
+50743  : ({%mathurām abhitaś ca ye/ete niyuddha-%}
+; ----------------
+; ḥ/e 
+50799  : {%paraḥ śuciḥ/ekamāsaṃ nirāhāraḥ siddhiṃ%}
+; ----------------
+; //e 
+50927  : {%anabhigrāhyā yoṣitaś chandataḥ kila//evam%}
+; ----------------
+; n/a 
+51014  : {%lān/atītya jagmur mithilāṃ mālāṃ car-%}
+; ----------------
+; i/e 
+51219  : {%yadi vatsyasi/etad vai te divā vṛttaṃ%}
+; ----------------
+; e/a 
+51509  : {%nandanopame/aśokavanikābhyāśe tāpasā-%}
+; ----------------
+; n/a 
+51580  : {%prāptā lakṣyā vadhyā yasmin/avandhya-%}
+; ----------------
+; ā/u 
+51635  : {%dā/udaṅmukhāḥ … prayayuḥ//%}) 3. 1. 8-9;
+; ----------------
+;  /a 
+51778  : {%mūho nātyavartata … /anena vāyor apy%}
+; ----------------
+; i/u 
+51828  : {%sumahān ramāṇīyataro bhuvi/upasthitaḥ%}
+; ----------------
+; m/a 
+52339  : {%uttamam/atrāsya vidhivad yajñāḥ sarve%}
+; ----------------
+; m/a 
+52363  : {%gatvā ca vīrāśramanivāsinam/aśvamedham%}
+; ----------------
+; //a 
+52396  : {%vimale lohitāyati//avatīrya rathāt tūrṇaṃ%}
+; ----------------
+; a/a 
+52405  : {%nṛpa/abhigamya … hṛṣīkeśaṃ … pūjāṃ%}
+; ----------------
+;  /a 
+52613  : {%saṃ … /avatīrya mahīm%}) 12. 315. 7-10;
+; ----------------
+;  /a 
+52787  : {%abhigamya … viṣṇum … /aśvamedham avā-%}
+; ----------------
+; //e 
+53015  : {%ṇām āśrito diśam//etat saṃyamanaṃ%}
+; ----------------
+; a/e 
+53098  : {%hradānāṃ ca macakrukasya/etat kuru-%}
+; ----------------
+;  /u 
+53222  : {%nāma dvijaḥ … /utpatsyate … //saṃbhūtaḥ%}
+; ----------------
+; m/e 
+53372  : {%nāma catvaram/etad rājakuladvāram%}
+; ----------------
+; m/e 
+53376  : {%surābhāṇḍāśrayabhūlam/etad ubhayaṃ%}
+; ----------------
+; a/i 
+53566  : {%svavīryeṇa ye cātra ripavo mama/ity%}
+; ----------------
+;  /u 
+53690  : ({%menakā … taṃ garbhaṃ … /utsasarja%}
+; ----------------
+; //u 
+53691  : {%yathākālaṃ sthūlakeśāśramaṃ prati//utsṛ-%}
+; ----------------
+; e/a 
+53717  : {%te/atra mānaṃ ca kaunteya krodhaṃ caiva%}
+; ----------------
+; a/e 
+53757  : {%puraṃ māpayām āsa/etad asya hāstina-%}
+; ----------------
+; ā/a 
+53806  : {%satā mātariśvanā/adarśayann iva tadā%}
+; ----------------
+; //a 
+53807  : {%kurūn vai dakṣiṇottarān//aghoṣayat tadā%}
+; ----------------
+; ḥ/u 
+53941  : {%ṣabḥāḥ/utsukā nagaraṃ draṣṭuṃ bhaviṣya-%}
+; ----------------
+; ā/a 
+54399  : {%nā/adarśayann iva tadā kurūn vai dakṣiṇo-%}
+; ----------------
+; //a 
+54400  : {%ttarān//aghoṣayat tadā cāpi puruṣaḥ rāja-%}
+; ----------------
+; m/a 
+54701  : {%varaṃ te tu sutānām alpaduḥkhatām/ava-%}
+; ----------------
+; ḥ/a 
+55020  : {%citaiḥ/aśobhata vanaṃ tat tair mahendra-%}
+; ----------------
+; e/a 
+55231  : {%ca viśāṃ pate/abhyagcchata rājānaṃ%}
+; ----------------
+; m/i 
+55233  : {%varadau mahātmānam uśīnaram/indraḥ%}
+; ----------------
+; ḥ/a 
+55449  : {%dārasutavikrayaḥ/aṅgeṣu vartate karṇa%})
+; ----------------
+; a/a 
+55501  : {%mālinīm nagarīm atha/aṅgeṣu%}) 12. 5. 6;
+; ----------------
+; ḥ/a 
+55549  : {%dhinaḥ/aṅgā vaṅgāś ca … gajayuddheṣu%}
+; ----------------
+; //a 
+55833  : {%hanyante ghnanti cāpi te//adhārmikā%}
+; ----------------
+;  /u 
+55901  : {%kaukurāḥ … /upāsīnā vāsudevasya buddhiṃ%}
+; ----------------
+; ā/a 
+55967  : {%tha śabdena bhojavṛṣṇyandhakās tadā/anna-%}
+; ----------------
+; a/a 
+56049  : {%ndhakabalaiḥ saha/akṣauhiṇyaiva senāyā%}
+; ----------------
+; ā/a 
+56098  : {%vārṣṇeyaṃ bhojavṛṣṇyandhakās tadā/abhy-%}
+; ----------------
+; i/a 
+56106  : {%nurvedaṃ grahīṣyati/astrāṇi ca vicitrāṇi%}
+; ----------------
+; ḥ/a 
+56187  : {%rathāḥ/apaśyann uddhavaṃ yāntam%}) 16.
+; ----------------
+; //a 
+56229  : {%vajrabhūteva sā rājann adṛśyata … //ava-%}
+; ----------------
+; ḥ/a 
+56329  : Munideśa ({%prāvarād andhakārakaḥ/andha-%}
+; ----------------
+; ḥ/a 
+56412  : {%sātyakicoditāḥ/abhyardayañ jighāṃsantaḥ%}
+; ----------------
+; n/a 
+56503  : {%ṛṣṭiśaktiparaśvadhān/aparāntasamudbhū-%}
+; ----------------
+; m/a 
+56603  : {%nām anuyāyinām/abhīṣāhāḥ śūrasenāḥ%}
+; ----------------
+; ḥ/a 
+56615  : {%vasātayaḥ/abhyavarṣaṃs … śaravarṣair%}
+; ----------------
+;  /a 
+56641  : {%ca vikrāntāḥ … /abhīṣāhāḥ kavacinaḥ pra-%}
+; ----------------
+; a/a 
+56717  : {%kekayaiḥ saha/abhipetū raṇe pārthaṃ%}
+; ----------------
+; ḥ/a 
+56797  : {%ca āvantyaiś ca samanvitaḥ/agrataḥ sarva%}
+; ----------------
+;  /a 
+56803  : ({%sainyam āvantyānāṃ … /asyānantaratas tv%}
+; ----------------
+; ḥ/a 
+56858  : {%dhano rājā sahitaḥ sarvasodaraiḥ/aśvāta-%}
+; ----------------
+; //a 
+57168  : {%śanāḥ//ayam eko 'rjuno yoddhā … /nayaty%}
+; ----------------
+; ḥ/a 
+57170  : {%dasyavas te sahasraśaḥ/abhyadhāvanta%}
+; ----------------
+; ḥ/a 
+57172  : {%vīreṇa kadarthīkṛtya tadvacaḥ/abhipetur%}
+; ----------------
+; m/e 
+57297  : {%ṇḍaṃ nāma catvaram/etad rājakuladvā-%}
+; ----------------
+; ḥ/a 
+57395  : {%kila dasyubhiḥ/adharmataś copayātā sā%}
+; ----------------
+; m/a 
+57472  : {%mudbhavam/aurṇaṃ rāṅkavaṃ caiva kīṭa-%}
+; ----------------
+; //a 
+57517  : {%astram … asahyam udvīkṣya … //athāpayā-%}
+; ----------------
+; ī/a 
+57543  : {% … hayaiḥ … pāṇḍavasya suto balī/abhya-%}
+; ----------------
+; a/a 
+57598  : {%ca/asaṃmohaṃ pūjayanto 'sya saṃkhye%})
+; ----------------
+; a/a 
+57676  : {%bhāṣābhir māyayā na caranty uta/ajih-%}
+; ----------------
+; t/a 
+57696  : {%viṣayanigrahāt/abuddhijaṃ tamas tyaktvā%}
+; ----------------
+;  /i 
+57780  : {%rājā … /ikṣvākukulajaḥ … mitraṃ caiva%}
+; ----------------
+; ḥ/i 
+57797  : {%prāpya … narādhipāḥ/ikṣvākavo mahīpālā%}
+; ----------------
+; e/i 
+57901  : {%dakṣiṇottare/ilāvṛtaṃ madhyamaṃ tu%}
+; ----------------
+; a/a 
+58117  : {%tatra kecid vṛkṣā janādhipa/apare kṣīriṇo%}
+; ----------------
+; a/e 
+58130  : {%samaveṣaṃ tathaiva ca/ekaikam anu-%}
+; ----------------
+; //u 
+58137  : {%prakṣipanti ca//uttarā kuravo rājan vyā-%}
+; ----------------
+; m/u 
+58168  : {%prāpto 'smi paramāṃ gatim/uttarān vā%}
+; ----------------
+; ḥ/u 
+58318  : {%mānaḥ sarve talavarāndhrakāḥ/utsāḥ … %})
+; ----------------
+; //i 
+58576  : {%yaṃ rajataṃ bahu//indragopakavarṇābhāñ%}
+; ----------------
+; //a 
+58578  : {%dhanibhān saṃdhyābhrasadṛśān api//aneka-%}
+; ----------------
+; //a 
+58667  : {%mānavāḥ//aniṣpandā sugandhāś ca nirā-%}
+; ----------------
+; //a 
+58701  : {%kṣatriyā bhuvi//ailavaṃśyās tu ye rājaṃs%}
+; ----------------
+; m/a 
+58796  : {%bāhlīcīnasamudbhavam/aurṇaṃ ca rāṅka-%}
+; ----------------
+; ḥ/a 
+59058  : {%senapurogamāḥ/abhyavartanta sahasā niṣā-%}
+; ----------------
+; m/a 
+59407  : {%tatra bhīmaḥ prāvartayan nadīm/antareṇa%}
+; ----------------
+; a/a 
+59785  : {%kāmbojān eva māṃ vaha/adya drakṣyanti%}
+; ----------------
+; //i 
+59890  : {% … durdharmāṃś ca vivarjayet//iti tīrthā-%}
+; ----------------
+; ḥ/u 
+59917  : {%bharukacchanivāsinaḥ/upaninyuḥ%}) 2. 47.
+; ----------------
+; ḥ/e 
+60107  : Vasuṣeṇa ({%kāśikosalāḥ/ete ca tvaritā%}
+; ----------------
+; //a 
+60182  : ({%kāśmīramaṇḍalaṃ caitat … //atrottarā-%}
+; ----------------
+; e/i 
+60235  : {%draniṣkuṭe/indrakṛṣṭaiḥ indreṇaivākṛṣṭaiḥ%}
+; ----------------
+; //a 
+60248  : {%balim ādāya ratnāni vividhāni ca//ajāvikaṃ%}
+; ----------------
+; //e 
+60463  : {%vaśānugāḥ//etān bhittvā śarai rājan kirātān%}
+; ----------------
+;  /e 
+60477  : any one except him ({%kirātāś ca … /ete%}
+; ----------------
+; a/e 
+60541  : {%kukurāndhakāś ca/ete nideśaṃ tava pāla-%}
+; ----------------
+; a/a 
+60605  : {%vanam idaṃ mama/anu gaṅgāṃ ca vākāṃ%}
+; ----------------
+; ā/e 
+61156  : {%tadā/evaṃ sāmāni gāsyanti%}) 2. 71. 22;
+; ----------------
+; i/a 
+61492  : {%janaṃ ca pṛcchasi/anāmayās tāta manasvi-%}
+; ----------------
+; //a 
+61497  : {%lāḥ kurubhiḥ saha//akṣatān kurupāñcālān%}
+; ----------------
+; m/a 
+61846  : {%vam/abhedāt kuruvaṃśasya%}) 5. 148. 13;
+; ----------------
+; ā/e 
+61986  : {%bāndhavaṃ tathā/evaṃ yuyudhire tatra%}
+; ----------------
+; t/u 
+62322  : {%dakṣiṇāt/udastaśastrāḥ kuravaḥ%}) 8. 34. 2;
+; ----------------
+; m/a 
+62486  : {%āvikartanam/apaśyat … divyena cakṣuṣā%})
+; ----------------
+; ḥ/e 
+62670  : {%hiṇyo … aṣṭādaśaiva tāḥ/etayā saṃkhyayā%}
+; ----------------
+; ḥ/u 
+62843  : {%ca/ … kurustriyaḥ/udakaṃ cakrire sarvā%}
+; ----------------
+; a/e 
+63106  : {%hradānāṃ ca macakrukasya/etat kuru-%}
+; ----------------
+;  /e 
+63120  : {%etad dhi kaunteya kurukṣetrasya … /etat%}
+; ----------------
+; ḥ/a 
+63178  : {%īritāḥ/api duṣkṛtakarmāṇaṃ nayanti para-%}
+; ----------------
+; ḥ/a 
+63320  : {%gatāḥ/anyonyaṃ ghātayiṣyanti%}) 11. 8. 25;
+; ----------------
+; a/u 
+63539  : {%rājan dvīpeṣv eteṣu bhārata/uktā janapadā%}
+; ----------------
+; ḥ/a 
+63788  : {%deśebhyaḥ/avaruddhāḥ bahir niḥsā-%}
+; ----------------
+; n/a 
+64337  : {%gacchati kosalān/ataḥ paraṃ ca deśo 'yaṃ%}
+; ----------------
+; a/u 
+64367  : their friends ({%kaukurāḥ sṛñjayāś ca/upā-%}
+; ----------------
+; ḥ/a 
+64990  : ({%sarve … saṃbhūya kauravāḥ/aṣṭamyāṃ%}
+; ----------------
+; //e 
+65463  : {%tu … °gāndhārāḥ//ete pāpakṛtas tāta%}
+; ----------------
+; n/e 
+65729  : {%jātarūpamayāñ śubhān/evaṃ baliṃ%}
+; ----------------
+; ḥ/a 
+65952  : field ({%tanutyajaḥ/aparāvartinaḥ sarve%})
+; ----------------
+; ḥ/i 
+66130  : {%nandanaḥ/indropadeśāj jagrāha grahaṇī-%}
+; ----------------
+; a/e 
+66208  : {%bhārata/ete janapadā rājan%} 6. 46. 50;
+; ----------------
+; a/u 
+67479  : {%bhārata/udvejayati yācan hi sadā bhūtāni%}
+; ----------------
+; e/a 
+67704  : {%vāhā na gargaro mathyate saṃpradāne/apa-%}
+; ----------------
+; ḥ/a 
+67909  : {%śāstreṇa varterann iha dasyavaḥ/api te%}
+; ----------------
+; n/e 
+68152  : {%śubhān/evaṃ baliṃ pradāyātha praveśaṃ%}
+; ----------------
+; a/e 
+68212  : {%dhipa/ete deśā mahārāja devagandharva-%}
+; ----------------
+;  /e 
+68616  : ({%niṣādāḥ … /ete caturbhyo varṇebhyo%}
+; ----------------
+; ḥ/a 
+69299  : {%duḥṣantaparameṣṭhinoḥ/anvayāḥ%}) 1. 89. 29.
+; ----------------
+; i/a 
+69495  : {%āyur asti/ato 'ntakālasyānupasthitatvāt tad%}
+; ----------------
+; a/e 
+69888  : {%jagat sarvam apāñcālaṃ kilācyuta/evaṃ%}
+; ----------------
+; n/a 
+69982  : {%mahārathān/abhyapīḍayat%}); pressed hard
+; ----------------
+; //u 
+70895  : {%draṃ tathā bahu//uttarebhyaḥ kurubhyas%}
+; ----------------
+; ḥ/u 
+70896  : {%cāpy apoḍhaṃ mālyam ambubhiḥ/uttarād%}
+; ----------------
+; a/u 
+70994  : {%me kurunandana/ulūkhalair ābharaṇaiḥ%}
+; ----------------
+; //u 
+71164  : {%kaunteya kīrtayiṣyāmi tān api//utsāḥ%}
+; ----------------
+; m/a 
+71912  : {%kīrtir yenedaṃ bhārataṃ kulam/apare ye%}
+; ----------------
+; a/a 
+72328  : {%nityam avartata/api sā saphalā kṛṣṇa kṛtā%}
+; ----------------
+; e/o 
+72370  : {%rājyāya prayatāmahe/om ity evaṃ vasi-%}
+; ----------------
+;  /a 
+73479  : {%bhoja° … /annapānam apāsyātha samāpetuḥ%}
+; ----------------
+; m/a :: ī/a 
+73848  : {%kam/anādare ṣaṣṭhī/asmān anādṛtyety%}
+; ----------------
+; ḥ/e 
+74230  : {%śiṣṭānye kāmacāriṇaḥ/etan mayā śrutaṃ%}
+; ----------------
+; ḥ/a 
+74740  : {%srāṇi duryodhanapurogamāḥ/abhyadra-%}
+; ----------------
+; ḥ/a 
+74806  : {%deśe bhadrām ādāya vāripaḥ/adadāc chara-%}
+; ----------------
+; ī/i 
+75063  : {%bhinnaḥ kiṃ nu svid dīryate mahī/iti sma%}
+; ----------------
+; ḥ/a 
+75178  : {%senaḥ śrīmān āsīt sa pārthivaḥ/aṣṭānāṃ%}
+; ----------------
+; ḥ/a 
+75187  : {%śitavrataḥ/auśīnaryām ajanayat kākṣīvā-%}
+; ----------------
+; ḥ/a 
+75376  : Śakuni ({%tathā kṣudrakamālavaiḥ/abhya-%}
+; ----------------
+; ḥ/a 
+75859  : {%preṣitā hastisādibhiḥ/anyatra hi vadhād%}
+; ----------------
+; a/i 
+76697  : {%vidhyata vyavakṛntata/ity āsit tumulaḥ%}
+; ----------------
+; ḥ/e 
+76776  : ({%ramaṭhataṅgaṇāḥ/ete suyodhanasyārthe%}
+; ----------------
+;  /e 
+77266  : {%lokāñ jigīṣanto … /ekāgramanasaḥ sarve%}
+; ----------------
+;  /e 
+77650  : {%yātum icchāmi … /ekāhnā);%} Bāhuka assured
+; ----------------
+; i/a 
+78458  : {%ṣyati/astrāṇi ca vicitrāṇi nītiśāstraṃ ca%}
+; ----------------
+; ḥ/u 
+78498  : {%vaḥ/ucchettāraḥ kulaṃ kṛtsnam ṛte rāma-%}
+; ----------------
+; t/e 
+78688  : {%tarat/evaṃ kalatram ānīya vṛṣṇīnāṃ%}
+; ----------------
+;  /u :: //e 
+79272  : {%yiṣyāmi … /utsāḥ pulindāḥ śabarā … //ete%}
+; ----------------
+; //i 
+79472  : {%kam//iti gāyanti ye mattāḥ śīdhunā%}
+; ----------------
+; ḥ/a 
+79869  : {%śivā nāma brāhmaṇā vedapāragāḥ/adhītya%}
+; ----------------
+;  /a 
+79880  : {% … śūkarāṇāṃ … /adadad gajaratnānāṃ%}
+; ----------------
+; //a 
+79987  : {%tu//antareṇa yakṛllomāñ śūrasenāṃś ca%}
+; ----------------
+; e/e 
+80328  : {%bhāḥ sūryasya yugakṣaye/ekaikasya prabhā%}
+; ----------------
+;  /a 
+80522  : {%mānavānāṃ sahasreṣu teṣu … /asmān na%}
+; ----------------
+; ḥ/a 
+80931  : {%rathāḥ/apārayanto madbāṇān%}) 8. 40. 78-
+; ----------------
+; ḥ/e 
+81747  : {%ātmanaḥ/evaṃ sudarśanadvīpo dṛśyate%}
+; ----------------
+; ḥ/u 
+82010  : of Kauravas ({%madrasauvīrakekayaiḥ/urasy%}
+; ----------------
+; ḥ/a 
+82047  : {%nakharaprāsayodhibhiḥ/atyantāpacitaiḥ%}
+; ----------------
+;  /e 
+82052  : {%yodhās … /ete 'rjunasya kruddhasya kalāṃ%}
+; ----------------
+; d/o 
+82202  : and/or with Somakas.
+; ----------------
+; ḥ/a 
+82222  : {%icchanti bāndhavāḥ saha sṛñjayaiḥ/aham%}
+; ----------------
+;  /u 
+82257  : lighting their friends ({%sṛñjayāś … /upāsīnā%}
+; ----------------
+; e/a 
+82465  : ({%ekam āśukāriṇam āhave/anekam iva%}
+; ----------------
+; ḥ/a 
+82863  : {%dhanavadhe yāni romāṇī hṛṣitāni naḥ/adyāpi%}
+; ----------------
+; //i 
+83366  : {%ca sarve vinihatā mayā//idānīṃ kṛta-%}
+; ----------------
+; m/a 
+83545  : {%śubham/anāgatam atikrāntaṃ vartamānaṃ%}
+; ----------------
+; //a 
+83662  : {%cāpi śubhāśubham//anāgatam atikrāntaṃ%}
+; ----------------
+; ḥ/a 
+83804  : ing all (creatures) ({%paramādbhutāḥ/anāra-%}
+; ----------------
+; ḥ/a 
+83831  : {%mādbhutāḥ/anāramantaḥ saṃvānti sarvagāḥ%}
+; ----------------
+; m/u 
+83850  : {%jalam/uddhṛtyādadate cāpo jīmūtebhyo%}
+; ----------------
+;  /a 
+84019  : {%samudraṃ … /amṛtārthinas … sahitā daitya-%}
+; ----------------
+; t/u 
+84102  : {%nikṛtivañcanāratiḥ syāt/upanidhibhir%}
+; ----------------
+; //u 
+84104  : {%asukham anubhavati duṣkṛtakarmā//uṣṇāṃ%}
+; ----------------
+; ḥ/e 
+84153  : {%tayor api preraka ity arthaḥ/etena mṛtyu-%}

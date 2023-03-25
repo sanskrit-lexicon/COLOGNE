@@ -1,0 +1,25 @@
+; <L>11975<pc>212-2<k1>nitodin<k2>nitod/in
+55052 old <L>11975<pc>212-2<k1>nitodin<k2>nitod/in
+;
+55052 new <L>11975<pc>212-2<k1>nitodin<k2>nitodi/n
+;---------------------------------------------------
+; <L>11975<pc>212-2<k1>nitodin<k2>nitod/in
+55053 old {#nitod/in#}¦ stechend, bohrend.
+;
+55053 new {#nitodi/n#}¦ stechend, bohrend.
+;---------------------------------------------------
+; <L>19911<pc>354-2<k1>yogya<k2>yo/gya
+91861 old {%f.%} {#yogy^A#} Veranstalung, Werk,
+;
+91861 new {%f.%} {#yogyA^#} Veranstalung, Werk,
+;---------------------------------------------------
+; <L>24798<pc>447-1<k1>Sucidant<k2>Suc/idant
+114911 old <L>24798<pc>447-1<k1>Sucidant<k2>Suc/idant
+;
+114911 new <L>24798<pc>447-1<k1>Sucidant<k2>Suci/dant
+;---------------------------------------------------
+; <L>24798<pc>447-1<k1>Sucidant<k2>Suc/idant
+114912 old {#Suc/idant#}¦ hellzahnig.
+;
+114912 new {#Suci/dant#}¦ hellzahnig.
+;---------------------------------------------------

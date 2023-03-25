@@ -1,0 +1,8 @@
+; ------------------------------------------------------
+; bhs: 1 instances of [^<][/\\^][fxaiueoFXAIUEO]
+; ------------------------------------------------------
+; ......................................................
+; 1 instances with character before accent of type Consonant
+; ----------------
+; d/o 
+55819  : formation from these nouns, and/or from such Bhvr. cpds.

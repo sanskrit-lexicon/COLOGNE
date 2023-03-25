@@ -1,0 +1,261 @@
+; ------------------------------------------------------
+; pwg: 86 instances of [^<][/\\^][fxaiueoFXAIUEO]
+; ------------------------------------------------------
+; ----------------
+; e/a 
+8938   : 2. {#ajra#}¦ in {#GAse/ajra#}; s. d.
+; ----------------
+; a\e 
+14518  : <ls n="ṚV.">10, 118, 6.</ls> {#pu\ra\e\tA vi\SAm#} 
+; ----------------
+; a^i 
+38491  : <ls n="ṚV.">1, 189, 7.</ls> {#A va^H (fBavaH) pI\tayo^ 'Bipi\tve ahnA^mi\mA asta^M nava\sva^iva gman#} 
+; ----------------
+; a\e 
+45912  : <div n="1"> 1) <lex>adj.</lex> <lex>f.</lex> {#A#} {%nicht zu bekämpfen, nicht zu bezwingen%}: {#pu\ra\e\tA#} 
+; ----------------
+; o^a 
+49519  : <ls n="ṚV.">3, 22, 3.</ls> Vgl. {#KAdo^arRa#} 
+; ----------------
+; e/a 
+80075  : <L>9201<pc>1-0689<k1>AreaGa<k2>Are/aGa
+; ----------------
+; e/a 
+80076  : {#Are/aGa#}¦ ({#Are + aGa#}) <lex>adj.</lex> {%wovon Uebel fern ist%}: {#A\rea^GA a\sme Ba\drA sO^Srava\sAni^ santu#} 
+; ----------------
+; e/a 
+80081  : <L>9202<pc>1-0689<k1>Areavadya<k2>Are/avadya
+; ----------------
+; e/a 
+80082  : {#Are/avadya#}¦ ({#A° + a°#}) <lex>adj.</lex> {%von welchem Schmähliches fern ist%}: <is>Indra</is> 
+; ----------------
+; a/U 
+90107  : <L>10019<pc>1-0784<k1>itaUti<k2>ita/Uti
+; ----------------
+; a/U 
+90108  : {#ita/Uti#}¦ ({#itas + U°#}) <lex>adj.</lex> {%von hier hinausstrebend, hinausreichend%}; in der Zeit: {%das Jetzt überdauernd%}: {#ISe\ yo vf\zweri\ta u\sriyo\ vfzA\pAM ne\tA ya i\taU^tirf\gmiya^H#} {%der hier über dem Regen waltet und über hier hinaus die Gewässer führt%} (oder: {%jetzt und zukünftig%}) 
+; ----------------
+; a\f 
+97399  : <ls>MAHĪDH.</ls> zu <ls>VS. 7, 22.</ls> <ls>ṚV. 10, 130, 3.</ls> <ls n="ṚV. 10, 130,">4.</ls> <ls>VS. 15, 10. fgg.</ls> {#a\rDa\f\cEru\kTAnA^M rU\paM pa\dErA^pnoti ni\vida^H#} 
+; ----------------
+; a/A 
+100796 : <ls>MBH. 13, 1401.</ls> {#uttarata/Ayatana#} 
+; ----------------
+; a/u 
+100797 : <ls>ŚAT. BR. 8, 4, 4, 11.</ls> {#uttarata/upacAra#} 
+; ----------------
+; a/u 
+107936 : <ls>ŚAT. BR. 1, 1, 1, 11.</ls> {#uttarata/upacAro vE yajYaH#} 
+; ----------------
+; a\f 
+121089 : <div n="2">— c) {#sa\pta fza^yaH, sa\pta\f\zaya^H#} oder {#saptarzayaH#} (
+; ----------------
+; a\f 
+121096 : <ls>ŚAT. BR. 13, 5, 4, 5</ls>). {#sa\pta\f\zaya\stapa^se\ ye ni^ze\duH#} 
+; ----------------
+; a\f 
+121116 : <ls>ṚV. 10, 82, 2.</ls> {#sa\pta\f\zI\RAM ca^ ha\vizABa^yaM no astu#} 
+; ----------------
+; o^a 
+147061 : <ls>MED. l. 5.</ls> {#yatka\layA^ te Sa\Pena^ te krIRA\mIti\ paRe\tAgo^arGa\M soma^M kuryAt#} {%wenn er um den%} <is>Soma</is> {%feilscht, indem er sagt: ich will ihn dir für ein Sechzehntel, für ein Achtel abkaufen, so lässt er damit dem%} <is>Soma</is> {%nicht den Werth einer ganzen Kuh%} 
+; ----------------
+; o^a 
+200993 : <ls>NAIGH. 1, 13</ls> so v. a. {#nadI#} {%Fluss%}; nur in der Stelle: {#Danva^rRaso na\dya1^\H KAdo^arRA\ sTURe^va\ sumi^tA dfMhata\ dyOH#} 
+; ----------------
+; o/a 
+221341 : <L>23012<pc>2-0791<k1>goagra<k2>go/agra
+; ----------------
+; o/a 
+221342 : {#go/agra#}¦ ({#go + agra#}) 
+; ----------------
+; o/a 
+221364 : <L>23015<pc>2-0791<k1>goarRas<k2>go/arRas
+; ----------------
+; o/a 
+221365 : {#go/arRas#}¦ ({#go + a°#}) <lex>adj.</lex> {%milchfluthend(?)%}: {#sa na^H kzu\manta\M sada^ne\ vyU^rRuhi\ goa^rRasaM ra\yimi^ndra Sra\vAyya^m#} 
+; ----------------
+; o/f 
+221379 : <L>23017<pc>2-0791<k1>gofjIka<k2>go/fjIka
+; ----------------
+; o/f 
+221380 : {#go/fjIka#}¦ ({#go + f°#}) <lex>adj.</lex> {%mit Milch bereitet, - gemischt%}: {#soma#} 
+; ----------------
+; o/o 
+221388 : <L>23018<pc>2-0791<k1>goopaSa<k2>go/opaSa
+; ----------------
+; o/o 
+221389 : {#go/opaSa#}¦ ({#go + o°#}) <lex>adj.</lex> {%mit einer Flechte%} oder {%einem Büschel von rindsledernen Riemen versehen%}: {#azwrA^#} 
+; ----------------
+; e/a 
+232589 : <L>24075<pc>2-0887<k1>GAseajra<k2>GAse/ajra
+; ----------------
+; e/a 
+232590 : {#GAse/ajra#}¦ ({#GAse#}, loc. von {#GAsa, + ajra#} von {#aj#} {%treiben%}) <lex>adj.</lex> {%zum Verzehren treibend%} <ab>d. i.</ab> {%einladend, Esslust erregend%} 
+; ----------------
+; a\f 
+284677 : <ls>TRIK.</ls> <ls>H. an.</ls> <ls>MED.</ls> {#sa\pta\f\zaya\stapa^se\ ye ni^ze\duH#} 
+; ----------------
+; a^u 
+294110 : <ls>UJJVAL.</ls> m. <ls>AK. 2, 9, 26.</ls> <ls>H. 1018.</ls> {#saktu^miva\ tita^unA pu\nanta^H#} 
+; ----------------
+; o/a 
+294974 : <L>29689<pc>3-0333<k1>tiroahnya<k2>tiro/ahnya
+; ----------------
+; o/a 
+294975 : {#tiro/ahnya#}¦ im <is>Veda</is>, {#tiro^'hnya#} in den <is>Brāhmaṇa</is> und später (von {#tiras + ahan#}) <lex>adj.</lex> {%übertägig%} d. h. {%vorgestrig%}, vom <is>Soma</is>, der zum Zweck der Gährung stehen geblieben ist, 
+; ----------------
+; a^u 
+298380 : <ls>ṚV. 1, 61, 1.</ls> <ls n="ṚV.">6, 32, 1.</ls> <ls n="ṚV. 6,">49, 12.</ls> {#pra tavya^so\ nama^uktiM tu\rasyA\haM pU\zRa u\ta vA\yora^dikzi#} 
+; ----------------
+; o^a 
+306435 : <ls>ṚV. 1, 187, 1.</ls> {#a\sya tri\to nvoja^sA vfDA\no vi\pA va^rA\hamayo^agrayA han#} 
+; ----------------
+; a\A 
+313335 : <ls>TS. 1, 2, 9, 1.</ls> {#(sarasvati) mApa^ sPurI\H paya^sA\ mA na\A Da^k#} {%entziehe dich nicht widerspänstig mit deiner Milch, thue uns kein Leid%} 
+; ----------------
+; o\a 
+313388 : <ls>MED. ḍ. 15.</ls> m. <ls>H. 785. an. 2, 121.</ls> {#da\RqA go\aja^nAsaH#} 
+; ----------------
+; i/O 
+327004 : 3. {#div#}¦, {#dyu#} (= {#diu), dyo#}; im <is>Veda</is> m., selten f., welches später allein gilt. sg. nom. {#dyO/s#} (<ab>d. i.</ab> {#diO/s#}), voc. {#dyO^s#} (<ab>d. i.</ab> {#di/Os#}; vgl. übrigens {#dyOzpita^H#} 
+; ----------------
+; a^u 
+328778 : <ls>ṚV. 3, 31, 21.</ls> {#pra tavya^so\ nama^uktiM tu\rasyA\haM pU\zRa u\ta vA\yora^dikzi#} 
+; ----------------
+; a/A 
+338305 : <L>34105<pc>3-0718<k1>dUraAdiS<k2>dUra/AdiS
+; ----------------
+; a/A 
+338306 : {#dUra/AdiS#}¦ ({#dUre#}, loc. von {#dUra, + A°#}) <lex>adj.</lex> {%weithin verkündend%}: {#ja\gf\BmA dU\raA^diSa\M Sloka\madre^H#} 
+; ----------------
+; a/A 
+338310 : <L>34106<pc>3-0718<k1>dUraADI<k2>dUra/ADI
+; ----------------
+; a/A 
+338311 : {#dUra/ADI#}¦ ({#dUre + ADI#}) <lex>adj.</lex> {%in die Ferne sinnend, sich hinaussehnend%}
+; ----------------
+; a/u 
+338317 : <L>34107<pc>3-0719<k1>dUraupabdas<k2>dUra/upabdas
+; ----------------
+; a/u 
+338318 : {#dUra/upabdas#}¦ ({#dUre + u°#}) in der Stelle: {#nyu^ Briyante ya\Saso^ gf\BAdA dU\rO^pabdo\ vfza^Ro nf\zAca^H#} 
+; ----------------
+; e/a 
+338593 : <L>34145<pc>3-0721<k1>dUreanta<k2>dUre/anta
+; ----------------
+; e/a 
+338594 : {#dUre/anta#}¦ ({#dUre#}, loc. von {#dUra, + anta#}) <lex>adj.</lex> <lex>f.</lex> {#A#} {%in weiter Ferne endend%}, von Himmel und Erde 
+; ----------------
+; e/a 
+338600 : <L>34146<pc>3-0721<k1>dUreamitra<k2>dUre/amitra
+; ----------------
+; e/a 
+338601 : {#dUre/amitra#}¦ ({#dUre + a°#}) <lex>adj.</lex> {%dessen Feinde fern sind%} (neben {#antimitra#}) 
+; ----------------
+; e/a 
+338605 : <L>34147<pc>3-0721<k1>dUrearTa<k2>dUre/arTa
+; ----------------
+; e/a 
+338606 : {#dUre/arTa#}¦ ({#dUre + arTa#}) <lex>adj.</lex> {%dessen Ziel fern liegt%}, von der Sonne 
+; ----------------
+; a^i 
+365027 : <ls n="ṚV. 8,">21, 6.</ls> {#yu\vaM Diya^M dadaTu\rvasya^izwaye#} 
+; ----------------
+; a^u 
+375407 : {#na/maukti#}¦ ({#namas + ukti#}) <lex>f.</lex> {%Huldigung%}: {#BUyi^zWAM ne\ nama^uktiM viDema#} 
+; ----------------
+; a^u 
+375408 : <ls>ṚV. 1, 189, 1</ls> (<ls>BṚH. ĀR. UP. 5, 15.</ls> <ls>ĪŚOP. 18). 3, 14, 2.</ls> {#pra tavya^so\ nama^uktiM tu\rasyA\haM pU\zRa u\ta vA\yora^dikzi#} 
+; ----------------
+; a^i 
+415056 : <div n="1"> 1) {%wegfliehen, entfliehen%}: {#parA\ hi me\ vima^nyava\H pata^nti\ vasya^izwaye#} 
+; ----------------
+; a\f 
+424258 : <div n="2"> a) mit dem acc.: {%jenseits, hinaus über, mehr als%}: {#sa\pta\f\zInpa\raH#} 
+; ----------------
+; a^i 
+437571 : {#pa/SvEzwi#}¦ ({#paSvas#}, acc. pl. von {#paSu, + izwi#}; vgl. {#aSvamizwi, vasyEzwi#}) <lex>adj.</lex> {%Heerden begehrend%} oder <lex>f.</lex> {%das Begehren nach Vieh%}: {#tadvA^M narAvaSvinA\ paSva^izwI\ raTye^va ca\krA prati^ yanti\ maDva^H#} 
+; ----------------
+; a\e 
+457461 : <ls n="ṚV.">5, 46, 1.</ls> <ls n="ṚV.">6, 21, 12.</ls> <ls n="ṚV. 6,">47, 7.</ls> <ls n="ṚV.">7, 33, 6.</ls> {#pu\ra\etAsi^ maha\to Dana^sya#} 
+; ----------------
+; a\a 
+458739 : <ls>TS. 5, 5. 7, 5.</ls> {#pf\Ti\vyAH sa\DasTA^da\agniM pu^rI\zya^maNgirasva\dA Ba^ra#} 
+; ----------------
+; o/a 
+460097 : <L>46247<pc>4-0800<k1>puroagni<k2>puro/agni
+; ----------------
+; o/a 
+460098 : {#puro/agni#}¦ ({#purus + a°#}) <lex>m.</lex> {%vorderer%} <is>Agni</is>, {%Vorfeuer%} 
+; ----------------
+; a^u 
+463007 : <lang n="greek">καθαίρω</lang>; med. {%sich reinigen, gereinigt ausfliessen, - abträufeln, sich klären%}: {#saktu^miva\ tita^unA pu\nanta^H#} 
+; ----------------
+; a/u 
+472208 : <L>47610<pc>4-0897<k1>prauga<k2>pra/uga
+; ----------------
+; a/u 
+472209 : {#pra/uga#}¦ 
+; ----------------
+; a/u 
+472212 : <ls>KĀTY. ŚR. 7, 9, 5.</ls> <ls n="KĀTY. ŚR.">8, 4, 28.</ls> {#°ci/t#} {%in Form eines%} <is>Pra-uga</is> {%geschichtet%}, {#uBaya/taHprauga (uBaya/taHpra/uga#} 
+; ----------------
+; o\a 
+534030 : <ls>ṚV. 3, 33, 11.</ls> {#da\RqA i\vedgo\aja^nAsa Asa\npari^cCinnA Bara\tA a^rBa\kAsa^H#} 
+; ----------------
+; A/f 
+536449 : <L>54389<pc>5-0234<k1>BAfjIka<k2>BA/fjIka
+; ----------------
+; A/f 
+536450 : {#BA/fjIka#}¦ ({#BAs + f°#}) <lex>adj.</lex> so v. a. {#prasidDaBAs#} 
+; ----------------
+; a^f 
+567961 : {#ma/nafNga#}¦ adj.: {#mana^fNgA mana\nyA\3^\ na jagmI^#} 
+; ----------------
+; o/a 
+598718 : <L>60499<pc>5-0778<k1>miToavadyapa<k2>miTo/avadyapa
+; ----------------
+; o/a 
+598719 : {#miTo/avadyapa#}¦ {#(miTas + a°#} -2. {#pa)#} <lex>adj.</lex> {%gegenseitig Mangel%} oder {%Noth von sich abwendend%}: {#bfha\spatirmi\Toa^vadyapeBi\rudu\sriyA^ asfjata sva\yugBi^H#} 
+; ----------------
+; a^i 
+834992 : {#va/syaizwi#}¦ ({#vasyaMs#} + 1. {#izwi#}) <lex>f.</lex> {%das Suchen —, Wünschen von Besserung, - von Wohlfahrt%}: {#parA\ hi me\ vima^nyava\H pata^nti\ vasya^izwaye#} 
+; ----------------
+; a^i 
+834993 : <ls>ṚV. 1, 25, 4.</ls> <ls n="ṚV. 1,">175, 1.</ls> {#yu\vaM Diya^M dadaTu\rvasya^izwaye#} 
+; ----------------
+; a^u 
+860649 : <div n="1">— 2) {%dienend%} oder {%ehrend hingeben, widmen%}; mit acc.: {#nama^uktim#} 
+; ----------------
+; o^a 
+864045 : <div n="1">— 2) <lex>f.</lex> (eigentlich {%schwank) Ruthe, Gerte; dünner Stab, Schaft%} (des Pfeils u. s. w.): {#vi\pA va^rA\hamayo^agrayA han#} 
+; ----------------
+; a/f 
+960694 : <L>101802<pc>7-0384<k1>Srutafzi<k2>Sruta/fzi
+; ----------------
+; a/f 
+960695 : {#Sruta/fzi#}¦ <lex>adj.</lex> {%berühmte%} <is>Ṛṣi</is> {%habend%}: <is>Indra</is> 
+; ----------------
+; a^u 
+975496 : <ls>Ind. St. 9, 218.</ls> {#saktu^miva\ tita^unA pu\nanta^H#} 
+; ----------------
+; a/U 
+987464 : <L>104389<pc>7-0613<k1>sadyaUti<k2>sadya/Uti
+; ----------------
+; a/U 
+987465 : {#sadya/Uti#}¦ ({#sadyas + U°#}) <lex>adj.</lex> {%alsbald%} oder {%täglich helfend%} 
+; ----------------
+; o/a 
+987639 : <L>104413<pc>7-0614<k1>sadyoarTa<k2>sadyo/arTa
+; ----------------
+; o/a 
+987640 : {#sadyo/arTa#}¦ <lex>adj.</lex> {%rasch zum Ziele kommend%}: ein Bote 
+; ----------------
+; u\U 
+1038684: {#suUti/#}¦ <lex>f.</lex> {%gute Hilfe%}: {#su\U\tayo^ va U\taya^H#} 
+; ----------------
+; a/A 
+1049727: <L>111025<pc>7-1102<k1>sumnaApi<k2>sumna/Api
+; ----------------
+; a/A 
+1049728: {#sumna/Api#}¦ ({#sumne + A°#}) <lex>adj.</lex> etwa {%in Gunst nahe%} 

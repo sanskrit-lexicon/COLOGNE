@@ -1,0 +1,144 @@
+; ------------------------------------------------------
+; stc: 47 instances of [^<][/\\^][fxaiueoFXAIUEO]
+; ------------------------------------------------------
+; ----------------
+; {^e 
+26654  : {@āpara-pakṣīya-@}¦ <ab>a.</ab> concernant la 2{^e^} moitié <lbinfo n="3"/> du mois.
+; ----------------
+; {^e 
+29417  : feux domestiques (2{^e^} stade de la vie brahmique).
+; ----------------
+; {^e 
+30776  : {@uta@}¦ <ab>conj.</ab> et, et aussi ; en vérité (emphat.) ; ou est-ce que ? (2{^e^}
+; ----------------
+; {^e 
+38791  : {@kaniṣka-@}¦ <ab>m.</ab> <ab>n.</ab> d'un roi de l'Inde du Nord (1{^er^} siècle de l'ère).
+; ----------------
+; {^e 
+43917  : du 1{^er^} Yuga (âge d'or) ; {%-e -ena%} pour, à cause de (<ab>gén.</ab> <ab>ifc.</ab>) ;
+; ----------------
+; {^e 
+44034  : <P>{%°yuga-%} <ab>nt.</ab> 1{^er^} Yuga du monde ; âge d'or.
+; ----------------
+; {^e 
+51222  : <P>{%°kalā-%} <ab>f.</ab> phase de la lune, 16{^e^} partie de son disque ; son croissant
+; ----------------
+; {^e 
+51730  : visuelle, visible ; parvenu à la vue de ; <ab>m.</ab> <ab>n.</ab> d'un auteur, du 6{^e^} Manu,
+; ----------------
+; {^e 
+64842  : <P>{%°śreṣṭha-%} <ab>a.</ab> = {%°vara- ;%} <ab>m.</ab> fils du 12{^e^} Manu.
+; ----------------
+; {^e 
+64853  : <P>{%°sāvarṇi-%} <ab>m.</ab> <ab>n.</ab> du 13{^e^} Manu.
+; ----------------
+; {^e 
+65002  : {@devavant-@}¦ <ab>m.</ab> <ab>n.</ab> du 12{^e^} Manu ; d'un fils d'Akrūra ; {%-vatī-%} <ab>f.</ab> fille
+; ----------------
+; {^e 
+76938  : {@nau@}¦ <ab>pron.</ab> pers. 2{^e^} pers. <ab>du.</ab> enclit.
+; ----------------
+; {^e 
+81115  : 4{^e^} ordre religieux) ; {%-ikā-%} <ab>f.</ab>
+; ----------------
+; {^e :: {^e 
+82152  : lune, 8{^e^} et 14{^e^} jours lunaires) ; sacrifice accompli <lbinfo n="3"/> à un changement de
+; ----------------
+; {^e :: {^e 
+82158  : <P>{%°kāla-%} <ab>m.</ab> changement de lune ; 8{^e^} et 14{^e^} jours lunaires.
+; ----------------
+; {^e 
+82309  : le 14{^e^} Manvantara ; {%-ā-%} <ab>f.</ab> <ab>n.</ab> de diverses rivières ; {%-tarī-kṛ-%}
+; ----------------
+; {^e 
+82324  : <P>{%pavitrāropaṇa-%} <ab>nt.</ab> jour de fête (12{^e^} jour de la quinzaine claire de
+; ----------------
+; {^e 
+82575  : {@pāñca-daśya-@}¦ <ab>a.</ab> qui se rapporte au 15{^e^} jour du mois.
+; ----------------
+; {^e 
+85902  : <P>{%°bhādra-pada-%} <ab>m.</ab> {%-ā-%} et {%pūrvā-bhādra-padā-%} <ab>f.</ab> <ab>n.</ab> du 25{^e^}
+; ----------------
+; {^e 
+99821  : {@bhaṭṭi-@}¦ <ab>m.</ab> <ab>n.</ab> d'un auteur (VI{^e^} siècle).
+; ----------------
+; {^e 
+102000 : {@bhṛgu-@}¦ <ab>m.</ab> <ab>n.</ab> d'un Maharṣi, un des 10 patriarches <lbinfo n="9"/> créés par le 1{^er^}
+; ----------------
+; ī/i 
+104964 : {@masī-@}¦ ({%-ī-%}) <ab>v.</ab> {%maṣī/i-%} ; {%m. -bhū-%} devenir noir, noircir.
+; ----------------
+; {^e 
+105062 : {@mahā-@}¦ substitut ordinaire de {%mahat-%} en 1{^er^} élément de
+; ----------------
+; {^e 
+109214 : {%-tara-%} <ab>compar.</ab> qui (de deux, des deux) ; <ab>v.</ab> {%tad-.%} En 1{^er^} terme de
+; ----------------
+; {^e 
+109300 : <P>{%yajur-veda-%} <ab>m.</ab> <ab>n.</ab> du 3{^e^} Veda, recueil de Yajus pour les Adhvaryu.
+; ----------------
+; {^e 
+109606 : bonne règle. En 1{^er^} term. de <ab>comp.</ab>, <ab>ord.</ab> adverbial, {%yathā%} = en
+; ----------------
+; {^e 
+111828 : pollen ; menstrues ; affectivité, <lbinfo n="6"/> passion, <ab>n.</ab> du 2{^e^} des trois guṇa
+; ----------------
+; {^e :: {^e 
+114269 : 4{^e^} ou 9{^e^} Nakṣatra (Aldébaran), aussi personnifié, et du jour lunaire
+; ----------------
+; {^e 
+117159 : préverbes cette 2{^e^} forme seulement) ; {%vānta- vamitvā%} -- vomir,
+; ----------------
+; {^e 
+117689 : l'une des 4 castes ; <ab>m.</ab> Brâhmane dans le 1{^er^} āśrama, étudiant.
+; ----------------
+; {^e 
+119326 : {@vām@}¦ forme enclit., du <ab>pron.</ab> pers. de 2{^e^} personne <lbinfo n="5"/> (<ab>acc.</ab> <ab>dat.</ab> <ab>gén.</ab>
+; ----------------
+; {^e 
+120253 : {@viṃśa-@}¦ {%-ī-%} <ab>a.</ab> 20{^e^}, composé de 20 (parties) ; <ab>nt.</ab> vingtaine ;
+; ----------------
+; {^e 
+120254 : 20{^e^} partie ; <ab>m.</ab> <ab>n.</ab> d'un roi ; {%-ka%} <ab>a.</ab> augmenté de 20, multiplié par 20,
+; ----------------
+; {^e 
+122025 : {@2 VID-@}¦ (à l'origine identique avec 1) {%vindati%}{% -te%} (3{^e^} pers.
+; ----------------
+; {^e :: {^e 
+126002 : Śiva ; d'un Devarṣi ; d'un Dānava ; {%-ā-%} <ab>f.</ab> <ab>sg.</ab> <ab>du.</ab> <ab>pl.</ab> 14{^e^} (ou 16{^e^})
+; ----------------
+; {^e 
+128396 : <P>{%°sena-%} <ab>m.</ab> <ab>n.</ab> de Karṇa ; fils du 10{^e^} Manu.
+; ----------------
+; {^e 
+129216 : {@vaikhānasa-@}¦ <ab>m.</ab> Brâhmane à son 4{^e^} Āśrama, anachorète ; <ab>pl.</ab> <ab>n.</ab>
+; ----------------
+; {^e 
+129825 : {@vaiśya-@}¦ <ab>m.</ab> {%-ā-%} <ab>f.</ab> membre de la 3{^e^} caste ; <ab>a.</ab> propre à un V. ;
+; ----------------
+; {^e :: {^e 
+137174 : {@2 śravaṇa-@}¦ <ab>m.</ab> <ab>n.</ab> du 20{^e^} (ou 23 {^e^}) Nakṣatra (aussi {%-ā-%} <ab>f.</ab>) ;
+; ----------------
+; {^e 
+137190 : {@śraviṣṭhā-@}¦ <ab>f.</ab> <ab>sg.</ab> ou <ab>pl.</ab> <ab>n.</ab> du 24{^e^} Nakṣatra.
+; ----------------
+; {^e 
+141860 : <P>{%°dharma-%} <ab>m.</ab> loi de la vérité, vérité éternelle <lbinfo n="5"/> ; fils du 3{^e^}
+; ----------------
+; {^e 
+144035 : <P>{%saptamī-samāsa-%} <ab>m.</ab> composé dont le 1{^er^} membre exprime le locatif.
+; ----------------
+; {^e 
+145825 : parent éloigné (qui n'est pas {%-sapiṇḍa- ;%} <ab>ord.</ab> jusqu'à la 14{^e^}
+; ----------------
+; {^e 
+149448 : (XI{^e^} siècle).
+; ----------------
+; {^e 
+153171 : <P>{%°vrataka-%} <ab>nt.</ab> <ab>n.</ab> d'un jeûne observé par les femmes le 14{^e^} jour de
+; ----------------
+; {^e 
+161994 : interrogation double (et triple), le 1{^er^} membre étant introduit par {%-kim,%}
+; ----------------
+; {^e 
+161995 : {%api, nu.%} Qqf. au 1{^er^} membre.

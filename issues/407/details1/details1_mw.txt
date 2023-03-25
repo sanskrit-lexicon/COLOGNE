@@ -1,0 +1,11 @@
+; ------------------------------------------------------
+; mw: 2 instances of [^<][/\\^][fxaiueoFXAIUEO]
+; ------------------------------------------------------
+; ......................................................
+; 2 instances with character before accent of type Vowel
+; ----------------
+; u/a :: i/A 
+266662 : ¦ (in <ab>Gr.</ab>) = <s>nitya</s> <ab>N.</ab> of the <s1 slp1="svarita">Svarita</s1> accent resulting in a fixed word (not by <s1 slp1="saMDi">Sandhi</s1> See <s>kzEpra</s>) from an <s1 slp1="udAtta">Udātta</s1> originally belonging to a preceding <s>i</s> or <s>u</s>, (<ab>e.g.</ab> <s>kva^</s> <ab>fr.</ab> <s>ku/a</s>; <s>kanyA/</s> <ab>fr.</ab> <s>kani/A</s>), <ls>Prāt.</ls>; <ls>MāṇḍŚ. vii, 5</ls><info lex="inh"/>
+; ----------------
+; u/a 
+864460 : the <ab n="Svarita" slp1="svarita">Sv°</ab> corresponds to the Greek circumflex and is of four kinds, <ab>viz.</ab> <s>kzEpra</s> [as in <s>vy-A/pta</s> for <s>vi/-Apta</s>], <s>jAtya</s> [as in <s>kva^</s> for <s>ku/a</s>], <s>praSlizwa</s> [as in <s>divI/va</s> for <s>divi/ iva</s>], or <s>aBinihita</s> [as in <s>te/ 'bruvan</s> for <s>te/ abruvan</s>];

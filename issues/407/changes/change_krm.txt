@@ -1,0 +1,275 @@
+; <L>7<pc>0007<k1>aNka<k2>aNka
+217 old <s>^</s>1 <s>aNkakaH-NkikA, aYcikayizakaH-zikA</s>;
+;
+217 new <sup>1</sup> <s>aNkakaH-NkikA, aYcikayizakaH-zikA</s>;
+;---------------------------------------------------
+; <L>37<pc>0035<k1>arca<k2>arca
+1342 old (37) {@<s>‘arca pUjAyAm’</s>@}¦ (X<s>-curAdiH</s>-1809. <s>se</s>. <s>u</s>. <s>^A ADfzIyaH .</s>)
+;
+1342 new (37) {@<s>‘arca pUjAyAm’</s>@}¦ (X<s>-curAdiH</s>-1809. <s>se</s>. <s>u</s>. <sup>A</sup> <s>ADfzIyaH .</s>)
+;---------------------------------------------------
+; <L>37<pc>0035<k1>arca<k2>arca
+1357 old <div n="P"><s>^A</s>. <s>‘ADfzAdvA’ (ga</s>. <s>sU</s>.) <s>iti Rico vEkalpikatvam . ‘SezAt kartari</s>
+;
+1357 new <div n="P">A. <s>‘ADfzAdvA’ (ga</s>. <s>sU</s>.) <s>iti Rico vEkalpikatvam . ‘SezAt kartari</s>
+;---------------------------------------------------
+; <L>43<pc>0041<k1>arva<k2>arva
+1565 old <s>arvaka^AH-rvikA, arvivizakaH-zikA</s>,
+;
+1565 new <s>arvaka</s><sup>A</sup> :<s>-rvikA, arvivizakaH-zikA</s>,
+;---------------------------------------------------
+; <L>43<pc>0041<k1>arva<k2>arva
+1567 old <s>^A ‘aParvitAkANkzitamarvakaM satAM mAMsAdisaYcarvakaduzwaBarvakam .</s>
+;
+1567 new <s>A ‘aParvitAkANkzitamarvakaM satAM mAMsAdisaYcarvakaduzwaBarvakam .</s>
+;---------------------------------------------------
+; <L>61.1<pc>0061<k1>i<k2>i
+2357 old <s>rajjO ahimarucO himaDAmni yAti cAstam’ (SiSupAlavaDe</s> 4-20<s>)</s>,
+;
+2357 new <s>rajjO ahimarucO himaDAmni yAti cAstam’ (SiSupAlavaDe</s> 4-20),
+;---------------------------------------------------
+; <L>517<pc>0497<k1>cAyf<k2>cAyf
+17874 old 313 13 (6-3-93<s>)</s> (6-4-93)
+;
+17874 new 313 13 (6-3-93) (6-4-93)
+;---------------------------------------------------
+; <L>517<pc>0497<k1>cAyf<k2>cAyf
+17907 old 403 2 <s>atra^</s>1 <s>gorakaH ityatra vidyamAnA saMKyA uttarapaNktO guritA ityatra yojyA .</s>
+;
+17907 new 403 2 <s>atra</s><sup>1</sup><s>gorakaH ityatra vidyamAnA saMKyA uttarapaNktO guritA ityatra yojyA .</s>
+;---------------------------------------------------
+; <L>607<pc>0575<k1>ju<k2>ju
+20577 old <div n="NI"><s>sOtro'yaM DAtuH sAkzAdDAtupAWezvapaWito'pi, ‘jucaNkramya—’</s> (3-2-150<s>)</s>,
+;
+20577 new <div n="NI"><s>sOtro'yaM DAtuH sAkzAdDAtupAWezvapaWito'pi, ‘jucaNkramya—’</s> (3-2-150),
+;---------------------------------------------------
+; <L>621<pc>0587<k1>jezf<k2>jezf
+20968 old <s>kvipi-jew-jeq-jezO-jezaH, iti rUpARi iti viSezaH . ^A jezaH .</s>
+;
+20968 new <s>kvipi-jew-jeq-jezO-jezaH, iti rUpARi iti viSezaH .</s> <sup>A</sup><s>jezaH .</s>
+;---------------------------------------------------
+; <L>632<pc>0600<k1>jvala<k2>jvala
+21495 old <s>‘ajAdyatazwAp’</s> (4-1-4) <s>iti wAp . RapratyayABAvapakze tu pacAdyaci</s> (3-1-134<s>)</s>,
+;
+21495 new <s>‘ajAdyatazwAp’</s> (4-1-4) <s>iti wAp . RapratyayABAvapakze tu pacAdyaci</s> (3-1-134),
+;---------------------------------------------------
+; <L>966<pc>0837<k1>paRa<k2>paRa
+30439 old <s>sAgrahaM sADyate . ‘na copaleBe vaRijAM paRAyAn ..’ (BawwikAvye</s> 3-27<s>)</s>,
+;
+30439 new <s>sAgrahaM sADyate . ‘na copaleBe vaRijAM paRAyAn ..’ (BawwikAvye</s> 3-27),
+;---------------------------------------------------
+; <L>972<pc>0845<k1>pada<k2>pada
+30741 old <s>tacCIlAdizu kartfzu Bavati—iti mADavaH . etacca prakftasUtre</s> (3-2-136<s>)</s>,
+;
+30741 new <s>tacCIlAdizu kartfzu Bavati—iti mADavaH . etacca prakftasUtre</s> (3-2-136),
+;---------------------------------------------------
+; <L>1132<pc>0932<k1>brUY<k2>brUY
+34288 old <s>uddyote prakftasUtre sPuwam . avivAkyam ityatra tu pfzodarAditvAt</s> (6-3-109<s>)</s>,
+;
+34288 new <s>uddyote prakftasUtre sPuwam . avivAkyam ityatra tu pfzodarAditvAt</s> (6-3-109),
+;---------------------------------------------------
+; <L>1445<pc>1142<k1>rOqf<k2>rOqf
+42673 old 839 17<s>^</s>5 <s>patakaH</s> 5<s>^pAtakaH</s>
+;
+42673 new 839 17 <sup>5</sup><s>patakaH</s> <sup>5</sup><s>pAtakaH</s>
+;---------------------------------------------------
+; <L>1445<pc>1142<k1>rOqf<k2>rOqf
+42675 old 848 18 4<s>^parpaH</s> 3<s>^parpaH .</s>
+;
+42675 new 848 18 <sup>4</sup><s>parpaH</s> <sup>3</sup><s>parpaH .</s>
+;---------------------------------------------------
+; <L>1445<pc>1142<k1>rOqf<k2>rOqf
+42676 old 848 26 4<s>^parpyate…</s> 3<s>^parpyate …</s>
+;
+42676 new 848 26 <sup>4</sup><s>parpyate…</s> <sup>3</sup><s>parpyate …</s>
+;---------------------------------------------------
+; <L>1445<pc>1142<k1>rOqf<k2>rOqf
+42702 old 984 4 5<s>^baBrAjivAn, baBrAjivAn</s>- 5<s>^baBrAjivAn</s>,
+;
+42702 new 984 4 <sup>5</sup><s>baBrAjivAn, baBrAjivAn</s>- <sup>5</sup><s>baBrAjivAn</s>,
+;---------------------------------------------------
+; <L>1445<pc>1142<k1>rOqf<k2>rOqf
+42710 old 1041 19 (4.) <s>(SAkuntale</s> 5. 20)
+;
+42710 new 1041 19 (4.) (<s>SAkuntale</s> 5. 20)
+;---------------------------------------------------
+; <L>1616<pc>1244<k1>vI<k2>vI
+46622 old <s>iti harivaMSe</s> (13-92) <s>(ma</s>. <s>BArate</s> 7-307) <s>iti ca .</s></F>
+;
+46622 new <s>iti harivaMSe</s> (13-92) (<s>ma</s>. <s>BArate</s> 7-307) <s>iti ca .</s></F>
+;---------------------------------------------------
+; <L>1669<pc>1279<k1>Saka<k2>Saka
+48044 old <F>10. <s>ORAdike [da</s>. <s>u</s>. 8-112<s>] kalapratyaye rUpamevam . ‘BittaM Sakalam’</s> (8-2-59<s>)</s>;
+;
+48044 new <F>10. <s>ORAdike [da</s>. <s>u</s>. 8-112<s>] kalapratyaye rUpamevam . ‘BittaM Sakalam’</s> (8-2-59);
+;---------------------------------------------------
+; <L>1821<pc>1338<k1>zarba<k2>zarba
+50585 old <s>rUpARi sarvARyapi BOvAdikakarvativat</s> (173<s>-^A) jYeyAni .</s>
+;
+50585 new <s>rUpARi sarvARyapi BOvAdikakarvativat</s> (173-<sup>A</sup>) <s>jYeyAni .</s>
+;---------------------------------------------------
+; <L>1822<pc>1338<k1>zarva<k2>zarva
+50590 old <s>BOvAdikakarvativat</s> (173<s>-^A</s>.) <s>rUpARi boDyAni .</s>
+;
+50590 new <s>BOvAdikakarvativat</s> (173-<sup>A</sup>) <s>rUpARi boDyAni .</s>
+;---------------------------------------------------
+; <L>1867<pc>1353<k1>zwuY<k2>zwuY
+51290 old (<s>tE</s>. <s>saM</s> 4-5-24<s>)</s>,
+;
+51290 new (<s>tE</s>. <s>saM</s> 4-5-24),
+;---------------------------------------------------
+; <L>2017<pc>1420<k1>hfzu<k2>hfzu
+54251 old <sup>4</sup> <s>hfzwo loma hfzitaM vA, ‘BayasaMhfzwaromARaH’ (BawwiH</s>-9.22<s>)</s>,
+;
+54251 new <sup>4</sup> <s>hfzwo loma hfzitaM vA, ‘BayasaMhfzwaromARaH’ (BawwiH</s>-9.22),
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+54555 old 657 23 (6-4-52<s>)</s> (6-4-51)
+;
+54555 new 657 23 (6-4-52) (6-4-51)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+54945 old <s>karmaRi ktaH kartari ca’</s> (3-4-71<s>), ‘gatyarTAkarmaka—’</s> (3-4-72<s>)</s>,
+;
+54945 new <s>karmaRi ktaH kartari ca’</s> (3-4-71<s>), ‘gatyarTAkarmaka—’</s> (3-4-72),
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55156 old 8 24 (4-131) <s>(da</s>. <s>u</s>. 1-59)
+;
+55156 new 8 24 (4-131) (<s>da</s>. <s>u</s>. 1-59)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55158 old 9 7 1<s>^samajaH</s>, 1A<s>^samAjaH^</s>B, 1<s>^samajaH^</s>B, 1A<s>^samAjaH</s>,
+;
+55158 new 9 7 <sup>1</sup><s>samajaH</s>, <sup>1A</sup><s>samAjaH</s><sup>B</sup>, <sup>1</sup><s>samajaH</s><sup>B</sup>, <sup>1A</sup><s>samAjaH</s>,
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55162 old 11 24 (<s>vA</s>. 1-1-64) <s>(vA</s>. 6-1-94)
+;
+55162 new 11 24 (<s>vA</s>. 1-1-64) (<s>vA</s>. 6-1-94)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55170 old 14 19 <s>ad^</s>A<s>- ad^</s>C-
+;
+55170 new 14 19 <s>ad</s><sup>A</sup>- <s>ad</s><sup>C</sup>-
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55183 old 20 22 (2-4-54) <s>(vA</s>-2. 4. 54)
+;
+55183 new 20 22 (2-4-54) (<s>vA</s>-2. 4. 54)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55185 old 21 18 <s>he^</s>5<s>prAR; [he]^</s>5<s>prAR</s>,
+;
+55185 new 21 18 <s>he</s><sup>5</sup><s>prAR</s>; [<s>he</s>] <sup>5</sup><s>prAR</s>,
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55189 old 25 28 <s>…(</s>6-4-111) <s>…(</s>6-4-111) <s>ityakAralopaH .</s>
+;
+55189 new 25 28 …(6-4-111) …(6-4-111) <s>ityakAralopaH .</s>
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55193 old 29 23 <s>…(</s>6-4-32<s>)</s> (6-4-92)
+;
+55193 new 29 23 <s>…(</s>6-4-32) (6-4 c-92)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55206 old 41 11 <s>arvaka^A:- ^AarvakaH-</s>-
+;
+55206 new 41 11 <s>arvaka</s> <sup>A</sup> :- <sup>A</sup> <s>arvakaH-</s>-
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55208 old 42 2 <s>^A arhaRIyam, ^A arhaRIyam</s>,
+;
+55208 new 42 2 <sup>A</sup><s>arhRIyam</s>, <sup>A</sup> <s>arhaRIyam</s>,
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55213 old 46 17 (6-4-111<s>)</s> (6-4-112)
+;
+55213 new 46 17 (6-4-111) (6-4-112)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55218 old 47 16 <s>^</s>7<s>ASitam ASitam</s>-
+;
+55218 new 47 16 <sup>7</sup><s>ASitam ASitam</s>-
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55231 old 56 2 <s>^A duraMhaH, iti rUpARi . iti rUpARi . ^A duraMhaH .</s>
+;
+55231 new 56 2 <sup>A</sup> <s>duraMhaH, iti rUpARi .</s> <s>iti rUpARi .</s> <sup>A</sup> <s>duraMhaH .</s>
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55236 old 62 23 (<s>vA</s>. 2-4-45) <s>(vA</s>. 2-4-46)
+;
+55236 new 62 23 (<s>vA</s>. 2-4-45) (<s>vA</s>. 2-4-46)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55237 old 62 30 (<s>vA</s>. 2-4-45) <s>(vA</s>. 2-4-46)
+;
+55237 new 62 30 (<s>vA</s>. 2-4-45) (<s>vA</s>. 2-4-46)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55238 old 63 26 (<s>vA</s>. 2-4-45) <s>(vA</s>. 2-4-46)
+;
+55238 new 63 26 (<s>vA</s>. 2-4-45) (<s>vA</s>. 2-4-46)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55266 old 95 19 (<s>Slo</s>. 56) <s>(Slo</s>. 55-56)
+;
+55266 new 95 19 (<s>Slo</s>. 56) (<s>Slo</s>. 55-56)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55267 old 96 21 (<s>Slo</s>-55) <s>(Slo</s>. 55-56)
+;
+55267 new 96 21 (<s>Slo</s>-55) (<s>Slo</s>. 55-56)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55268 old 96 22 (6-3-19<s>)</s> (6-4-19)
+;
+55268 new 96 22 (6-3-19) (6-4-19)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55271 old 100 26 (<s>da</s>. <s>u</s>. 1-197) <s>(da</s>. <s>u</s>. 1-97)
+;
+55271 new 100 26 (<s>da</s>. <s>u</s>. 1-197) (<s>da</s>. <s>u</s>. 1-97)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55273 old 103 11 <s>ubjaH, samudgaH, ^</s>1<s>nyubjaH, (rogaH) ^</s>1 <s>nyubjaH (rogaH), samudraH, ubjaH</s>,
+;
+55273 new 103 11 <s>ubjaH, samudgaH,</s> <sup>1</sup><s>nyubjaH, (rogaH)</s> <sup>1</sup><s>nyubjaH (rogaH), samudraH, ubjaH</s>,
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55281 old 116 17 (7-1-86<s>)</s> (7-3-86)
+;
+55281 new 116 17 (7-1-86) (7-3-86)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55282 old 116 27 (7-2-20<s>)</s> (7-2-70)
+;
+55282 new 116 27 (7-2-20) (7-2-70)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55283 old 117 23 (<s>vA</s>. 4-1-40) <s>(vA</s>. 4-1-49)
+;
+55283 new 117 23 (<s>vA</s>. 4-1-40) (<s>vA</s>. 4-1-49)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55294 old 128 23 (7-3-56<s>)</s> (7-2-56)
+;
+55294 new 128 23 (7-3-56) (7-2-56)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55308 old 158 28 (<s>DAtukAvyavyAKyAne) (DAtukAvyavyAKyAne</s> 2-5.)
+;
+55308 new 158 28 (<s>DAtukAvyavyAKyAne</s>) (<s>DAtukAvyavyAKyAne</s> 2-5.)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55311 old 163 23 (7-3-4<s>)</s> (7-3-34)
+;
+55311 new 163 23 (7-3-4) (7-3-34)
+;---------------------------------------------------
+; <L>2038<pc>1424<k1>hveY<k2>hveY
+55319 old 173 18 <s>pratizkaSaH, ^</s>6<s>kASaH, ^</s>6<s>pratizkaSaH, kASaH</s>,
+;
+55319 new 173 18 <s>pratizkaSaH</s>, <sup>6</sup><s>kASaH</s>, <sup>6</sup><s>pratizkaSaH, kASaH</s>,
+;---------------------------------------------------

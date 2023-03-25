@@ -1,0 +1,73 @@
+; ------------------------------------------------------
+; bop: 22 instances of [^<][/\\^][fxaiueoFXAIUEO]
+; ------------------------------------------------------
+; ......................................................
+; 4 instances with character before accent of type Number
+; ----------------
+; 0^a 
+9876   : {#kaMs#}¦ 2. {%A.%} ({#gatiSAtanayoH#}; scribitur {#kas#}, gr. 110^a).,
+; ----------------
+; 0^a 
+9948   : {#kaNk#}¦ 1. {%A.%} ({#gatO#} {%K.%} {#vrajane#} {%v.%}, scribunt {#kak#}, gr. 110^a).) ire,
+; ----------------
+; 0^a 
+10046  : 110^a).) splendere; ligare.
+; ----------------
+; 4^a 
+42510  : {#lakzaRa#}¦ {%n.%} (r. {#lakz#} s. {#ana#}, v. {%euph. r. 94^a%}).) nota, signum.
+; ......................................................
+; 18 instances with character before accent of type Other
+; ----------------
+; %^a 
+13321  : {#kfpaRa#}¦ (r. {#kfp#} s. {#ana#} v. {%euph.%} r. 94{%^a%}).) miserandus, miser,
+; ----------------
+; %^a 
+13518  : gr. comp. 109{%^a%}). 5. 496.
+; ----------------
+; %^a 
+13914  : 110{%^a%}).) splendere.
+; ----------------
+; %^a 
+14076  : 2. {#kram#}¦ 4. {%P. A.:%} {#krAmyAmi, krAmye#} (gr. 331{%^a%}).) {%i. q.%} {#kram#}
+; ----------------
+; %^a 
+14167  : {#krudDa#}¦ v. {#kruD#}, gr. 83{%^a%}).
+; ----------------
+; %^a 
+14254  : {#kreRi#}¦ {%m.%} (r. {#krI#} s. {#ni#}, v. euphon. r. 94{%^a%}).) emtio. AM.
+; ----------------
+; %^a 
+14305  : gr. 110{%^a%}).) clamare, ejulare, flere. (Cf. {#klad, krad#},
+; ----------------
+; %^a 
+14358  : gr. 110{%^a%}).) lugere. (Cf. {#kland#}, unde {#klind#} atte-
+; ----------------
+; %^a 
+14480  : 1. {#kzaYj#}¦ 1. {%P.%} (grammatici scribunt {#kzaj#}, gr. 110{%^a%}).) {%id.%}
+; ----------------
+; %^a 
+14484  : 2. {#kzaYj#}¦ 10. {%P.%} ({#taNke#};grammatici scribunt {#kzaj#}, gr. 110{%^a%}).)
+; ----------------
+; %^a 
+15170  : {#KaYj#}¦ 1. {%P.%} (scribitur {#Kaj#}, gr. 110{%^a%}).) claudicare, {%v. sq.%}
+; ----------------
+; %^a 
+15172  : jus rad. et praet. sonat {%hanc%}, v. gr. comp. 109{%^a%}). 1); con-
+; ----------------
+; %^a 
+15215  : {#KaRq#}¦ 1. {%P. A.%} (scribitur {#Kaq#}, gr. 110{%^a%}).) 1) i. q. {#Kaq#}. HIT.
+; ----------------
+; %^a 
+15469  : 1. {#KuRq#}¦ 1. {%P.%} ({#Bede#}, scribitur {#Kuq#}, gr. 110{%^a%}).) {%i. q.%} {#KaRq#},
+; ----------------
+; %^a 
+43280  : 1. {#luRw#}¦ 1. {%P.%} ({#steye#} {%K.%} {#hnutO#} {%V.%}; scribitur {#luw#}, gr. 110{%^a%}).)
+; ----------------
+; %^a 
+43971  : vel Caus.; v. gr. comp. 109{%^a%}). 6.)
+; ----------------
+; %^a 
+44588  : cl. 10. {#vasayati#} habitat, v. gr. comp. 109{%^a%}). 6.; {%werig%} per-
+; ----------------
+; %^a 
+47079  : {#vuNg#}¦ 1. {%P.%} ({#tyAge#}; scribitur {#vug#}, gr. 110{%^a%}).) relinquere.

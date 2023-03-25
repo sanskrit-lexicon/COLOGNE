@@ -1,0 +1,56 @@
+; ------------------------------------------------------
+; cae: 17 instances of [^<][/\\^][fxaiueoFXAIUEO]
+; ------------------------------------------------------
+; ......................................................
+; 17 instances with character before accent of type Vowel
+; ----------------
+; o/a 
+42666  : <L>9726<pc>157<k1>goagra<k2>go/agra
+; ----------------
+; o/a 
+42667  : {#go/agra#}¦ <lex>a.</lex> having cows or milk as chief part or object.
+; ----------------
+; o/a 
+42670  : <L>9727<pc>157<k1>goarRas<k2>go/arRas
+; ----------------
+; o/a 
+42671  : {#go/arRas#}¦ <lex>a.</lex> swarming with cows or stars.
+; ----------------
+; o/a 
+54326  : <L>12330<pc>203<k1>tiroahnya<k2>tiro/ahnya
+; ----------------
+; o/a 
+54327  : {#tiro/ahnya#}¦ <lex>a.</lex> having lasted beyond a day; left from
+; ----------------
+; o/a 
+54352  : {#tiro'hnya#}¦ <lex>a.</lex> = {#tiro/ahvaya#}.
+; ----------------
+; a/A 
+62790  : <L>14255<pc>234<k1>dUraADI<k2>dUra/ADI
+; ----------------
+; a/A 
+62791  : {#dUra/ADI#}¦ <lex>a.</lex> whose longing is in the distance.
+; ----------------
+; e/a 
+62897  : <L>14281<pc>234<k1>dUreanta<k2>dUre/anta
+; ----------------
+; e/a 
+62898  : {#dUre/anta#}¦ <lex>a.</lex> ending in the distance, boundless.
+; ----------------
+; a/u 
+88425  : <L>20048<pc>330<k1>prauga<k2>pra/uga
+; ----------------
+; a/u 
+88426  : {#pra/uga#}¦ <lex>n.</lex> the forepart of the shafts of a chariot.
+; ----------------
+; a/U 
+153496 : <L>34613<pc>583<k1>sadyaUti<k2>sadya/Uti
+; ----------------
+; a/U 
+153497 : {#sadya/Uti#}¦ <lex>a.</lex> helping quickly or daily.
+; ----------------
+; o/a 
+153536 : <L>34622<pc>583<k1>sadyoarTa<k2>sadyo/arTa
+; ----------------
+; o/a 
+153537 : {#sadyo/arTa#}¦ <lex>a.</lex> quickly reaching the goal.

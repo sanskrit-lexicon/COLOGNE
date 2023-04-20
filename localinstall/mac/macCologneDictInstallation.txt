@@ -18,7 +18,8 @@ http://localhost/
 
 You should get "It works!"
 
-I. First make sure you have Mac Xcode Developer Tools which can be gotten from the AppStore.
+I. First make sure you have Mac Xcode Developer Tools which can be gotten from
+  the AppStore.
 
 II. Install the Homebrew package manager
 See the instructions at
@@ -65,9 +66,11 @@ etc.
 ==
 You may not have to add the line.  Search for php and remove the # before it if it is there.
 
-2. The two files: index.php index.html, don't have to be in that order.  Whichever is first will show up first when you open a browser to localhost.
+2. The two files: index.php index.html, don't have to be in that order.
+   Whichever is first will show up first when you open a browser to localhost.
 
-3. Because MacOS comes with apache installed, when you install php with Homebrew it may not locate the installed apache.  Then if you install apache using Homebrew using
+3. Because MacOS comes with apache installed, when you install php with Homebrew
+ it may not locate the installed apache.  Then if you install apache using Homebrew using
 
 % brew install httpd
 
@@ -79,7 +82,8 @@ Either of the following command tells which httpd.conf file is being used.
 % apachectl -t -D DUMP_INCLUDES
 
 
-In this case, put a symbolic link in the Homebrew version to the original.  The location of the original is:
+In this case, put a symbolic link in the Homebrew version to the original.
+The location of the original is:
 
 /private/etc/apache2/httpd.conf
 
@@ -91,7 +95,8 @@ of the Homebrew version
 % mv httpd.conf homebrew-httpd.conf
 % ln -s httpd.conf /private/etc/apache2/httpd.conf
 
-4. Edit the original httpd.conf to make the changes specified under Caveats above and elsewhere below.
+4. Edit the original httpd.conf to make the changes specified under
+   Caveats above and elsewhere below.
 
 5. Add ServerName to httpd.conf
 /private/etc/apache2/httpd.conf
@@ -123,7 +128,8 @@ Edit:
 
 /opt/homebrew/opt/php@8.3/lib/httpd/modules/libphp.so
 
-has executable permissions, and that the entire php directory does.  Homebrew failed to change permissions in the php directory it installed.
+has executable permissions, and that the entire php directory does.
+Homebrew failed to change permissions in the php directory it installed.
 
 % cd /opt/homebrew/opt/
 % chmod -R 555 php@8.3
@@ -131,8 +137,12 @@ has executable permissions, and that the entire php directory does.  Homebrew fa
 
 9.  If when you restart Apache you get the following error:
 
-[so:error] [pid 22710] AH06665: No code signing authority for module at /opt/homebrew/opt/php@8.3/lib/httpd/modules/libphp.so specified in LoadModule directive.
-httpd: Syntax error on line 188 of /private/etc/apache2/httpd.conf: Code signing absent - not loading module at: /opt/homebrew/opt/php@8.3/lib/httpd/modules/libphp.so
+[so:error] [pid 22710] AH06665: No code signing authority for module at
+  /opt/homebrew/opt/php@8.3/lib/httpd/modules/libphp.so
+  specified in LoadModule directive.
+httpd: Syntax error on line 188 of /private/etc/apache2/httpd.conf:
+  Code signing absent - not loading module at:
+  /opt/homebrew/opt/php@8.3/lib/httpd/modules/libphp.so
 
 execute the following commands
 
@@ -149,7 +159,10 @@ Then restart Apache:
 
 which will then give a message:
 
-[pid 22922] AH06662: Allowing module loading process to continue for module at /opt/homebrew/opt/php@8.3/lib/httpd/modules/libphp.so because module signature matches authority "<YourDigitalSignature>" specified in LoadModule directive
+[pid 22922] AH06662: Allowing module loading process to continue for module at
+  /opt/homebrew/opt/php@8.3/lib/httpd/modules/libphp.so
+  because module signature matches authority "<YourDigitalSignature>"
+  specified in LoadModule directive
 
 V. To install the Cologne simple search you'll need to use Jim Funderburk's htaccess.txt.
 
@@ -160,11 +173,13 @@ htaccess  does is a rewrite of a url from
 
 For this to work, do the following:
 
-1. Activate htaccess.  Uncomment another line in httpd.conf in order to load the mod_rewrite module.  Enable it by removing the # at the beginning of this line:
+1. Activate htaccess.  Uncomment another line in httpd.conf in order to load the
+   mod_rewrite module.  Enable it by removing the # at the beginning of this line:
 
 #LoadModule rewrite_module libexec/apache2/mod_rewrite.so
 
-2. To allow rewrites only in the cologne directory, add at httpd.conf after other Directory elements (in my file after line 289):
+2. To allow rewrites only in the cologne directory,
+   add at httpd.conf after other Directory elements (in my file after line 289):
 
 <Directory /Library/WebServer/Documents/cologne>
     Options Indexes FollowSymLinks
@@ -176,7 +191,11 @@ For this to work, do the following:
 
 % sudo httpd -k restart                                                                                                                      
 
-4. Change the name of Jim's htaccess.txt in the cologne directory to ".htaccess".  This will require password verification in the GUI interface or sudo priveleges on the command line (% sudo mv htaccess.txt .htaccess).  The file will disappear from view because files with initial dot are usually hidden.  You can see them by using the -a option in an ls command:
+4. Change the name of Jim's htaccess.txt in the cologne directory to ".htaccess".
+  This will require password verification in the GUI interface or sudo priveleges
+  on the command line (% sudo mv htaccess.txt .htaccess).
+  The file will disappear from view because files with initial dot are usually hidden.
+  You can see them by using the -a option in an ls command:
 
 % cd cologne
 % ls -a .htaccess

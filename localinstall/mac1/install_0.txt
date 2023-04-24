@@ -1,0 +1,332 @@
+Notes prepared by @funderburkjim.
+April 2023
+Mac mini 2023 Apple M2.  16 GB. macOS Ventura 13.3.1
+
+* Terminal open
+   Click launchpad icon on dock
+   Type ‘terminal’, and click
+* textedit open
+   Similarly to Terminal
+   Cmd-v, 
+* Ref from Peter:
+  https://github.com/sanskrit-lexicon/COLOGNE/blob/master/localinstall/mac/macCologneDictInstallation.txt
+* Start up apache server
+  1. Open Terminal
+  2a. sudo apachectl start # web note
+  2b. sudo httpd -k start. # Peter
+  3. Enter ‘localhost’ in browser window. Get ‘It works!’
+* Xcode developer tools
+  Note: this is a slight variation from Peter's instructions.
+     I don't get Xcode developer tools from App Store, but
+     Get Xcode command-line tools as part of the 'brew' installation.
+  Ref: https://mac.install.guide/commandlinetools/3.html
+  Install Xcode command line tools with home-brew
+  1.  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      The Xcode Command Line Tools will be installed. (RETURN)
+      Note: this takes a couple of minutes
+  2. Add Homebrew to your PATH:
+     (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/jimfunderburk/.zprofile
+     eval "$(/opt/homebrew/bin/brew sanohellenv)"
+  Note: 'brew help' to get started
+     Further documentation: https://docs.brew.sh
+  3. Be sure Homebrew is up to date
+     brew update
+     >> Already up-to-date.
+* Install ant
+  Ant.apache.org
+  Note: Apache Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other. The main known usage of Ant is the build of Java applications. Ant supplies a number of built-in tasks allowing to compile, assemble, test and run Java applications. Ant can also be used effectively to build non Java applications, for instance C or C++ applications. More generally, Ant can be used to pilot any type of process which can be described in terms of targets and tasks.
+
+  brew install ant
+  Note: this also installs javajdk
+  % ant -version
+Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+
+* Install php
+brew install php
+  1. Edit /etc/apache2/httpd.conf
+     In Terminal,
+     sudo pico /etc/apache2/httpd.conf   
+  See notes_install_php.txt
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+1a--
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+1b--
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+1c--
+    DirectoryIndex index.php index.html
+
+1d --  restart Apache
+   sudo httpd -k restart
+----- error:
+[Tue Apr 18 22:27:28.456645 2023] [so:error] [pid 21999] AH06665: No code signing authority for module at /opt/homebrew/opt/php/lib/httpd/modules/libphp.so specified in LoadModule directive.
+httpd: Syntax error on line 192 of /private/etc/apache2/httpd.conf: Code signing absent - not loading module at: /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+----- solution (see section 9. Below). 
+   My choice for 'YourDigitalSignaure is 'jim'
+... first command
+  find -L /etc/apache2 -type f -print0 | xargs -0 grep -i "^loadmodule.*php"
+     Response is: 
+    /etc/apache2/httpd.conf:LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+    This response is used in next command
+... Peter's second command at 9.
+  codesign --sign <YourDigitalSignature> --force --keychain ~/Library/Keychains/login.keychain-db /opt/homebrew/opt/php@8.3/lib/httpd/modules/libphp.so
+... My second command
+   Note 1: <YourDigitalSignature> -> Jim
+   Note 2: /php@8.3 -> php.   [ since from 2nd output of first command
+  codesign --sign jim --force --keychain ~/Library/Keychains/login.keychain-db /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    error: The specified item could not be found in the keychain.
+----- create a Certificate Authority
+    Open "keychain access"
+    Keychain access/certificate assistant/open
+    Create a Certificate Authority (CA)
+      Name: "Jim Funderburk's CA"  (pre-selected)
+      Identity type: Self Signed Root CA
+      User Certificate: Code Signing
+         Check: Let override defaults
+       Rechecked: Make this CA the default
+      Email from: funderburk1@verizon.net
+    Click 'Create'
+      Your Certificate Authority "Jim Funderburk's CA" has been created and is ready to
+       Issue certificates.
+    Close Certificate Assistant window 
+
+    In keychain access widows, choose 'login' and then choose "Jim Funderburk's CA".
+      It shows "this root certificate is not trusted"
+      Double click "Jim Funderburk's CA" in list of certificates
+      Click '> Trust'
+         Code Signing 'Always Trust
+          Close window (prompt for user password)
+         NOTE: there are other categories besides "Code Signing" -- I did not change them
+     Now 'This certificate is marked as trusted for this account.'
+----- create a code signing certificate 
+    Keychain access/Create Your Certificate
+     Name "Jim Funderburk". <YourDigitalSignature> = Common name?
+     Identity type: Leaf
+     Certificate Type: Code Signing
+    Click 'Create'
+    Choose An Issuer: "Jim Funderburk's CA". 
+     NOTE: "Jim Funderburk's CA" certificate is not trusted
+---  To make it trusted:
+     Keychain Access
+     Click 'Jim Funderburk' certificate
+       Open 'Trust' 
+       Change Code Signing Trust to 'Always Trust'
+       Enter password
+---- Note Expiration April 19, 202
+===============================================================================
+     Back to php code signing
+
+codesign --sign "Jim Funderburk" --force --keychain ~/Library/Keychains/login.keychain-db /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+   Note: enter password and click 'Allow'
+
+------ Edit apache config file 
+ Add Signature to 'LoadModule'
+  sudo pico /etc/apache2/httpd.conf   
+  See notes_install_php.txt
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+1a--
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so "Jim Funderburk"
+
+-- restart apache
+   
+   sudo httpd -k restart
+-- returned message 
+[Thu Apr 20 11:56:19.099112 2023] [so:notice] [pid 23511] AH06662: 
+Allowing module loading process to continue for module at /
+   opt/homebrew/opt/php/lib/httpd/modules/libphp.so because module signature matches 
+   authority "Jim Funderburk" specified in LoadModule directive
+
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using Jims-Mac-mini.local. Set the 'ServerName' directive globally to suppress this message
+NOTE: Action needed on server name ?
+
+----------
+===============================================================================
+Permissions on php folder
+
+ cd /opt/homebrew/opt/
+ ls
+ Note: there is a php and a php8.2 folder  
+ chmod -R 555 php
+------------------
+===============================================================================
+httpd -t -D DUMP_INCLUDES
+Included configuration files:
+  (*) /private/etc/apache2/httpd.conf
+[Thu Apr 20 12:46:55.326340 2023] [so:notice] [pid 23683] AH06662: Allowing module loading process to continue for module at /opt/homebrew/opt/php/lib/httpd/modules/libphp.so because module signature matches authority "Jim Funderburk" specified in LoadModule directive
+    (517) /private/etc/apache2/extra/httpd-mpm.conf
+    (523) /private/etc/apache2/extra/httpd-autoindex.conf
+    (563) /private/etc/apache2/other/mpm.conf
+    (563) /private/etc/apache2/other/php7.conf
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using Jims-Mac-mini.local. Set the 'ServerName' directive globally to suppress this message
+jimfunderburk@Jims-Mac-mini homebrew % 
+===============================================================================
+sudo pico /etc/apache2/httpd.conf
+Document root
+# DocumentRoot: The directory out of which you will serve your
+# documents. By default, all requests are taken from this directory, but
+# symbolic links and aliases may be used to point to other locations.
+# 
+DocumentRoot "/Library/WebServer/Documents"
+<Directory "/Library/WebServer/Documents">
+    #
+    # Possible values for the Options directive are "None", "All",
+    # or any combination of:
+    #   Indexes Includes FollowSymLinks SymLinksifOwnerMatch ExecCGI MultiViews
+
+===============================================================================
+                                                                                                                                 
+Made a 'hello.php' file and put into /Library/WebServer/Documents/
+ls -all /Library/WebServer/Documents/
+total 8
+drwxr-xr-x  4 root  wheel  128 Apr 20 12:57 .
+drwxr-xr-x  5 root  wheel  160 Apr  1 12:46 ..
+-rw-r--r--@ 1 root  wheel   41 Apr 20 12:57 hello.php
+-rw-r--r--  1 root  wheel   45 Apr  1 12:46 index.html.en
+
+Then, in safari url localhost/hello.php.
+  This merely displayed the php, it did not execute the php.
+
+===============================================================================
+BEGIN INSTALL OF COLOGNE DICTIONARY DISPLAYS
+cd /Library/WebServer/Documents
+sudo mkdir cologne
+sudo chmod 755 cologne
+
+
+------
+Download file 
+https://github.com/sanskrit-lexicon/COLOGNE/blob/master/localinstall/mac/download2.sh
+sudo cp ~/Downloads/download2.sh /Library/WebServer/Documents/cologne/
+cd Library/WebServer/Documents/cologne/
+sudo sh download2.sh ap90
+# note have to give permissions for the local server to have access
+cd /Library/WebServer/Documents
+sudo chmed -R 755 cologne
+------
+X sudo sh download2.sh acc
+sudo sh download2.sh acc 2020
+sudo sh download2.sh ae 2020
+sudo sh download2.sh ap90 2020
+sudo sh download2.sh ben 2020
+# sudo sh download2.sh bhs 2020
+# sudo sh download2.sh bop 2020
+# sudo sh download2.sh bor 2020
+
+sudo sh download2.sh bur 2020
+sudo sh download2.sh cae 2020
+sudo sh download2.sh ccs 2020
+sudo sh download2.sh gra 2020
+# sudo sh download2.sh gst 2020
+# sudo sh download2.sh ieg 2020
+# sudo sh download2.sh inm 2020
+# sudo sh download2.sh krm 2020
+# sudo sh download2.sh mci 2020
+sudo sh download2.sh md 2020
+sudo sh download2.sh mw 2020
+sudo sh download2.sh mw72 2020
+sudo sh download2.sh mwe 2020
+sudo sh download2.sh pe 2020
+# sudo sh download2.sh pgn 2020
+# sudo sh download2.sh pui 2020
+sudo sh download2.sh pwg 2020
+sudo sh download2.sh pw 2020
+sudo sh download2.sh sch 2020
+# sudo sh download2.sh shs 2020
+sudo sh download2.sh skd 2020
+# sudo sh download2.sh snp 2020
+# sudo sh download2.sh stc 2020
+sudo sh download2.sh vcp 2020
+# sudo sh download2.sh vei 2020
+sudo sh download2.sh wil 2020
+# sudo sh download2.sh yat 2020
+sudo sh download2.sh lan 2020
+sudo sh download2.sh armh 2020
+sudo sh download2.sh pwkvn 2020
+# sudo sh download2.sh lrv 2022. # note download2 does not work for this 2022
+
+X cd ../
+sudo chmod -R 755 cologne
+
+===============================================================================
+Other repositories
+# cd to cologne directory
+--- cal-apidev
+ sudo git clone https://github.com/sanskrit-lexicon/csl-apidev.git
+-- csl-orig
+sudo git clone https://github.com/sanskrit-lexicon/csl-orig.git
+-- csl-orig/.version needed by csl-homepage
+sudo touch csl-orig/.version
+-- csl-homepage
+sudo git clone https://github.com/sanskrit-lexicon/csl-homepage.git
+-- update csl-orig/.version
+cd csl-homepage
+sudo sh update_version.sh
+sudo sh redo_xampp.sh
+===============================================================================
+In list display of mw, following error found.
+
+Warning: preg_replace_callback(): Allocation of JIT memory failed, PCRE JIT will be disabled. This is likely caused by security restrictions. Either grant PHP permission to allocate executable memory, or set pcre.jit=0 in /Library/WebServer/Documents/cologne/mw/web/webtc/parm.php on line 113
+From Peter's item # 7:
+# Note Peter's php version is 8.3
+# remove ';' at ';pcre.jit=1' in php.ini-production
+ sudo pico /opt/homebrew/etc/php/8.2/php.ini-production
+# Note display still provides the warning
+#  remove ';' at ';pcre.jit=1' in php.ini
+  sudo pico /opt/homebrew/etc/php/8.2/php.ini
+# still sometimes get the warning
+ sudo httpd -k restart
+# pcre.jit warning still present.
+# According to a stack-exchange posting, should change pcre.jit=0
+#  trying pcre.jit=0 in php.ini-production and php.ini
+ sudo pico /opt/homebrew/etc/php/8.2/php.ini-production
+ sudo pico /opt/homebrew/etc/php/8.2/php.ini
+# restart apache
+  sudo httpd -k restart
+# APPARENT SUCCESS:  The jit warning messages in displays are gone!
+===============================================================================
+# Note: I did not do the following (from Peter's macCologneDictinstallation.txt
+The php.ini and php-fpm.ini file can
+
+ be found in:
+    /opt/homebrew/etc/php/8.2/
+
+To restart php after an upgrade:
+  brew services restart php
+-------------------------------------------------------------------------------
+# .htaccess and simple-search
+# download raw .htaccess from 
+#.   https://github.com/sanskrit-lexicon/COLOGNE/blob/master/localinstall/mac/.htaccess
+#   Download renames to htaccess.txt
+#   Rename to .htaccess
+ mv ~/Downloads/htaccess.txt ~/Downloads/.htaccess
+# move to cologne directory
+ cd /Library/WebServer/Documents/
+ sudo mv ~/Downloads/.htaccess cologne/
+ sudo chmod -R 755 cologne
+# steps to activate .htaccess (from Peter's Mac install notes
+X sudo pico /etc/apache2/httpd.conf  
+#  1.  Uncomment #LoadModule rewrite_module libexec/apache2/mod_rewrite.so.
+ sudo httpd -k restart     # restart apache
+# still 'simple-search' link on homepage does not work.
+#  2. To allow rewrites only in the cologne directory,
+   add at httpd.conf after other Directory elements:
+<Directory /Library/WebServer/Documents/cologne>
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+
+X sudo httpd -k restart 
+-----  simple-search-link now works!
+
+-------------------------------------------------------------------------------
+There probably are additional repositories that could be loaded.
+But that's enough for now.
+-------------------------------------------------------------------------------
+THE END
+
+

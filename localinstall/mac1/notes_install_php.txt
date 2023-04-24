@@ -1,0 +1,403 @@
+jimfunderburk@Jims-Mac-mini ~ % brew install php
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+#=#=#                                                                         
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+#=#=#                                                                         
+==> Fetching dependencies for php: apr, ca-certificates, openssl@1.1, apr-util, argon2, aspell, m4, autoconf, brotli, libunistring, libidn2, libnghttp2, libssh2, openldap, rtmpdump, curl, libtool, unixodbc, freetds, highway, imath, openexr, webp, jpeg-xl, libvmaf, aom, libavif, gd, gmp, krb5, libpq, libsodium, libzip, oniguruma, readline, sqlite and tidy-html5
+==> Fetching apr
+==> Downloading https://ghcr.io/v2/homebrew/core/apr/manifests/1.7.4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/apr/blobs/sha256:55701a760762df4b13e8ea020e3b9f3cbab2bc98c4e454ebc8da6e1e732c601
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:55701a760762df4b13e8ea020e3b9f3cbab2bc98c4e4
+######################################################################## 100.0%
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2023-01-10
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:11fe9d0a98a2ac454fa1db95762a697c3340f46560ff27e5e9d
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:11fe9d0a98a2ac454fa1db95762a697c3340f46560ff
+######################################################################## 100.0%
+==> Fetching openssl@1.1
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/manifests/1.1.1t
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:e1e08ddd93298ef8776b202e4b2f86fc519bf27a72f7cfb082b69ff
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:e1e08ddd93298ef8776b202e4b2f86fc519bf27a72f7
+######################################################################## 100.0%
+==> Fetching apr-util
+==> Downloading https://ghcr.io/v2/homebrew/core/apr-util/manifests/1.6.3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/apr-util/blobs/sha256:6934399a13fd918d1b923b0f3c11b147b7f95252fb5346e6c2c1ff0ea4
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:6934399a13fd918d1b923b0f3c11b147b7f95252fb53
+######################################################################## 100.0%
+==> Fetching argon2
+==> Downloading https://ghcr.io/v2/homebrew/core/argon2/manifests/20190702_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/argon2/blobs/sha256:016bdb5f9f24c58d77c34daa974103a22a80d7ded572c2cb2d4586c97b43
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:016bdb5f9f24c58d77c34daa974103a22a80d7ded572
+######################################################################## 100.0%
+==> Fetching aspell
+==> Downloading https://ghcr.io/v2/homebrew/core/aspell/manifests/0.60.8-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/aspell/blobs/sha256:f00a63fb34af5c118d0a44b6847e012905f7abf6749a6e71b16cb0905777
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:f00a63fb34af5c118d0a44b6847e012905f7abf6749a
+######################################################################## 100.0%
+==> Fetching m4
+==> Downloading https://ghcr.io/v2/homebrew/core/m4/manifests/1.4.19
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/m4/blobs/sha256:11308abe8d607be35da9e88a1d789f191914bf043bca4fdde2b50a6cbf1713cc
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:11308abe8d607be35da9e88a1d789f191914bf043bca
+######################################################################## 100.0%
+==> Fetching autoconf
+==> Downloading https://ghcr.io/v2/homebrew/core/autoconf/manifests/2.71
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/autoconf/blobs/sha256:a3d366c98b0da7a0a4f352eef49af9d612ac7aea4ffe420d49ff12bd90
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:a3d366c98b0da7a0a4f352eef49af9d612ac7aea4ffe
+######################################################################## 100.0%
+==> Fetching brotli
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/manifests/1.0.9
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/blobs/sha256:dda0779953c24b98703ae950195fdd7f5ae6dbd697e026cb65520d13ea8b
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:dda0779953c24b98703ae950195fdd7f5ae6dbd697e0
+######################################################################## 100.0%
+==> Fetching libunistring
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/manifests/1.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:c78e7b0af88bef155ad7f12d63ad60f0c87e5a8cccb8f40ec5d930
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:c78e7b0af88bef155ad7f12d63ad60f0c87e5a8cccb8
+######################################################################## 100.0%
+==> Fetching libidn2
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/manifests/2.3.4_1-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/blobs/sha256:b044c66cc0f1feea87d229f3f4016c5ff29a0fb0f712d0d5219f0546524
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:b044c66cc0f1feea87d229f3f4016c5ff29a0fb0f712
+######################################################################## 100.0%
+==> Fetching libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.52.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:d1f911e1de9f2eeaf580182a1d22c7ac7883207bdf99c00e4f669024
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:d1f911e1de9f2eeaf580182a1d22c7ac7883207bdf99
+######################################################################## 100.0%
+==> Fetching libssh2
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/manifests/1.10.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/blobs/sha256:51e82201238ae925a2ff44b33768f7865883575d20f5ad5c7c32ab88c45
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:51e82201238ae925a2ff44b33768f7865883575d20f5
+######################################################################## 100.0%
+==> Fetching openldap
+==> Downloading https://ghcr.io/v2/homebrew/core/openldap/manifests/2.6.4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openldap/blobs/sha256:6a5fb0e344d7955370211b0fbb5755b6151d60fe15997c7a72d672dbc2
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:6a5fb0e344d7955370211b0fbb5755b6151d60fe1599
+######################################################################## 100.0%
+==> Fetching rtmpdump
+==> Downloading https://ghcr.io/v2/homebrew/core/rtmpdump/manifests/2.4.20151223_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/rtmpdump/blobs/sha256:6a1838baea154e65800058df58a36adcbb2e153337803503b7b1bed598
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:6a1838baea154e65800058df58a36adcbb2e15333780
+######################################################################## 100.0%
+==> Fetching curl
+==> Downloading https://ghcr.io/v2/homebrew/core/curl/manifests/8.0.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/curl/blobs/sha256:c2a30c3f61e8bf63d3239c7ee08fa61e93be8fe1809aa24c3fce985fb83561
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:c2a30c3f61e8bf63d3239c7ee08fa61e93be8fe1809a
+######################################################################## 100.0%
+==> Fetching libtool
+==> Downloading https://ghcr.io/v2/homebrew/core/libtool/manifests/2.4.7
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libtool/blobs/sha256:924534e0a6c2f0562d3b6d033be241bfb0554211103daa14c46790803b9
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:924534e0a6c2f0562d3b6d033be241bfb0554211103d
+######################################################################## 100.0%
+==> Fetching unixodbc
+==> Downloading https://ghcr.io/v2/homebrew/core/unixodbc/manifests/2.3.11
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/unixodbc/blobs/sha256:4c0380e01085731950092d3fdbcb24865abcb7745cbb318759e21d77e1
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:4c0380e01085731950092d3fdbcb24865abcb7745cbb
+######################################################################## 100.0%
+==> Fetching freetds
+==> Downloading https://ghcr.io/v2/homebrew/core/freetds/manifests/1.3.18
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/freetds/blobs/sha256:3121d9240917d0efb691d437cd1973123822b0c0fe4197aa97066225882
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:3121d9240917d0efb691d437cd1973123822b0c0fe41
+######################################################################## 100.0%
+==> Fetching highway
+==> Downloading https://ghcr.io/v2/homebrew/core/highway/manifests/1.0.4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/highway/blobs/sha256:bf339bb1c48a86e1184b779e43a014e7a225bbc39d35fde53ca8dc4cdf4
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:bf339bb1c48a86e1184b779e43a014e7a225bbc39d35
+######################################################################## 100.0%
+==> Fetching imath
+==> Downloading https://ghcr.io/v2/homebrew/core/imath/manifests/3.1.7
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/imath/blobs/sha256:d3cbdbbd65ceb35b81035c0dd3383e60e8e7a3669c7e401c7321f0fcf6e7d
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:d3cbdbbd65ceb35b81035c0dd3383e60e8e7a3669c7e
+######################################################################## 100.0%
+==> Fetching openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/manifests/3.1.7
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/blobs/sha256:af3bf3c18721d74bd6e3ae7ca18af940b18d598539b69f5872e2d5e130f
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:af3bf3c18721d74bd6e3ae7ca18af940b18d598539b6
+######################################################################## 100.0%
+==> Fetching webp
+==> Downloading https://ghcr.io/v2/homebrew/core/webp/manifests/1.3.0-2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/webp/blobs/sha256:bb5fb8f745151f8a79d54b7217d9e4fcf50d035bbec852e4f4bcef3987e52b
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:bb5fb8f745151f8a79d54b7217d9e4fcf50d035bbec8
+######################################################################## 100.0%
+==> Fetching jpeg-xl
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-xl/manifests/0.8.1_2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:726c44f69d896560fc9d7999df8be4c39b21e88b4a7a486c0b3c546f032
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:726c44f69d896560fc9d7999df8be4c39b21e88b4a7a
+######################################################################## 100.0%
+==> Fetching libvmaf
+==> Downloading https://ghcr.io/v2/homebrew/core/libvmaf/manifests/2.3.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libvmaf/blobs/sha256:ddf330046166c9f25ad89679d04bc12375d3ad8b4454edeebb2e39667af
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:ddf330046166c9f25ad89679d04bc12375d3ad8b4454
+######################################################################## 100.0%
+==> Fetching aom
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/manifests/3.6.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:a42b91d504001259b899320777fbd7890d2bbb658c72be7877cc8473c26f8b1
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:a42b91d504001259b899320777fbd7890d2bbb658c72
+######################################################################## 100.0%
+==> Fetching libavif
+==> Downloading https://ghcr.io/v2/homebrew/core/libavif/manifests/0.11.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libavif/blobs/sha256:9b4735a70692b1e1cb060a3239bc22b2226cb663c7321474aaaa7b23777
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:9b4735a70692b1e1cb060a3239bc22b2226cb663c732
+######################################################################## 100.0%
+==> Fetching gd
+==> Downloading https://ghcr.io/v2/homebrew/core/gd/manifests/2.3.3_4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gd/blobs/sha256:62e2d11e1a556084beab6320187c522647cb15308233f164d9fe1e177701d37f
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:62e2d11e1a556084beab6320187c522647cb15308233
+######################################################################## 100.0%
+==> Fetching gmp
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/manifests/6.2.1_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/blobs/sha256:2436cd120e5678d67c24020a50cbbf7c0220e7ecaac63981335872b9d666bca
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:2436cd120e5678d67c24020a50cbbf7c0220e7ecaac6
+######################################################################## 100.0%
+==> Fetching krb5
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/manifests/1.20.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/blobs/sha256:671c6257abcf1a03022ef9a8d7a1338abd7d2ecdad39fd918370af865595ed
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:671c6257abcf1a03022ef9a8d7a1338abd7d2ecdad39
+######################################################################## 100.0%
+==> Fetching libpq
+==> Downloading https://ghcr.io/v2/homebrew/core/libpq/manifests/15.2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libpq/blobs/sha256:c070425023520a337b84ace4ab2735577b00055bc7e4870c6993b6e6ca93a
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:c070425023520a337b84ace4ab2735577b00055bc7e4
+######################################################################## 100.0%
+==> Fetching libsodium
+==> Downloading https://ghcr.io/v2/homebrew/core/libsodium/manifests/1.0.18_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libsodium/blobs/sha256:9a473cc4469e5f641ff79fac0331c7b86ac22778becd1155a2395e523
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:9a473cc4469e5f641ff79fac0331c7b86ac22778becd
+######################################################################## 100.0%
+==> Fetching libzip
+==> Downloading https://ghcr.io/v2/homebrew/core/libzip/manifests/1.9.2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libzip/blobs/sha256:6da42edf5cc6f80780ace956a3d01cd213633ff4a06588d53f25c455efdf
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:6da42edf5cc6f80780ace956a3d01cd213633ff4a065
+######################################################################## 100.0%
+==> Fetching oniguruma
+==> Downloading https://ghcr.io/v2/homebrew/core/oniguruma/manifests/6.9.8
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/oniguruma/blobs/sha256:ce1351a948c52a2d0fb08e3c1eba5c1cd8ac22abb9c348299fb7b95a8
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:ce1351a948c52a2d0fb08e3c1eba5c1cd8ac22abb9c3
+######################################################################## 100.0%
+==> Fetching readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:fba42a9bd6feaa8902ae4491ffdf177662e0a165a0d0ddef0988ad6ecf
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:fba42a9bd6feaa8902ae4491ffdf177662e0a165a0d0
+######################################################################## 100.0%
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.41.2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:2a77f2ddcf124d8704c299572c4dc55517996d796011545852e362c6e2a2
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:2a77f2ddcf124d8704c299572c4dc55517996d796011
+######################################################################## 100.0%
+==> Fetching tidy-html5
+==> Downloading https://ghcr.io/v2/homebrew/core/tidy-html5/manifests/5.8.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/tidy-html5/blobs/sha256:25de41a82adac06447528f20ebe466530708c86a7440c6d9f3dd122d
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:25de41a82adac06447528f20ebe466530708c86a7440
+######################################################################## 100.0%
+==> Fetching php
+==> Downloading https://ghcr.io/v2/homebrew/core/php/manifests/8.2.5
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/php/blobs/sha256:5b2c7080edae36ab713edeab3cc73ba9d9119303f7931f238ab1b5e70c17406
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:5b2c7080edae36ab713edeab3cc73ba9d9119303f793
+######################################################################## 100.0%
+==> Installing dependencies for php: apr, ca-certificates, openssl@1.1, apr-util, argon2, aspell, m4, autoconf, brotli, libunistring, libidn2, libnghttp2, libssh2, openldap, rtmpdump, curl, libtool, unixodbc, freetds, highway, imath, openexr, webp, jpeg-xl, libvmaf, aom, libavif, gd, gmp, krb5, libpq, libsodium, libzip, oniguruma, readline, sqlite and tidy-html5
+==> Installing php dependency: apr
+==> Pouring apr--1.7.4.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/apr/1.7.4: 59 files, 1.4MB
+==> Installing php dependency: ca-certificates
+==> Pouring ca-certificates--2023-01-10.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /opt/homebrew/Cellar/ca-certificates/2023-01-10: 3 files, 216.9KB
+==> Installing php dependency: openssl@1.1
+==> Pouring openssl@1.1--1.1.1t.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@1.1/1.1.1t: 8,101 files, 18MB
+==> Installing php dependency: apr-util
+==> Pouring apr-util--1.6.3.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/apr-util/1.6.3: 54 files, 891.7KB
+==> Installing php dependency: argon2
+==> Pouring argon2--20190702_1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/argon2/20190702_1: 12 files, 684.1KB
+==> Installing php dependency: aspell
+==> Pouring aspell--0.60.8.arm64_ventura.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/aspell/0.60.8: 767 files, 322.8MB
+==> Installing php dependency: m4
+==> Pouring m4--1.4.19.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/m4/1.4.19: 13 files, 742.3KB
+==> Installing php dependency: autoconf
+==> Pouring autoconf--2.71.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/autoconf/2.71: 71 files, 3.2MB
+==> Installing php dependency: brotli
+==> Pouring brotli--1.0.9.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/brotli/1.0.9: 25 files, 2.3MB
+==> Installing php dependency: libunistring
+==> Pouring libunistring--1.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libunistring/1.1: 56 files, 5.0MB
+==> Installing php dependency: libidn2
+==> Pouring libidn2--2.3.4_1.arm64_ventura.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/libidn2/2.3.4_1: 79 files, 1MB
+==> Installing php dependency: libnghttp2
+==> Pouring libnghttp2--1.52.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.52.0: 13 files, 731.5KB
+==> Installing php dependency: libssh2
+==> Pouring libssh2--1.10.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libssh2/1.10.0: 184 files, 1MB
+==> Installing php dependency: openldap
+==> Pouring openldap--2.6.4.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openldap/2.6.4: 83 files, 6.9MB
+==> Installing php dependency: rtmpdump
+==> Pouring rtmpdump--2.4+20151223_1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/rtmpdump/2.4+20151223_1: 20 files, 645KB
+==> Installing php dependency: curl
+==> Pouring curl--8.0.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/curl/8.0.1: 510 files, 4.2MB
+==> Installing php dependency: libtool
+==> Pouring libtool--2.4.7.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libtool/2.4.7: 75 files, 3.8MB
+==> Installing php dependency: unixodbc
+==> Pouring unixodbc--2.3.11.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/unixodbc/2.3.11: 48 files, 2.3MB
+==> Installing php dependency: freetds
+==> Pouring freetds--1.3.18.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/freetds/1.3.18: 1,262 files, 14MB
+==> Installing php dependency: highway
+==> Pouring highway--1.0.4.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/highway/1.0.4: 65 files, 2.6MB
+==> Installing php dependency: imath
+==> Pouring imath--3.1.7.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/imath/3.1.7: 49 files, 932.4KB
+==> Installing php dependency: openexr
+==> Pouring openexr--3.1.7.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openexr/3.1.7: 194 files, 6.0MB
+==> Installing php dependency: webp
+==> Pouring webp--1.3.0.arm64_ventura.bottle.2.tar.gz
+🍺  /opt/homebrew/Cellar/webp/1.3.0: 63 files, 2.3MB
+==> Installing php dependency: jpeg-xl
+==> Pouring jpeg-xl--0.8.1_2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-xl/0.8.1_2: 43 files, 10.6MB
+==> Installing php dependency: libvmaf
+==> Pouring libvmaf--2.3.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libvmaf/2.3.1: 234 files, 7MB
+==> Installing php dependency: aom
+==> Pouring aom--3.6.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aom/3.6.0: 23 files, 8.7MB
+==> Installing php dependency: libavif
+==> Pouring libavif--0.11.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libavif/0.11.1: 19 files, 496.5KB
+==> Installing php dependency: gd
+==> Pouring gd--2.3.3_4.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gd/2.3.3_4: 33 files, 1.5MB
+==> Installing php dependency: gmp
+==> Pouring gmp--6.2.1_1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gmp/6.2.1_1: 21 files, 3.2MB
+==> Installing php dependency: krb5
+==> Pouring krb5--1.20.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/krb5/1.20.1: 162 files, 5.6MB
+==> Installing php dependency: libpq
+==> Pouring libpq--15.2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libpq/15.2: 2,368 files, 28.5MB
+==> Installing php dependency: libsodium
+==> Pouring libsodium--1.0.18_1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libsodium/1.0.18_1: 73 files, 777.9KB
+==> Installing php dependency: libzip
+==> Pouring libzip--1.9.2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libzip/1.9.2: 145 files, 853KB
+==> Installing php dependency: oniguruma
+==> Pouring oniguruma--6.9.8.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/oniguruma/6.9.8: 14 files, 1.4MB
+==> Installing php dependency: readline
+==> Pouring readline--8.2.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/readline/8.2.1: 50 files, 1.7MB
+==> Installing php dependency: sqlite
+==> Pouring sqlite--3.41.2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.41.2: 11 files, 4.5MB
+==> Installing php dependency: tidy-html5
+==> Pouring tidy-html5--5.8.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tidy-html5/5.8.0: 14 files, 3MB
+==> Installing php
+==> Pouring php--8.2.5.arm64_ventura.bottle.tar.gz
+==> /opt/homebrew/Cellar/php/8.2.5/bin/pear config-set php_ini /opt/homebrew/etc/php/8.2/php.ini system
+==> /opt/homebrew/Cellar/php/8.2.5/bin/pear config-set php_dir /opt/homebrew/share/pear system
+==> /opt/homebrew/Cellar/php/8.2.5/bin/pear config-set doc_dir /opt/homebrew/share/pear/doc system
+==> /opt/homebrew/Cellar/php/8.2.5/bin/pear config-set ext_dir /opt/homebrew/lib/php/pecl/20220829 system
+==> /opt/homebrew/Cellar/php/8.2.5/bin/pear config-set bin_dir /opt/homebrew/opt/php/bin system
+==> /opt/homebrew/Cellar/php/8.2.5/bin/pear config-set data_dir /opt/homebrew/share/pear/data system
+==> /opt/homebrew/Cellar/php/8.2.5/bin/pear config-set cfg_dir /opt/homebrew/share/pear/cfg system
+==> /opt/homebrew/Cellar/php/8.2.5/bin/pear config-set www_dir /opt/homebrew/share/pear/htdocs system
+==> /opt/homebrew/Cellar/php/8.2.5/bin/pear config-set man_dir /opt/homebrew/share/man system
+==> /opt/homebrew/Cellar/php/8.2.5/bin/pear config-set test_dir /opt/homebrew/share/pear/test system
+==> /opt/homebrew/Cellar/php/8.2.5/bin/pear config-set php_bin /opt/homebrew/opt/php/bin/php system
+==> /opt/homebrew/Cellar/php/8.2.5/bin/pear update-channels
+==> Caveats
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.2/
+
+To restart php after an upgrade:
+  brew services restart php
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize
+==> Summary
+🍺  /opt/homebrew/Cellar/php/8.2.5: 520 files, 83.4MB
+==> Running `brew cleanup php`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> php
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.2/
+
+To restart php after an upgrade:
+  brew services restart php
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize

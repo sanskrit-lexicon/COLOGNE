@@ -198,61 +198,39 @@ sudo chmod 755 cologne
 
 
 ------
-Download file 
-https://github.com/sanskrit-lexicon/COLOGNE/blob/master/localinstall/mac/download2.sh
-sudo cp ~/Downloads/download2.sh /Library/WebServer/Documents/cologne/
+# Get local copies of two scripts: download2.sh and download2_all.sh.
+# These are in this repository at localinstall/mac/download2.sh and localinstall/mac/download2_all.sh.
+# Put copies of these two scripts into the local 'cologne' folder: /Library/WebServer/Documents/cologne/
+
+# now change to the local cologne folder.
 cd Library/WebServer/Documents/cologne/
+
+# to install the 'ap90' displays,
 sudo sh download2.sh ap90
 # note have to give permissions for the local server to have access
 cd /Library/WebServer/Documents
 sudo chmed -R 755 cologne
+# similarly, can download any of the other individual dictionaries.
+
+# ---- download all the displays for all Cologne dictionaries.
+# The download2_all.sh script runs download2.sh for all the dictionary codes.
+sudo sh download2_all.sh
+# 
 ------
-X sudo sh download2.sh acc
-sudo sh download2.sh acc 2020
-sudo sh download2.sh ae 2020
-sudo sh download2.sh ap90 2020
-sudo sh download2.sh ben 2020
-# sudo sh download2.sh bhs 2020
-# sudo sh download2.sh bop 2020
-# sudo sh download2.sh bor 2020
+# it may be necessary to again run the permission change on cologne folder
 
-sudo sh download2.sh bur 2020
-sudo sh download2.sh cae 2020
-sudo sh download2.sh ccs 2020
-sudo sh download2.sh gra 2020
-# sudo sh download2.sh gst 2020
-# sudo sh download2.sh ieg 2020
-# sudo sh download2.sh inm 2020
-# sudo sh download2.sh krm 2020
-# sudo sh download2.sh mci 2020
-sudo sh download2.sh md 2020
-sudo sh download2.sh mw 2020
-sudo sh download2.sh mw72 2020
-sudo sh download2.sh mwe 2020
-sudo sh download2.sh pe 2020
-# sudo sh download2.sh pgn 2020
-# sudo sh download2.sh pui 2020
-sudo sh download2.sh pwg 2020
-sudo sh download2.sh pw 2020
-sudo sh download2.sh sch 2020
-# sudo sh download2.sh shs 2020
-sudo sh download2.sh skd 2020
-# sudo sh download2.sh snp 2020
-# sudo sh download2.sh stc 2020
-sudo sh download2.sh vcp 2020
-# sudo sh download2.sh vei 2020
-sudo sh download2.sh wil 2020
-# sudo sh download2.sh yat 2020
-sudo sh download2.sh lan 2020
-sudo sh download2.sh armh 2020
-sudo sh download2.sh pwkvn 2020
-# sudo sh download2.sh lrv 2022. # note download2 does not work for this 2022
-
-X cd ../
+cd /Library/WebServer/Documents/cologne/
 sudo chmod -R 755 cologne
-
 ===============================================================================
-Other repositories
+# links to scans in local cologne displays
+# At this point in the installation, such links are resolved by using the 
+# Cologne web-site image files.
+# For those image files at Cologne which are pdf files, the image files are
+# not properly displayed by the Safari browser.
+# This is apparently a known limitation (perhaps for security reasons?) of Safari.
+# The images are available when using the Firefox browser.
+===============================================================================
+#Other repositories
 # cd to cologne directory
 --- cal-apidev
  sudo git clone https://github.com/sanskrit-lexicon/csl-apidev.git

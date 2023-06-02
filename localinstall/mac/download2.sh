@@ -28,7 +28,7 @@ url="https://www.sanskrit-lexicon.uni-koeln.de/scans/${dictup}Scan/$year/downloa
 echo "downloading $url ..."
 curl $url -o $zipfile
 echo "unzipping $zipfile"
-unzip -qu $zipfile   #-q = quiet, -u only changed or new
+unzip -qq -o $zipfile   #-q = quiet, -o overwrite without prompting
 echo "$dictlo should be installed now"
 pwd
 ls

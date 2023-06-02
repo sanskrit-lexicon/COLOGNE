@@ -199,8 +199,9 @@ sudo chmod 755 cologne
 
 ------
 # Get local copies of two scripts: download2.sh and download2_all.sh.
-# These are in this repository at localinstall/mac/download2.sh and localinstall/mac/download2_all.sh.
-# Put copies of these two scripts into the local 'cologne' folder: /Library/WebServer/Documents/cologne/
+#   These are in this https://github.com/sanskrit-lexicon/COLOGNE/ repository at 
+#   localinstall/mac/download2.sh and localinstall/mac/download2_all.sh.
+#   Put copies of these two scripts into the local 'cologne' folder: /Library/WebServer/Documents/cologne/
 
 # now change to the local cologne folder.
 cd Library/WebServer/Documents/cologne/

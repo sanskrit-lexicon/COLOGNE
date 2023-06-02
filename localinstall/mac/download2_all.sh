@@ -1,39 +1,38 @@
-sh download2.sh acc 2020
-sh download2.sh ae 2020
-sh download2.sh ap90 2020
-sh download2.sh ben 2020
-sh download2.sh bhs 2020
-sh download2.sh bop 2020
-sh download2.sh bor 2020
-
-sh download2.sh bur 2020
-sh download2.sh cae 2020
-sh download2.sh ccs 2020
-sh download2.sh gra 2020
-sh download2.sh gst 2020
-sh download2.sh ieg 2020
-sh download2.sh inm 2020
-sh download2.sh krm 2020
-sh download2.sh mci 2020
-sh download2.sh md 2020
-sh download2.sh mw 2020
-sh download2.sh mw72 2020
-sh download2.sh mwe 2020
-sh download2.sh pe 2020
-sh download2.sh pgn 2020
-sh download2.sh pui 2020
-sh download2.sh pwg 2020
-sh download2.sh pw 2020
-sh download2.sh sch 2020
-sh download2.sh shs 2020
-sh download2.sh skd 2020
-sh download2.sh snp 2020
-sh download2.sh stc 2020
-sh download2.sh vcp 2020
-sh download2.sh vei 2020
-sh download2.sh wil 2020
-sh download2.sh yat 2020
-sh download2.sh lan 2020
-sh download2.sh armh 2020
-sh download2.sh pwkvn 2020
-sh download2.sh lrv 2022
+sh download2.sh acc 
+sh download2.sh ae 
+sh download2.sh ap90 
+sh download2.sh ben 
+sh download2.sh bhs 
+sh download2.sh bop 
+sh download2.sh bor 
+sh download2.sh bur 
+sh download2.sh cae 
+sh download2.sh ccs 
+sh download2.sh gra 
+sh download2.sh gst 
+sh download2.sh ieg 
+sh download2.sh inm 
+sh download2.sh krm 
+sh download2.sh mci 
+sh download2.sh md 
+sh download2.sh mw 
+sh download2.sh mw72 
+sh download2.sh mwe 
+sh download2.sh pe 
+sh download2.sh pgn 
+sh download2.sh pui 
+sh download2.sh pwg 
+sh download2.sh pw 
+sh download2.sh sch 
+sh download2.sh shs 
+sh download2.sh skd 
+sh download2.sh snp 
+sh download2.sh stc 
+sh download2.sh vcp 
+sh download2.sh vei 
+sh download2.sh wil 
+sh download2.sh yat 
+sh download2.sh lan 
+sh download2.sh armh 
+sh download2.sh pwkvn 
+sh download2.sh lrv 

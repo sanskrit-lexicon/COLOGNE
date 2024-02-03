@@ -1,3 +1,12 @@
-<ab> 2
-<lang> 8
-<lbinfo> 12340
+<ab> 46956
+<bot> 155
+<cl> 993
+<fr> 1
+<gk> 10
+<hom> 1363
+<lang> 102
+<lat> 3
+<lex> 56123
+<ls> 58
+<pe> 314
+<zoo> 15

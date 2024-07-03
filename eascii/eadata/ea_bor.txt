@@ -1,4 +1,4 @@
-¦  (\u00a6) 24608 := BROKEN BAR
+¦  (\u00a6) 24609 := BROKEN BAR
 §  (\u00a7)    16 := SECTION SIGN
 ½  (\u00bd)     1 := VULGAR FRACTION ONE HALF
 ¾  (\u00be)     1 := VULGAR FRACTION THREE QUARTERS

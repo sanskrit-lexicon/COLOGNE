@@ -255,7 +255,7 @@ Untracked files:
 
 git add .
 
-git commit -m "LRV: hwxetra-Lbody conversion.
+git commit -m "LRV: hwxetra-Lbody conversion
 Ref: https://github.com/sanskrit-lexicon/COLOGNE/issues/426"
 
 git push
@@ -297,9 +297,80 @@ git commit -m "LRV: hwextra-Lbody conversion #426"
 git push
 =========================================================
 
+Version 6
+While writing this comment, I noticed another problem with L=10493 and 10493.1.  
+
+cp temp_lrv_5.txt temp_lrv_6.txt
+manual change
+OLD:
+<L>10493<pc>211-05<k1>kolA(li<k2>kolA(li
+kolA(li¦ {%f.%} See {#badarI#}.
+<LEND>
+<L>10493.1<pc>211-05<k1>lI)<k2>lI)
+lI)¦ {%f.%} See {#badarI#}.
+<LEND>
+<L>10493.2<pc>211-05<k1>koli<k2>koli
+{{Lbody=10493}}
+<LEND>
+
+NEW:
+<L>10493<pc>211-05<k1>kolA<k2>kolA
+kolA (li, lI) ¦ {%f.%} See {#badarI#}.
+<LEND>
+<L>10493.1<pc>211-05<k1>koli<k2>koli
+{{Lbody=10493}}
+<LEND>
+<L>10493.2<pc>211-05<k1>kolI<k2>kolI
+{{Lbody=10493}}
+<LEND>
+
+-------------------------
+4 entries with avagraha (slp1 apostrophe "'") in k1.
+The displays don't like this.  Remove from version 6
+
+<L>00611<pc>009-41<k1>ato'rTam<k2>ato'rTam
+<L>00612<pc>009-41<k1>ato'rTAt<k2>ato'rTAt
+<L>15235<pc>303-14<k1>tapo'vawa<k2>tapo'vawa
+<L>42582<pc>819-11<k1>sroto'Yjana<k2>sroto'Yjana
+
+--------------------------
+Install version 6
+
+cp temp_lrv_6.txt /c/xampp/htdocs/COLOGNE/csl-orig/v02/lrv/lrv.txt
+cd /c/xampp/htdocs/cologne/csl-pywork/v02
+grep 'lrv ' redo_xampp_all.sh
+sh generate_dict.sh lrv  ../../lrv
+sh xmlchk_xampp.sh lrv
+cd /c/xampp/htdocs/sanskrit-lexicon/COLOGNE/issues/issue426
+
+csl-orig
+
+cd /c/xampp/htdocs/cologne/csl-orig/v02
+git status
+        modified:   lrv/lrv.txt
+git add .
+
+git commit -m "LRV: hwxetra-Lbody conversion - addendum 6
+Ref: https://github.com/sanskrit-lexicon/COLOGNE/issues/426"
+
+git push
+
+--------------------------
+cologne install
+
+cd csl-orig
+git pull
+
+# revise displays for lrv
+cd csl-pywork/v02
+git pull
+
+ grep lrv redo_cologne_all.sh
+sh generate_dict.sh lrv  ../../LRVScan/2022/
+
 ********************************************************
 Possible problems with lrv.
 1. <pc>001-04    What is -NN ?   Not a column
 2. In displays, the body line header (before broken bar)
-   does NOT have <s>X</s> --- thus displays always show the slp1 spelling!
-3. Avagraha in k1
+   does NOT have {#X#}  (see 10493 above for example)
+   --- thus displays always show the slp1 spelling!

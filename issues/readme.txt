@@ -8,3 +8,5 @@ work related to individual issues.
 * issue425 hwextra-Lbody conversion for CAE dictionary
 * issue426 hwextra-Lbody conversion for LRV dictionary
 * issue427 hwextra-Lbody conversion for PW dictionary
+* issue428 hwextra-Lbody conversion for PWKVN dictionary
+

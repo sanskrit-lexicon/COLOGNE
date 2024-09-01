@@ -183,14 +183,14 @@ Make changes in above 5 lines
 # confirm k1k2 consistency with version 5
 python check_k1_k2.py temp_pwkvn_5.txt check_k1_k2_5.txt
 
-
+check_all_k2_k1 finds 0 inconsistencies
 0 lines written to check_k1_k2.txt
 
-def check_k1_k2(k1,k2):
+def check_k1_k2(k1,k2):  
  newk1 = re.sub(r"[*°/^\\()' 3-]",'',k2)
  return newk1 == k1
 
-This is the conversion from k2 to k1 for pwkvn
+This is the conversion from k2 to k1 for pwkvn; same as for pw.
 ------------------------------------------------------
 
 -------------------------------------------------------
@@ -199,7 +199,7 @@ edit /c/xampp/htdocs/cologne/csl-pywork/v02/makotemplates/pywork/hw.py
 add 'pwkvn' to the 'Lbody' list.
 --------------------------------------------------------
 # xml and display Versions using {{LBody=N}}
-cp temp_pwkvn_4.txt /c/xampp/htdocs/COLOGNE/csl-orig/v02/pwkvn/pwkvn.txt
+cp temp_pwkvn_5.txt /c/xampp/htdocs/COLOGNE/csl-orig/v02/pwkvn/pwkvn.txt
 cd /c/xampp/htdocs/cologne/csl-pywork/v02
 grep 'pwkvn ' redo_xampp_all.sh
 sh generate_dict.sh pwkvn  ../../pwkvn
@@ -227,6 +227,7 @@ Untracked files:
         pwkvn/pwkvn_back.txt
         pwkvn/pwkvn_front.txt
         pwkvn/pwkvn_middle.txt
+
 
 git add .
 

@@ -1,0 +1,844 @@
+<L>382<pc>008-a<k1>aNka<k2>aNka(ka, ta)
+<L>411<pc>008-a<k1>aNga<k2>aNga (-kata)
+<L>415<pc>008-b<k1>aNgaja<k2>aNgaja (-jaH)
+<L>885<pc>016-b<k1>aTarvvan<k2>aTarvvan (-rvvA)
+<L>889<pc>016-b<k1>ada<k2>ada (O)
+<L>963<pc>017-b<k1>aDaHkzipta<k2>aDaHkzipta (-ptaH-ptA-ptaM)
+<L>1657<pc>030-a<k1>anuSAsitf<k2>anuSAsitf (-tA-trI-tf)
+<L>4447<pc>076-b<k1>asa<k2>asa (Ya)
+<L>8477<pc>146-a<k1>kakKa<k2>kakKa(e)
+<L>8581<pc>148-b<k1>kawakola<k2>kawakola(-laH)
+<L>8687<pc>150-a<k1>kaRa<k2>kaRa(ma)
+<L>8846<pc>153-a<k1>kana<k2>kana(I Yi)YikanI
+<L>8935<pc>154-b<k1>kapa<k2>kapa(i)kapi
+<L>9027<pc>156-a<k1>kaba<k2>kaba(f)kabf
+<L>9032<pc>156-a<k1>kama<k2>kama(u)kamu
+<L>9630<pc>167-b<k1>kava<k2>kava(f)vavf
+<L>10304<pc>180-a<k1>kASa<k2>kASa(f)kASf
+<L>10604<pc>185-b<k1>kuwa<k2>kuwa(Si)
+<L>10653<pc>186-b<k1>kuWa<k2>kuWa(i,)kuWi
+<L>10667<pc>187-a<k1>kuqa<k2>kuqa(Si)
+<L>10763<pc>188-b<k1>kupa<k2>kupa(ira)kupira
+<L>10913<pc>191-b<k1>kulawI<k2>kulawI(-wI)
+<L>11033<pc>193-b<k1>kuSa<k2>kuSa(ira)kuSira
+<L>11092<pc>195-a<k1>kusa<k2>kusa(ira)kusira
+<L>11254<pc>198-a<k1>kfta<k2>kfta(-I)kftI
+<L>11406<pc>200-b<k1>kfpa<k2>kfpa(U, x)Ukfpx
+<L>11912<pc>210-a<k1>knasa<k2>knasa (u) knasu
+<L>12028<pc>212-a<k1>krI<k2>krI (qu, Na,) qukrINa
+<L>12043<pc>212-b<k1>kruYca<k2>kruYca (u) kruYcu
+<L>12048<pc>212-b<k1>kruDa<k2>kruDa (O, x) OkruDx
+<L>12113<pc>213-b<k1>klaTa<k2>klaTa (ma)
+<L>12116<pc>213-b<k1>klama<k2>klama (u, Ba, Ya, ira) klamu
+<L>12127<pc>213-b<k1>klida<k2>klida (i) klidi
+<L>12131<pc>213-b<k1>kliSa<k2>kliSa (u) kliSu
+<L>12138<pc>214-a<k1>klIva<k2>klIva (f) klIvf
+<L>12139<pc>214-a<k1>klIva<k2>klIva (f) klIvf
+<L>12172<pc>214-b<k1>kzaja<k2>kzaja (ma, za)
+<L>12173<pc>214-b<k1>kzaRa<k2>kzaRa (u) kzaRu
+<L>12236<pc>215-b<k1>kzama<k2>kzama (u, za, Yi) Yikzamuza
+<L>12303<pc>216-b<k1>kziRa<k2>kziRa (u) kziRu
+<L>12331<pc>217-a<k1>kzipa<k2>kzipa (O) Okzipa
+<L>12348<pc>217-a<k1>kziva<k2>kziva (u) kzivu
+<L>12364<pc>217-b<k1>kzIba<k2>kzIba (f) kzIbf
+<L>12410<pc>218-b<k1>kzIva<k2>kzIva (u) kzIvu
+<L>12413<pc>218-b<k1>kzu<k2>kzu (wu) wukzu
+<L>12424<pc>218-b<k1>kzuda<k2>kzuda (Ya, ira, O) O kzudira
+<L>12449<pc>219-a<k1>kzuDa<k2>kzuDa (x O) OkzaDx
+<L>12512<pc>220-a<k1>kzeva<k2>kzeva (qa) kzevu
+<L>12543<pc>220-b<k1>kzmAya<k2>kzmAya (i) kzmAyI
+<L>12548<pc>220-b<k1>kzvida<k2>kzvida (-Yi, A) YikzvidA
+<L>12551<pc>220-b<k1>kzvela<k2>kzvela (f) kzvex
+<L>12687<pc>223-a<k1>Kana<k2>Kana (u,) Kanu
+<L>12822<pc>225-a<k1>KAda<k2>KAda (f) KAdf
+<L>12854<pc>225-b<k1>Ku<k2>Ku (Na) KuN
+<L>12894<pc>226-a<k1>Kela<k2>Kela (f) Kex
+<L>12898<pc>226-a<k1>Keva<k2>Keva (f) Kevf
+<L>12905<pc>226-a<k1>Koqa<k2>Koqa (f) Koqf
+<L>12908<pc>226-a<k1>Kora<k2>Kora (f) Korf
+<L>12910<pc>226-b<k1>Kola<k2>Kola (f) Kox
+<L>12926<pc>226-b<k1>gagaRaDvaja<k2>gagaRaDvaja (-jaH)
+<L>13237<pc>232-b<k1>gama<k2>gama (O, x) Ogamx
+<L>13455<pc>236-b<k1>gADa<k2>gADa (f) gADf
+<L>13507<pc>237-b<k1>gAha<k2>gAha(U)gAhU
+<L>13565<pc>238-b<k1>gu<k2>gu(o, Si)
+<L>13583<pc>239-a<k1>guWa<k2>guWa (i) guWi
+<L>13584<pc>239-a<k1>guqa<k2>guqa(Si)
+<L>13773<pc>242-b<k1>gU<k2>gU(o)ogU
+<L>14276<pc>252-a<k1>gruca<k2>gruca (ira u) ira grucu
+<L>14282<pc>252-b<k1>glasa<k2>glasa (u) glasu
+<L>14284<pc>252-b<k1>glaha<k2>glaha (u) glahu
+<L>14290<pc>252-b<k1>gluca<k2>gluca (ira u) ira glucu
+<L>14291<pc>252-b<k1>gluYca<k2>gluYca (ira u) ira gluYcu
+<L>14292<pc>252-b<k1>glepa<k2>glepa (f) glepf
+<L>14294<pc>252-b<k1>gleva<k2>gleva (f) glevf
+<L>14295<pc>252-b<k1>gleza<k2>gleza (f) glazf
+<L>14327<pc>253-a<k1>GaRa<k2>GaRa (u,) GaRu
+<L>14420<pc>255-a<k1>Gaza<k2>Gaza (i) Gazi
+<L>14421<pc>255-a<k1>Gasa<k2>Gasa (A x) OGasx
+<L>14456<pc>255-b<k1>Gura<k2>Gura (I) GurI
+<L>14458<pc>255-b<k1>Guza<k2>Guza (i) Guzi
+<L>14466<pc>255-b<k1>GUra<k2>GUra (I) GUrI
+<L>14475<pc>256-a<k1>GfRa<k2>GfRa (u) GfRu
+<L>14504<pc>256-a<k1>Gfza<k2>Gfza (u) Gfzu
+<L>14510<pc>256-b<k1>GoNka<k2>GoNka (-Nka-NkA)
+<L>14517<pc>256-b<k1>Gonasa<k2>Gona[R]sa
+<L>14547<pc>257-a<k1>Nu<k2>Nu (Nu)
+<L>14551<pc>257-a<k1>cakAsa<k2>cakAsa (f) cakAsf
+<L>14614<pc>258-b<k1>cakza<k2>cakza (iN) cakziN
+<L>14631<pc>258-b<k1>caYca<k2>caYca (u) caYcu
+<L>14657<pc>259-a<k1>caqa<k2>caqa (i,) caqi
+<L>14679<pc>259-b<k1>cata<k2>cata (e) cate
+<L>14799<pc>262-a<k1>cama<k2>cama (u) camu
+<L>15022<pc>266-b<k1>cAya<k2>cAya (f) cAyf
+<L>15075<pc>267-b<k1>ci<k2>ci (ciYa) ciY
+<L>15107<pc>268-a<k1>cita<k2>cita (I) citI
+<L>15315<pc>272-a<k1>cIb<k2>cIb (f) cIbf
+<L>15316<pc>272-a<k1>cIBa<k2>cIBa (f) cIBf
+<L>15317<pc>272-a<k1>cIya<k2>cIya (f) cIyf
+<L>15336<pc>272-b<k1>cucya<k2>cucya (I) cucyI
+<L>15341<pc>272-b<k1>cuqa<k2>cuqa (i) cuqi
+<L>15346<pc>272-b<k1>cuta<k2>cuta (ira) cutira
+<L>15352<pc>272-b<k1>cuba<k2>cuba (i) cubi
+<L>15388<pc>273-a<k1>cUra<k2>cUra (i) cUrI
+<L>15430<pc>274-a<k1>cela<k2>cela (f) cex
+<L>15496<pc>275-a<k1>cyu<k2>cyu (Na) cyuN
+<L>15497<pc>275-a<k1>cyuta<k2>cyuta (ira) cyutira
+<L>15549<pc>276-b<k1>Capa<k2>Capa (i) Capi
+<L>15550<pc>276-b<k1>Cama<k2>Cama (u) Camu
+<L>15607<pc>277-a<k1>Cida<k2>Cida (O, ira) O Cidira
+<L>15640<pc>278-a<k1>Cupa<k2>Cupa (O) OCupa
+<L>15649<pc>278-a<k1>Cfpa<k2>Cfpa (I) CfpI
+<L>15849<pc>281-b<k1>jama<k2>jama (u) jamu
+<L>16112<pc>286-b<k1>java<k2>java (i) javi
+<L>16124<pc>286-b<k1>jasa<k2>jasa (ira u) ir jasu
+<L>16305<pc>290-a<k1>jima<k2>jima (u) jimu
+<L>16307<pc>290-a<k1>jiva<k2>jiva (i) jivi
+<L>16311<pc>290-a<k1>jiza<k2>jiza (u) jizu
+<L>16358<pc>291-a<k1>jIva<k2>jIva (f) jIvf
+<L>16417<pc>292-a<k1>juga<k2>juga (i) jugi
+<L>16425<pc>292-b<k1>juta<k2>juta (f) jutf
+<L>16429<pc>292-b<k1>jurva<k2>jurva (I) jurvI
+<L>16443<pc>293-a<k1>jUra<k2>jUra (I) jUrI
+<L>16447<pc>293-a<k1>jUrvva<k2>jUrvva (-I) jUrvvI (jUrvvati)
+<L>16452<pc>293-a<k1>jfBa<k2>jfBa (I) jfBI
+<L>16467<pc>293-a<k1>jeza<k2>jeza (f) jezf
+<L>16468<pc>293-a<k1>jeha<k2>jeha (f) jehf
+<L>16621<pc>296-a<k1>Jama<k2>Jama (u) Jamu
+<L>16689<pc>297-b<k1>waka<k2>waka (i) waki
+<L>16712<pc>298-a<k1>wika<k2>wika (f) wikf
+<L>16718<pc>298-a<k1>wIka<k2>wIka (f) wIkf
+<L>16737<pc>298-b<k1>qaBa<k2>qaBa (i) qaBi
+<L>16760<pc>299-a<k1>qiBa<k2>qiBa (i) qiBi
+<L>16767<pc>299-a<k1>qI<k2>qI (Na) qIY
+<L>16787<pc>299-b<k1>QuQa<k2>QuQa (i) QuQi
+<L>16792<pc>299-b<k1>QOka<k2>QOka (f) QOkf
+<L>16808<pc>300-a<k1>RAsa<k2>RAsa (f) RAsf
+<L>16810<pc>300-a<k1>Rija<k2>Rija (i) Riji
+<L>16811<pc>300-a<k1>Rada<k2>Rada (i) Ridi
+<L>16813<pc>300-a<k1>Riva<k2>Riva (i) Rivi
+<L>16816<pc>300-a<k1>Risa<k2>Risa (i) Risi
+<L>16817<pc>300-a<k1>RI<k2>RI (Ya) RIY
+<L>16823<pc>300-b<k1>Reda<k2>Reda (f) Redf
+<L>16824<pc>300-b<k1>Reza<k2>Reza (f) Rezf
+<L>16841<pc>301-a<k1>taga<k2>taga (i) tagi
+<L>16846<pc>301-a<k1>taYca<k2>taYca (u) taYcu
+<L>16847<pc>301-a<k1>taYja<k2>taYja (U) taYjU
+<L>16901<pc>302-a<k1>tatra<k2>tatra (i) tatri
+<L>16916<pc>302-b<k1>tad<k2>tad (i) tadi
+<L>16934<pc>302-b<k1>tana<k2>tana (u) tanu
+<L>17003<pc>304-a<k1>tapa<k2>tapa (O) tapO
+<L>17049<pc>305-a<k1>tama<k2>tama (ira u) irtamu
+<L>17223<pc>308-a<k1>tasa<k2>tasa (ira u) iratasu
+<L>17336<pc>310-b<k1>tAya<k2>tAya (f) tAyf
+<L>17463<pc>313-a<k1>tipa<k2>tipa (u f) u tipf
+<L>17535<pc>314-b<k1>tIka<k2>tIka (-f) tIkf
+<L>17595<pc>316-a<k1>tuqa<k2>tuqa (f) tuqf dviDAkaraRe (toqati)
+<L>17611<pc>316-a<k1>tuda<k2>tuda (O)
+<L>17629<pc>316-b<k1>tuba<k2>tuba(i)tubi
+<L>17668<pc>317-a<k1>turva<k2>turva(I)turvI
+<L>17725<pc>318-a<k1>tuha<k2>tuha (ira) tuhira
+<L>17739<pc>318-b<k1>tUra<k2>tUra (I) tUrI
+<L>17767<pc>319-a<k1>tfRa<k2>tfRa (u) tfRu
+<L>17808<pc>319-b<k1>tfda<k2>tfda (O ir) Otfdir
+<L>17822<pc>320-a<k1>tfza<k2>tfza (Yi A) YitfzA
+<L>17834<pc>320-a<k1>tfha<k2>tfha (u) tfhu
+<L>17857<pc>320-b<k1>tepa<k2>tepa (f) tepf
+<L>17860<pc>320-b<k1>teva<k2>teva (f) tivf
+<L>17930<pc>322-a<k1>tOka<k2>tOka (f) tOkf
+<L>17957<pc>322-b<k1>traka<k2>traka (i) traki
+<L>17958<pc>322-b<k1>traKa<k2>traKa (i) traKi
+<L>17959<pc>322-b<k1>traga<k2>traga (i) tragi
+<L>17961<pc>322-b<k1>trada<k2>trada (i) tradi
+<L>17962<pc>322-b<k1>trapa<k2>trapa (U, za) trapUz
+<L>17988<pc>323-a<k1>trasa<k2>trasa (I) trasI
+<L>18026<pc>323-b<k1>triKa<k2>triKa (i) triKi
+<L>18184<pc>326-b<k1>trE<k2>trE (Na) trEN
+<L>18208<pc>327-a<k1>trOka<k2>trOka (f) trOkf
+<L>18242<pc>327-b<k1>tvakza<k2>tvakza (U) tvakzU
+<L>18243<pc>327-b<k1>tvaga<k2>tvaga (i) tvagi
+<L>18259<pc>327-b<k1>tvaYca<k2>tvaYca (u) taYcu
+<L>18263<pc>328-a<k1>tvara<k2>tvara (Yi A) YitvarA
+<L>18293<pc>328-b<k1>Turva<k2>Turva (I) TurvI
+<L>18552<pc>333-a<k1>daya<k2>daya (Ya) Yidaya
+<L>18647<pc>335-a<k1>dava<k2>dava (i) davi
+<L>18654<pc>335-a<k1>daSa<k2>daSa (i) daSi
+<L>18716<pc>336-a<k1>dasa<k2>dasa (ir, u) iradasu
+<L>18725<pc>336-a<k1>daha<k2>daha (O) dahO
+<L>18737<pc>336-b<k1>dA<k2>dA (Ra) dARa
+<L>18778<pc>337-a<k1>dAna<k2>dAna (u) dAnu
+<L>18812<pc>337-b<k1>dAya<k2>dAya (f) dAyf
+<L>18853<pc>338-b<k1>dArGasatra<k2>dArGasatra(-traH-trI-traM)
+<L>18873<pc>339-a<k1>dASa<k2>dASa (f) dASf
+<L>18884<pc>339-a<k1>dAsa<k2>dAsa (f) dAsf
+<L>18966<pc>340-b<k1>diBa<k2>diBa (i) diBi
+<L>18972<pc>340-b<k1>diva<k2>diva (u) divu
+<L>19024<pc>341-b<k1>diSa<k2>diSa (O) diSO
+<L>19033<pc>342-a<k1>diha<k2>diha (O) dihO
+<L>19045<pc>342-a<k1>dIDI<k2>dIDI (Na) dIDINa
+<L>19371<pc>348-a<k1>duza<k2>duza (ira, O) iradazO
+<L>19409<pc>348-b<k1>duha<k2>duha (O) duhO
+<L>19413<pc>348-b<k1>duhitf<k2>duhitf(-tA)
+<L>19415<pc>348-b<k1>dU<k2>dU (o, Na) odUNa
+<L>19525<pc>350-b<k1>dfBa<k2>dfBa (I) dfBI
+<L>19530<pc>350-b<k1>dfSa<k2>dfSa (O Ira) OdfSIra
+<L>19561<pc>351-a<k1>de<k2>de (Na) deN
+<L>19564<pc>351-a<k1>deva<k2>deva (f) devf
+<L>19740<pc>354-a<k1>dE<k2>dE (pa) dEp
+<L>19952<pc>357-b<k1>drAkza<k2>drAkza (i) drAkzi
+<L>19954<pc>357-b<k1>drAKa<k2>drAKa (f) dAKf
+<L>19955<pc>357-b<k1>drAGa<k2>drAGa (f) drAGf
+<L>19960<pc>357-b<k1>drAqa<k2>drAqa (f) dAqf
+<L>19974<pc>358-a<k1>drAha<k2>drAha (f) drAhf
+<L>20496<pc>367-b<k1>Dava<k2>Dava (i) Davi
+<L>20507<pc>368-a<k1>DA<k2>DA (qu, Ya,) quDAY
+<L>20603<pc>370-a<k1>DAva<k2>DAva (u) DAvu
+<L>20621<pc>370-a<k1>Diva<k2>Diva (i) Divi
+<L>20627<pc>370-b<k1>DI<k2>DI (o Na) oDIN
+<L>20648<pc>371-a<k1>Du<k2>Du (Ya) DuY
+<L>20667<pc>371-a<k1>Durva<k2>Durva (i) rvvi
+<L>20674<pc>371-b<k1>Du<k2>Du[DU] (Ya) DUY
+<L>20719<pc>372-a<k1>DUra<k2>DUra (I,) DUrI
+<L>20747<pc>372-b<k1>Df<k2>Df (Na) DfN
+<L>20785<pc>373-a<k1>Dora<k2>Dora (f) Dorf
+<L>20801<pc>373-b<k1>DmAkza<k2>DmAkza (i)
+<L>20803<pc>373-b<k1>DmAta<k2>DmAta(-taH-tA-taM)
+<L>20822<pc>374-a<k1>DrAkza<k2>DrAkza (i) DrAkzi
+<L>20823<pc>374-a<k1>DrAKa<k2>DrAKa (f) DrAKf
+<L>20826<pc>374-a<k1>DrAqa<k2>DrAqa (f) DrAqf
+<L>20835<pc>374-a<k1>Dreka<k2>Dreka (f) Drekf
+<L>20838<pc>374-a<k1>DvaMsa<k2>DvaMsa (u) DvaMsu
+<L>20866<pc>375-a<k1>DvAkza<k2>DvAkza (i) DvAkzi
+<L>20944<pc>376-a<k1>nagarOzaDi<k2>nagarOzaDi (DI)
+<L>20959<pc>376-b<k1>naja<k2>naja (o I) onajI
+<L>20974<pc>377-a<k1>naqa<k2>naqa (la)
+<L>20977<pc>377-a<k1>naqa<k2>naqa(la)mIna
+<L>21220<pc>381-a<k1>navaba<k2>navaba(va)DU
+<L>21272<pc>382-a<k1>naha<k2>naha (-O) Onaha
+<L>21378<pc>384-a<k1>nATa<k2>nATa (f) nATf
+<L>21386<pc>384-b<k1>nADa<k2>nADa (f) nADf
+<L>21409<pc>385-a<k1>nABiguqa<k2>nABiguqa(la)ka
+<L>21458<pc>386-a<k1>nAli<k2>nAli(lI)
+<L>21537<pc>387-b<k1>niHsa<k2>niHsa(za)nDi
+<L>21557<pc>387-b<k1>nikaza<k2>nikaza(sa)
+<L>21567<pc>388-a<k1>nikAsa<k2>nikAsa(Sa)
+<L>21568<pc>388-a<k1>nikuYcaka<k2>nikuYcaka(na)
+<L>21581<pc>388-a<k1>nikoca<k2>nikoca(Wa)ka
+<L>21602<pc>388-b<k1>niga<k2>niga(gA)ra
+<L>21603<pc>388-b<k1>niga<k2>niga(gA)raRa
+<L>21606<pc>388-b<k1>nigA<k2>nigA(ga)la
+<L>21670<pc>390-a<k1>nida<k2>nida (i) nidi
+<L>21727<pc>391-a<k1>nipa<k2>nipa(pA)Wa
+<L>21909<pc>395-a<k1>nirISa<k2>nirISa(za)
+<L>21920<pc>395-a<k1>nirudDaprakaza<k2>nirudDaprakaza(sa)
+<L>22006<pc>397-a<k1>nirDa<k2>nirDa(rdDa)na
+<L>22007<pc>397-a<k1>nirDa<k2>nirDa(rdDa)rmma
+<L>22008<pc>397-a<k1>nirDA<k2>nirDA(rdDA)ra
+<L>22009<pc>397-a<k1>nirDA<k2>nirDA(rdDA)raRa
+<L>22012<pc>397-a<k1>nirDA<k2>nirDA(rdDA)ryya
+<L>22019<pc>397-a<k1>nirbba<k2>nirbba(rba)nDa
+<L>22020<pc>397-a<k1>nirbba<k2>nirbba(rba)rhaRa
+<L>22035<pc>397-b<k1>nirmma<k2>nirmma(rma)da
+<L>22041<pc>397-b<k1>nirmma<k2>nirmma(rma)la
+<L>22043<pc>397-b<k1>nirmmA<k2>nirmmA(rmA)Ra
+<L>22045<pc>397-b<k1>nirmmi<k2>nirmmi(rmi)ta
+<L>22070<pc>398-a<k1>nirvva<k2>nirvva(rva)cana
+<L>22072<pc>398-a<k1>nirvva<k2>nirvva(rva)paRa
+<L>22074<pc>398-a<k1>nirvva<k2>nirvva(rva)rRana
+<L>22077<pc>398-a<k1>nirvva<k2>nirvva(rva)haRa
+<L>22078<pc>398-a<k1>nirvvA<k2>nirvvA(rvA)cya
+<L>22079<pc>398-b<k1>nirvvA<k2>nirvvA(rvA)Ra
+<L>22080<pc>398-b<k1>nirvvA<k2>nirvvA(rvA)Ramastaka
+<L>22081<pc>398-b<k1>nirvvA<k2>nirvvA(rvA)ta
+<L>22082<pc>398-b<k1>nirbbA<k2>nirbbA(rvA)da
+<L>22083<pc>398-b<k1>nirvvA<k2>nirvvA(rvA)pa
+<L>22084<pc>398-b<k1>nirvvA<k2>nirvvA(rvA)paRa
+<L>22085<pc>398-b<k1>nirvvA<k2>nirvvA(rvA)pita
+<L>22086<pc>398-b<k1>nirvvA<k2>nirvvA(rvA)pya
+<L>22091<pc>398-b<k1>nirvvA<k2>nirvvA(rvA)ha
+<L>22094<pc>398-b<k1>nirvvikalpa<k2>nirvvikalpa(ka)
+<L>22107<pc>399-a<k1>nirvvI<k2>nirvvI(rvI)ja
+<L>22153<pc>400-a<k1>ni<k2>ni(nI)vAra
+<L>22246<pc>401-b<k1>ni<k2>ni(S)Svasana
+<L>22247<pc>401-b<k1>ni<k2>ni(S)SvAsa
+<L>22248<pc>401-b<k1>niza<k2>niza (u) nizu
+<L>22263<pc>402-a<k1>nizU<k2>nizU(sU)dana
+<L>22282<pc>402-b<k1>nizkASa<k2>nizkASa(sa)
+<L>22340<pc>403-b<k1>nizpravARa<k2>nizpravARa(Ri)
+<L>22393<pc>404-b<k1>nI<k2>nI(ni)kAra
+<L>22394<pc>404-b<k1>nI<k2>nI(ni)kASa
+<L>22418<pc>405-a<k1>nIDra<k2>nIDra(vra)
+<L>22442<pc>405-b<k1>nI<k2>nI(kA)lakaRWa
+<L>22448<pc>405-b<k1>nIla<k2>nIla(lA)Ngu
+<L>22475<pc>406-a<k1>nIlA<k2>nIlA(la)Ngu
+<L>22483<pc>406-a<k1>nIlikA<k2>nIlikA(nI)
+<L>22494<pc>406-b<k1>nIvi<k2>nIvi(vI)
+<L>22495<pc>406-b<k1>nIvra<k2>nIvra(Gra)
+<L>22520<pc>407-a<k1>nfta<k2>nfta (I) nftI
+<L>22540<pc>407-a<k1>nfpasaBa<k2>nfpasaBa(BA)
+<L>22554<pc>407-b<k1>nfsena<k2>nfsena(nA)
+<L>22625<pc>408-b<k1>nEvi<k2>nEvi(ba)qya
+<L>22677<pc>409-b<k1>nyu<k2>nyu(nyU)NKa
+<L>22782<pc>411-b<k1>paca<k2>paca (qu, z) qupacas
+<L>22901<pc>414-a<k1>pa<k2>pa(pi)Yjara
+<L>22903<pc>414-a<k1>paYji<k2>paYji(YjI)
+<L>22924<pc>414-b<k1>pawi<k2>pawi(wI)
+<L>22944<pc>415-a<k1>pawwa<k2>pawwa(tta)na
+<L>22954<pc>415-b<k1>pawwi<k2>pawwi(kA)loDra
+<L>22955<pc>415-b<k1>pawwiSa<k2>pawwiSa(sa)
+<L>22967<pc>415-b<k1>paqa<k2>paqa (i) paqi
+<L>22999<pc>416-a<k1>pata<k2>pata(x)patx
+<L>23007<pc>416-b<k1>pataYja<k2>pataYja(Yca)li
+<L>23049<pc>417-a<k1>patra<k2>patra(ttra)
+<L>23075<pc>417-b<k1>patrale<k2>patrale(re)KA
+<L>23078<pc>417-b<k1>patraSi<k2>patraSi(si)rA
+<L>23151<pc>419-b<k1>padmaganDa<k2>padmaganDa(nDi)
+<L>23174<pc>419-b<k1>padmavI<k2>padmavI(bI)ja
+<L>23198<pc>420-a<k1>panasanA<k2>panasanA(tA)likA
+<L>23218<pc>420-b<k1>payogaqa<k2>payogaqa(la)
+<L>23350<pc>423-a<k1>paraSva<k2>paraSva(sva)Da
+<L>23404<pc>424-a<k1>parAna<k2>parAna(Ra)sA
+<L>23410<pc>424-a<k1>parABa<k2>parABa(BA)va
+<L>23535<pc>426-b<k1>pari<k2>pari(ra)RAma
+<L>23540<pc>427-a<k1>pari<k2>pari(rI)RAya
+<L>23551<pc>427-a<k1>pari<k2>pari(rI)tApa
+<L>23566<pc>427-a<k1>pari<k2>pari(rI)dAha
+<L>23587<pc>427-b<k1>paripaRa<k2>paripaRa(na)
+<L>23592<pc>427-b<k1>pari<k2>pari(rI)pAka
+<L>23594<pc>427-b<k1>paripAwi<k2>paripAwi(wI)
+<L>23619<pc>428-a<k1>pariba<k2>pariba(-va)rha
+<L>23620<pc>428-a<k1>pariba<k2>pariba(va)rhaRa
+<L>23621<pc>428-a<k1>paribfM<k2>paribfM(vfM)haRa
+<L>23622<pc>428-a<k1>paribfM<k2>paribfM(vfM)hita
+<L>23624<pc>428-a<k1>pari<k2>pari(-rI)Bava
+<L>23659<pc>429-a<k1>pari<k2>pari(rI)mARa
+<L>23694<pc>429-b<k1>pari<k2>pari(rI)vartta
+<L>23715<pc>430-a<k1>pari<k2>pari(rI)vAha
+<L>23718<pc>430-a<k1>pariviRRa<k2>pariviRRa(nna)
+<L>23775<pc>431-a<k1>parizka<k2>parizka(ska)nda
+<L>23776<pc>431-a<k1>parizkanna<k2>parizkanna(RRa)
+<L>23778<pc>431-a<k1>parizkf<k2>parizkf(skf)ta
+<L>23798<pc>431-b<k1>pari<k2>pari(rI)saryyA
+<L>23809<pc>431-b<k1>paristo<k2>paristo(zwo)ma
+<L>23831<pc>432-a<k1>parihARi<k2>parihARi(ni)
+<L>23832<pc>432-a<k1>pari<k2>pari(rI)hAra
+<L>23919<pc>433-b<k1>parRa<k2>parRa(rRi)la
+<L>23928<pc>433-b<k1>parRAsa<k2>parRAsa (si)
+<L>23942<pc>434-a<k1>paryya<k2>paryya(lya)Nka
+<L>24077<pc>436-b<k1>palli<k2>palli(llI)
+<L>24108<pc>437-a<k1>paSa<k2>paSa (za-sa)
+<L>24151<pc>437-b<k1>pAMSa<k2>pAMSa(sa)na
+<L>24152<pc>437-b<k1>pAMSa<k2>pAMSa(sa)va
+<L>24153<pc>437-b<k1>pAMSu<k2>pAMSu(su)
+<L>24158<pc>438-a<k1>pAMSu<k2>pAMSu(su)catvara
+<L>24161<pc>438-a<k1>pAMSu<k2>pAMSu(su)ja
+<L>24303<pc>440-b<k1>pARquSarkka<k2>pARquSarkka(rka)rA
+<L>24347<pc>441-b<k1>pAtrIra<k2>pAtrIra(va)
+<L>24524<pc>444-b<k1>pArawIwa<k2>pArawIwa(na)
+<L>24526<pc>444-b<k1>pArata<k2>pArata(da)
+<L>24530<pc>444-b<k1>pArada<k2>pArada(ta)
+<L>24561<pc>445-a<k1>pArApA<k2>pArApA(vA)ra
+<L>24670<pc>447-a<k1>pAli<k2>pAli(lI)
+<L>24757<pc>449-a<k1>picCavA<k2>picCavA(bA)Ra
+<L>24762<pc>449-a<k1>pija<k2>pija(i)piji
+<L>24785<pc>449-b<k1>piqa<k2>piqa(i,)piqi
+<L>24936<pc>452-b<k1>piva<k2>piva(i,)pivi
+<L>24940<pc>452-b<k1>piSa<k2>piSa(sa)
+<L>24976<pc>453-b<k1>pisa<k2>pisa(f)pisf
+<L>24979<pc>453-b<k1>pI<k2>pI(Na)pIN
+<L>24991<pc>453-b<k1>pIqa<k2>pIqa(f)pIqf
+<L>25092<pc>455-b<k1>pukkaSa<k2>pukkaSa(sa)
+<L>25103<pc>455-b<k1>pucCawi<k2>pucCawi(wI)
+<L>25173<pc>456-b<k1>puttra<k2>puttra(tra)
+<L>25241<pc>458-a<k1>punarna<k2>punarna(rRa)va
+<L>25398<pc>460-b<k1>puroqA<k2>puroqA(S)Sa
+<L>25454<pc>461-b<k1>puzka<k2>puzka(zya)laka
+<L>25501<pc>462-b<k1>puzpabA<k2>puzpabA(-vA)Ra
+<L>25507<pc>462-b<k1>puzpa<k2>puzpa(zya)raTa
+<L>25510<pc>462-b<k1>puzparA<k2>puzparA(ja)ga
+<L>25575<pc>463-b<k1>pU<k2>pU(Na)pUN
+<L>25615<pc>464-a<k1>pUti<k2>pUti(tI)ka
+<L>25638<pc>464-b<k1>pUtI<k2>pUtI(ti)ka
+<L>25648<pc>464-b<k1>pUya<k2>pUya(I)pUyI
+<L>25675<pc>465-a<k1>pUrRa<k2>pUrRa(vI)bIja
+<L>25758<pc>466-b<k1>pfc<k2>pfc(I)pfcI
+<L>25762<pc>466-b<k1>pfj<k2>pfj(I)pfjI
+<L>25807<pc>467-b<k1>pfSni<k2>pfSni(zRi)kA
+<L>25814<pc>467-b<k1>pfz<k2>pfz(u)pfzu
+<L>25869<pc>468-b<k1>peRa<k2>peRa(f)peRf
+<L>25878<pc>468-b<k1>pela<k2>pela(f)pex
+<L>25883<pc>468-b<k1>peva<k2>peva(f)pevf
+<L>25888<pc>469-a<k1>peSI<k2>peSI(Si)koza(Sa)
+<L>25890<pc>469-a<k1>peza<k2>peza(f)pezf
+<L>25895<pc>469-a<k1>pesa<k2>pesa(f)pesf
+<L>25903<pc>469-a<k1>pER<k2>pER(f)pERf
+<L>25928<pc>469-b<k1>powa<k2>powa(wwa)likA
+<L>26009<pc>471-a<k1>pOrvvade<k2>pOrvvade(dE)hika
+<L>26031<pc>471-a<k1>pyAy<k2>pyAy(o)(I)opyAyI
+<L>26034<pc>471-b<k1>pyuz<k2>pyuz(ira)pyuzira
+<L>26036<pc>471-b<k1>pyE<k2>pyE(Na)pyEN
+<L>26220<pc>475-a<k1>pracCa<k2>pracCa(O)pracCO
+<L>26333<pc>477-a<k1>praRu<k2>praRu(RU)ta
+<L>26373<pc>477-b<k1>pratika<k2>pratika(zka)Sa
+<L>26415<pc>478-b<k1>prati<k2>prati(tI)vAta
+<L>26474<pc>479-a<k1>prati<k2>prati(tI)nAha
+<L>26487<pc>479-b<k1>prati<k2>prati(tI)pa
+<L>26500<pc>479-b<k1>pratipadA<k2>pratipadA (-dI)
+<L>26540<pc>480-b<k1>pratiba<k2>pratiba(ndi)ndI
+<L>26546<pc>480-b<k1>pratibi<k2>pratibi(vi)mba(mba)
+<L>26741<pc>483-b<k1>prati<k2>prati(tI)hAra
+<L>26750<pc>484-a<k1>pratI<k2>pratI(ti)kAra
+<L>26771<pc>484-b<k1>pratIpagamana<k2>pratIpagamana (-naM)
+<L>26890<pc>486-b<k1>pratyAsa<k2>pratyAsa(sA)ra
+<L>27031<pc>488-b<k1>pranA<k2>pranA(Ra)la
+<L>27068<pc>489-b<k1>prapIta<k2>prapIta(na)
+<L>27072<pc>489-b<k1>prapunnAqa<k2>prapunnAqa(wa)
+<L>27090<pc>489-b<k1>praba<k2>praba(va)rha
+<L>27092<pc>489-b<k1>praba<k2>praba(va)lhikA
+<L>27153<pc>491-a<k1>pramaRa<k2>pramaRa(na)s
+<L>27171<pc>491-a<k1>pramana<k2>pramana(Ra)s
+<L>27334<pc>494-a<k1>pra<k2>pra(prA)vawa
+<L>27335<pc>494-b<k1>prava<k2>prava(ba)Ra
+<L>27408<pc>495-b<k1>pravi<k2>pravi(sta)lAra
+<L>27535<pc>498-a<k1>prasa<k2>prasa(Sa)la
+<L>27646<pc>500-a<k1>prasva<k2>prasva(svA)na
+<L>27756<pc>502-a<k1>prAGuRa<k2>prAGuRa(Ri)ka
+<L>27984<pc>505-b<k1>prAhRetamA<k2>prAhRetamA(rA)m
+<L>28016<pc>506-a<k1>prI<k2>prI (Na) prIN
+<L>28034<pc>506-b<k1>pru<k2>pru (Na) pruN
+<L>28087<pc>507-b<k1>preza<k2>preza (f) prezf
+<L>28120<pc>508-a<k1>proTa<k2>proTa (f) proTf
+<L>28138<pc>508-a<k1>pro<k2>pro(prO)zWa
+<L>28140<pc>508-a<k1>pro<k2>pro(prO)zWapAda
+<L>28141<pc>508-a<k1>pro<k2>pro(prO)ha
+<L>28143<pc>508-a<k1>prO<k2>prO(pro)Qa
+<L>28144<pc>508-a<k1>prO<k2>prO(pro)QapAda
+<L>28145<pc>508-b<k1>prO<k2>prO(pro)Qi
+<L>28173<pc>509-a<k1>plu<k2>plu (Na) pluN
+<L>28180<pc>509-a<k1>plusa<k2>plusa (ira) plusira
+<L>28181<pc>509-a<k1>pleva<k2>pleva (f) plevf
+<L>28182<pc>509-a<k1>plo<k2>plo(pro)za
+<L>28305<pc>511-a<k1>Palotpati<k2>Palotpati(tti)
+<L>28330<pc>511-b<k1>Pu<k2>Pu(PU)t
+<L>28349<pc>511-b<k1>Pe<k2>Pe(Ra)na
+<L>28350<pc>511-b<k1>Pe<k2>Pe(Ra)naka
+<L>28358<pc>512-a<k1>Peni<k2>Peni(Ri)kA
+<L>28364<pc>512-a<k1>Pela<k2>Pela (f) Pex
+<L>28375<pc>512-a<k1>baqavAkf<k2>baqavAkf(hf)ta
+<L>28391<pc>512-b<k1>badarapa<k2>badarapa (pA) cana
+<L>28433<pc>513-a<k1>bana<k2>bana (u) (banu)
+<L>28468<pc>514-a<k1>barbba<k2>barbba (rba)
+<L>28558<pc>515-b<k1>bazka<k2>bazka(ska)ya(yi)RI(nI)
+<L>28560<pc>515-b<k1>baha<k2>baha (i) bahi
+<L>28650<pc>517-a<k1>bAqa<k2>bAqa (f) bAqf
+<L>28663<pc>517-a<k1>bA<k2>bA(vA)dara
+<L>28664<pc>517-a<k1>bA<k2>bA(vA)darAyaRa
+<L>28665<pc>517-a<k1>bA<k2>bA (vA) darAyaRi
+<L>28666<pc>517-a<k1>bADa<k2>bADa (f) bADf
+<L>28687<pc>517-b<k1>bAla<k2>bAla (li) Kilya
+<L>28738<pc>518-b<k1>bAha<k2>bAha (f) bAhf
+<L>28759<pc>518-b<k1>bAhU<k2>bAhU(hA)bAhavi
+<L>28762<pc>518-b<k1>bid<k2>bid (i) bidi
+<L>28773<pc>519-a<k1>bis<k2>bis (ir) visir
+<L>28783<pc>519-a<k1>bud<k2>bud (u, ira) uvudir
+<L>28797<pc>519-b<k1>buD<k2>buD (O) ObuDa
+<L>28807<pc>519-b<k1>bund<k2>bund (u, ir) ubundir
+<L>28808<pc>519-b<k1>bunD<k2>bunD (u, ir) ubuDir
+<L>28826<pc>519-b<k1>bfSI<k2>bfSI (zI)
+<L>28943<pc>522-a<k1>brA<k2>brA (vrA) hma
+<L>28972<pc>522-b<k1>brU<k2>brU (Ya) brUY
+<L>29041<pc>523-b<k1>BaYj<k2>BaYj (o, O) oBaYjO
+<L>29055<pc>524-a<k1>Baq<k2>Baq (i) Baqi
+<L>29071<pc>524-b<k1>Bad<k2>Bad (i) Badi
+<L>29091<pc>525-a<k1>Badraba<k2>Badraba(va)lA
+<L>29152<pc>525-b<k1>Ba<k2>Ba (Bu) raRyu
+<L>29404<pc>530-b<k1>BAz<k2>BAz (f) BAzf
+<L>29415<pc>531-a<k1>BAs<k2>BAs (f) BAsf
+<L>29451<pc>531-b<k1>Bid<k2>Bid (ir) Bidir
+<L>29464<pc>531-b<k1>Binda<k2>Binda(ndi)pAla
+<L>29489<pc>532-a<k1>BI<k2>BI (Yi) YiBI
+<L>29516<pc>532-b<k1>BIlu<k2>BIlu(lU)ka
+<L>29563<pc>533-a<k1>Buqa<k2>Buqa (i) Buqi
+<L>29571<pc>533-b<k1>Bu<k2>Bu(Sa)SuRqI
+<L>29733<pc>536-a<k1>Bf<k2>Bf (Y) BfY
+<L>29758<pc>536-b<k1>Bfj<k2>Bfj (i) BfjI
+<L>29779<pc>537-a<k1>Bf<k2>Bf (Bra) mi
+<L>29780<pc>537-a<k1>BfS<k2>BfS (ir, u) BfSu
+<L>29810<pc>537-b<k1>Bez<k2>Bez (f) Bezf
+<L>29875<pc>538-b<k1>BOma<k2>BOma (va) na
+<L>29881<pc>538-b<k1>BraMS<k2>BraMS (u) BraMSu
+<L>29883<pc>538-b<k1>BraMs<k2>BraMs (u) BraMsu
+<L>29890<pc>539-a<k1>Bram<k2>Bram (u) Bramu
+<L>29904<pc>539-a<k1>BraS<k2>BraS (u) BraSu
+<L>29908<pc>539-a<k1>Brasj<k2>Brasj (O) OBrasjO
+<L>29909<pc>539-a<k1>BrAj<k2>BrAj (wu, f) wuBrAjf
+<L>29935<pc>539-b<k1>BrAS<k2>BrAS (-wu, f) wuBrASf
+<L>29953<pc>540-a<k1>Brej<k2>Brej (f) Brejf
+<L>29954<pc>540-a<k1>BreS<k2>BreS (f) BreSf
+<L>29956<pc>540-a<k1>Brez<k2>Brez (f) Brezf
+<L>29960<pc>540-a<k1>BlAS<k2>BlAS (wf, f) wumlASf
+<L>29961<pc>540-a<k1>Blez<k2>Blez (f) mlezf
+<L>29964<pc>540-a<k1>mak<k2>mak (i) maki
+<L>29999<pc>540-b<k1>mag<k2>mag (i) magi
+<L>30003<pc>541-a<k1>maG<k2>maG (i) maGi
+<L>30045<pc>541-b<k1>maYc<k2>maYc (u) maYcu
+<L>30086<pc>542-b<k1>maq<k2>maq (i) maqi
+<L>30178<pc>544-b<k1>matr<k2>matr (i,) matri
+<L>30206<pc>545-a<k1>maTa<k2>maTa (e) maTe
+<L>30804<pc>555-b<k1>masa<k2>masa(ir, I)ir masI
+<L>30831<pc>556-a<k1>masj<k2>masj(wu, o)wumasjo
+<L>31165<pc>561-b<k1>mAkz<k2>mAkz (i) mAkzi
+<L>31166<pc>561-b<k1>mAkzi<k2>mAkzi (kzI) ka
+<L>31185<pc>562-a<k1>mAq<k2>mAq(f)mAqf
+<L>31190<pc>562-a<k1>mARa<k2>mARa(na)ka
+<L>31237<pc>563-a<k1>mAT<k2>mAT (i) mATi
+<L>31365<pc>565-b<k1>mArjjArI<k2>mArjjArI(lI)ya
+<L>31410<pc>566-b<k1>mAzapa<k2>mAzapa(va)rRI
+<L>31431<pc>567-a<k1>mAsu<k2>mAsu (sU) rI
+<L>31452<pc>567-a<k1>mi<k2>mi(quY)qumiY
+<L>31478<pc>567-b<k1>miT<k2>miT(f)miTf
+<L>31511<pc>568-a<k1>miva<k2>miva (i) mivi
+<L>31523<pc>568-b<k1>miz<k2>miz (u) mizu
+<L>31531<pc>568-b<k1>mih<k2>mih (O) mihO
+<L>31548<pc>569-a<k1>mIm<k2>mIm (f) mImf
+<L>31646<pc>570-b<k1>muc<k2>muc (x, O) O mucx
+<L>31649<pc>570-b<k1>mucu<k2>mucu(ca)kunda
+<L>31662<pc>571-a<k1>muW<k2>muW (i) muWi
+<L>31679<pc>571-a<k1>muT<k2>muT (i) muTi
+<L>31733<pc>572-a<k1>murcC<k2>murcC (A,) murcCA
+<L>31736<pc>572-a<k1>murv<k2>murv (I) murvvI
+<L>31739<pc>572-a<k1>muSa<k2>muSa(sa)lI
+<L>31764<pc>572-b<k1>mus<k2>mus (ira) musira
+<L>31774<pc>572-b<k1>muh<k2>muh (U) muhU
+<L>31819<pc>573-a<k1>mUrdDa<k2>mUrdDa(rDva)ka
+<L>31883<pc>574-b<k1>mf<k2>mf (mf)
+<L>31953<pc>575-b<k1>mfgErvvAru<k2>mfgE(ge)rvvAru
+<L>31958<pc>575-b<k1>mfj<k2>mfj (U) mfjU
+<L>32044<pc>576-b<k1>mfD<k2>mfD (u) mfDu
+<L>32048<pc>576-b<k1>mfS<k2>mfS (O) mfSO
+<L>32077<pc>577-a<k1>meGajIvaka<k2>meGajIvaka(na)
+<L>32114<pc>577-b<k1>mew<k2>mew (f) mewf
+<L>32117<pc>577-b<k1>meq<k2>meq (f) meqf
+<L>32124<pc>578-a<k1>meT<k2>meT (f) meTf
+<L>32126<pc>578-a<k1>med<k2>med (f) medf
+<L>32142<pc>578-a<k1>meD<k2>meD (f) meDf
+<L>32158<pc>578-b<k1>mep<k2>mep (f) mepf
+<L>32159<pc>578-b<k1>meb<k2>meb (f) mebf
+<L>32172<pc>579-a<k1>mev<k2>mev (f) mevf
+<L>32295<pc>581-a<k1>mruc<k2>mruc (u) mrucu
+<L>32296<pc>581-a<k1>mruYc<k2>mruYc (u) mruYcu
+<L>32297<pc>581-a<k1>mrew<k2>mrew (f) mrewf
+<L>32298<pc>581-a<k1>mreq<k2>mreq (f) mreqf
+<L>32306<pc>581-a<k1>mluc<k2>mluc(u)mlucu
+<L>32307<pc>581-a<k1>mluYc<k2>mluYc (u) mluYcu
+<L>32320<pc>581-b<k1>mlew<k2>mlew (f) mlewf
+<L>32321<pc>581-b<k1>mleq<k2>mleq (f) mleqf
+<L>32322<pc>581-b<k1>mlev<k2>mlev (f,) mlevf
+<L>32407<pc>583-a<k1>yat<k2>yat (I) yatI
+<L>32431<pc>583-a<k1>yatu<k2>yatu(tU)kA
+<L>32442<pc>583-b<k1>yatr<k2>yatr (i) yatri
+<L>32509<pc>584-b<k1>yam<k2>yam (O) yamO
+<L>32517<pc>585-a<k1>ya<k2>ya(ja)madagri
+<L>32523<pc>585-a<k1>yama<k2>yama(va)nikA
+<L>32596<pc>586-b<k1>yazwi<k2>yazwi(zwI)ka
+<L>32600<pc>586-b<k1>yas<k2>yas (ir, u) ir yasu
+<L>32606<pc>586-b<k1>yAc<k2>yAc (wu, f) wuyAcf
+<L>32719<pc>588-b<k1>yug<k2>yug (i) yugi
+<L>32725<pc>588-b<k1>yugapa<k2>yugapa(pA)tra
+<L>32740<pc>589-a<k1>yuj<k2>yuj (O) yujI
+<L>32744<pc>589-a<k1>yut<k2>yut (f) yutf
+<L>32754<pc>589-b<k1>yuD<k2>yuD (O) OyuD
+<L>32760<pc>589-b<k1>yup<k2>yup (ir) yupIra
+<L>32800<pc>590-b<k1>yeza<k2>yeza (f) yezf
+<L>32881<pc>592-a<k1>yOw<k2>yOw (f) yOwf
+<L>33034<pc>594-b<k1>raG<k2>raG (i) raGi
+<L>33099<pc>595-b<k1>raYj<k2>raYj (O) OraYj
+<L>33227<pc>597-b<k1>raD<k2>raD (x, u) XraDu
+<L>33239<pc>597-b<k1>raP<k2>raP (i) raPi
+<L>33240<pc>597-b<k1>rab<k2>rab (i) rabi
+<L>33243<pc>597-b<k1>raB<k2>raB (O) O raBa
+<L>33245<pc>597-b<k1>ram<k2>ram (O, u) Oramu
+<L>33273<pc>598-a<k1>rav<k2>rav (i) ravi
+<L>33378<pc>600-a<k1>rAK<k2>rAK (f) rAKf
+<L>33395<pc>600-b<k1>rAG<k2>rAG (f,) rAGf
+<L>33399<pc>600-b<k1>rAj<k2>rAj (f,) rAjf
+<L>33584<pc>603-b<k1>rAD<k2>rAD(O)OrADa
+<L>33627<pc>604-b<k1>rAS<k2>rAS(f)rASf
+<L>33642<pc>604-b<k1>rAs<k2>rAs(f)rAsf
+<L>33677<pc>605-a<k1>riK<k2>riK(i)riKi
+<L>33678<pc>605-a<k1>rig<k2>rig(i)rigi
+<L>33696<pc>605-b<k1>riv<k2>riv(i)rivi
+<L>33717<pc>605-b<k1>ru<k2>ru(wu,)wuru
+<L>33744<pc>606-b<k1>ruj<k2>ruj(O, o)Orujo
+<L>33760<pc>606-b<k1>rud<k2>rud (ira) rudira
+<L>33802<pc>607-b<k1>ruh<k2>ruh (Yi, O) YiOruha
+<L>33838<pc>608-a<k1>rek<k2>rek (f,) rekf
+<L>33848<pc>608-b<k1>rej<k2>rej (f,) rejf
+<L>33850<pc>608-b<k1>rew<k2>rew (f,) redf
+<L>33862<pc>608-b<k1>rep<k2>rep (f) repf
+<L>33867<pc>608-b<k1>reb<k2>reb(f)rebf
+<L>33868<pc>608-b<k1>reB<k2>reB (f) reBf
+<L>33871<pc>608-b<k1>rev<k2>rev (f) revf
+<L>33881<pc>609-a<k1>rez<k2>rez (f) rezf
+<L>33922<pc>609-b<k1>roq<k2>roq (f) roqf
+<L>33998<pc>611-a<k1>rOw<k2>rOw(f)rOwf,
+<L>33999<pc>611-a<k1>rOq<k2>rOq(f)rOqf
+<L>34045<pc>612-a<k1>lag<k2>lag (e) lage
+<L>34155<pc>614-a<k1>lap<k2>lap (f) lapf
+<L>34158<pc>614-a<k1>lab<k2>lab (i) labi
+<L>34173<pc>614-a<k1>laB<k2>laB (qu, az) qulaBaz
+<L>34219<pc>615-a<k1>lalAware<k2>lalAware(le)KA
+<L>34261<pc>616-a<k1>lasj<k2>lasj (o, I) olasjI
+<L>34276<pc>616-a<k1>lAK<k2>lAK (f) lAKf
+<L>34278<pc>616-a<k1>lAG<k2>lAG (f) lAGf
+<L>34293<pc>616-b<k1>lAcC<k2>lAcC (i) lAcCi
+<L>34359<pc>617-b<k1>lig<k2>lig(i)ligi
+<L>34377<pc>618-a<k1>lip<k2>lip (Yi, O) Yi Olipa
+<L>34398<pc>618-b<k1>liS<k2>liS(O)liSO
+<L>34420<pc>619-a<k1>luc<k2>luc(i)luci
+<L>34422<pc>619-a<k1>luj<k2>luj(i)luji
+<L>34424<pc>619-a<k1>luw<k2>luw(x)luwx
+<L>34441<pc>619-b<k1>luT<k2>luT(i)luTi
+<L>34447<pc>619-b<k1>lub<k2>lub(i)lubi
+<L>34473<pc>620-a<k1>leKa<k2>leKa(Ki)nI
+<L>34489<pc>620-a<k1>lep<k2>lep(f)lepf
+<L>34516<pc>620-b<k1>lER<k2>lER(f)lERf
+<L>34517<pc>620-b<k1>lok<k2>lok(f)lokf
+<L>34566<pc>621-b<k1>loc<k2>loc(f)locf
+<L>34575<pc>621-b<k1>low<k2>low (f) lowf
+<L>34578<pc>621-b<k1>loq<k2>loq (f) loqf
+<L>34666<pc>622-b<k1>lohABisA<k2>lohABisA(hA)ra
+<L>34743<pc>624-a<k1>vak<k2>vak(i)vaki
+<L>34807<pc>625-a<k1>vakzaH<k2>vakzaH(kza)sTala
+<L>34812<pc>625-a<k1>vag<k2>vag(i)vagi
+<L>34815<pc>625-a<k1>vaG<k2>vaG(i)vaGi
+<L>34830<pc>625-b<k1>vac<k2>vac(O)Ovaca
+<L>34888<pc>626-b<k1>vaYc<k2>vaYc(u)vaYcu
+<L>34916<pc>627-a<k1>vaq<k2>vaq(i)vaqi
+<L>34921<pc>627-a<k1>vaR<k2>vaR(f)vaRf
+<L>35099<pc>629-b<k1>vap<k2>vap(qa)quvapa
+<L>35120<pc>630-a<k1>vam<k2>vam(wu, u)wuvamu
+<L>35323<pc>633-b<k1>vartti<k2>vartti(rttI)ra
+<L>35409<pc>635-a<k1>varhi<k2>varhi(-rhiH)kusuma
+<L>35437<pc>635-b<k1>vali<k2>vali(lI)ka
+<L>35520<pc>637-a<k1>vas<k2>vas(O)Ovasa
+<L>35547<pc>637-b<k1>vasu<k2>vasu(sU)ka
+<L>35698<pc>640-a<k1>vAkz<k2>vAkz(i)vAkzi
+<L>35759<pc>641-a<k1>vAcC<k2>vAcC(i)vAcCi
+<L>35795<pc>641-b<k1>vAq<k2>vAq(f)vAqf
+<L>35929<pc>643-b<k1>vAD<k2>vAD(f)vADf
+<L>35953<pc>644-a<k1>vApa<k2>vApa(ya)daRqa
+<L>35974<pc>644-b<k1>vAya<k2>vAya(pa)daRqa
+<L>36151<pc>647-a<k1>vAvft<k2>vAvft(u)vAvftu
+<L>36154<pc>647-a<k1>vAS<k2>vAS(f)vASf
+<L>36164<pc>647-b<k1>vAzpa<k2>vAzpa(spa)
+<L>36228<pc>648-b<k1>vAh<k2>vAh(f)vAhf
+<L>36245<pc>649-a<k1>vA<k2>vA(bA)hya
+<L>36297<pc>650-a<k1>vikaSva<k2>vikaSva(sva)ra
+<L>36454<pc>652-b<k1>vic<k2>vic(Oir)O vicir
+<L>36516<pc>654-a<k1>vij<k2>vij(O ira)Ovijira
+<L>36669<pc>656-b<k1>viT<k2>viT(f)viTf
+<L>37335<pc>668-b<k1>viropa<k2>viropa(ha)Ra
+<L>37871<pc>678-b<k1>vi<k2>vi(vI)sarpa
+<L>37986<pc>680-a<k1>vI<k2>vI(vi)kASa
+<L>38054<pc>681-b<k1>vIB<k2>vIB(f)vIBf
+<L>38099<pc>682-b<k1>vI<k2>vI(vi)hAra
+<L>38100<pc>682-b<k1>vug<k2>vug(i)vugi
+<L>38102<pc>682-b<k1>vuD<k2>vuD(i)vuDi
+<L>38107<pc>682-b<k1>vf<k2>vf(Na,)vfN
+<L>38158<pc>683-a<k1>vfc<k2>vfc(I)vfvI
+<L>38159<pc>683-a<k1>vfj<k2>vfj(I)vfjI
+<L>38167<pc>683-b<k1>vft<k2>vft(u)vftu
+<L>38246<pc>685-a<k1>vfD<k2>vfD(u)vfDu
+<L>38264<pc>685-b<k1>vfz<k2>vfz(u)vfzu
+<L>38303<pc>686-a<k1>vf<k2>vf(vf)zI
+<L>38374<pc>687-a<k1>veR<k2>veR(f)veRf
+<L>38402<pc>688-a<k1>veT<k2>veT(f)veTf
+<L>38478<pc>689-a<k1>vep<k2>vep(wu f)wuvepf
+<L>38488<pc>689-b<k1>vel<k2>vel(f)vex
+<L>38512<pc>689-b<k1>veSa<k2>veSa(sa)vAra
+<L>38538<pc>690-a<k1>ves<k2>ves(f)vesf
+<L>38542<pc>690-a<k1>veh<k2>veh(f)vehf
+<L>38545<pc>690-a<k1>vE<k2>vE(o)ovE
+<L>38620<pc>691-b<k1>vEdyasiMhI<k2>vEdyasihI
+<L>38695<pc>692-b<k1>vEva<k2>vEva(ba)Dika
+<L>38796<pc>694-b<k1>vyati<k2>vyati(tI)hAra
+<L>38813<pc>695-a<k1>vyaD<k2>vyaD(O)OvyaDa
+<L>38919<pc>697-a<k1>vyasanAtta<k2>vyasanAtta,
+<L>39087<pc>700-b<k1>vyus<k2>vyus(ira)vyusira
+<L>39100<pc>700-b<k1>vye<k2>vye(Ya)vyeY
+<L>39155<pc>701-b<k1>vraSc<k2>vraSc(o, u)odraScu
+<L>39191<pc>702-a<k1>SaMs<k2>SaMs(u)SaMsu
+<L>39344<pc>704-b<k1>Saq<k2>Saq(i)Saqi
+<L>39450<pc>706-b<k1>Sad<k2>Sad(O, x,)O Sadax
+<L>39508<pc>707-b<k1>Sam<k2>Sam(ir u)iraSmu
+<L>39752<pc>711-b<k1>Sas<k2>Sas(i)
+<L>39754<pc>711-b<k1>Sasta<k2>Sasta(i)Sasti
+<L>39840<pc>712-b<k1>SAKa<k2>SAKa(f)SAKf
+<L>39865<pc>713-a<k1>SAq<k2>SAq(f)SAqf
+<L>39966<pc>715-a<k1>SAl<k2>SAl(f)SAx
+<L>39971<pc>715-a<k1>SA<k2>SA(sA)laja
+<L>40019<pc>716-a<k1>SAs<k2>SAs(u)SAsu
+<L>40061<pc>717-a<k1>Si<k2>Si(Ya)SiY
+<L>40082<pc>717-a<k1>SiK<k2>SiK(i)
+<L>40119<pc>718-a<k1>SiG<k2>SiG(i)SiGi
+<L>40124<pc>718-a<k1>Sij<k2>Sij(i)Siji
+<L>40329<pc>721-b<k1>SI<k2>SI(Na)SIN
+<L>40398<pc>722-b<k1>SIB<k2>SIB(f)SIBf
+<L>40507<pc>724-b<k1>Sucya<k2>Sucya(i)SucyI
+<L>40544<pc>725-a<k1>SuD<k2>SuD(o, x)oSuDx
+<L>40588<pc>725-b<k1>Sur<k2>Sur(I)SurI
+<L>40606<pc>726-a<k1>Suz<k2>Suz(O, X)OSuzX
+<L>40744<pc>728-b<k1>SfD<k2>SfD(u)SfDu
+<L>40758<pc>728-b<k1>Sel<k2>Sel(f)Sex
+<L>40848<pc>730-a<k1>SoR<k2>SoR(f)SoRf
+<L>40903<pc>731-a<k1>SOw<k2>SOw(f)SOwf
+<L>40906<pc>731-a<k1>SOq<k2>SOq(f)SOqf
+<L>40935<pc>731-b<k1>Scut<k2>Scut(ir)Scutira
+<L>40937<pc>731-b<k1>Scyut<k2>Scyut(ir)Scyutir
+<L>40983<pc>732-b<k1>SyoRA<k2>SyoRA(nA)ka
+<L>40984<pc>732-b<k1>Srak<k2>Srak(i)Sraki
+<L>40985<pc>732-b<k1>Srag<k2>Srag(i)Sragi
+<L>41008<pc>733-a<k1>Sram<k2>Sram(Yi ir, u)Sramu
+<L>41015<pc>733-a<k1>SramB<k2>SramB(u)SramBu
+<L>41068<pc>734-a<k1>Sriz<k2>Sriz(u)Srizu
+<L>41180<pc>736-b<k1>SroR<k2>SroR(f)SroRf
+<L>41202<pc>736-b<k1>Slak<k2>Slak(i)Slaki
+<L>41205<pc>736-b<k1>Slag<k2>Slag(i)Slagi
+<L>41208<pc>737-a<k1>SlAK<k2>SlAK(f)SlAKf
+<L>41209<pc>737-a<k1>SlAG<k2>SlAG(f)SlAGf
+<L>41215<pc>737-a<k1>Sliz<k2>Sliz(Yi Ox)Slizx
+<L>41234<pc>737-a<k1>Slok<k2>Slok(f)Slokf
+<L>41237<pc>737-b<k1>SloR<k2>SloR(f)SloRf
+<L>41239<pc>737-b<k1>Svak<k2>Svak(i)Svaki
+<L>41241<pc>737-b<k1>Svag<k2>Svag(i)Svagi
+<L>41300<pc>738-b<k1>Svit<k2>Svit(A)SvitA
+<L>41305<pc>738-b<k1>Svid<k2>Svid(i)Svidi
+<L>41367<pc>739-b<k1>zag<k2>zag(e)zage
+<L>41368<pc>739-b<k1>zaG<k2>zaG(e)zaGe
+<L>41410<pc>740-a<k1>zaR<k2>zaR(u)zaRu
+<L>41418<pc>740-a<k1>zad<k2>zad(O x)Ozadx
+<L>41420<pc>740-b<k1>zan<k2>zan(u)zanu
+<L>41449<pc>740-b<k1>zast<k2>zast(i)zasti
+<L>41459<pc>741-a<k1>zAD<k2>zAD(u)sADu
+<L>41462<pc>741-a<k1>zi<k2>zi(Ya)ziY
+<L>41463<pc>741-a<k1>zic<k2>zic(O)zicO
+<L>41467<pc>741-a<k1>ziB<k2>ziB(u)ziBu
+<L>41468<pc>741-a<k1>zim<k2>zim(u)zimu
+<L>41469<pc>741-a<k1>zimB<k2>zimB(u)SimBu
+<L>41471<pc>741-a<k1>ziv<k2>ziv(u)zivu
+<L>41479<pc>741-b<k1>zU<k2>zU(Na)zUN
+<L>41482<pc>741-b<k1>zUr<k2>zUr(I)zUrI
+<L>41486<pc>741-b<k1>zfB<k2>zfB(u)zfBu
+<L>41487<pc>741-b<k1>zfmB<k2>zfmB(u)zfmBu
+<L>41488<pc>741-b<k1>zek<k2>zek(f)zekf
+<L>41489<pc>741-b<k1>zel<k2>zel(f)zex
+<L>41490<pc>741-b<k1>zev<k2>zev(f)zevf
+<L>41510<pc>742-a<k1>zwag<k2>zwag(e)zwage
+<L>41512<pc>742-a<k1>zwaB<k2>zwaB(i)zwaBi
+<L>41515<pc>742-a<k1>zwip<k2>zwip(f)zwipf
+<L>41518<pc>742-a<k1>zwu<k2>zwu(Ya)zwuY
+<L>41521<pc>742-a<k1>zwuB<k2>zwuB(u)zwuBu
+<L>41522<pc>742-a<k1>zwUp<k2>zwUp(i)zwUpi
+<L>41524<pc>742-a<k1>zwfh<k2>zwfh(u)zwfhu
+<L>41525<pc>742-a<k1>zwFh<k2>zwFh(U)zwFhU
+<L>41526<pc>742-a<k1>zwep<k2>zwep(f)zwepf
+<L>41530<pc>742-a<k1>zWag<k2>zWag(e)zWage
+<L>41532<pc>742-a<k1>zWas<k2>zWas(u)zWasu
+<L>41534<pc>742-b<k1>zWiv<k2>zWiv(u)zWivu
+<L>41535<pc>742-b<k1>zWIv<k2>zWIv(u)zWIvu
+<L>41540<pc>742-b<k1>zRas<k2>zRas(u)zRasu
+<L>41542<pc>742-b<k1>zRih<k2>zRih (x U)
+<L>41545<pc>742-b<k1>zRus<k2>zRus(u)zRusu
+<L>41546<pc>742-b<k1>zRuh<k2>zRuh (x U)
+<L>41552<pc>742-b<k1>zvap<k2>zvap(Yi O)YizvapO
+<L>41555<pc>742-b<k1>zvid<k2>zvid(Yi A)YizvidA
+<L>41862<pc>748-b<k1>sag<k2>sag(e)sage
+<L>43183<pc>773-a<k1>sarpaPaRa<k2>sarpaPaRa(Ri)ja
+<L>43617<pc>779-b<k1>sAD<k2>sAD(u)sADu
+<L>43959<pc>785-b<k1>sik<k2>sik(sekati)
+<L>44323<pc>791-b<k1>suda<k2>suda(sundati)
+<L>44450<pc>793-b<k1>suprakASa<k2>suprakASa (-SaH-SA-SaM)
+<L>44561<pc>795-b<k1>surana<k2>surana(Ra)dI
+<L>44900<pc>801-a<k1>sUr<k2>sUr (I) sUrI
+<L>44981<pc>802-a<k1>sfp<k2>sfp (x) sfpx
+<L>44993<pc>802-b<k1>sek<k2>sek (f) (sekf)
+<L>45029<pc>803-a<k1>sel<k2>sel (f) sex
+<L>45031<pc>803-a<k1>sev<k2>sev (f) sevf
+<L>45263<pc>807-a<k1>sOvara<k2>sOvara,
+<L>45285<pc>807-a<k1>skad<k2>skad (i) skadi
+<L>45286<pc>807-a<k1>skand<k2>skand (ira) skandira
+<L>45316<pc>807-b<k1>skaB<k2>skaB (i) skaBi
+<L>45321<pc>808-a<k1>skud<k2>skud (i) skudi
+<L>45322<pc>808-a<k1>skumB<k2>skumB (u) skumBu
+<L>45374<pc>808-b<k1>stamB<k2>stamB (u) stamBu
+<L>45385<pc>809-a<k1>stari<k2>stari(rI)man
+<L>45410<pc>809-b<k1>stumB<k2>stumB (u) stumBu
+<L>45420<pc>809-b<k1>stfh<k2>stfh (U) stFhU
+<L>45422<pc>809-b<k1>stFh<k2>stFh (U) stFhU
+<L>45516<pc>810-b<k1>sTag<k2>sTag (e) sTage
+<L>45765<pc>815-a<k1>spad<k2>spad (i) spadi
+<L>45791<pc>815-b<k1>sparSaspa<k2>sparSaspa(sya)nda
+<L>45831<pc>816-a<k1>sPawi<k2>sPawi(wI)ka
+<L>45838<pc>816-b<k1>sPaq<k2>sPaq (i) sPaqi
+<L>45849<pc>816-b<k1>sPAy<k2>sPAy (I) sPAyI
+<L>45888<pc>817-a<k1>sPurcC<k2>sPurcC (A) sPurcCA
+<L>45897<pc>817-b<k1>sPUrjj<k2>sPUrjj (o A) osPUrjjA
+<L>45994<pc>819-a<k1>syand<k2>syand (U) syandU
+<L>46019<pc>819-a<k1>sraMs<k2>sraMs (u) sraMsu
+<L>46026<pc>819-b<k1>srak<k2>srak (i) sraki
+<L>46034<pc>819-b<k1>sramB<k2>sramB (u) snamBu
+<L>46049<pc>819-b<k1>sriB<k2>sriB (u) sriBu
+<L>46050<pc>819-b<k1>srimB<k2>srimB (u) srimBu
+<L>46051<pc>819-b<k1>sriv<k2>sriv (u) srivu
+<L>46061<pc>820-a<k1>srek<k2>srek (f) srekf
+<L>46086<pc>820-a<k1>svag<k2>svag (i) svagi
+<L>46424<pc>825-a<k1>svek<k2>svek (f,) svekf
+<L>46491<pc>826-b<k1>haWa<k2>haWa (wa) parRI
+<L>46705<pc>830-a<k1>halIma<k2>halIma(sa)ka
+<L>46739<pc>830-a<k1>has<k2>has (e) hase
+<L>46788<pc>831-a<k1>hasti<k2>hasti (na) nApura
+<L>46896<pc>833-a<k1>hiNguSi<k2>hiNguSi(si)PA(rA)wikA
+<L>46901<pc>833-a<k1>hiq<k2>hiq (i) hiqi
+<L>46902<pc>833-a<k1>hiqi<k2>hiqi (qa) mba
+<L>46986<pc>834-a<k1>hiraRyakoSa<k2>hiraRyakoSa(za)
+<L>47004<pc>834-b<k1>hiv<k2>hiv (i) hivi
+<L>47005<pc>834-b<k1>his<k2>his (i) hisi
+<L>47026<pc>834-b<k1>hu<k2>hu(hU)NkAra
+<L>47056<pc>835-a<k1>hUq<k2>hUq (f) hUqf
+<L>47069<pc>836-a<k1>hfRI<k2>hfRI (hfRIyate)
+<L>47113<pc>836-b<k1>hfz<k2>hfz (ira, u) irahfzu
+<L>47194<pc>837-b<k1>hez<k2>hez (f) hezf
+<L>47197<pc>837-b<k1>hehe<k2>hehe (hE)
+<L>47211<pc>838-a<k1>hoq<k2>hoq (f) hoqf
+<L>47234<pc>838-b<k1>hOq<k2>hOq (f) hOqf
+<L>47245<pc>838-b<k1>hrag<k2>hrag (e) hrage
+<L>47268<pc>838-b<k1>hriRI<k2>hriRI (hriRIyate)
+<L>47287<pc>839-a<k1>hruq<k2>hruq (f) hruqf
+<L>47287.1<pc>839-a<k1>hrUq<k2>hrUq (f) hrUqf
+<L>47288<pc>839-a<k1>hrep<k2>hrep (f) hrepf
+<L>47292<pc>839-b<k1>hrez<k2>hrez (f) hrezf
+<L>47294<pc>839-b<k1>hroq<k2>hroq (f) hroqf
+<L>47295<pc>839-b<k1>hrOq<k2>hrOq (f) hOqf
+<L>47296<pc>839-b<k1>hlag<k2>hlag (e) hRage
+<L>47299<pc>839-b<k1>hlAd<k2>hlAd (I) hlAdI

@@ -1,0 +1,14 @@
+<L>1679<pc>0159,a<k1>anAmayitna<k2>anAmayitna,      remove ,
+<L>8366<pc>0982,a<k1>ira<k2>ira--IrzAyAM            remove --IrzAyAM 
+<L>8387<pc>0983,b<k1>ivAruSuktikA<k2>irvAruSuktikA  irv -> iv
+<L>14081<pc>2104,b<k1>kubera<k2>kuvera              kub -> kuv
+<L>15418<pc>2281,b<k1>kOtakI<k2>kOzItakI            kOzItakI -> kOtakI
+  also new entry for alternate 
+<L>15418.1<pc>2281,b<k1>kOzItakI<k2>kOzItakI   
+{{Lbody=15418}}
+<LEND>
+<L>15514<pc>2309,a<k1>kravizRa<k2>kravizRa,         remove comma
+<L>16466<pc>2468,b<k1>Karba<k2>Karva                Karba -> Karva
+<L>16687<pc>2482,b<k1>gaganasinDa<k2>gaganasinDa,   remove comma
+<L>26445<pc>3783,b<k1>drAvayitnu<k2>drAvayitnu,     remove comma
+<L>28189<pc>3990,b<k1>navabaDU<k2>navavaDU          baDU -> vaDU 

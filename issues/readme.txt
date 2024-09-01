@@ -10,3 +10,4 @@ work related to individual issues.
 * issue427 hwextra-Lbody conversion for PW dictionary
 * issue428 hwextra-Lbody conversion for PWKVN dictionary
 * issue429 hwextra-Lbody conversion for SHS dictionary
+* issue431 hwextra-Lbody conversion for SKD dictionary

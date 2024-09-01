@@ -1,0 +1,6 @@
+<L>3648<pc>1-185-b<k1>AyattiH<k2>AyattiH:  remove colon
+<L>17250<pc>2-758-b<k1>draviqI<k2>draviqI;  remove semicolon
+<L>18724<pc>2-865-b<k1>nArA<k2>nArA;  remove semicolon
+<L>20119<pc>3-026-b<k1>patraM<k2>pattraM  patraM
+<L>22221<pc>3-222-a<k1>pUrvvaH<k2>pUrbbaH  k1=pUrbbaH
+<L>41771<pc>5-537-a<k1>hiqaM<k2>hiqa  hiqaM

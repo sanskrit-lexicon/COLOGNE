@@ -1,35 +1,37 @@
 import re
 import sys
 
-def parse_ls_tag(input_string):
-    match = re.search(r"<ls>(.*?)</ls>", input_string)
-    if not match:
-        return ""
-    
-    prefix, data = match.group(1).split(". ", 1)
-    prefix = prefix.strip() + "."  # Ensure period at the end of prefix
-    entries = data.split(". ")
-    
-    prev_chapter, prev_section, prev_line = None, None, None
-    output = []
-    
-    for item in entries:
-        item = item.rstrip(".")  # Remove trailing period to avoid duplication
-        parts = item.split(",")
+def parse_ls_tags(input_string):
+    def process_ls_tag(match):
+        full_tag = match.group(0)
+        content = match.group(1)
         
-        if len(parts) == 3:
-            prev_chapter, prev_section, prev_line = parts
-        elif len(parts) == 2:
-            prev_section, prev_line = parts
-        elif len(parts) == 1:
-            prev_line = parts[0]
-        else:
-            continue
+        prefix, data = content.split(". ", 1)
+        prefix = prefix.strip() + "."  # Ensure period at the end of prefix
+        entries = data.split(". ")
         
-        id_value = f"{prev_chapter},{prev_section},{prev_line}" if prev_line else f"{prev_chapter},{prev_section}"
-        output.append(f'<ls n="{prefix}" id="{id_value}">{item}.</ls>')
+        prev_chapter, prev_section, prev_line = None, None, None
+        output = []
+        
+        for item in entries:
+            item = item.rstrip(".")  # Remove trailing period to avoid duplication
+            parts = item.split(",")
+            
+            if len(parts) == 3:
+                prev_chapter, prev_section, prev_line = parts
+            elif len(parts) == 2:
+                prev_section, prev_line = parts
+            elif len(parts) == 1:
+                prev_line = parts[0]
+            else:
+                continue
+            
+            id_value = f"{prev_chapter},{prev_section},{prev_line}" if prev_line else f"{prev_chapter},{prev_section}"
+            output.append(f'<ls n="{prefix}" id="{id_value}">{item}.</ls>')
+        
+        return " ".join(output)
     
-    return " ".join(output)
+    return re.sub(r"<ls>(.*?)</ls>", process_ls_tag, input_string)
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
@@ -37,5 +39,5 @@ if __name__ == "__main__":
         sys.exit(1)
     
     input_string = sys.argv[1]
-    print(parse_ls_tag(input_string))
+    print(parse_ls_tags(input_string))
 

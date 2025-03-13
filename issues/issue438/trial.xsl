@@ -62,8 +62,8 @@
 
     <xsl:template match="ls">
         <xsl:variable name="abbrFull" select="normalize-space(.)"/>
-        <xsl:variable name="abbrCleaned" select="translate($abbrFull, '0123456789,', '')"/>
-        <xsl:variable name="tooltip" select="$abbrDoc/data/lslist/ls[ss = $abbrCleaned]/ff"/>
+        <xsl:variable name="abbrCleaned" select="normalize-space(translate($abbrFull, '0123456789,.', ''))"/>
+        <xsl:variable name="tooltip" select="$abbrDoc/lslist/ls[ss = $abbrCleaned]/ff"/>
         <span class="tooltip">
             <xsl:attribute name="title">
                 <xsl:value-of select="$tooltip"/>

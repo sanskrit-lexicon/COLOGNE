@@ -1,7 +1,7 @@
 import sys
 import re
 
-def transform_ls_tags(data, book_list):
+def transform_ls_tags(line, book_list):
     book_formats = {
         book: (num_params, ['volume', 'chapter', 'section', 'line'][-num_params:])
         for book, num_params in book_list
@@ -37,7 +37,7 @@ def transform_ls_tags(data, book_list):
     
     for book, _ in book_list:
         pattern = re.compile(fr"<ls>\s*({re.escape(book)})\s*([0-9,\.\s]+)\s*</ls>")
-        data = pattern.sub(replace_match, data)
+        line = pattern.sub(replace_match, line)
     
     def fill_missing_values(match):
         nonlocal last_book_name
@@ -62,9 +62,9 @@ def transform_ls_tags(data, book_list):
         return " ".join(occurrences)
     
     pattern_missing = re.compile(r"<ls>\s*([0-9,\.\s]+)\s*</ls>")
-    data = pattern_missing.sub(fill_missing_values, data)
+    line = pattern_missing.sub(fill_missing_values, line)
     
-    return data
+    return line
 
 def main():
     if len(sys.argv) < 3:
@@ -75,13 +75,10 @@ def main():
     output_file = sys.argv[2]
     book_list = [('H. an.', 2), ('TRIK.', 3), ('H.', 1), ('AK.', 4)]
     
-    with open(input_file, 'r', encoding='utf-8') as f:
-        data = f.read()
-    
-    transformed_data = transform_ls_tags(data, book_list)
-    
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(transformed_data)
+    with open(input_file, 'r', encoding='utf-8') as f, open(output_file, 'w', encoding='utf-8') as out_f:
+        for line in f:
+            transformed_line = transform_ls_tags(line, book_list)
+            out_f.write(transformed_line)
     
     print("Transformation complete. Output saved to", output_file)
 

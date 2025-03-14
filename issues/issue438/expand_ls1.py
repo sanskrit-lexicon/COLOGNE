@@ -17,8 +17,10 @@ def determine_format(numbers):
 def transform_ls_tags(data, book_list):
     book_formats = {}
     last_values = {}
+    last_book_name = None
     
     def replace_match(match):
+        nonlocal last_book_name
         book_name = match.group(1)
         numbers = match.group(2).split()
         
@@ -28,6 +30,7 @@ def transform_ls_tags(data, book_list):
         occurrences = []
         first = True
         last_values.setdefault(book_name, [None] * len(book_formats[book_name]))
+        last_book_name = book_name  # Store last encountered book name
         
         for number in numbers:
             number_parts = number.rstrip('.').split(',')
@@ -50,21 +53,23 @@ def transform_ls_tags(data, book_list):
         data = pattern.sub(replace_match, data)
     
     def fill_missing_values(match):
+        nonlocal last_book_name
         numbers = match.group(1).split()
         occurrences = []
         
+        if last_book_name is None:
+            return match.group(0)  # If no book encountered yet, return as is
+        
         for number in numbers:
             number_parts = number.rstrip('.').split(',')
-            expected_length = len(next(iter(book_formats.values()), []))
+            expected_length = len(book_formats.get(last_book_name, []))
             
             if len(number_parts) < expected_length:
-                book_name = next(iter(last_values.keys()), None)
-                if book_name:
-                    number_parts = (last_values[book_name][:expected_length - len(number_parts)] + number_parts)[-expected_length:]
-                    last_values[book_name] = number_parts
+                number_parts = (last_values[last_book_name][:expected_length - len(number_parts)] + number_parts)[-expected_length:]
+                last_values[last_book_name] = number_parts
             
             number_cleaned = ','.join(number_parts)
-            occurrences.append(f'<ls n="{book_name}" id="{number_cleaned}">{number}</ls>')
+            occurrences.append(f'<ls n="{last_book_name}" id="{number_cleaned}">{number}</ls>')
         
         return " ".join(occurrences)
     

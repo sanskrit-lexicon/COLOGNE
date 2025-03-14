@@ -65,4 +65,3 @@ if __name__ == "__main__":
             line = re.sub("<ls n=\"[^>]*\">", "<ls>", line)  # Remove existing n attributes
             processed_line = parse_ls_tags(line)
             outfile.write(processed_line + "\n")
-

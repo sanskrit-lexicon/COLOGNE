@@ -40,10 +40,7 @@ def find_most_frequent_parameter(books):
         
         if valid_params:
             most_frequent_param = max(valid_params, key=valid_params.get)
-            most_frequent_param_count = valid_params[most_frequent_param]
-            results.append((book, most_frequent_param, total_count, most_frequent_param_count))
-        else:
-            results.append((book, "NULL", total_count, 0))
+            results.append((book, most_frequent_param))
     
     return results
 
@@ -56,8 +53,8 @@ def main():
     books = parse_input(input_file)
     results = find_most_frequent_parameter(books)
     
-    for result in results:
-        print(result)
+    for book, param in results:
+        print(f"{book}\t{param}")
 
 if __name__ == "__main__":
     main()

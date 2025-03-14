@@ -1,19 +1,48 @@
 import sys
 import re
 
+def determine_format(numbers):
+    parts = [num.split(',') for num in numbers]
+    max_length = max(len(part) for part in parts)
+    
+    if max_length == 4:
+        return ["volume", "chapter", "section", "line"]
+    elif max_length == 3:
+        return ["chapter", "section", "line"]
+    elif max_length == 2:
+        return ["section", "line"]
+    else:
+        return ["line"]
+
 def transform_ls_tags(data, book_list):
+    book_formats = {}
+    last_values = {}
+    
     def replace_match(match):
         book_name = match.group(1)
         numbers = match.group(2).split()
+        
+        if book_name not in book_formats:
+            book_formats[book_name] = determine_format(numbers)
+        
         occurrences = []
         first = True
+        last_values.setdefault(book_name, [None] * len(book_formats[book_name]))
+        
         for number in numbers:
-            number_cleaned = number.rstrip('.')
+            number_parts = number.rstrip('.').split(',')
+            expected_length = len(book_formats[book_name])
+            
+            number_parts = (last_values[book_name][:expected_length - len(number_parts)] + number_parts)[-expected_length:]
+            last_values[book_name] = number_parts
+            number_cleaned = ','.join(number_parts)
+            
             if first:
                 occurrences.append(f'<ls n="{book_name}" id="{number_cleaned}">{book_name} {number}</ls>')
                 first = False
             else:
                 occurrences.append(f'<ls n="{book_name}" id="{number_cleaned}">{number}</ls>')
+        
         return " ".join(occurrences)
     
     for book in book_list:

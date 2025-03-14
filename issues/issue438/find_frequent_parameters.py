@@ -15,11 +15,14 @@ def parse_input(file_path):
                     total_count = int(parts[0][1:].strip())
                     books[book_id] = {"total": total_count, "params": defaultdict(int)}
             elif line.startswith("**"):
-                match = re.match(r"\*\* \((\d+)\) (.+) with (\d+|OTHER) numeric parameters", line)
+                match = re.match(r"\*\* !?\((\d+)\) (.+) with (\d+|OTHER) numeric parameters", line)
                 if match:
                     count = int(match.group(1))
                     book_id = match.group(2)
                     param = match.group(3)
+                    
+                    if param.isdigit():
+                        param = int(param)  # Convert numeric parameters to integers
                     
                     if book_id in books:
                         books[book_id]["params"][param] += count
@@ -33,13 +36,14 @@ def find_most_frequent_parameter(books):
         total_count = details["total"]
         params = details["params"]
         
-        valid_params = {k: v for k, v in params.items() if k not in ["OTHER", "0"] and v > 0.4 * total_count}
+        valid_params = {k: v for k, v in params.items() if k != "OTHER" and k != 0 and v > 0.4 * total_count}
         
         if valid_params:
             most_frequent_param = max(valid_params, key=valid_params.get)
-            results.append((book, most_frequent_param))
+            most_frequent_param_count = valid_params[most_frequent_param]
+            results.append((book, most_frequent_param, total_count, most_frequent_param_count))
         else:
-            results.append((book, "NULL"))
+            results.append((book, "NULL", total_count, 0))
     
     return results
 

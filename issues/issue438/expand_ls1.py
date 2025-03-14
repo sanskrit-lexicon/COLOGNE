@@ -1,21 +1,11 @@
 import sys
 import re
 
-def determine_format(numbers):
-    parts = [num.split(',') for num in numbers]
-    max_length = max(len(part) for part in parts)
-    
-    if max_length == 4:
-        return ["volume", "chapter", "section", "line"]
-    elif max_length == 3:
-        return ["chapter", "section", "line"]
-    elif max_length == 2:
-        return ["section", "line"]
-    else:
-        return ["line"]
-
 def transform_ls_tags(data, book_list):
-    book_formats = {}
+    book_formats = {
+        book: (num_params, ['volume', 'chapter', 'section', 'line'][-num_params:])
+        for book, num_params in book_list
+    }
     last_values = {}
     last_book_name = None
     
@@ -24,17 +14,14 @@ def transform_ls_tags(data, book_list):
         book_name = match.group(1)
         numbers = match.group(2).split()
         
-        if book_name not in book_formats:
-            book_formats[book_name] = determine_format(numbers)
-        
+        expected_length, labels = book_formats[book_name]
         occurrences = []
         first = True
-        last_values.setdefault(book_name, [None] * len(book_formats[book_name]))
+        last_values.setdefault(book_name, [None] * expected_length)
         last_book_name = book_name  # Store last encountered book name
         
         for number in numbers:
             number_parts = number.rstrip('.').split(',')
-            expected_length = len(book_formats[book_name])
             
             number_parts = (last_values[book_name][:expected_length - len(number_parts)] + number_parts)[-expected_length:]
             last_values[book_name] = number_parts
@@ -48,7 +35,7 @@ def transform_ls_tags(data, book_list):
         
         return " ".join(occurrences)
     
-    for book in book_list:
+    for book, _ in book_list:
         pattern = re.compile(fr"<ls>\s*({re.escape(book)})\s*([0-9,\.\s]+)\s*</ls>")
         data = pattern.sub(replace_match, data)
     
@@ -60,9 +47,10 @@ def transform_ls_tags(data, book_list):
         if last_book_name is None:
             return match.group(0)  # If no book encountered yet, return as is
         
+        expected_length, labels = book_formats.get(last_book_name, (1, ['line']))
+        
         for number in numbers:
             number_parts = number.rstrip('.').split(',')
-            expected_length = len(book_formats.get(last_book_name, []))
             
             if len(number_parts) < expected_length:
                 number_parts = (last_values[last_book_name][:expected_length - len(number_parts)] + number_parts)[-expected_length:]
@@ -85,7 +73,7 @@ def main():
     
     input_file = sys.argv[1]
     output_file = sys.argv[2]
-    book_list = ['H. an.', 'TRIK.', 'H.', 'AK.']
+    book_list = [('H. an.', 2), ('TRIK.', 3), ('H.', 1), ('AK.', 4)]
     
     with open(input_file, 'r', encoding='utf-8') as f:
         data = f.read()

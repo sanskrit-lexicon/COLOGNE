@@ -49,6 +49,28 @@ def transform_ls_tags(data, book_list):
         pattern = re.compile(fr"<ls>\s*({re.escape(book)})\s*([0-9,\.\s]+)\s*</ls>")
         data = pattern.sub(replace_match, data)
     
+    def fill_missing_values(match):
+        numbers = match.group(1).split()
+        occurrences = []
+        
+        for number in numbers:
+            number_parts = number.rstrip('.').split(',')
+            expected_length = len(next(iter(book_formats.values()), []))
+            
+            if len(number_parts) < expected_length:
+                book_name = next(iter(last_values.keys()), None)
+                if book_name:
+                    number_parts = (last_values[book_name][:expected_length - len(number_parts)] + number_parts)[-expected_length:]
+                    last_values[book_name] = number_parts
+            
+            number_cleaned = ','.join(number_parts)
+            occurrences.append(f'<ls n="{book_name}" id="{number_cleaned}">{number}</ls>')
+        
+        return " ".join(occurrences)
+    
+    pattern_missing = re.compile(r"<ls>\s*([0-9,\.\s]+)\s*</ls>")
+    data = pattern_missing.sub(fill_missing_values, data)
+    
     return data
 
 def main():

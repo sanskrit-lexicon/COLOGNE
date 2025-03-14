@@ -22,6 +22,7 @@ def transform_ls_tags(data, book_list):
     def replace_match(match):
         nonlocal last_book_name
         book_name = match.group(1)
+        print(f"Processing book: {book_name}")
         numbers = match.group(2).split()
         
         expected_length, labels = book_formats[book_name]
@@ -46,6 +47,7 @@ def transform_ls_tags(data, book_list):
         return " ".join(occurrences)
     
     for book, _ in book_list:
+        print(f"Handling book: {book}")
         pattern = re.compile(fr"<ls>\s*({re.escape(book)})\s*([0-9,\.\s]+)\s*</ls>")
         data = pattern.sub(replace_match, data)
     

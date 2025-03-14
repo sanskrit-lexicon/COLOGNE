@@ -17,7 +17,7 @@ def transform_ls_tags(data, book_list):
         expected_length, labels = book_formats[book_name]
         occurrences = []
         first = True
-        last_values.setdefault(book_name, [None] * expected_length)
+        last_values.setdefault(book_name, [''] * expected_length)
         last_book_name = book_name  # Store last encountered book name
         
         for number in numbers:
@@ -25,7 +25,7 @@ def transform_ls_tags(data, book_list):
             
             number_parts = (last_values[book_name][:expected_length - len(number_parts)] + number_parts)[-expected_length:]
             last_values[book_name] = number_parts
-            number_cleaned = ','.join(number_parts)
+            number_cleaned = ','.join(filter(None, number_parts))  # Remove None values
             
             if first:
                 occurrences.append(f'<ls n="{book_name}" id="{number_cleaned}">{book_name} {number}</ls>')
@@ -56,7 +56,7 @@ def transform_ls_tags(data, book_list):
                 number_parts = (last_values[last_book_name][:expected_length - len(number_parts)] + number_parts)[-expected_length:]
                 last_values[last_book_name] = number_parts
             
-            number_cleaned = ','.join(number_parts)
+            number_cleaned = ','.join(filter(None, number_parts))  # Remove None values
             occurrences.append(f'<ls n="{last_book_name}" id="{number_cleaned}">{number}</ls>')
         
         return " ".join(occurrences)

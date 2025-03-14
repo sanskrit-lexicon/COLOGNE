@@ -6,7 +6,16 @@ def find_ls_occurrences(data, book_list):
     for book in book_list:
         pattern = re.compile(fr"<ls>\s*({re.escape(book)})\s*([0-9,\.\s]+)\s*</ls>")
         matches = pattern.findall(data)
-        occurrences.extend(matches)
+        for book_name, numbers in matches:
+            number_list = numbers.split()
+            first = True
+            for number in number_list:
+                number_cleaned = number.rstrip('.')
+                if first:
+                    occurrences.append(f'<ls n="{book_name}" id="{number_cleaned}">{book_name} {number}</ls>')
+                    first = False
+                else:
+                    occurrences.append(f'<ls n="{book_name}" id="{number_cleaned}">{number}</ls>')
     return occurrences
 
 def main():
@@ -21,8 +30,8 @@ def main():
         data = f.read()
     
     occurrences = find_ls_occurrences(data, book_list)
-    for book, numbers in occurrences:
-        print(f"Found: <ls>{book} {numbers}</ls>")
+    for ls_tag in occurrences:
+        print(ls_tag)
 
 if __name__ == "__main__":
     main()

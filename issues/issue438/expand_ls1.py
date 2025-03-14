@@ -1,5 +1,15 @@
 import sys
 import re
+import csv
+
+def load_book_list(tsv_file):
+    book_list = []
+    with open(tsv_file, 'r', encoding='utf-8') as f:
+        reader = csv.reader(f, delimiter='\t')
+        for row in reader:
+            if len(row) == 2:
+                book_list.append((row[0], int(row[1])))
+    return book_list
 
 def transform_ls_tags(line, book_list):
     book_formats = {
@@ -67,13 +77,15 @@ def transform_ls_tags(line, book_list):
     return line
 
 def main():
-    if len(sys.argv) < 3:
-        print("Usage: python script.py <input_file> <output_file>")
+    if len(sys.argv) < 4:
+        print("Usage: python script.py <input_file> <book_name.tsv> <output_file>")
         return
     
     input_file = sys.argv[1]
-    output_file = sys.argv[2]
-    book_list = [('H. an.', 2), ('TRIK.', 3), ('H.', 1), ('AK.', 4)]
+    tsv_file = sys.argv[2]
+    output_file = sys.argv[3]
+    
+    book_list = load_book_list(tsv_file)
     
     with open(input_file, 'r', encoding='utf-8') as f, open(output_file, 'w', encoding='utf-8') as out_f:
         for line in f:

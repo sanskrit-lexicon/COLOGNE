@@ -87,10 +87,15 @@ def main():
     
     book_list = load_book_list(tsv_file)
     
+    line_count = 0
     with open(input_file, 'r', encoding='utf-8') as f, open(output_file, 'w', encoding='utf-8') as out_f:
         for line in f:
             transformed_line = transform_ls_tags(line, book_list)
             out_f.write(transformed_line)
+            
+            line_count += 1
+            if line_count % 1000 == 0:
+                print(f"{line_count} lines processed")
     
     print("Transformation complete. Output saved to", output_file)
 

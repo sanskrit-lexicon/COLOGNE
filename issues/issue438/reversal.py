@@ -11,6 +11,7 @@ def reverse_transform_ls_tags(line):
     3. If an <ls> tag has an id attribute and its inner text contains other characters,
        then remove all attributes but keep the <ls> tag.
     4. If multiple <ls> tags originated from a single tag, merge them back into one.
+    5. Fix erroneous space before periods inside <ls> tags.
     """
 
     def process_match(match):
@@ -31,13 +32,11 @@ def reverse_transform_ls_tags(line):
     # Step 1: Remove attributes where needed
     pattern = re.compile(r'<ls(?P<attrs>\s[^>]*)?>(?P<content>.*?)</ls>', re.DOTALL)
     line = pattern.sub(process_match, line)
-    print(line)
 
     # Step 2: Merge number fragments back into a single <ls> tag
     line = re.sub(r'(<ls>([^<]+)</ls>)\s+([\d,\.]+)', r'<ls>\2 \3</ls>', line)
     while re.search(r'(<ls>([^<]+)</ls>)\s+([\d,\.]+)', line):  # Ensure all segments merge properly
         line = re.sub(r'(<ls>([^<]+)</ls>)\s+([\d,\.]+)', r'<ls>\2 \3</ls>', line)
-    print(line)
 
     # Step 3: Correct handling of commas that succeed letters and precede numbers, but only within <ls> tags
     def fix_commas_within_ls(match):
@@ -46,15 +45,12 @@ def reverse_transform_ls_tags(line):
         return f"<ls>{fixed_text}</ls>"
     
     line = re.sub(r'<ls>(.*?)</ls>', fix_commas_within_ls, line)
-    print(line)
 
     # Step 4: Fix erroneous removals where <ls> tags should be preserved
     line = re.sub(r'(?<!\S)(\d{1,3}(?:,\d{1,3})*\.\d{1,3})(?!\S)', r'<ls>\1</ls>', line)
-    print(line)
 
-    # Step 5: Fix erroneous space before period inside <ls> tag.
+    # Step 5: Fix erroneous space before period inside <ls> tags.
     line = re.sub(r'<ls>([^<]+) [.]([^<]*)</ls>', r'<ls>\1.\2</ls>', line)
-    print(line)
 
     return line
 
@@ -75,4 +71,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

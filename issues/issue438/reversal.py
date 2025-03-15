@@ -32,10 +32,11 @@ def reverse_transform_ls_tags(line):
     pattern = re.compile(r'<ls(?P<attrs>\s[^>]*)?>(?P<content>.*?)</ls>', re.DOTALL)
     line = pattern.sub(process_match, line)
 
-    # Step 2: Merge number fragments back into a single <ls> tag
-    line = re.sub(r'(<ls>([^<]+)</ls>)\s+([\d,\.]+)', r'<ls>\2 \3</ls>', line)
-    while re.search(r'(<ls>([^<]+)</ls>)\s+([\d,\.]+)', line):  # Ensure all segments merge properly
-        line = re.sub(r'(<ls>([^<]+)</ls>)\s+([\d,\.]+)', r'<ls>\2 \3</ls>', line)
+    # Step 2: Merge number fragments back into a single <ls> tag, ensuring only standalone numbers are merged
+    line = re.sub(r'(<ls>([^<]+?)</ls>)\s+(\d+(?:,\d+|\.\d+)*\.?)(?!\w)', r'<ls>\2 \3</ls>', line)
+
+    while re.search(r'(<ls>([^<]+?)</ls>)\s+(\d+(?:,\d+|\.\d+)*\.?)(?!\w)', line):
+        line = re.sub(r'(<ls>([^<]+?)</ls>)\s+(\d+(?:,\d+|\.\d+)*\.?)(?!\w)', r'<ls>\2 \3</ls>', line)
 
     # Step 3: Correct handling of commas that succeed letters and precede numbers, but only within <ls> tags
     def fix_commas_within_ls(match):
@@ -44,7 +45,7 @@ def reverse_transform_ls_tags(line):
         return f"<ls>{fixed_text}</ls>"
     
     line = re.sub(r'<ls>(.*?)</ls>', fix_commas_within_ls, line)
-    
+
     return line
 
 def main():

@@ -9,84 +9,26 @@ def reverse_transform_ls_tags(line):
     2. If an <ls> tag has an id attribute and its inner text is only digits, commas, periods (and whitespace),
        then remove the <ls> tag entirely and output just the inner text.
     3. If an <ls> tag has an id attribute and its inner text contains other characters,
-       then remove all attributes but keep the tag (i.e. output <ls>inner text</ls>).
-    
-    Additionally, consecutive transformed <ls> tags (with id attribute) that are separated only by whitespace
-    are merged into a single <ls>…</ls> group while preserving proper spacing.
+       then remove all attributes but keep the <ls> tag.
     """
-    output = []
-    last_end = 0
-    active_group = None  # Stores {'text': "...", 'group_n': "..."}
-    trailing_space = ""
+    def process_match(match):
+        tag_content = match.group("content").strip()
+        attrs = match.group("attrs") or ""  # Handle cases where attrs might be None
 
-    # Regex pattern to match any <ls ...>...</ls> (non-greedy)
-    pattern = re.compile(r'(\s*)<ls(?P<attrs>[^>]*)>(?P<content>.*?)</ls>(\s*)', re.DOTALL)
-
-    for m in pattern.finditer(line):
-        leading_space = m.group(1)  # Space before <ls>
-        full_tag = m.group(0)
-        attrs = m.group("attrs")
-        content = m.group("content").strip()
-        trailing_space = m.group(4)  # Space after </ls>
-
-        # Append literal text between the previous match and this one.
-        literal = line[last_end:m.start()]
-        if literal:
-            if active_group:
-                output.append(f"<ls>{active_group['text']}</ls>")
-                active_group = None
-            output.append(literal)
-
-        # If the tag does not have an id attribute, preserve it exactly.
+        # If the tag does not have an id attribute, preserve it as it is
         if 'id="' not in attrs:
-            if active_group:
-                output.append(f"<ls>{active_group['text']}</ls>")
-                active_group = None
-            output.append(leading_space + full_tag + trailing_space)
-        else:
-            # Extract n attribute if present
-            n_match = re.search(r'n="([^"]+)"', attrs)
-            group_n = n_match.group(1) if n_match else None
+            return f"<ls{attrs}>{tag_content}</ls>"
 
-            # Determine rule: if content is only digits, commas, periods (and whitespace)
-            if re.fullmatch(r"[0-9,.\s]+", content):
-                group_type = "continuation"
-                processed_piece = content
-            else:
-                group_type = "starter"
-                processed_piece = content
+        # If content is ONLY numbers, commas, or periods, remove the <ls> tag completely
+        if re.fullmatch(r"[0-9,.\s]+", tag_content):
+            return tag_content
 
-            # Merging logic:
-            if active_group:
-                if group_type == "starter":
-                    output.append(f"<ls>{active_group['text']}</ls>")
-                    active_group = {"text": processed_piece, "group_n": group_n}
-                else:
-                    if active_group["group_n"] == group_n:
-                        active_group["text"] += " " + processed_piece
-                    else:
-                        output.append(f"<ls>{active_group['text']}</ls>")
-                        active_group = {"text": processed_piece, "group_n": group_n}
-            else:
-                if group_type == "starter":
-                    active_group = {"text": processed_piece, "group_n": group_n}
-                else:
-                    output.append(leading_space + processed_piece + trailing_space)
+        # Otherwise, keep <ls> but remove attributes
+        return f"<ls>{tag_content}</ls>"
 
-        last_end = m.end()
-
-    # Append any remaining literal text after the last match
-    literal = line[last_end:]
-    if literal:
-        if active_group:
-            output.append(f"<ls>{active_group['text']}</ls>")
-            active_group = None
-        output.append(literal)
-    elif active_group:
-        output.append(f"<ls>{active_group['text']}</ls>")
-        active_group = None
-
-    return "".join(output)
+    # Updated regex to correctly capture <ls> tags and their attributes
+    pattern = re.compile(r'<ls(?P<attrs>\s[^>]*)?>(?P<content>.*?)</ls>', re.DOTALL)
+    return pattern.sub(process_match, line)
 
 def main():
     if len(sys.argv) < 3:

@@ -37,8 +37,13 @@ def reverse_transform_ls_tags(line):
     while re.search(r'(<ls>([^<]+)</ls>)\s+([\d,\.]+)', line):  # Ensure all segments merge properly
         line = re.sub(r'(<ls>([^<]+)</ls>)\s+([\d,\.]+)', r'<ls>\2 \3</ls>', line)
 
-    # Step 3: Correct handling of commas that succeed letters and precede numbers
-    line = re.sub(r'([a-zA-Z])\s*,\s*([0-9])', r'\1,\2', line)
+    # Step 3: Correct handling of commas that succeed letters and precede numbers, but only within <ls> tags
+    def fix_commas_within_ls(match):
+        inner_text = match.group(1)
+        fixed_text = re.sub(r'([a-zA-Z])\s*,\s*([0-9])', r'\1,\2', inner_text)
+        return f"<ls>{fixed_text}</ls>"
+    
+    line = re.sub(r'<ls>(.*?)</ls>', fix_commas_within_ls, line)
     
     return line
 

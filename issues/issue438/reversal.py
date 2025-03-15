@@ -41,7 +41,7 @@ def main():
     with open(transformed_file, 'r', encoding='utf-8') as fin, open(reversed_output_file, 'w', encoding='utf-8') as fout:
         for line in fin:
             reversed_line = reverse_transform_ls_tags(line)
-            fout.write(reversed_line + "\n")
+            fout.write(reversed_line)  # <-- No extra newline added here
     
     print("Reversal complete. Output saved to", reversed_output_file)
 

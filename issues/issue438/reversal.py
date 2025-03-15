@@ -53,8 +53,8 @@ def reverse_transform_ls_tags(line):
     # Step 4: Correct cases where a number was inside <ls> in the transformed version but got removed
     line = re.sub(r'(?<!<ls>)(\b\d{1,3}(?:,\d{1,3})*\.\d{1,3}\b)(?!</ls>)', r'<ls>\1</ls>', line)
 
-    # Step 5: Ensure period inside <ls> does not get separated from the preceding word
-    line = re.sub(r'<ls>\s*([A-Za-z]+)\s+\.\s*(\d+.*?)</ls>', r'<ls>\1. \2</ls>', line)
+    # Step 5: Generalized fix - Attach periods to the preceding word inside <ls> (if separated by a space)
+    line = re.sub(r'<ls>\s*([^<]*?)\s+\.\s*</ls>', r'<ls>\1.</ls>', line)
 
     return line
 

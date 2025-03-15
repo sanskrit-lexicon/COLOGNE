@@ -48,6 +48,9 @@ def reverse_transform_ls_tags(line):
     # Step 4: Fix erroneous removals where <ls> tags should be preserved
     line = re.sub(r'(?<!\S)(\d{1,3}(?:,\d{1,3})*\.\d{1,3})(?!\S)', r'<ls>\1</ls>', line)
 
+    # Step 5: Fix erroneous space before period inside <ls> tag.
+    line = re.sub('<ls>([^<]+) [.]([^<]+)</ls>', r'<ls>\1.\2</ls>', line)
+
     return line
 
 def main():

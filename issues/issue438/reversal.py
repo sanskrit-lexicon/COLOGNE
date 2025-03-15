@@ -12,89 +12,81 @@ def reverse_transform_ls_tags(line):
        then remove all attributes but keep the tag (i.e. output <ls>inner text</ls>).
     
     Additionally, consecutive transformed <ls> tags (with id attribute) that are separated only by whitespace
-    are merged into a single <ls>…</ls> group.
+    are merged into a single <ls>…</ls> group while preserving proper spacing.
     """
-    output = ""
+    output = []
     last_end = 0
-    active_group = None  # If not None, a dict with keys: 'text' and 'group_n'
-    
-    # Pattern to match any <ls ...>...</ls> (non-greedy)
-    pattern = re.compile(r'<ls(?P<attrs>[^>]*)>(?P<content>.*?)</ls>', re.DOTALL)
-    
+    active_group = None  # Stores {'text': "...", 'group_n': "..."}
+    trailing_space = ""
+
+    # Regex pattern to match any <ls ...>...</ls> (non-greedy)
+    pattern = re.compile(r'(\s*)<ls(?P<attrs>[^>]*)>(?P<content>.*?)</ls>(\s*)', re.DOTALL)
+
     for m in pattern.finditer(line):
-        # Append literal text between the previous match and this one.
-        literal = line[last_end:m.start()]
-        if literal:
-            # If there is an active group and the literal is not just whitespace, flush the group.
-            if active_group is not None and not literal.isspace():
-                output += f"<ls>{active_group['text']}</ls>"
-                active_group = None
-            output += literal
-        
+        leading_space = m.group(1)  # Space before <ls>
         full_tag = m.group(0)
         attrs = m.group("attrs")
         content = m.group("content").strip()
-        
+        trailing_space = m.group(4)  # Space after </ls>
+
+        # Append literal text between the previous match and this one.
+        literal = line[last_end:m.start()]
+        if literal:
+            if active_group:
+                output.append(f"<ls>{active_group['text']}</ls>")
+                active_group = None
+            output.append(literal)
+
         # If the tag does not have an id attribute, preserve it exactly.
         if 'id="' not in attrs:
-            if active_group is not None:
-                output += f"<ls>{active_group['text']}</ls>"
+            if active_group:
+                output.append(f"<ls>{active_group['text']}</ls>")
                 active_group = None
-            output += full_tag
+            output.append(leading_space + full_tag + trailing_space)
         else:
-            # For tags with an id attribute, also try to capture the n attribute (if present)
+            # Extract n attribute if present
             n_match = re.search(r'n="([^"]+)"', attrs)
             group_n = n_match.group(1) if n_match else None
 
-            # Determine the rule: if content is only digits, commas, periods (and whitespace)
+            # Determine rule: if content is only digits, commas, periods (and whitespace)
             if re.fullmatch(r"[0-9,.\s]+", content):
-                # Rule 2: remove tag entirely; output just the inner text.
                 group_type = "continuation"
                 processed_piece = content
             else:
-                # Rule 3: remove attributes; keep tag and inner text.
                 group_type = "starter"
                 processed_piece = content
 
             # Merging logic:
-            if active_group is not None:
-                # We are in the middle of a merged group.
-                # If the current tag is a starter, then it always starts a new group.
+            if active_group:
                 if group_type == "starter":
-                    output += f"<ls>{active_group['text']}</ls>"
+                    output.append(f"<ls>{active_group['text']}</ls>")
                     active_group = {"text": processed_piece, "group_n": group_n}
-                else:  # continuation tag
-                    # If the group identifier (n attribute) matches, merge.
+                else:
                     if active_group["group_n"] == group_n:
                         active_group["text"] += " " + processed_piece
                     else:
-                        # Different group: flush the active group and output the current processed piece.
-                        output += f"<ls>{active_group['text']}</ls>"
-                        active_group = None
-                        output += processed_piece
+                        output.append(f"<ls>{active_group['text']}</ls>")
+                        active_group = {"text": processed_piece, "group_n": group_n}
             else:
-                # No active group currently.
                 if group_type == "starter":
                     active_group = {"text": processed_piece, "group_n": group_n}
                 else:
-                    # A continuation tag without a preceding starter: output plain text.
-                    output += processed_piece
-        
+                    output.append(leading_space + processed_piece + trailing_space)
+
         last_end = m.end()
-    
-    # Append any literal text after the last match.
+
+    # Append any remaining literal text after the last match
     literal = line[last_end:]
     if literal:
-        if active_group is not None and not literal.isspace():
-            output += f"<ls>{active_group['text']}</ls>"
+        if active_group:
+            output.append(f"<ls>{active_group['text']}</ls>")
             active_group = None
-        output += literal
-    else:
-        if active_group is not None:
-            output += f"<ls>{active_group['text']}</ls>"
-            active_group = None
-            
-    return output
+        output.append(literal)
+    elif active_group:
+        output.append(f"<ls>{active_group['text']}</ls>")
+        active_group = None
+
+    return "".join(output)
 
 def main():
     if len(sys.argv) < 3:
@@ -107,7 +99,7 @@ def main():
     with open(transformed_file, 'r', encoding='utf-8') as fin, open(reversed_output_file, 'w', encoding='utf-8') as fout:
         for line in fin:
             reversed_line = reverse_transform_ls_tags(line)
-            fout.write(reversed_line)
+            fout.write(reversed_line + "\n")
     
     print("Reversal complete. Output saved to", reversed_output_file)
 

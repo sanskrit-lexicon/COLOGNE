@@ -22,7 +22,7 @@ def transform_ls_tags(data, book_list):
     def replace_match(match):
         nonlocal last_book_name
         book_name = match.group(1)
-        print(f"Processing book: {book_name}")
+        #print(f"Processing book: {book_name}")
         numbers = match.group(2).split()
         
         expected_length, labels = book_formats[book_name]

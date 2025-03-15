@@ -33,28 +33,20 @@ def reverse_transform_ls_tags(line):
     line = pattern.sub(process_match, line)
 
     # Step 2: Merge number fragments back into a single <ls> tag
-    line = re.sub(r'(<ls>([^<]+)</ls>)\s+(\d+(?:,\d+|\.\d+)*\.?)(?!\w)', r'<ls>\2 \3</ls>', line)
+    line = re.sub(r'(<ls>([^<]+)</ls>)\s+([\d,\.]+)', r'<ls>\2 \3</ls>', line)
+    while re.search(r'(<ls>([^<]+)</ls>)\s+([\d,\.]+)', line):  # Ensure all segments merge properly
+        line = re.sub(r'(<ls>([^<]+)</ls>)\s+([\d,\.]+)', r'<ls>\2 \3</ls>', line)
 
-    while re.search(r'(<ls>([^<]+)</ls>)\s+(\d+(?:,\d+|\.\d+)*\.?)(?!\w)', line):
-        line = re.sub(r'(<ls>([^<]+)</ls>)\s+(\d+(?:,\d+|\.\d+)*\.?)(?!\w)', r'<ls>\2 \3</ls>', line)
+    # Step 3: Correct handling of commas that succeed letters and precede numbers, but only within <ls> tags
+    def fix_commas_within_ls(match):
+        inner_text = match.group(1)
+        fixed_text = re.sub(r'([a-zA-Z])\s*,\s*([0-9])', r'\1,\2', inner_text)
+        return f"<ls>{fixed_text}</ls>"
+    
+    line = re.sub(r'<ls>(.*?)</ls>', fix_commas_within_ls, line)
 
-    # Step 3: Ensure <ls> is preserved if it was present in the transformed version
-    def restore_ls_tags(match):
-        number_sequence = match.group(1)
-        return f"<ls>{number_sequence}</ls>"
-
-    # Avoid applying changes inside XML declarations, doctype, or tags like <meta>
-    if re.match(r'<\?xml|<!DOCTYPE|<meta', line.strip()):
-        return line  # Return as-is for XML metadata lines
-
-    # Instead of a look-behind, we now ensure we replace only standalone sequences
-    line = re.sub(r'(?<!\w)(\d{1,3}(?:,\d{1,3})*\.\d{1,3})(?!\w)', restore_ls_tags, line)
-
-    # Step 4: Correct cases where a number was inside <ls> in the transformed version but got removed
-    line = re.sub(r'(?<!<ls>)(\b\d{1,3}(?:,\d{1,3})*\.\d{1,3}\b)(?!</ls>)', r'<ls>\1</ls>', line)
-
-    # Step 5: Generalized fix - Attach periods to the preceding word inside <ls> (if separated by a space)
-    line = re.sub(r'<ls>\s*([^<]*?)\s+\.\s*</ls>', r'<ls>\1.</ls>', line)
+    # Step 4: Fix erroneous removals where <ls> tags should be preserved
+    line = re.sub(r'(?<!\S)(\d{1,3}(?:,\d{1,3})*\.\d{1,3})(?!\S)', r'<ls>\1</ls>', line)
 
     return line
 
@@ -75,3 +67,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

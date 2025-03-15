@@ -38,7 +38,7 @@ def reverse_transform_ls_tags(line):
     while re.search(r'(<ls>([^<]+)</ls>)\s+(\d+(?:,\d+|\.\d+)*\.?)(?!\w)', line):
         line = re.sub(r'(<ls>([^<]+)</ls>)\s+(\d+(?:,\d+|\.\d+)*\.?)(?!\w)', r'<ls>\2 \3</ls>', line)
 
-    # Step 3: Ensure that <ls> tags without attributes remain intact (Fix for '<ls>60,6.</ls>')
+    # Step 3: Ensure <ls> is preserved if it was present in the transformed version
     def restore_ls_tags(match):
         number_sequence = match.group(1)
         return f"<ls>{number_sequence}</ls>"
@@ -49,6 +49,9 @@ def reverse_transform_ls_tags(line):
 
     # Instead of a look-behind, we now ensure we replace only standalone sequences
     line = re.sub(r'(?<!\w)(\d{1,3}(?:,\d{1,3})*\.\d{1,3})(?!\w)', restore_ls_tags, line)
+
+    # Step 4: Correct cases where a number was inside <ls> in the transformed version but got removed
+    line = re.sub(r'(?<!<ls>)(\b\d{1,3}(?:,\d{1,3})*\.\d{1,3}\b)(?!</ls>)', r'<ls>\1</ls>', line)
 
     return line
 

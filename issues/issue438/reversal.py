@@ -1,6 +1,7 @@
 import re
 import sys
 
+debug = True
 def reverse_transform_ls_tags(line):
     """
     Reverse transforms a line according to the rules:
@@ -31,13 +32,15 @@ def reverse_transform_ls_tags(line):
     # Step 1: Remove attributes where needed
     pattern = re.compile(r'<ls(?P<attrs>\s[^>]*)?>(?P<content>.*?)</ls>', re.DOTALL)
     line = pattern.sub(process_match, line)
-    #print('Step1.', line)
+    if debug:
+        print('Step1.', line)
 
     # Step 2: Merge number fragments back into a single <ls> tag
     line = re.sub(r'(<ls>([^<]+)</ls>)\s+([\d,\.]+)', r'<ls>\2 \3</ls>', line)
     while re.search(r'(<ls>([^<]+)</ls>)\s+([\d,\.]+)', line):  # Ensure all segments merge properly
         line = re.sub(r'(<ls>([^<]+)</ls>)\s+([\d,\.]+)', r'<ls>\2 \3</ls>', line)
-    #print('Step2.', line)
+    if debug:
+        print('Step2.', line)
 
     # Step 3: Correct handling of commas that succeed letters and precede numbers, but only within <ls> tags
     def fix_commas_within_ls(match):
@@ -46,19 +49,23 @@ def reverse_transform_ls_tags(line):
         return f"<ls>{fixed_text}</ls>"
     
     line = re.sub(r'<ls>(.*?)</ls>', fix_commas_within_ls, line)
-    #print('Step3.', line)
+    if debug:
+        print('Step3.', line)
 
     # Step 4: Fix erroneous removals where <ls> tags should be preserved
     line = re.sub(r'(?<!\S)(\d{1,3}(?:,\d{1,3})*\.\d{1,3})(?!\S)', r'<ls>\1</ls>', line)
-    #print('Step4.', line)
+    if debug:
+        print('Step4.', line)
 
     # Step 5: Fix erroneous space before period inside <ls> tag
     line = re.sub(r'<ls>([^<]+) [.]([^<]*)</ls>', r'<ls>\1.\2</ls>', line)
-    #print('Step5.', line)
+    if debug:
+        print('Step5.', line)
 
     # Step 6: Ensure commas outside <ls> tags remain correctly placed
     line = re.sub(r'<ls>([^<]+),</ls>', r'<ls>\1</ls>,', line)
-    #print('Step6.', line)
+    if debug:
+        print('Step6.', line)
 
     return line
 

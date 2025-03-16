@@ -1,7 +1,7 @@
 import re
 import sys
 
-debug = True
+debug = False
 def reverse_transform_ls_tags(line):
     """
     Reverse transforms a line according to the rules:

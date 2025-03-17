@@ -1,16 +1,16 @@
 | L | Key1 | n | ID | yes/no |
 |---|------|---|----|-------|
-| 74715 | [takz](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=5-1458) | TS. | 5,6,8,6 |  |
-| 36142 | [Danv](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=3-0862) | ŚAT. BR. | 1,2,3,1 |  |
-| 115145 | [svayaMBoja](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=7-1439) | VP. | 7 |  |
-| 48188 | [pratigaritar](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=4-0950) | AIT. BR. | 7,18 |  |
-| 97972 | [SaMBu](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=7-0082) | VARĀH. BṚH. S. | 60,19 |  |
-| 51023 | [priyatA](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=4-1163) | MBH. | 13,1836 |  |
-| 91212 | [vicCedin](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=6-1016) | VARĀH. BṚH. S. | 28,15 |  |
-| 15026 | [kampana](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=2-0077) | RĀJA-TAR. | 5,446 |  |
-| 38345 | [nATavant](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=4-0102) | R. | 2,38,1 |  |
-| 44646 | [pAraMparIRa](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=4-0670) | VIVĀDAC. | 44,6 |  |
-| 17702 | [kuTa](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=2-0327) | TRIK. | 3,3,196 |  |
+| 74715 | [takz](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=5-1458) | TS. | 5,6,8,6 | y |
+| 36142 | [Danv](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=3-0862) | ŚAT. BR. | 1,2,3,1 | y |
+| 115145 | [svayaMBoja](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=7-1439) | VP. | 7 | y |
+| 48188 | [pratigaritar](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=4-0950) | AIT. BR. | 7,18 | y |
+| 97972 | [SaMBu](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=7-0082) | VARĀH. BṚH. S. | 60,19 | y |
+| 51023 | [priyatA](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=4-1163) | MBH. | 13,1836 | y |
+| 91212 | [vicCedin](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=6-1016) | VARĀH. BṚH. S. | 28,15 | y |
+| 15026 | [kampana](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=2-0077) | RĀJA-TAR. | 5,446 | y |
+| 38345 | [nATavant](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=4-0102) | R. | 2,38,1 | y |
+| 44646 | [pAraMparIRa](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=4-0670) | VIVĀDAC. | 44,6 | y |
+| 17702 | [kuTa](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=2-0327) | TRIK. | 3,3,196 | y |
 | 116549 | [has](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=7-1575) | BHĀG. P. | 10,66,37 |  |
 | 98267 | [SalaBa](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=7-0107) | ARJ. | 7,24 |  |
 | 73600 | [camatkfti](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=5-1411) | Spr. | 3753 |  |

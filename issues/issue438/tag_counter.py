@@ -4,7 +4,7 @@ import re
 
 
 # List of whitelisted `n` attribute values
-WHITELISTED_N_VALUES = {'HALL', 'WASSILJEW', 'VARARUCI', 'YAŚNA', 'HIOUEN-THSANG', 'CARAKA', 'VĀMANA'}
+WHITELISTED_N_VALUES = {'HALL', 'WASSILJEW', 'VARARUCI', 'YAŚNA', 'HIOUEN-THSANG', 'CARAKA', 'VĀMANA', 'WIND. Sancara', 'COWELL', 'WILSON, Sel. Works', 'KṚṢISAṂGRAHA', 'Vie de HIOUEN-THSANG', 'ŚIKṢĀ', 'KĀTANTRA', 'KĀLACAKRA'}
 
 def count_ls_tags(xml_file):
     """

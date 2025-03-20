@@ -7,8 +7,14 @@ def preprocess_ls_tags(content):
 
 def medini(ls_content):
     """Handles special ls tags transformation for MED. references."""
-    return re.sub(r'<ls>(MED\.)\s+(\S+)\.?(\s*\d+\.?)*</ls>',
-                  r'<ls n="\1" id="\2\3">\1 \2\3</ls>',
+    return re.sub(r'<ls>(MED\.)\s+(\S+)\.\s*(\d+)\.?<\/ls>',
+                  r'<ls n="\1" id="\2,\3">\1 \2. \3.</ls>',
+                  ls_content)
+
+def verzdoxf(ls_content):
+    """Handles special ls tags transformation for Verz. d. Oxf. H. references."""
+    return re.sub(r'<ls>(Verz\. d\. Oxf\. H\.)\s+([0-9]+,[ab],[0-9]+\.)<\/ls>',
+                  r'<ls n="\1" id="\2">\1 \2</ls>',
                   ls_content)
 
 if __name__ == "__main__":
@@ -19,7 +25,8 @@ if __name__ == "__main__":
         content = infile.read()
     
     content = preprocess_ls_tags(content)
-    transformed_content = medini(content)
+    content = medini(content)
+    transformed_content = verzdoxf(content)
     
     with open(output_file, "w", encoding="utf-8") as outfile:
         outfile.write(transformed_content)

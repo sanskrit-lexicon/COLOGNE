@@ -76,6 +76,14 @@ def transform_ls_tags(line, book_list):
     
     return line
 
+
+def adjust_fgg_fg_vl(line):
+    line = line.replace(' fgg.</ls>', '</ls> fgg.')
+    line = line.replace(' fg.</ls>', '</ls> fg.')
+    line = line.replace(' v. l.</ls>', '</ls> v. l.')
+    return line
+
+
 def main():
     if len(sys.argv) < 4:
         print("Usage: python script.py <input_file> <book_name.tsv> <output_file>")
@@ -90,6 +98,7 @@ def main():
     line_count = 0
     with open(input_file, 'r', encoding='utf-8') as f, open(output_file, 'w', encoding='utf-8') as out_f:
         for line in f:
+            line = adjust_fgg_fg_vl(line)
             transformed_line = transform_ls_tags(line, book_list)
             out_f.write(transformed_line)
             

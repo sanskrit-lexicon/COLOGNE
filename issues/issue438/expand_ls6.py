@@ -51,7 +51,8 @@ def transform_ls_tags(text, book_names):
 
         # Extract the reference part after the book name
         remaining_text = full_match[len(book_name):].strip()
-        references = re.findall(r'(\d+,\d+,[ab]|\d+,[ab]|[ab])', remaining_text)
+        references = re.findall(r'(\d+,[ab],\d+)', remaining_text)
+        print(book_name, references)
 
         # If no references are found, return the original tag
         if not references:

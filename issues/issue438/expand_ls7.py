@@ -5,7 +5,6 @@ import csv
 def load_book_names(book_file):
     """
     Load book names from a CSV file.
-
     :param book_file: Path to the CSV file containing book names.
     :return: A set of book names.
     """
@@ -20,19 +19,33 @@ def load_book_names(book_file):
         print(f"Warning: Book file '{book_file}' not found. Continuing without book names.")
     return book_names
 
+def roman_to_int(roman):
+    """
+    Convert a Roman numeral to an integer.
+    :param roman: Roman numeral as a string.
+    :return: Integer representation.
+    """
+    roman_numerals = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+    value, prev = 0, 0
+    for char in reversed(roman):
+        current = roman_numerals.get(char, 0)
+        if current < prev:
+            value -= current
+        else:
+            value += current
+        prev = current
+    return value
+
 def transform_ls_tags(text, book_names):
     """
-    Transform <ls> tags by splitting alphanumeric references.
-
+    Transform <ls> tags by handling Roman numerals in references.
     :param text: Input text containing <ls> tags.
     :param book_names: A set of known book names.
     :return: Transformed text.
     """
-
     def split_ls_match(match):
         """
         Process a single <ls> tag match and split references correctly.
-
         :param match: A regex match object.
         :return: Transformed <ls> tags or original tag if transformation is not possible.
         """
@@ -49,36 +62,18 @@ def transform_ls_tags(text, book_names):
         if not book_name:
             return match.group(0)
 
-        # Extract the reference part after the book name
+        # Extract the remaining text after the book name
         remaining_text = full_match[len(book_name):].strip()
-        references = re.findall(r'(\d+,\d+,[ab]|\d+,[ab]|[ab])', remaining_text)
 
-        # If no references are found, return the original tag
-        if not references:
+        # Match a Roman numeral followed by a comma and a number
+        ref_match = re.match(r'([IVXLCDM]+),(\d+)', remaining_text)
+        if not ref_match:
             return match.group(0)
 
-        last_full_ref = None
-        transformed_ls_tags = []
+        roman_part, numeric_part = ref_match.groups()
+        numeric_id = f"{roman_to_int(roman_part)},{numeric_part}"
 
-        for ref in references:
-            parts = ref.split(',')
-
-            if len(parts) == 3:
-                last_full_ref = ref
-            elif len(parts) == 2:
-                if last_full_ref:
-                    last_full_ref = f"{last_full_ref.split(',')[0]},{ref}"
-                else:
-                    return match.group(0)  # If missing reference, return original tag
-            elif len(parts) == 1:
-                if last_full_ref:
-                    last_full_ref = f"{last_full_ref.rsplit(',', 1)[0]},{ref}"
-                else:
-                    return match.group(0)  # If missing reference, return original tag
-
-            transformed_ls_tags.append(f'<ls n="{book_name}" id="{last_full_ref}">{last_full_ref}.</ls>')
-
-        return f'<ls n="{book_name}" id="{references[0]}">{book_name} {references[0]}.</ls> ' + " ".join(transformed_ls_tags[1:])
+        return f'<ls n="{book_name}" id="{numeric_id}">{full_match}</ls>'
 
     # Apply transformation to all <ls> tags
     return re.sub(r'<ls>(.*?)</ls>', split_ls_match, text)

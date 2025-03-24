@@ -14,14 +14,11 @@
                     .alt-spelling { font-size: 18px; color: #555; }
                     .definition { margin-left: 20px; font-size: 16px; }
                     .sanskrit { font-family: 'Devanagari', serif; color: darkred; display: inline; }
-                    .citation { font-family: monospace; color: #0066cc; display: inline; margin-left: 5px; }
-                    .source { font-size: 14px; color: #777; }
+                    .ls-reference { font-family: 'Times New Roman', serif; color: lightgray; display: inline; }
                     .indent-1 { margin-left: 20px; }
                     .indent-2 { margin-left: 40px; }
                     .indent-4 { margin-left: 80px; }
                     br { display: none; }
-                    .times-new-roman { font-family: 'Times New Roman', serif; color: lightgray; }
-                    .ls-reference { font-family: 'Times New Roman', serif; color: lightgray; display: inline; }
                 </style>
             </head>
             <body>
@@ -61,9 +58,16 @@
             <span class="sanskrit">
                 <xsl:value-of select="."/>
             </span>
+            <xsl:apply-templates select="following-sibling::ls[not(preceding-sibling::s)]"/>
         </div>
     </xsl:template>
-    
+
+    <xsl:template match="ls">
+        <span class="ls-reference">
+            [<xsl:value-of select="@n"/> <xsl:value-of select="@id"/>]
+        </span>
+    </xsl:template>
+
     <xsl:template match="div">
         <xsl:variable name="class">
             <xsl:choose>
@@ -75,11 +79,5 @@
         <div class="{$class}">
             <xsl:apply-templates/>
         </div>
-    </xsl:template>
-    
-    <xsl:template match="ls">
-        <span class="ls-reference">
-            [<xsl:value-of select="@n"/> <xsl:value-of select="@id"/>]
-        </span>
     </xsl:template>
 </xsl:stylesheet>

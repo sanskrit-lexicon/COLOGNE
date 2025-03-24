@@ -20,6 +20,7 @@
                     .indent-2 { margin-left: 40px; }
                     .indent-4 { margin-left: 80px; }
                     br { display: none; }
+                    .times-new-roman { font-family: 'Times New Roman', serif; color: lightgray; }
                 </style>
             </head>
             <body>
@@ -54,10 +55,20 @@
                 <xsl:value-of select="."/>
             </span>
             <xsl:for-each select="following-sibling::ls">
-                <span class="citation">
-                    <xsl:value-of select="@n"/> - <xsl:value-of select="@id"/>
+                <span class="times-new-roman">
+                    [<xsl:value-of select="@n"/> <xsl:value-of select="@id"/>]
                 </span>
+                <xsl:if test="position() != last()">; </xsl:if>
             </xsl:for-each>
+            <xsl:if test="following-sibling::tail/L or following-sibling::tail/pc">
+                <br/>
+                <xsl:if test="following-sibling::tail/L">
+                    <span class="times-new-roman">[L=<xsl:value-of select="following-sibling::tail/L"/>]</span>
+                </xsl:if>
+                <xsl:if test="following-sibling::tail/pc">
+                    <span class="times-new-roman"> [page=<xsl:value-of select="following-sibling::tail/pc"/>]</span>
+                </xsl:if>
+            </xsl:if>
         </div>
     </xsl:template>
     

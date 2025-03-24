@@ -83,6 +83,21 @@ def adjust_fgg_fg_vl(line):
     line = line.replace(' v. l.</ls>', '</ls> v. l.')
     return line
 
+def bring_breakers_out(text, separators=None):
+    if separators is None:
+        separators = ['fgg.', 'fg.', 'v. l.']  # Default separators
+
+    # Join separators into a regex pattern
+    sep_pattern = '|'.join(map(re.escape, separators))
+
+    # Regex to match the <ls> tag and split around the separator
+    pattern = rf'(<ls>)([^\d<>]+) ([\d,\. ]+?)\s*({sep_pattern})\s*([\d,\. ]+)(</ls>)'
+
+    # Replacement pattern to restructure the <ls> tags
+    replacement = r'\1\2\3</ls> \4 <ls n="\2">\5\6'
+
+    # Apply the transformation
+    return re.sub(pattern, replacement, text)
 
 def main():
     if len(sys.argv) < 4:
@@ -99,6 +114,7 @@ def main():
     with open(input_file, 'r', encoding='utf-8') as f, open(output_file, 'w', encoding='utf-8') as out_f:
         for line in f:
             line = adjust_fgg_fg_vl(line)
+            line = bring_breakers_out(line)
             transformed_line = transform_ls_tags(line, book_list)
             out_f.write(transformed_line)
             

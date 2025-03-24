@@ -18,6 +18,7 @@
                     .source { font-size: 14px; color: #777; }
                     .indent-1 { margin-left: 20px; }
                     .indent-2 { margin-left: 40px; }
+                    .indent-4 { margin-left: 80px; }
                     br { display: none; }
                 </style>
             </head>
@@ -48,16 +49,19 @@
     
     <xsl:template match="s">
         <br/>
-        <span class="sanskrit">
-            <xsl:value-of select="."/>
-        </span>
+        <div class="indent-4">
+            <span class="sanskrit">
+                <xsl:value-of select="."/>
+            </span>
+            <xsl:for-each select="following-sibling::ls">
+                <span class="citation">
+                    <xsl:value-of select="@n"/> - <xsl:value-of select="@id"/>
+                </span>
+            </xsl:for-each>
+        </div>
     </xsl:template>
     
-    <xsl:template match="ls">
-        <span class="citation">
-            <xsl:value-of select="@n"/> - <xsl:value-of select="@id"/>
-        </span>
-    </xsl:template>
+    <xsl:template match="ls"/>
     
     <xsl:template match="div">
         <xsl:variable name="class">

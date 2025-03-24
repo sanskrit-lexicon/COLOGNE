@@ -77,6 +77,6 @@
     </xsl:template>
     
     <xsl:template match="ls">
-        <span class="ls-reference">[<xsl:value-of select="@n"/> <xsl:value-of select="@id"/>]</span>
+        <span class="ls-reference">[<xsl:value-of select="@n"/> <xsl:text> </xsl:text><xsl:value-of select="@id"/>]</span>
     </xsl:template>
 </xsl:stylesheet>

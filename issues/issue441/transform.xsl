@@ -5,6 +5,7 @@
     <xsl:template match="/pwg">
         <html>
             <head>
+                <meta charset="UTF-8"/>
                 <title>Sanskrit Dictionary</title>
                 <style>
                     body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; }
@@ -12,9 +13,12 @@
                     .headword { font-size: 24px; font-weight: bold; color: #333; }
                     .alt-spelling { font-size: 18px; color: #555; }
                     .definition { margin-left: 20px; font-size: 16px; }
-                    .sanskrit { font-family: 'Devanagari', serif; color: darkred; }
-                    .citation { font-style: italic; color: #0066cc; }
+                    .sanskrit { font-family: 'Devanagari', serif; color: darkred; display: inline; }
+                    .citation { font-family: monospace; color: #0066cc; display: inline; margin-left: 5px; }
                     .source { font-size: 14px; color: #777; }
+                    .indent-1 { margin-left: 20px; }
+                    .indent-2 { margin-left: 40px; }
+                    br { display: none; }
                 </style>
             </head>
             <body>
@@ -43,14 +47,28 @@
     </xsl:template>
     
     <xsl:template match="s">
-        <div class="sanskrit">
+        <br/>
+        <span class="sanskrit">
             <xsl:value-of select="."/>
-        </div>
+        </span>
     </xsl:template>
     
     <xsl:template match="ls">
         <span class="citation">
             <xsl:value-of select="@n"/> - <xsl:value-of select="@id"/>
         </span>
+    </xsl:template>
+    
+    <xsl:template match="div">
+        <xsl:variable name="class">
+            <xsl:choose>
+                <xsl:when test="@n='1'">indent-1</xsl:when>
+                <xsl:when test="@n='2'">indent-2</xsl:when>
+                <xsl:otherwise></xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <div class="{$class}">
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
 </xsl:stylesheet>

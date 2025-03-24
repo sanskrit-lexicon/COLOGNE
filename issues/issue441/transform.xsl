@@ -77,6 +77,19 @@
     </xsl:template>
     
     <xsl:template match="ls">
-        <span class="ls-reference">[<xsl:value-of select="@n"/> <xsl:text> </xsl:text><xsl:value-of select="@id"/>]</span>
+        <span class="ls-reference">
+            <xsl:text>[</xsl:text>
+            <xsl:choose>
+                <xsl:when test="@n and @id">
+                    <xsl:value-of select="@n"/>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="@id"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="."/>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:text>]</xsl:text>
+        </span>
     </xsl:template>
 </xsl:stylesheet>

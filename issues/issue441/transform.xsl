@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" indent="yes"/>
+    <xsl:variable name="absData" select="document('abs.xml')"/>
     
     <xsl:template match="/pwg">
         <html>
@@ -77,19 +78,26 @@
     </xsl:template>
     
     <xsl:template match="ls">
-        <span class="ls-reference">
-            <xsl:text>[</xsl:text>
-            <xsl:choose>
-                <xsl:when test="@n and @id">
-                    <xsl:value-of select="@n"/>
-                    <xsl:text> </xsl:text>
-                    <xsl:value-of select="@id"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="."/>
-                </xsl:otherwise>
-            </xsl:choose>
-            <xsl:text>]</xsl:text>
-        </span>
+        <xsl:variable name="source" select="@n"/>
+        <xsl:variable name="id" select="@id"/>
+        <xsl:variable name="link" select="$absData/abs/lss[ss=$source]/link"/>
+        
+        <xsl:choose>
+            <!-- If a corresponding entry exists in abs.xml -->
+            <xsl:when test="$link and $id">
+                <a href="https://sanskrit-lexicon-scans.github.io/{$link}/?{$id}">
+                    [<xsl:value-of select="$source"/> <xsl:value-of select="$id"/>]
+                </a>
+            </xsl:when>
+            <!-- If no matching entry in abs.xml, fallback to standard formatting -->
+            <xsl:when test="@n and @id">
+                <span class="ls-reference">[<xsl:value-of select="@n"/> <xsl:value-of select="@id"/>]</span>
+            </xsl:when>
+            <!-- If neither @n nor @id exist, just show the text inside ls -->
+            <xsl:otherwise>
+                <span class="ls-reference">[<xsl:value-of select="."/>]</span>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
+
 </xsl:stylesheet>

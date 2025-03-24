@@ -21,6 +21,7 @@
                     .indent-4 { margin-left: 80px; }
                     br { display: none; }
                     .times-new-roman { font-family: 'Times New Roman', serif; color: lightgray; }
+                    .ls-reference { font-family: 'Times New Roman', serif; color: lightgray; display: inline; }
                 </style>
             </head>
             <body>
@@ -41,6 +42,12 @@
             <div class="definition">
                 <xsl:apply-templates select="body"/>
             </div>
+            <div class="L">
+                <xsl:value-of select="tail/L"/>
+            </div>
+            <div class="pc">
+                <xsl:value-of select="tail/pc"/>
+            </div>
         </div>
     </xsl:template>
     
@@ -54,25 +61,8 @@
             <span class="sanskrit">
                 <xsl:value-of select="."/>
             </span>
-            <xsl:for-each select="following-sibling::ls">
-                <span class="times-new-roman">
-                    [<xsl:value-of select="@n"/> <xsl:value-of select="@id"/>]
-                </span>
-                <xsl:if test="position() != last()">; </xsl:if>
-            </xsl:for-each>
-            <xsl:if test="following-sibling::tail/L or following-sibling::tail/pc">
-                <br/>
-                <xsl:if test="following-sibling::tail/L">
-                    <span class="times-new-roman">[L=<xsl:value-of select="following-sibling::tail/L"/>]</span>
-                </xsl:if>
-                <xsl:if test="following-sibling::tail/pc">
-                    <span class="times-new-roman"> [page=<xsl:value-of select="following-sibling::tail/pc"/>]</span>
-                </xsl:if>
-            </xsl:if>
         </div>
     </xsl:template>
-    
-    <xsl:template match="ls"/>
     
     <xsl:template match="div">
         <xsl:variable name="class">
@@ -85,5 +75,11 @@
         <div class="{$class}">
             <xsl:apply-templates/>
         </div>
+    </xsl:template>
+    
+    <xsl:template match="ls">
+        <span class="ls-reference">
+            [<xsl:value-of select="@n"/> <xsl:value-of select="@id"/>]
+        </span>
     </xsl:template>
 </xsl:stylesheet>

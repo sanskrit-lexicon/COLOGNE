@@ -13,6 +13,7 @@
                     .entry { margin-bottom: 20px; padding: 15px; background: white; border-radius: 8px; box-shadow: 2px 2px 5px gray; }
                     .headword { font-size: 24px; font-weight: bold; color: #333; }
                     .alt-spelling { font-size: 18px; color: #555; }
+                    .metadata { font-size: 14px; color: #777; margin-top: 5px; }
                     .definition { margin-left: 20px; font-size: 16px; }
                     .sanskrit { font-family: 'Devanagari', serif; color: darkred; display: inline; }
                     .citation { font-family: monospace; color: #0066cc; display: inline; margin-left: 5px; }
@@ -38,14 +39,15 @@
             <div class="alt-spelling">
                 <xsl:value-of select="h/key2"/>
             </div>
+            <div class="metadata">
+                <xsl:text>L=</xsl:text><xsl:value-of select="tail/L"/> | 
+                <xsl:text>page=</xsl:text>
+                <a href="https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&amp;page={tail/pc}" target="_blank">
+                    <xsl:value-of select="tail/pc"/>
+                </a>
+            </div>
             <div class="definition">
                 <xsl:apply-templates select="body"/>
-            </div>
-            <div class="L">
-                <xsl:value-of select="tail/L"/>
-            </div>
-            <div class="pc">
-                <xsl:value-of select="tail/pc"/>
             </div>
         </div>
     </xsl:template>

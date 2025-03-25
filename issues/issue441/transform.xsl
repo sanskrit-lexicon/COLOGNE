@@ -63,7 +63,7 @@
             <xsl:apply-templates select="following-sibling::ls[not(preceding-sibling::s)]"/>
         </div>
     </xsl:template>
-    
+
     <xsl:template match="div">
         <xsl:variable name="class">
             <xsl:choose>
@@ -74,24 +74,28 @@
         </xsl:variable>
         <div class="{$class}">
             <xsl:apply-templates/>
+            <xsl:apply-templates select="ls"/>
         </div>
     </xsl:template>
     
     <xsl:template match="ls">
         <xsl:variable name="source" select="@n"/>
         <xsl:variable name="id" select="@id"/>
-        <xsl:variable name="link" select="$absData/abs/lss[ss=$source]/link"/>
+        <xsl:variable name="formatted-id">
+            <xsl:value-of select="normalize-space(translate($id, ' ', ''))"/>
+        </xsl:variable>
+        <xsl:variable name="link" select="$absData/abs/lsd[ss=$source]/link"/>
         
         <xsl:choose>
             <!-- If a corresponding entry exists in abs.xml -->
             <xsl:when test="$link and $id">
-                <a href="https://sanskrit-lexicon-scans.github.io/{$link}/?{$id}">
-                    [<xsl:value-of select="$source"/> <xsl:value-of select="$id"/>]
+                <a href="{$link}?{$formatted-id}" class="ls-reference" target="_blank">
+                    [<xsl:value-of select="$source"/> <xsl:text> </xsl:text><xsl:value-of select="$formatted-id"/>]
                 </a>
             </xsl:when>
             <!-- If no matching entry in abs.xml, fallback to standard formatting -->
             <xsl:when test="@n and @id">
-                <span class="ls-reference">[<xsl:value-of select="@n"/> <xsl:value-of select="@id"/>]</span>
+                <span class="ls-reference">[<xsl:value-of select="@n"/> <xsl:text> </xsl:text><xsl:value-of select="$formatted-id"/>]</span>
             </xsl:when>
             <!-- If neither @n nor @id exist, just show the text inside ls -->
             <xsl:otherwise>

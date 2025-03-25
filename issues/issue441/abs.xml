@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <abs>
-<lss><ss>H.</ss><link>abch2/app1</link></lss>
-<lss><ss>MED.</ss><link>medini/app1</link></lss>
+<lsd><ss>H.</ss><link>https://sanskrit-lexicon-scans.github.io/abch2/app1/</link></lsd>
+<lsd><ss>MED.</ss><link>https://sanskrit-lexicon-scans.github.io/medini/app1/</link></lsd>
+<lsd><ss>TRIK.</ss><link>https://sanskrit-lexicon-scans.github.io/medini/app2/</link></lsd>
+<lsd><ss>HĀR.</ss><link>https://sanskrit-lexicon-scans.github.io/medini/app3/</link></lsd>
+<lsd><ss>M.</ss><link>https://sanskrit-lexicon-scans.github.io/manu/index.html</link></lsd>
+
 </abs>

@@ -60,6 +60,7 @@
             <span class="sanskrit">
                 <xsl:value-of select="."/>
             </span>
+            <!-- Apply only the first consecutive <ls> elements directly after <s> -->
             <xsl:apply-templates select="following-sibling::ls[not(preceding-sibling::s)]"/>
         </div>
     </xsl:template>
@@ -74,7 +75,6 @@
         </xsl:variable>
         <div class="{$class}">
             <xsl:apply-templates/>
-            <xsl:apply-templates select="ls"/>
         </div>
     </xsl:template>
     

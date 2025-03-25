@@ -15,6 +15,8 @@ def edge_cases(text):
 	text = re.sub(r'<ls>WILSON, SĀṂKHYAK\. S\. (\d+)\.</ls>', r'<ls n="WILSON, SĀṂKHYAK. S." id="\1">WILSON, SĀṂKHYAK. S. \1.</ls>', text)
 	# <ls n="AK." id="1,1,1,48.">AK. 1,1,1,48.</ls>
 	text = re.sub(r'<ls n="([^"]+)" id=([^>]+)[.]">', r'<ls n="\1" id=\2">', text)
+	# <ls n="M. 6," id="38">38.</ls>
+	text = re.sub(r'<ls n="([^,\d]+) ([\d,]+)," id="([\d,.]+)">', r'<ls n="\1" id="\2,\3">', text)
 	return text
 
 

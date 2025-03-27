@@ -1,61 +1,69 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Create search boxes dynamically
+    // Create search & transliteration UI
     const searchContainer = document.createElement("div");
-    searchContainer.style.marginBottom = "10px";
+    searchContainer.style.position = "sticky";
+    searchContainer.style.top = "0";
+    searchContainer.style.backgroundColor = "white";
+    searchContainer.style.padding = "10px";
+    searchContainer.style.zIndex = "1000";
+    searchContainer.style.borderBottom = "1px solid #ccc";
+    searchContainer.style.display = "flex";
+    searchContainer.style.alignItems = "center";
+    searchContainer.style.gap = "10px";
 
     // Create transliteration dropdown
     const translitSelect = document.createElement("select");
     translitSelect.setAttribute("id", "translitSelect");
-    translitSelect.style.marginRight = "10px";
 
-    // Define available transliteration schemes
     const schemes = [
         "slp1", "devanagari", "bengali", "gujarati", "gurmukhi", "kannada",
         "malayalam", "oriya", "tamil", "telugu", "hk", "iast",
         "itrans", "kolkata", "velthuis", "wx"
     ];
 
-    // Populate dropdown with scheme options
     schemes.forEach(scheme => {
         const option = document.createElement("option");
         option.value = scheme;
         option.textContent = scheme.charAt(0).toUpperCase() + scheme.slice(1);
         translitSelect.appendChild(option);
     });
-    translitSelect.value = "slp1"; // Set default scheme to SLP1
+    translitSelect.value = "slp1"; // Default scheme
 
+    // Create search inputs and buttons
     const searchHeadword = document.createElement("input");
     searchHeadword.setAttribute("type", "text");
-    searchHeadword.setAttribute("placeholder", "Search in Headword (supports regex) (Case Sensitive)...");
+    searchHeadword.setAttribute("placeholder", "Search in Headword...");
     searchHeadword.setAttribute("id", "searchHeadword");
-    searchHeadword.style.marginRight = "10px";
+
+    const nextHeadwordBtn = document.createElement("button");
+    nextHeadwordBtn.textContent = "Next Match";
 
     const searchDefinition = document.createElement("input");
     searchDefinition.setAttribute("type", "text");
-    searchDefinition.setAttribute("placeholder", "Search in Definition (supports regex) (Case Sensitive)...");
+    searchDefinition.setAttribute("placeholder", "Search in Definition...");
     searchDefinition.setAttribute("id", "searchDefinition");
 
+    const nextDefinitionBtn = document.createElement("button");
+    nextDefinitionBtn.textContent = "Next Match";
+
+    // Add elements to search container
     searchContainer.appendChild(translitSelect);
     searchContainer.appendChild(searchHeadword);
+    searchContainer.appendChild(nextHeadwordBtn);
     searchContainer.appendChild(searchDefinition);
+    searchContainer.appendChild(nextDefinitionBtn);
     document.body.insertBefore(searchContainer, document.body.firstChild);
 
+    // Apply transliteration to Sanskrit, Headword, and Alt-Spelling
     function applyTransliteration() {
         let selectedScheme = translitSelect.value;
-        let elementsToTransliterate = document.querySelectorAll(".headword, .alt-spelling, .sanskrit");
-
-        elementsToTransliterate.forEach(element => {
-            let originalText = element.getAttribute("data-original");
-            if (!originalText) {
-                originalText = element.textContent;
-                element.setAttribute("data-original", originalText);
-            }
-            element.textContent = Sanscript.t(originalText, "slp1", selectedScheme);
+        document.querySelectorAll(".sanskrit, .headword, .alt-spelling").forEach(element => {
+            element.textContent = Sanscript.t(element.getAttribute("data-original"), "slp1", selectedScheme);
         });
     }
 
-    // Store original text content for transliteration updates
-    document.querySelectorAll(".headword, .alt-spelling, .sanskrit").forEach(element => {
+    // Store original text for transliteration updates
+    document.querySelectorAll(".sanskrit, .headword, .alt-spelling").forEach(element => {
         element.setAttribute("data-original", element.textContent);
     });
 
@@ -63,20 +71,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function highlightText(element, searchText, color) {
         if (!element) return;
-
-        // Remove existing highlights first
         element.innerHTML = element.innerHTML.replace(/<span class="highlight-[a-z]+">|<\/span>/g, "");
 
-        if (!searchText) return; // Prevents lingering highlights when search box is cleared
+        if (!searchText) return;
 
         try {
-            let regex = new RegExp(searchText, "g"); // Case-sensitive regex
+            let regex = new RegExp(searchText, "g");
 
             function traverseNodes(node) {
                 if (node.nodeType === Node.TEXT_NODE) {
                     let parent = node.parentNode;
-                    let matches = node.nodeValue.match(regex);
-                    if (matches) {
+                    if (node.nodeValue.match(regex)) {
                         let temp = node.nodeValue.replace(regex, match => `<span class="highlight-${color}">${match}</span>`);
                         let tempElement = document.createElement("span");
                         tempElement.innerHTML = temp;
@@ -86,8 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     [...node.childNodes].forEach(traverseNodes);
                 }
             }
-
-            // Traverse and apply highlighting only on text nodes
             traverseNodes(element);
         } catch (e) {
             console.error("Invalid regex pattern:", e);
@@ -105,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
             let headwordMatch = !headwordText || (headword && new RegExp(headwordText).test(headword.textContent));
             let definitionMatch = !definitionText || (definition && new RegExp(definitionText).test(definition.textContent));
 
-            if (headwordMatch && definitionMatch) { // Apply AND condition
+            if (headwordMatch && definitionMatch) {
                 entry.style.display = "block";
                 if (headwordMatch && headword) highlightText(headword, headwordText, "cyan");
                 if (definitionMatch && definition) highlightText(definition, definitionText, "yellow");
@@ -113,16 +116,49 @@ document.addEventListener("DOMContentLoaded", function () {
                 entry.style.display = "none";
             }
         });
+
+        updateMatchLists();
     }
+
+    let headwordMatches = [];
+    let definitionMatches = [];
+    let currentHeadwordIndex = -1;
+    let currentDefinitionIndex = -1;
+
+    function updateMatchLists() {
+        headwordMatches = [...document.querySelectorAll(".highlight-cyan")];
+        definitionMatches = [...document.querySelectorAll(".highlight-yellow")];
+        currentHeadwordIndex = -1;
+        currentDefinitionIndex = -1;
+    }
+
+    function scrollToNextMatch(matches, currentIndex) {
+        if (matches.length === 0) return -1;
+
+        currentIndex = (currentIndex + 1) % matches.length; // Loop back to first match after the last match
+
+        let match = matches[currentIndex];
+        match.scrollIntoView({ behavior: "smooth", block: "center" });
+
+        return currentIndex;
+    }
+
+    nextHeadwordBtn.addEventListener("click", () => {
+        currentHeadwordIndex = scrollToNextMatch(headwordMatches, currentHeadwordIndex);
+    });
+
+    nextDefinitionBtn.addEventListener("click", () => {
+        currentDefinitionIndex = scrollToNextMatch(definitionMatches, currentDefinitionIndex);
+    });
 
     searchHeadword.addEventListener("input", filterEntries);
     searchDefinition.addEventListener("input", filterEntries);
 
-    // Add CSS for highlighting
     const style = document.createElement("style");
     style.innerHTML = `
         .highlight-cyan { background-color: cyan; font-weight: bold; }
         .highlight-yellow { background-color: yellow; font-weight: bold; }
+        body { padding-top: 60px; }
     `;
     document.head.appendChild(style);
 });

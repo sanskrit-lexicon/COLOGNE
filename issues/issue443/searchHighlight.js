@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const translitSelect = document.createElement("select");
     translitSelect.setAttribute("id", "translitSelect");
     translitSelect.style.marginRight = "10px";
-    
+
     // Define available transliteration schemes
     const schemes = [
         "slp1", "devanagari", "bengali", "gujarati", "gurmukhi", "kannada",
@@ -29,12 +29,12 @@ document.addEventListener("DOMContentLoaded", function () {
     searchHeadword.setAttribute("placeholder", "Search in Headword (supports regex) (Case Sensitive)...");
     searchHeadword.setAttribute("id", "searchHeadword");
     searchHeadword.style.marginRight = "10px";
-    
+
     const searchDefinition = document.createElement("input");
     searchDefinition.setAttribute("type", "text");
     searchDefinition.setAttribute("placeholder", "Search in Definition (supports regex) (Case Sensitive)...");
     searchDefinition.setAttribute("id", "searchDefinition");
-    
+
     searchContainer.appendChild(translitSelect);
     searchContainer.appendChild(searchHeadword);
     searchContainer.appendChild(searchDefinition);
@@ -42,14 +42,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function applyTransliteration() {
         let selectedScheme = translitSelect.value;
-        let sanskritElements = document.querySelectorAll(".sanskrit");
-        sanskritElements.forEach(element => {
-            element.textContent = Sanscript.t(element.getAttribute("data-original"), "slp1", selectedScheme);
+        let elementsToTransliterate = document.querySelectorAll(".headword, .alt-spelling, .sanskrit");
+
+        elementsToTransliterate.forEach(element => {
+            let originalText = element.getAttribute("data-original");
+            if (!originalText) {
+                originalText = element.textContent;
+                element.setAttribute("data-original", originalText);
+            }
+            element.textContent = Sanscript.t(originalText, "slp1", selectedScheme);
         });
     }
 
     // Store original text content for transliteration updates
-    document.querySelectorAll(".sanskrit").forEach(element => {
+    document.querySelectorAll(".headword, .alt-spelling, .sanskrit").forEach(element => {
         element.setAttribute("data-original", element.textContent);
     });
 
@@ -92,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let headwordText = searchHeadword.value.trim();
         let definitionText = searchDefinition.value.trim();
         let entries = document.querySelectorAll(".entry");
-        
+
         entries.forEach(entry => {
             let headword = entry.querySelector(".headword");
             let definition = entry.querySelector(".definition");

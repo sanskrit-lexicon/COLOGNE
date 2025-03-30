@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const schemes = [
         "slp1", "devanagari", "bengali", "gujarati", "gurmukhi", "kannada",
         "malayalam", "oriya", "tamil", "telugu", "hk", "iast",
-        "itrans", "kolkata", "velthuis", "wx"
+        "itrans", "kolkata", "velthuis", "wx", "slp1_accented"
     ];
 
     schemes.forEach(scheme => {
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
         option.textContent = scheme.charAt(0).toUpperCase() + scheme.slice(1);
         translitSelect.appendChild(option);
     });
-    translitSelect.value = "slp1"; // Default scheme
+    translitSelect.value = "slp1_accented"; // Default scheme
 
     // Create search inputs and buttons
     const searchHeadword = document.createElement("input");
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function applyTransliteration() {
         let selectedScheme = translitSelect.value;
         document.querySelectorAll(".sanskrit, .headword, .alt-spelling").forEach(element => {
-            element.textContent = Sanscript.t(element.getAttribute("data-original"), "slp1", selectedScheme);
+            element.textContent = Sanscript.t(element.getAttribute("data-original"), "slp1_RV", selectedScheme);
         });
     }
 

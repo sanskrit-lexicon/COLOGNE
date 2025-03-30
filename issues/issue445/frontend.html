@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@indic-transliteration/sanscript"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        form, #response {
+            width: 100%;
+            max-width: 1200px;
+        }
+        input, select, button {
+            padding: 6px;
+            margin: 4px;
+            font-size: 14px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+        input {
+            width: 220px;
+        }
+        select {
+            width: auto;
+        }
+        button {
+            width: auto;
+        }
+        #form-controls {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+        }
+        #response {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            min-height: 60px;
+            font-size: 16px;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <form id="searchForm">
+        <div id="form-controls">
+            <input type="text" id="headword" placeholder="Search in headword" autofocus>
+            <input type="text" id="definition" placeholder="Search in definition">
+            <select id="inputTransliteration"></select>
+            <select id="outputTransliteration"></select>
+            <button type="submit" autofocus>Search</button>
+        </div>
+    </form>
+    <div id="response"></div>
+
+    <script>
+        async function fetchAbsJson() {
+            try {
+                let response = await fetch("http://127.0.0.1:5000/abs");
+                return await response.json();
+            } catch (error) {
+                console.error("Error fetching abs.json:", error);
+                return {};
+            }
+        }
+
+        async function applyXSLT(xmlString) {
+            return fetch("http://127.0.0.1:5000/xslt")
+                .then(response => response.text())
+                .then(xslText => {
+                    let parser = new DOMParser();
+                    let xml = parser.parseFromString(`<pwg>${xmlString}</pwg>`, "text/xml");
+                    let xsl = parser.parseFromString(xslText, "text/xml");
+                    
+                    let xsltProcessor = new XSLTProcessor();
+                    xsltProcessor.importStylesheet(xsl);
+                    
+                    let transformed = xsltProcessor.transformToFragment(xml, document);
+                    let result = new XMLSerializer().serializeToString(transformed);
+                    return result;
+                });
+        }
+
+        async function transformLinks() {
+            let absData = await fetchAbsJson();
+            $(".ls-reference").each(function() {
+                let text = $(this).text();
+                let match = text.match(/\[(.+?)\s(.+?)\]/);
+                if (match) {
+                    let shortForm = match[1];
+                    let id = match[2];
+                    if (absData[shortForm]) {
+                        let link = absData[shortForm];
+                        let newHtml = `[<a class="ls-reference" href="${link}?${id}" target="_blank">${text.substring(1, text.length - 1)}</a>]`;
+                        $(this).replaceWith(newHtml);
+                    }
+                }
+            });
+        }
+
+function createSlp1RvScheme() {
+    if (!Sanscript.schemes || !Sanscript.schemes["slp1_accented"]) {
+        console.error("slp1_accented scheme not found!");
+        return;
+    }
+
+    let slp1RvScheme = JSON.parse(JSON.stringify(Sanscript.schemes["slp1_accented"]));
+
+    // Ensure accents key exists
+    if (!slp1RvScheme.hasOwnProperty("accents")) {
+        slp1RvScheme["accents"] = {};
+    }
+
+    // Custom modification: Add mappings
+    slp1RvScheme["accents"]["॑"] = "^";  // Example customization
+    slp1RvScheme["accents"]["᳡"] = "̭";  // Example customization
+    slp1RvScheme["accents"]["꣫"] = "/";  // Example customization
+
+    // Register new scheme properly
+    Sanscript.schemes["slp1_rv"] = slp1RvScheme;
+
+    console.log("Custom scheme slp1_rv registered:", Sanscript.schemes["slp1_rv"]);
+}
+        document.addEventListener("DOMContentLoaded", function() {
+            if (typeof Sanscript === "undefined") {
+                console.error("Sanscript library not loaded!");
+                return;
+            }
+            
+            const schemes = Object.keys(Sanscript.schemes);
+            createSlp1RvScheme(); // Register the new scheme
+            let inputSelect = document.getElementById("inputTransliteration");
+            let outputSelect = document.getElementById("outputTransliteration");
+            
+            schemes.forEach(scheme => {
+                let option1 = new Option(scheme, scheme);
+                let option2 = new Option(scheme, scheme);
+                inputSelect.add(option1);
+                outputSelect.add(option2);
+            });
+            
+            inputSelect.value = "slp1_accented";
+            outputSelect.value = "devanagari";
+            
+            document.getElementById("headword").focus();
+        });
+
+        $("#searchForm").submit(function(event) {
+            event.preventDefault();
+            let key_query = $("#headword").val().trim();
+            let data_query = $("#definition").val().trim();
+            let inputScheme = $("#inputTransliteration").val();
+            let outputScheme = $("#outputTransliteration").val();
+            
+            if (!key_query && !data_query) {
+                $("#response").text("Please enter at least one search term.");
+                return;
+            }
+            
+            if (inputScheme !== "slp1_accented") {
+                if (key_query) key_query = Sanscript.t(key_query, inputScheme, "slp1_accented");
+                if (data_query) data_query = Sanscript.t(data_query, inputScheme, "slp1_accented");
+            }
+            
+            let api_url = `http://127.0.0.1:5000/search?key_query=${encodeURIComponent(key_query)}&data_query=${encodeURIComponent(data_query)}`;
+            
+            $.get(api_url, function(response) {
+                if (Array.isArray(response) && response.length > 0) {
+                    let xmlData = response.map(entry => entry.data).join('').replace(/\"/g, '"');
+                    applyXSLT(xmlData)
+                        .then(transformedData => {
+                            let container = $("<div>").html(transformedData);
+                            container.find(".entry").each(function() {
+                                $(this).find(".headword, .alt-spelling, .sanskrit").each(function() {
+                                    let originalText = $(this).text();
+                                    let convertedText = Sanscript.t(originalText, "slp1_rv", outputScheme);
+                                    $(this).text(convertedText);
+                                });
+                            });
+                            $("#response").html(container);
+                            transformLinks();
+                        })
+                        .catch(error => $("#response").text("Error applying XSLT: " + error));
+                } else {
+                    $("#response").text("No data found.");
+                }
+            }).fail(function() {
+                $("#response").text("Error fetching data.");
+            });
+        });
+    </script>
+</body>
+</html>

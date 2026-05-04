@@ -1,0 +1,381 @@
+<chg type="chg" n="1" src="gra"><old>{204,2}</old><new>{204,1}</new></chg>
+<chg type="chg" n="2" src="gra"><old>-as</old><new>-ās</new></chg>
+<chg type="del" n="1" src="gra"><old> {63,7};</old></chg>
+<chg type="chg" n="3" src="gra"><old>{@á-kṣīyamāna,@}</old><new>{@á-kṣīyamāṇa,@}</new></chg>
+<chg type="chg" n="4" src="gra"><old>bramā́s</old><new>bhramā́s</new></chg>
+<chg type="del" n="2" src="gra"><old>; {792,2}</old></chg>
+<chg type="chg" n="5" src="gra"><old>aṅj</old><new>añj</new></chg>
+<chg type="chg" n="6" src="gra"><old>{@(ángya),@}</old><new>{@(áṅgya),@}</new></chg>
+<chg type="chg" n="7" src="gra"><old>-āni.</old><new>-āṇi.</new></chg>
+<chg type="chg" n="8" src="gra"><old>sūrmía</old><new>sūrmíā</new></chg>
+<chg type="chg" n="9" src="gra"><old>{@a-jāví,@}</old><new>{@ajāví,@}</new></chg>
+<chg type="chg" n="10" src="gra"><old>{@á-josa,@}</old><new>{@á-joṣa,@}</new></chg>
+<chg type="chg" n="10" src="gra"><old>jósa</old><new>jóṣa</new></chg>
+<chg type="del" n="3" src="gra"><old> 7〉 góbhis vāṇás {640,8}. —</old></chg>
+<chg type="chg" n="11" src="gra"><old>{@aṇu,@}</old><new>{@áṇu,@}</new></chg>
+<chg type="del" n="4" src="gra"><old><ab>Part.</ab> {@átat:@}</old></chg>
+<chg type="del" n="4" src="gra"><old>-an sū́rias {502,9}.</old></chg>
+<chg type="chg" n="12" src="gra"><old>-āni</old><new>-ā́ni</new></chg>
+<chg type="chg" n="13" src="gra"><old>-ā</old><new>-ā́</new></chg>
+<chg type="chg" n="14" src="gra"><old>-eṣu</old><new>-éṣu</new></chg>
+<chg type="chg" n="15" src="gra"><old>-īnām</old><new>-īṇām</new></chg>
+<chg type="del" n="5" src="gra"><old> {445,5};</old></chg>
+<chg type="chg" n="16" src="gra"><old>{@ádabdha-nīti,@}</old><new>{@ádabdha-dhīti,@}</new></chg>
+<chg type="chg" n="17" src="gra"><old>{%untrügliche Führung%} [nītí] {%gewährend, sicher führend%}.</old><new>{%reingesinnt%}.</new></chg>
+<chg type="chg" n="18" src="gra"><old>katidā́</old><new>katidhā́</new></chg>
+<chg type="chg" n="19" src="gra"><old>{@admasádvan,@}</old><new>{@adma-sádvan,@}</new></chg>
+<chg type="chg" n="19" src="gra"><old><ab>a.</ab></old><new><ab>m.</ab></new></chg>
+<chg type="chg" n="20" src="gra"><old>{%Tischgenossen habend%} (von admasád).</old><new>{%Tischgenosse%}.</new></chg>
+<chg type="chg" n="21" src="gra"><old>-úhā</old><new>-uhā</new></chg>
+<chg type="chg" n="22" src="gra"><old>-āṇaam</old><new>-ā́ṇaam</new></chg>
+<chg type="chg" n="23" src="gra"><old>Glanz</old><new>Ungestüm</new></chg>
+<chg type="chg" n="24" src="gra"><old>{638,1}</old><new>{638,2}</new></chg>
+<chg type="chg" n="25" src="gra"><old>{@an-ulbaná,@}</old><new>{@an-ulbaṇá,@}</new></chg>
+<chg type="chg" n="26" src="gra"><old>-ebhis</old><new>-ébhis</new></chg>
+<chg type="chg" n="27" src="gra"><old>{@annā́-vṛdh,@}</old><new>{@annā-vṛ́dh,@}</new></chg>
+<chg type="chg" n="28" src="gra"><old>-ṛdham</old><new>-ṛ́dham</new></chg>
+<chg type="chg" n="29" src="gra"><old>sagten sie sich</old><new>sagtet ihr euch</new></chg>
+<chg type="chg" n="30" src="gra"><old>bei <ls>Aufrecht</ls></old><new><ls>Text</ls></new></chg>
+<chg type="del" n="6" src="gra"><old> {289,5};</old></chg>
+<chg type="chg" n="31" src="gra"><old>{@ab-dā́,@}</old><new>{@ab-dayā́,@}</new></chg>
+<chg type="chg" n="32" src="gra"><old>-ajā́</old><new>-ā́</new></chg>
+<chg type="chg" n="33" src="gra"><old>-ānas</old><new>-āṇas</new></chg>
+<chg type="chg" n="34" src="gra"><old>{@abhi-jnú,@}</old><new>{@abhi-jñú,@}</new></chg>
+<chg type="del" n="7" src="gra"><old>{@abhiśvása,@}¦ <ab>m.</ab>, {%Schnaufen%} [von śvas mit abhí], daher 2〉 {%Aufstossen%} (des Magens).</old></chg>
+<chg type="del" n="7" src="gra"><old>-as 2〉 {918,8} (jaṭhárāt).</old></chg>
+<chg type="chg" n="35" src="gra"><old>etwa</old><new>etwas</new></chg>
+<chg type="chg" n="36" src="gra"><old><ls>Aufrecht</ls></old><new><ls>Text</ls></new></chg>
+<chg type="chg" n="37" src="gra"><old>{632,9}</old><new>{632,31}</new></chg>
+<chg type="del" n="8" src="gra"><old>31</old></chg>
+<chg type="chg" n="38" src="gra"><old>780,</old><new>{780,9}</new></chg>
+<chg type="chg" n="39" src="gra"><old>-asā</old><new>-ásā</new></chg>
+<chg type="del" n="9" src="gra"><old> {229,4};</old></chg>
+<chg type="del" n="10" src="gra"><old> {602,7};</old></chg>
+<chg type="del" n="11" src="gra"><old> — {@prá:@} nī́cīs apásas {458,12}.</old></chg>
+<chg type="del" n="12" src="gra"><old> [von <hom>1.</hom> sū]</old></chg>
+<chg type="del" n="13" src="gra"><old> tám (drapsám) {705,13};</old></chg>
+<chg type="chg" n="40" src="gra"><old>-ā́ni</old><new>-ā́ṇi</new></chg>
+<chg type="chg" n="41" src="gra"><old>{@á-vyathí@},</old><new>{@a-vyathí@},</new></chg>
+<chg type="del" n="14" src="gra"><old> 1〉 barhís {144,6}. —</old></chg>
+<chg type="chg" n="42" src="gra"><old>vadhám</old><new>vádhar</new></chg>
+<chg type="chg" n="43" src="gra"><old>{@á-cṛthita,@}</old><new>{@á-śṛthita,@}</new></chg>
+<chg type="chg" n="44" src="gra"><old>{@á-śrīrá,@}</old><new>{@a-śrīrá,@}</new></chg>
+<chg type="chg" n="45" src="gra"><old>{583,9}</old><new>{383,9}</new></chg>
+<chg type="chg" n="46" src="gra"><old>{@aśva-búdhya,@}</old><new>{@áśva-budhya,@}</new></chg>
+<chg type="del" n="15" src="gra"><old> — {@pári@} 2〉 mahimā́nam {61,8}.</old></chg>
+<chg type="del" n="16" src="gra"><old> suvī́ras {491,9};</old></chg>
+<chg type="chg" n="47" src="gra"><old>[<ab n="??">s.</ab> <ab>s.</ab>]</old><new>[<per>3.</per> <ab>s.</ab>]</new></chg>
+<chg type="del" n="17" src="gra"><old> {@vi@} 1〉 náhanā {893,3};</old></chg>
+<chg type="chg" n="48" src="gra"><old>-ena</old><new>-eṇa</new></chg>
+<chg type="del" n="18" src="gra"><old> {151,4};</old></chg>
+<chg type="chg" n="49" src="gra"><old>-āni</old><new>-āṇi</new></chg>
+<chg type="chg" n="50" src="gra"><old>-ā́ni</old><new>-āṇi</new></chg>
+<chg type="chg" n="51" src="gra"><old>síndhūnaam</old><new>nadī́naam</new></chg>
+<chg type="chg" n="52" src="gra"><old>{@á-spandamāna,@}</old><new>{@ásyandamāna,@}</new></chg>
+<chg type="chg" n="53" src="gra"><old>{%nicht wankend, nicht zuckend%}</old><new>{%nicht gleitend%}</new></chg>
+<chg type="del" n="19" src="gra"><old>Stamm {@áha@} (betont nur {589,3}):</old></chg>
+<chg type="del" n="19" src="gra"><old>-ema ucátham {210,7}; yajñám {589,3}. — sám {94,1}:</old></chg>
+<chg type="del" n="19" src="gra"><old> imám stómam ‥‥ rátham iva sám ahemā manīṣáyā; wie nach der unzweifelhaft richtigen Vermuthung von <ls>BR.</ls> statt sám mahemā zu lesen ist.</old></chg>
+<chg type="del" n="20" src="gra"><old> {844,14};</old></chg>
+<chg type="del" n="21" src="gra"><old>; dákṣam {965,6}</old></chg>
+<chg type="chg" n="54" src="gra"><old>glänzen</old><new>zischen</new></chg>
+<chg type="chg" n="55" src="gra"><old>{%wie eine Schlange%} [ahi] {%dahinschiessend%}</old><new>{%Schlangenstösser%} (Raubvogel)</new></chg>
+<chg type="chg" n="56" src="gra"><old>mandānā́s</old><new>mandānā́</new></chg>
+<chg type="del" n="22" src="gra"><old> bei <ls>Aufr.</ls></old></chg>
+<chg type="chg" n="57" src="gra"><old>-ena</old><new>-eṇa</new></chg>
+<chg type="del" n="23" src="gra"><old> [<ab>A.</ab> <ab>p.</ab>]</old></chg>
+<chg type="chg" n="58" src="gra"><old>({@ā́viṣṭya,@})</old><new>({@āvíṣṭya,@})</new></chg>
+<chg type="chg" n="58" src="gra"><old>{@ā́víṣṭia,@}</old><new>{@āvíṣṭia,@}</new></chg>
+<chg type="chg" n="59" src="gra"><old>{@j:@}</old><new>{@y:@}</new></chg>
+<chg type="del" n="25" src="gra"><old> indrāgnī́</old></chg>
+<chg type="del" n="24" src="gra"><old> {226,3};</old></chg>
+<chg type="del" n="26" src="gra"><old>[-átā {@sam@} 1〉 dyumnéna {457,21}(?) zu saṃyát].</old></chg>
+<chg type="del" n="26" src="gra"><old>-átā {@sam@} 8〉 mánmanā {151,8}(?).</old></chg>
+<chg type="del" n="27" src="gra"><old>; devā́n {519,3}</old></chg>
+<chg type="chg" n="60" src="gra"><old>{548,4}</old><new>{548,5}</new></chg>
+<chg type="del" n="28" src="gra"><old> {808,2};</old></chg>
+<chg type="chg" n="61" src="gra"><old>_?362,1,7</old><new>{362,1}. _{362,7}</new></chg>
+<chg type="chg" n="62" src="gra"><old>{5,8}</old><new>{5,9}</new></chg>
+<chg type="chg" n="63" src="gra"><old>{106,1}. _{106,5}.</old><new>{106,1}. _{106,6}.</new></chg>
+<chg type="chg" n="64" src="gra"><old>{@índra-vāyú,@}</old><new>{@indra-vāyú,@}</new></chg>
+<chg type="chg" n="65" src="gra"><old>{658,1}. _{658,9}</old><new>{658,1}—_{658,9}</new></chg>
+<chg type="chg" n="66" src="gra"><old>{609,1}. _{609,3}. _{609,4}</old><new>{609,1}. _{609,4}.</new></chg>
+<chg type="chg" n="67" src="gra"><old>{@√isaṇay,@}</old><new>{@√iṣaṇay,@}</new></chg>
+<chg type="del" n="29" src="gra"><old> {355,7};</old></chg>
+<chg type="chg" n="68" src="gra"><old>{774,2}. _{774,3}</old><new>{744,2}. _{744,3}</new></chg>
+<chg type="del" n="30" src="gra"><old>; {297,1}</old></chg>
+<chg type="chg" n="69" src="gra"><old>-ā</old><new>-ā́</new></chg>
+<chg type="chg" n="70" src="gra"><old>tāt</old><new>tā́t</new></chg>
+<chg type="chg" n="71" src="gra"><old>(váram)</old><new>pṛṇītám</new></chg>
+<chg type="chg" n="72" src="gra"><old>pṛc</old><new>pṛkṣ</new></chg>
+<chg type="chg" n="73" src="gra"><old>-am</old><new>-ám</new></chg>
+<chg type="del" n="31" src="gra"><old> {222,5};</old></chg>
+<chg type="chg" n="74" src="gra"><old>cáṃsais</old><new>śáṃsais</new></chg>
+<chg type="chg" n="75" src="gra"><old>{@(ulbaná),@}</old><new>{@(ulbaṇá),@}</new></chg>
+<chg type="chg" n="76" src="gra"><old>an-ulbaná</old><new>an-ulbaṇá</new></chg>
+<chg type="chg" n="77" src="gra"><old>von</old><new>ohne</new></chg>
+<chg type="del" n="32" src="gra"><old> {240,7};</old></chg>
+<chg type="del" n="33" src="gra"><old>-até vṛ́kāya {492,6}.</old></chg>
+<chg type="chg" n="78" src="gra"><old>bráhmaṇas pátes</old><new>mártasya</new></chg>
+<chg type="chg" n="79" src="gra"><old>ārjiká</old><new>ārjīká</new></chg>
+<chg type="chg" n="80" src="gra"><old>{684,2}</old><new>{684,3}</new></chg>
+<chg type="chg" n="81" src="gra"><old>-e</old><new>-é</new></chg>
+<chg type="chg" n="82" src="gra"><old>{702,3}</old><new>{702,34}</new></chg>
+<chg type="chg" n="83" src="gra"><old>-ebhis</old><new>-ébhis</new></chg>
+<chg type="del" n="34" src="gra"><old>. 19</old></chg>
+<chg type="del" n="35" src="gra"><old> — 4〉 (indrāgnī) {660,3}.</old></chg>
+<chg type="del" n="36" src="gra"><old> — 17〉 rakṣásam asmát ā́ {816,6}.</old></chg>
+<chg type="del" n="37" src="gra"><old> ṛ́ṣim sahasrasā́m {10,11};</old></chg>
+<chg type="del" n="38" src="gra"><old> — 23〉 mātárā návyasī {239,7}.</old></chg>
+<chg type="del" n="39" src="gra"><old>; {643,18}</old></chg>
+<chg type="chg" n="84" src="gra"><old><per>3.</per></old><new><per>2.</per></new></chg>
+<chg type="chg" n="85" src="gra"><old>{459,15}</old><new>{459,14}</new></chg>
+<chg type="chg" n="86" src="gra"><old>-avanta</old><new>-avante</new></chg>
+<chg type="del" n="40" src="gra"><old> jāspatyám {382,3};</old></chg>
+<chg type="del" n="41" src="gra"><old> — {@ví@} 2〉 camasám caturdhā́ {331,3}.</old></chg>
+<chg type="del" n="42" src="gra"><old> — 7〉 bhū́ma {159,2}.</old></chg>
+<chg type="chg" n="87" src="gra"><old>{821,12}</old><new>{621,12}</new></chg>
+<chg type="chg" n="88" src="gra"><old>{249,3}</old><new>{62,9}</new></chg>
+<chg type="chg" n="89" src="gra"><old>{@krama:@}</old><new>{@kráma@} (betont {490,15}):</new></chg>
+<chg type="chg" n="90" src="gra"><old>{@krudhmín@} oder {@krudhmí,@}</old><new>{@krúdhmi,@}</new></chg>
+<chg type="chg" n="91" src="gra"><old>-ī́</old><new>-ī</new></chg>
+<chg type="del" n="43" src="gra"><old> {242,1};</old></chg>
+<chg type="chg" n="92" src="gra"><old>-ani</old><new>-aṇi</new></chg>
+<chg type="chg" n="93" src="gra"><old>índras</old><new>rayís</new></chg>
+<chg type="chg" n="94" src="gra"><old>{623,19}</old><new>{623,10}</new></chg>
+<chg type="chg" n="95" src="gra"><old>{287,9}</old><new>{287,19}</new></chg>
+<chg type="chg" n="96" src="gra"><old>avakādá</old><new>avakhādá</new></chg>
+<chg type="chg" n="97" src="gra"><old>-tha [-thā]</old><new>-atha [-athā]</new></chg>
+<chg type="del" n="44" src="gra"><old>; nas {1023,3} (neben úpa nas)</old></chg>
+<chg type="del" n="45" src="gra"><old> 1〉 {130,9}. —</old></chg>
+<chg type="chg" n="98" src="gra"><old>vṛsabhás</old><new>vṛṣabhás</new></chg>
+<chg type="chg" n="99" src="gra"><old>-ínīṣu</old><new>-íṇīṣu</new></chg>
+<chg type="del" n="46" src="gra"><old> — 2〉 {534,7}.</old></chg>
+<chg type="chg" n="100" src="gra"><old>-anti</old><new>-ánti</new></chg>
+<chg type="chg" n="101" src="gra"><old>{774,24}</old><new>{774,25}</new></chg>
+<chg type="chg" n="102" src="gra"><old>{@gṛnīṣáṇi,@}</old><new>{@gṛṇīṣáṇi,@}</new></chg>
+<chg type="chg" n="103" src="gra"><old>4—6</old><new> _{469,4}. _{469,5}</new></chg>
+<chg type="chg" n="104" src="gra"><old><ab>Aor.</ab></old><new><ab>Plusquamp.</ab></new></chg>
+<chg type="chg" n="105" src="gra"><old>{820,6}</old><new>{820,10}</new></chg>
+<chg type="chg" n="106" src="gra"><old>-ṛ́thā</old><new>-ṛ́tā</new></chg>
+<chg type="del" n="47" src="gra"><old>; {376,4}</old></chg>
+<chg type="chg" n="107" src="gra"><old>{131,1}</old><new>{113,1}</new></chg>
+<chg type="chg" n="108" src="gra"><old>(índras)</old><new>agnís</new></chg>
+<chg type="chg" n="109" src="gra"><old>{%Keim%}</old><new>{%Kinn%}</new></chg>
+<chg type="del" n="48" src="gra"><old> — 7〉 ghṛtám {908,1}.</old></chg>
+<chg type="chg" n="110" src="gra"><old>{659,8}</old><new>{459,8}</new></chg>
+<chg type="del" n="49" src="gra"><old>_{879,4}. </old></chg>
+<chg type="del" n="50" src="gra"><old> ávitārā {181,1};</old></chg>
+<chg type="chg" n="111" src="gra"><old>jar</old><new>gar</new></chg>
+<chg type="chg" n="112" src="gra"><old>{@jātá-vedas,@}</old><new>{@jāta-vedas,@}</new></chg>
+<chg type="del" n="51" src="gra"><old> — 6〉 ājī́n {476,2}.</old></chg>
+<chg type="chg" n="113" src="gra"><old><per>2.</per></old><new><per>3.</per></new></chg>
+<chg type="chg" n="114" src="gra"><old>-úṣas</old><new>-yúṣas</new></chg>
+<chg type="chg" n="115" src="gra"><old>{547,32}</old><new>{457,32}</new></chg>
+<chg type="chg" n="116" src="gra"><old>-am</old><new>-ām</new></chg>
+<chg type="chg" n="117" src="gra"><old>-iā́yas</old><new>-iā́yās</new></chg>
+<chg type="del" n="52" src="gra"><old> {717,2};</old></chg>
+<chg type="chg" n="118" src="gra"><old>{@tánti,@}</old><new>{@tantí,@}</new></chg>
+<chg type="chg" n="119" src="gra"><old>-ayas</old><new>-áyas</new></chg>
+<chg type="chg" n="120" src="gra"><old>-as</old><new>-ás</new></chg>
+<chg type="chg" n="121" src="gra"><old>-ás</old><new>-á</new></chg>
+<chg type="del" n="53" src="gra"><old>-rīmahi [<ab>Opt.</ab>] {@prá@} 6〉 {214,10}.</old></chg>
+<chg type="chg" n="122" src="gra"><old>tugyámānās</old><new>tujyámānās</new></chg>
+<chg type="chg" n="123" src="gra"><old>{@tuvi-cúṣma,@}</old><new>{@tuvi-śúṣma,@}</new></chg>
+<chg type="chg" n="124" src="gra"><old>{%Anregung%}</old><new>{%Uebertreffen%}</new></chg>
+<chg type="chg" n="125" src="gra"><old>{@tṛ́syat@}</old><new>{@tṛ́ṣyat@}</new></chg>
+<chg type="chg" n="126" src="gra"><old>-únā</old><new>-úṇā</new></chg>
+<chg type="chg" n="127" src="gra"><old>-yásyās</old><new>-yásyai</new></chg>
+<chg type="del" n="54" src="gra"><old>-am [<ab>n.</ab>] yáśas {10,7}.</old></chg>
+<chg type="del" n="55" src="gra"><old>-ántam {125,2}.</old></chg>
+<chg type="chg" n="128" src="gra"><old>-rṣ</old><new>-rṣi</new></chg>
+<chg type="chg" n="129" src="gra"><old>{664,4}</old><new>{644,4}</new></chg>
+<chg type="del" n="56" src="gra"><old>, ghanā́</old></chg>
+<chg type="chg" n="130" src="gra"><old>índram</old><new>agním</new></chg>
+<chg type="del" n="57" src="gra"><old> [<ab>Co.</ab>]</old></chg>
+<chg type="chg" n="1" src="user"><old>{199,6}</old><new>{119,6}</new></chg>
+<chg type="del" n="58" src="gra"><old> _{105,5}.</old></chg>
+<chg type="chg" n="132" src="gra"><old>{985,1}</old><new>{985,4}</new></chg>
+<chg type="chg" n="131" src="gra"><old><ab>N.</ab></old><new><ab>A.</ab></new></chg>
+<chg type="chg" n="133" src="gra"><old>-átāmaya</old><new>-átamāya</new></chg>
+<chg type="chg" n="134" src="gra"><old>{485,7}</old><new>{458,7}</new></chg>
+<chg type="chg" n="135" src="gra"><old>[vastṛ], des Dunkels</old><new>[vastṛ́] {%des Dunkels%}</new></chg>
+<chg type="chg" n="136" src="gra"><old>Aorist {@ádudrava@} in ádudro- zusammengezogen</old><new><ab>Plusquamp.</ab> ádudru</new></chg>
+<chg type="chg" n="137" src="gra"><old>vástayos</old><new>váṣṭayas</new></chg>
+<chg type="chg" n="138" src="gra"><old>{@dhāma-sáś,@}</old><new>{@dhāma-sác,@}</new></chg>
+<chg type="chg" n="139" src="gra"><old>dhára</old><new>dhā́ra</new></chg>
+<chg type="chg" n="140" src="gra"><old>śitipṛṣṭásya</old><new>śitipṛṣṭhásya</new></chg>
+<chg type="chg" n="141" src="gra"><old>dhiṣána</old><new>dhiṣáṇa</new></chg>
+<chg type="chg" n="142" src="gra"><old>priyā́</old><new>priyā́s</new></chg>
+<chg type="chg" n="143" src="gra"><old>-as</old><new>-at</new></chg>
+<chg type="del" n="59" src="gra"><old>Stamm {@nánda:@}</old></chg>
+<chg type="chg" n="144" src="gra"><old>vāyávas</old><new>vayám</new></chg>
+<chg type="chg" n="145" src="gra"><old>3〉</old><new>2〉</new></chg>
+<chg type="del" n="60" src="gra"><old>; {608,1}</old></chg>
+<chg type="chg" n="146" src="gra"><old>9〉 sadhamā́s</old><new>ā́ 2〉</new></chg>
+<chg type="chg" n="147" src="gra"><old>agním</old><new>bṛ́haspátim</new></chg>
+<chg type="chg" n="148" src="gra"><old>kochen</old><new>reifen</new></chg>
+<chg type="chg" n="149" src="gra"><old>-ántās</old><new>-ánthās</new></chg>
+<chg type="chg" n="150" src="gra"><old>3〉</old><new>2〉</new></chg>
+<chg type="del" n="61" src="gra"><old> {887,8};</old></chg>
+<chg type="chg" n="151" src="gra"><old>-ātás</old><new>-ā́tas [<ab>Co.</ab>]</new></chg>
+<chg type="chg" n="152" src="gra"><old>antah-</old><new>antaḥ-</new></chg>
+<chg type="chg" n="153" src="gra"><old>víśvehhis</old><new>víśvebhis</new></chg>
+<chg type="chg" n="154" src="gra"><old>paṛ</old><new>par</new></chg>
+<chg type="chg" n="1" src="user"><old></old><new> also {596,3} Omission by Graßmann (and Kozianka). The two stanzas are identical.</new></chg>
+<chg type="chg" n="155" src="gra"><old><hom>2.</hom></old><new><hom>1.</hom></new></chg>
+<chg type="chg" n="156" src="gra"><old><ab>Aor.</ab></old><new><ab>Plusquamp.</ab></new></chg>
+<chg type="chg" n="157" src="gra"><old>spur</old><new>sphur</new></chg>
+<chg type="del" n="62" src="gra"><old>-ā́tha [<per>3.</per> <ab>s.</ab> oder <per>2.</per> <ab>s.</ab>] {@ví@} 1〉 kṣā́m urvī́m {458,7}.</old></chg>
+<chg type="del" n="63" src="gra"><old> oder bringen</old></chg>
+<chg type="chg" n="158" src="gra"><old>{@pruṣ:@}</old><new>{@pruṣa:@}</new></chg>
+<chg type="chg" n="159" src="gra"><old>{@āná,@}</old><new>{@bāṇá,@}</new></chg>
+<chg type="chg" n="160" src="gra"><old>ánkam</old><new>ánikam</new></chg>
+<chg type="chg" n="1" src="user"><old></old><new> also {596,3} Omission by Graßmann (and Kozianka). The two stanzas are identical.</new></chg>
+<chg type="chg" n="161" src="gra"><old>-áni</old><new>-áṇi</new></chg>
+<chg type="chg" n="162" src="gra"><old>{224,2}</old><new>{224,12}</new></chg>
+<chg type="chg" n="163" src="gra"><old>{946,5}</old><new>{946,6}</new></chg>
+<chg type="chg" n="1" src="user"><old></old><new> also {219,11}, {220,7}</new></chg>
+<chg type="del" n="64" src="gra"><old> 1〉 dyā́vāpṛthivī́ {642,5} (ráthas vām). —</old></chg>
+<chg type="chg" n="164" src="gra"><old>ahharat</old><new>abharat</new></chg>
+<chg type="del" n="65" src="gra"><old> — {@ádhi sám@} víśvāni vīríā asmin {207,2}.</old></chg>
+<chg type="chg" n="165" src="gra"><old>{724,2}</old><new>{734,2}</new></chg>
+<chg type="chg" n="166" src="gra"><old>{849,23}</old><new>{849,2}. _{849,3}</new></chg>
+<chg type="del" n="66" src="gra"><old>; {459,7}</old></chg>
+<chg type="chg" n="167" src="gra"><old>-ā́ni</old><new>-ā́ṇi</new></chg>
+<chg type="chg" n="168" src="gra"><old>{841,4}</old><new>{841,1}</new></chg>
+<chg type="chg" n="169" src="gra"><old>-āmahaí</old><new>-āmahe</new></chg>
+<chg type="chg" n="170" src="gra"><old>1〉</old><new>4〉</new></chg>
+<chg type="chg" n="171" src="gra"><old>cid</old><new>cit</new></chg>
+<chg type="chg" n="172" src="gra"><old>{442,4}</old><new>{442,1}</new></chg>
+<chg type="chg" n="173" src="gra"><old>{960,1}</old><new>{960,6}</new></chg>
+<chg type="chg" n="174" src="gra"><old>-ájā</old><new>-áyā</new></chg>
+<chg type="chg" n="175" src="gra"><old>{612,3}</old><new>{612,2}</new></chg>
+<chg type="chg" n="176" src="gra"><old>{245,7}</old><new>{311,5}</new></chg>
+<chg type="chg" n="177" src="gra"><old>{@maśarcā́ra,@}</old><new>{@maśarśā́ra,@}</new></chg>
+<chg type="chg" n="178" src="gra"><old>{577,7}</old><new>{577,6}</new></chg>
+<chg type="del" n="67" src="gra"><old>; {558,3}</old></chg>
+<chg type="del" n="68" src="gra"><old> — {@sám@} 2〉 vas yajñám {558,3}.</old></chg>
+<chg type="chg" n="179" src="gra"><old>{174,12}</old><new>{173,12}</new></chg>
+<chg type="chg" n="181" src="gra"><old>-ā́nām</old><new>-ā́ṇām</new></chg>
+<chg type="chg" n="182" src="gra"><old>irdischen</old><new>indischen</new></chg>
+<chg type="chg" n="183" src="gra"><old>{227,7}</old><new>{272,7}</new></chg>
+<chg type="del" n="69" src="gra"><old> — 8〉 rūpā́ duhitúr vakṣáṇāsu {396,13}.</old></chg>
+<chg type="chg" n="184" src="gra"><old>{236,1}</old><new>{236,2}</new></chg>
+<chg type="chg" n="185" src="gra"><old>-as</old><new>-ás</new></chg>
+<chg type="del" n="70" src="gra"><old>Stamm II. {@mamar:@}</old></chg>
+<chg type="del" n="70" src="gra"><old>-rtu svā́ tám 〰 duchúnā {214,6}.</old></chg>
+<chg type="del" n="71" src="gra"><old> {474,5};</old></chg>
+<chg type="del" n="72" src="gra"><old>{@marmṛś:@}</old></chg>
+<chg type="del" n="72" src="gra"><old>-śat {@abhí@} 3〉 priyā́ṇi párāṇi {272,1}.</old></chg>
+<chg type="chg" n="186" src="gra"><old><ls>Aufr.</ls></old><new><ls>Text</ls></new></chg>
+<chg type="chg" n="187" src="gra"><old>{229,3}</old><new>{281,3}</new></chg>
+<chg type="chg" n="188" src="gra"><old>{@yájasa@}</old><new>{@yajasa@}</new></chg>
+<chg type="del" n="73" src="gra"><old> {197,8};</old></chg>
+<chg type="chg" n="189" src="gra"><old>{842,41}</old><new>{842,11}</new></chg>
+<chg type="chg" n="190" src="gra"><old>{@yajña-páti,@}</old><new>{@yajñá-pati,@}</new></chg>
+<chg type="chg" n="191" src="gra"><old>{532,1}</old><new>{532,8}</new></chg>
+<chg type="chg" n="192" src="gra"><old>{85,11}</old><new>{85,12}</new></chg>
+<chg type="del" n="74" src="gra"><old> {370,4};</old></chg>
+<chg type="chg" n="193" src="gra"><old>{47,17}</old><new>{647,17}</new></chg>
+<chg type="chg" n="194" src="gra"><old>yasīs</old><new>yāsīs</new></chg>
+<chg type="chg" n="195" src="gra"><old>{976,19}</old><new>{776,19}</new></chg>
+<chg type="chg" n="196" src="gra"><old>{@yuvākú,@}</old><new>{@yuvā́ku,@}</new></chg>
+<chg type="chg" n="197" src="gra"><old>{428,3}</old><new>{428,8}</new></chg>
+<chg type="chg" n="198" src="gra"><old>-ndhi</old><new>-ndhí</new></chg>
+<chg type="chg" n="199" src="gra"><old>{174,6}</old><new>{174,7}</new></chg>
+<chg type="chg" n="200" src="gra"><old>-athas</old><new>-atas</new></chg>
+<chg type="del" n="75" src="gra"><old> {627,28};</old></chg>
+<chg type="chg" n="201" src="gra"><old>-ikṣe</old><new>-ikṣé</new></chg>
+<chg type="chg" n="202" src="gra"><old>-ṣe</old><new>-ṣes</new></chg>
+<chg type="chg" n="203" src="gra"><old>{51,2}</old><new>{51,12}</new></chg>
+<chg type="chg" n="204" src="gra"><old>cíkṣa</old><new>śíkṣa</new></chg>
+<chg type="chg" n="205" src="gra"><old>{715,15}</old><new>{715,5}</new></chg>
+<chg type="chg" n="206" src="gra"><old>{14,12}</old><new>{214,12}</new></chg>
+<chg type="chg" n="207" src="gra"><old>-antā</old><new>-ántā</new></chg>
+<chg type="chg" n="208" src="gra"><old>-antas</old><new>-ántas</new></chg>
+<chg type="chg" n="209" src="gra"><old>{54,4}</old><new>{54,5}</new></chg>
+<chg type="chg" n="210" src="gra"><old>-ā́ta</old><new>-ā́tas</new></chg>
+<chg type="chg" n="211" src="gra"><old>{223,3}</old><new>{223,8}</new></chg>
+<chg type="chg" n="1" src="gra6ed"><old>{356,4}</old><new>{356,6}</new></chg>
+<chg type="del" n="76" src="gra"><old>; indra {227,1}</old></chg>
+<chg type="chg" n="212" src="gra"><old>{488,12}</old><new>{488,22}</new></chg>
+<chg type="chg" n="213" src="gra"><old>_{625,19}.</old><new> _{625,20}.</new></chg>
+<chg type="del" n="77" src="gra"><old> in {142,10} scheint puruvā́ram statt purú vā́ram gelesen werden zu müssen. — 3〉</old></chg>
+<chg type="del" n="78" src="gra"><old>-yāt {644,27}(?).</old></chg>
+<chg type="chg" n="214" src="gra"><old>{428,5}</old><new>{428,9}</new></chg>
+<chg type="chg" n="215" src="gra"><old>-éna</old><new>-éṇa</new></chg>
+<chg type="chg" n="216" src="gra"><old>{146,1}</old><new>{972,1}</new></chg>
+<chg type="chg" n="217" src="gra"><old>-dé</old><new>-de</new></chg>
+<chg type="del" n="79" src="gra"><old> {190,7};</old></chg>
+<chg type="chg" n="218" src="gra"><old>{@(vidathina),@}</old><new>{@(vidathin),@}</new></chg>
+<chg type="chg" n="219" src="gra"><old>{639,1}</old><new>{639,2}</new></chg>
+<chg type="chg" n="220" src="gra"><old>-</old><new>-ī</new></chg>
+<chg type="chg" n="221" src="gra"><old>{303,5}</old><new>{503,5}</new></chg>
+<chg type="chg" n="222" src="gra"><old>{865,9}</old><new>{865,8}</new></chg>
+<chg type="chg" n="223" src="gra"><old>-es</old><new>-és</new></chg>
+<chg type="chg" n="224" src="gra"><old>{236,16}</old><new>{236,10}</new></chg>
+<chg type="chg" n="225" src="gra"><old><ab>f.</ab></old><new><ab>m.</ab></new></chg>
+<chg type="chg" n="226" src="gra"><old>{@virá-kukṣi,@}</old><new>{@vīrá-kukṣi,@}</new></chg>
+<chg type="chg" n="227" src="gra"><old>-ṛvā́ṃsam</old><new>-rivā́ṃsam</new></chg>
+<chg type="del" n="80" src="gra"><old> — {@nís@} tvā́m ékam íd {315,1}.</old></chg>
+<chg type="chg" n="228" src="gra"><old>-ānaam</old><new>-āṇaam</new></chg>
+<chg type="chg" n="229" src="gra"><old>-as</old><new>-ās</new></chg>
+<chg type="chg" n="230" src="gra"><old>der</old><new>dem</new></chg>
+<chg type="chg" n="231" src="gra"><old>{946,2}</old><new>{946,3}</new></chg>
+<chg type="chg" n="232" src="gra"><old>{665,19}</old><new>{665,10}</new></chg>
+<chg type="chg" n="233" src="gra"><old>{640,11}</old><new>{640,12}</new></chg>
+<chg type="chg" n="234" src="gra"><old>{@√vṛsāy@}</old><new>{@√vṛṣāy@}</new></chg>
+<chg type="chg" n="235" src="gra"><old>{639,3}</old><new>{639,8}</new></chg>
+<chg type="chg" n="236" src="gra"><old>vid</old><new>vidh</new></chg>
+<chg type="chg" n="237" src="gra"><old>{776,2}</old><new>{776,21}</new></chg>
+<chg type="chg" n="238" src="gra"><old>stets</old><new>vor Vokalen stets</new></chg>
+<chg type="chg" n="239" src="gra"><old>{62,21}</old><new>{162,21}</new></chg>
+<chg type="chg" n="240" src="gra"><old>{963,1}</old><new>{963,6}</new></chg>
+<chg type="del" n="81" src="gra"><old>-as 4〉 yásmai {1021,8}.</old></chg>
+<chg type="chg" n="241" src="gra"><old>-as yás</old><new>-am</new></chg>
+<chg type="chg" n="242" src="gra"><old>{33,14}</old><new>{33,15}</new></chg>
+<chg type="del" n="82" src="gra"><old> {119,6};</old></chg>
+<chg type="chg" n="243" src="gra"><old>{617,1}</old><new>{617,2}</new></chg>
+<chg type="chg" n="244" src="gra"><old>{249,4}</old><new>{249,5}</new></chg>
+<chg type="chg" n="245" src="gra"><old>{@śávistha,@}</old><new>{@śáviṣṭha,@}</new></chg>
+<chg type="del" n="83" src="gra"><old>Mit {@sám@} jemandem [<ab>Ab.</ab> <ab n="mit">m.</ab> ā́] etwas [<ab>A.</ab>] {%zutheilen%}.</old></chg>
+<chg type="del" n="84" src="gra"><old> — {@sám@} rayím áśvam carṣaṇíbhyas ā́ {333,8}.</old></chg>
+<chg type="del" n="85" src="gra"><old>{@śástṛ,@}¦ <ab>m.</ab>, {%Zerschneider, Schlächter%} [<ab>v.</ab> <hom>1.</hom> śas].</old></chg>
+<chg type="del" n="85" src="gra"><old>-ā {162,5}.</old></chg>
+<chg type="chg" n="246" src="gra"><old>-anā</old><new>-antā</new></chg>
+<chg type="chg" n="247" src="gra"><old>{634,3}</old><new>{634,13}</new></chg>
+<chg type="chg" n="248" src="gra"><old>{@śukrá-dugha,@}</old><new>{@śukra-dúgha,@}</new></chg>
+<chg type="chg" n="249" src="gra"><old>-ugdhi</old><new>-ugdhí</new></chg>
+<chg type="del" n="86" src="gra"><old> {205,5};</old></chg>
+<chg type="chg" n="250" src="gra"><old><ab>D.</ab></old><new><ab>L.</ab></new></chg>
+<chg type="chg" n="251" src="gra"><old>-íṣas</old><new>-iṣas</new></chg>
+<chg type="chg" n="252" src="gra"><old>{72,7}</old><new>{72,2}</new></chg>
+<chg type="chg" n="253" src="gra"><old>{@śriṇā:@}</old><new>{@śrīṇā:@}</new></chg>
+<chg type="chg" n="254" src="gra"><old>{486,22}</old><new>{486,23}</new></chg>
+<chg type="chg" n="255" src="gra"><old>{862,2}</old><new>{862,12}</new></chg>
+<chg type="chg" n="256" src="gra"><old>{670,16}</old><new>{670,17}</new></chg>
+<chg type="chg" n="257" src="gra"><old>{@samsúd,@}</old><new>{@saṃsúd,@}</new></chg>
+<chg type="del" n="87" src="gra"><old> nā́kam {164,50};</old></chg>
+<chg type="chg" n="258" src="gra"><old>pṛthiv</old><new>pṛthivī́</new></chg>
+<chg type="chg" n="259" src="gra"><old>{281,1}</old><new>{281,2}</new></chg>
+<chg type="del" n="88" src="gra"><old> 1〉 agnés ánīkam {833,3}. —</old></chg>
+<chg type="chg" n="260" src="gra"><old>-am</old><new>-ám</new></chg>
+<chg type="chg" n="261" src="gra"><old>{940,4};</old><new>{940,7};</new></chg>
+<chg type="chg" n="1" src="user"><old></old><new> ; (also) {661,1}—_{661,10}; {662,4}—{662,6}</new></chg>
+<chg type="chg" n="262" src="gra"><old>{662,1};</old><new>{662,4};</new></chg>
+<chg type="chg" n="263" src="gra"><old>-ā́ja</old><new>-ā́jā</new></chg>
+<chg type="chg" n="264" src="gra"><old>-aḍbhias</old><new>-áḍbhias</new></chg>
+<chg type="chg" n="265" src="gra"><old>-ani</old><new>-aṇi</new></chg>
+<chg type="del" n="89" src="gra"><old> {80,9};</old></chg>
+<chg type="chg" n="266" src="gra"><old>{632,9}</old><new>{632,8}</new></chg>
+<chg type="chg" n="267" src="gra"><old>{@sahásra-bhṛṣṭí,@}</old><new>{@sahásra-bhṛṣṭi,@}</new></chg>
+<chg type="chg" n="268" src="gra"><old>{1020,4}</old><new>{1020,1}</new></chg>
+<chg type="chg" n="269" src="gra"><old>{24,3}</old><new>{124,3}</new></chg>
+<chg type="del" n="90" src="gra"><old> (san)</old></chg>
+<chg type="chg" n="270" src="gra"><old>-asya</old><new>-ásya</new></chg>
+<chg type="del" n="91" src="gra"><old>; madacyút {724,3}</old></chg>
+<chg type="del" n="92" src="gra"><old>-ā́ya dhā́m(a)ne {402,1}.</old></chg>
+<chg type="chg" n="271" src="gra"><old>-ā</old><new>-e</new></chg>
+<chg type="chg" n="272" src="gra"><old>{@su-prayā́vat,@}</old><new>{@su-prajā́vat,@}</new></chg>
+<chg type="del" n="93" src="gra"><old> (der Blitz)</old></chg>

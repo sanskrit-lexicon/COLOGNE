@@ -1,0 +1,39 @@
+<chg type="chg" n="1" src="mw"><old><ls>AV.</ls></old><new>applied to the Vedi, <ls>AV. xi, 1, 23</ls> </new></chg>
+<chg type="chg" n="1" src="mw"><old><ab>N.</ab> of <s1>Siva</s1>'s wife (?)</old><new><ab>N.</ab> of a river</new></chg>
+<chg type="del" n="1" src="mw"><old><bot>Achyranthes Aspera</bot></old></chg>
+<chg type="chg" n="1" src="mw"><old></old><new>(read <s>-saMdaMSa</s>)</new></chg>
+<chg type="chg" n="1" src="cdsl"><old><s>apavarjana—varjita-tElapUra</s></old><new>apavarjita-tElapUra</new></chg>
+<chg type="chg" n="1" src="mw"><old><s>a-paSu/—tA</s> ¦ (<s>apaSu/-</s>) </old><new><s>a-paSu/tA</s> ¦ </new></chg>
+<chg type="chg" n="1" src="mw"><old></old><new>, <ls>Līl.</ls></new></chg>
+<chg type="chg" n="1" src="mw"><old>the <s1>Aśvin</s1>s</old><new>the two <s1>Aśvin</s1>s</new></chg>
+<chg type="chg" n="1" src="mw"><old><s>ava-√ DIr</s></old><new><s>ava-√ DIraya</s></new></chg>
+<chg type="chg" n="1" src="mw"><old><s>aSva—prapatana</s></old><new>aSva—prapadana</new></chg>
+<chg type="chg" n="1" src="mw"><old><s>aSva—prapa˚tanIya</s></old><new>aSva—prapa˚danIya</new></chg>
+<chg type="chg" n="1" src="cdsl"><old><s>azwA—BujA</s></old><new><s>azwA—daSa—BujA</s></new></chg>
+<chg type="chg" n="1" src="cdsl"><old><s>azwA—rca</s></old><new><s>azwA—daSa—rca</s></new></chg>
+<chg type="chg" n="1" src="mw"><old><s>asO—nA/man</s></old><new><s>asO nA/man</s></new></chg>
+<chg type="chg" n="1" src="mw"><old><hom>1.</hom> </old><new></new></chg>
+<chg type="chg" n="1" src="mw"><old>(for <hom>2.</hom> <s>A-pAda</s> see below.)</old><new></new></chg>
+<chg type="chg" n="1" src="mw"><old><s>Ayogava</s></old><new><s>A/yogava</s></new></chg>
+<chg type="chg" n="1" src="mw"><old>leading out (soldiers to war), marching out</old><new>‘a selected portion’, = <s>udDAra</s></new></chg>
+<chg type="chg" n="1" src="mw"><old><s>uh</s></old><new><s>Uh</s></new></chg>
+<chg type="chg" n="1" src="mw"><old>state of concentration on one single object, tranquillity, blissful serenity (state of mind, following after conversion)</old><new>the thread-like continuity of personality or individual life running through the whole cycle of re-births</new></chg>
+<chg type="chg" n="1" src="mw"><old></old><new>(others, ‘lustful, wanton’)</new></chg>
+<chg type="chg" n="1" src="mw"><old><s>kavi—karRa-pUrRa</s></old><new><s>kavi—karRa-pUra</s></new></chg>
+<chg type="chg" n="1" src="mw"><old>having a cow as a leader,</old><new>= <s>go/-agra</s>, ‘a cow which is chief of all’,</new></chg>
+<chg type="del" n="1" src="mw"><old><lang>Ved.</lang> <s>cikayAm akar</s>, <ls n="Pāṇ.">iii, 1, 42</ls>, <ls>Kāś.</ls>;</old></chg>
+<chg type="chg" n="1" src="mw"><old></old><new><lang>Ved.</lang> <s>cikayAm akar</s>, <ls n="Pāṇ.">iii, 1, 42</ls>, <ls>Kāś.</ls>;</new></chg>
+<chg type="chg" n="1" src="mw"><old><ab>N.</ab> of a prince of <s1>Daśa-pura</s1>, <ls>HPariś. xiii, 1</ls></old><new>&c. (erase and <ab>cf.</ab> <s>Odr˚</s>, <ab>p.</ab> 1323)</new></chg>
+<chg type="chg" n="1" src="mw"><old><lex>mfn.</lex> stationary</old><new><lex>n.</lex> that which is stationary, <ab>i.e.</ab> plants and animals</new></chg>
+<chg type="chg" n="1" src="cdsl"><old><s>daditTa</s></old><new><s>daDitTa</s></new></chg>
+<chg type="del" n="1" src="cdsl"><old><s>adAsIt</s> and </old></chg>
+<chg type="chg" n="1" src="mw"><old><hom>3.</hom></old><new><hom>4.</hom></new></chg>
+<chg type="chg" n="1" src="mw"><old><s>na—BrAj</s></old><new><s>naB—rAj</s></new></chg>
+<chg type="chg" n="1" src="mw"><old><ab>N.</ab> of a <ab>partic.</ab> sacrifice, <ls>L.</ls></old><new>a series of sacrifices having all the same name but different rewards, <ls>ĀpY.</ls></new></chg>
+<chg type="chg" n="1" src="cdsl"><old></old><new>[ = a partic. land-measure, <ls>Inscr.</ls>]</new></chg>
+<chg type="chg" n="1" src="mw"><old> </old><new>; ‘begging for food’ (for L. read <ls>Mn. iv, 5</ls>)</new></chg>
+<chg type="chg" n="1" src="mw"><old>of <ab>wk.</ab></old><new><ab>N.</ab> of a <lang>Sanskṛt</lang> translation of the <s1>Karpūra-mañjarī</s1><info n="rev" pc="1331,3"/></new></chg>
+<chg type="chg" n="1" src="mw"><old>N. of various men (esp. of a son of Ballāla-sena, who gave his name to an Era which commenced in 1119-20)</old> <new>a king of the <s1>Sena</s1> dynasty of Eastern India (founder of an era, beginning on October 7, <ab>A.D.</ab> 1119)</new></chg>
+<chg type="chg" n="1" src="cdsl"><old><ab>Caus.</ab> or</old><new><ab>Caus.</ab> <s>lagayati</s>, or</new></chg>
+<chg type="del" n="1" src="cdsl"><old><hom>1.</hom></old></chg>
+<chg type="chg" n="1" src="mw"><old>community of sacrifice,</old><new>concourse of priests for disputations &c.</new></chg>

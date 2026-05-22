@@ -1,0 +1,24 @@
+name: Question
+description: Ask a question before filing a correction or coordination item
+title: "[question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template when you need guidance before filing a coordination item
+        or when you have a question about the CDSL build-meta infrastructure.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like to know?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What prompted the question? Link to related issues or repos if relevant.

@@ -1,0 +1,14 @@
+# ruff.toml — Sanskrit Lexicon dictionary linting config.
+# Excluded dirs contain Python 2 legacy scripts (pre-2020 research artifacts).
+
+exclude = [
+    "enhancements/",,
+    "iast/",,
+    "stardict/",
+]
+
+target-version = "py311"
+
+[lint]
+# Only syntax errors; F82 (undefined names) disabled (false positives).
+select = ["E9", "F63", "F7"]

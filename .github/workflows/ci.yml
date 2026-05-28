@@ -1,0 +1,141 @@
+name: CI
+
+# Sanskrit Lexicon dictionary repo — baseline CI.
+# Pilot-tested on PWG. Lessons applied: Python 2 dirs excluded via ruff.toml,
+# change-file validator qualifies files before checking format, UTF-8 check
+# scoped to correction files only.
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint-python:
+    name: Lint Python scripts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install ruff
+      - name: Syntax errors (ruff.toml controls scope and exclusions)
+        # ruff.toml in repo root configures exclusions and rule selection.
+        # If ruff.toml is absent, falls back to checking everything with E9/F63/F7.
+        run: |
+          if [ ! -f ruff.toml ] && [ ! -f pyproject.toml ]; then
+            ruff check --select=E9,F63,F7 --output-format=github .
+          else
+            ruff check --output-format=github .
+          fi
+
+  validate-change-files:
+    name: Validate change-file format
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check changes*.txt files follow "NNN old/new/ins/del" format
+        run: |
+          python - <<'PY'
+          import sys, re
+          from pathlib import Path
+
+          # Allow "NNN new" with no trailing content (valid empty-replacement)
+          rx = re.compile(r"^\d+\s+(old|new|ins|del)(\s|$)")
+          fails = 0
+          validated = 0
+          skipped = 0
+
+          for path in sorted(Path(".").rglob("changes*.txt")):
+              if ".git" in str(path) or ".github" in str(path):
+                  continue
+              try:
+                  lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
+              except Exception as e:
+                  print(f"::error file={path}::Cannot read: {e}")
+                  fails += 1
+                  continue
+
+              # Qualify: skip files with no valid change lines (stats/log files)
+              data = [l.strip() for l in lines if l.strip() and not l.strip().startswith(";")]
+              if not any(rx.match(l) for l in data):
+                  skipped += 1
+                  continue
+
+              validated += 1
+              for i, line in enumerate(lines, 1):
+                  stripped = line.strip()
+                  if not stripped or stripped.startswith(";"):
+                      continue
+                  if not rx.match(stripped):
+                      print(f"::error file={path},line={i}::Bad change-file format: {stripped[:80]}")
+                      fails += 1
+
+          print(f"Validated: {validated} change files  Skipped (non-change): {skipped}")
+          if fails:
+              sys.exit(1)
+          PY
+
+  validate-correction-utf8:
+    name: Validate correction-file encoding
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Active correction files must be UTF-8
+        # Scoped to changes*.txt only — historical readme/bibliography files
+        # may predate the UTF-8 requirement.
+        run: |
+          python - <<'PY'
+          import sys
+          from pathlib import Path
+
+          bad = []
+          for f in sorted(Path(".").rglob("changes*.txt")):
+              if ".git" in str(f) or ".github" in str(f):
+                  continue
+              try:
+                  f.read_text(encoding="utf-8")
+              except UnicodeDecodeError as e:
+                  print(f"::error file={f}::not valid UTF-8: {e}")
+                  bad.append(str(f))
+
+          if bad:
+              sys.exit(1)
+          print("All correction files are valid UTF-8.")
+          PY
+
+  yaml-lint:
+    name: YAML lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pyyaml
+      - run: |
+          python - <<'PY'
+          import sys, glob, yaml
+          fail = 0
+          for f in glob.glob("**/*.yml", recursive=True) + glob.glob("**/*.yaml", recursive=True):
+              if ".git" in f or ".github" in f:
+                  continue
+              try:
+                  yaml.safe_load(open(f, encoding="utf-8"))
+              except yaml.YAMLError as e:
+                  print(f"::error file={f}::{e}")
+                  fail = 1
+          sys.exit(fail)
+          PY

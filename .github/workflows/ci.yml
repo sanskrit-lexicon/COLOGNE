@@ -72,10 +72,16 @@ jobs:
                   continue
 
               validated += 1
+              # Only flag lines that START with a digit (intent to be a change line)
+              # but don't match the format. Non-digit lines are treated as embedded
+              # documentation/markup (some files mix NNN directives with block docs).
+              digit_start = re.compile(r"^\d")
               for i, line in enumerate(lines, 1):
                   stripped = line.strip()
                   if not stripped or stripped.startswith(";"):
                       continue
+                  if not digit_start.match(stripped):
+                      continue  # documentation/markup line, not a change directive
                   if not rx.match(stripped):
                       print(f"::error file={path},line={i}::Bad change-file format: {stripped[:80]}")
                       fails += 1

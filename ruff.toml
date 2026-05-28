@@ -2,8 +2,8 @@
 # Excluded dirs contain Python 2 legacy scripts (pre-2020 research artifacts).
 
 exclude = [
-    "enhancements/",,
-    "iast/",,
+    "enhancements/",
+    "iast/",
     "stardict/",
 ]
 

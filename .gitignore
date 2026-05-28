@@ -6,3 +6,7 @@ makemd/MD/*
 temp*
 # emacs backups
 *~
+
+# audit sidecars
+.contributing_old.md
+.contributing_audit.txt

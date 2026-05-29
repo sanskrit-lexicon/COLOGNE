@@ -46,7 +46,7 @@ jobs:
       - name: Check changes*.txt files follow "NNN old/new/ins/del" format
         run: |
           python - <<'PY'
-          import sys, re
+          import sys, re, os
           from pathlib import Path
 
           # Allow "NNN new" with no trailing content (valid empty-replacement)
@@ -55,9 +55,16 @@ jobs:
           validated = 0
           skipped = 0
 
-          for path in sorted(Path(".").rglob("changes*.txt")):
-              if ".git" in str(path) or ".github" in str(path):
-                  continue
+          # Use os.walk with directory pruning to skip .git (rglob can race on
+          # transient .git/objects/ entries during garbage collection).
+          def find_change_files(root="."):
+              for dirpath, dirs, files in os.walk(root):
+                  dirs[:] = [d for d in dirs if d not in (".git", ".github", "node_modules")]
+                  for f in files:
+                      if f.startswith("changes") and f.endswith(".txt"):
+                          yield Path(dirpath) / f
+
+          for path in sorted(find_change_files()):
               try:
                   lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
               except Exception as e:
@@ -72,16 +79,16 @@ jobs:
                   continue
 
               validated += 1
-              # Only flag lines that START with a digit (intent to be a change line)
-              # but don't match the format. Non-digit lines are treated as embedded
-              # documentation/markup (some files mix NNN directives with block docs).
-              digit_start = re.compile(r"^\d")
+              # Only flag lines that look like change directives (digit + whitespace
+              # + word). Excludes scholarly numbering "4. {%word%}..." and embedded
+              # block-format markup like "<L>NNN<pc>..." that share digits.
+              looks_like_directive = re.compile(r"^\d+\s+\w+")
               for i, line in enumerate(lines, 1):
                   stripped = line.strip()
                   if not stripped or stripped.startswith(";"):
                       continue
-                  if not digit_start.match(stripped):
-                      continue  # documentation/markup line, not a change directive
+                  if not looks_like_directive.match(stripped):
+                      continue  # documentation/markup line
                   if not rx.match(stripped):
                       print(f"::error file={path},line={i}::Bad change-file format: {stripped[:80]}")
                       fails += 1
@@ -104,13 +111,18 @@ jobs:
         # may predate the UTF-8 requirement.
         run: |
           python - <<'PY'
-          import sys
+          import sys, os
           from pathlib import Path
 
+          def find_change_files(root="."):
+              for dirpath, dirs, files in os.walk(root):
+                  dirs[:] = [d for d in dirs if d not in (".git", ".github", "node_modules")]
+                  for f in files:
+                      if f.startswith("changes") and f.endswith(".txt"):
+                          yield Path(dirpath) / f
+
           bad = []
-          for f in sorted(Path(".").rglob("changes*.txt")):
-              if ".git" in str(f) or ".github" in str(f):
-                  continue
+          for f in sorted(find_change_files()):
               try:
                   f.read_text(encoding="utf-8")
               except UnicodeDecodeError as e:

@@ -30,7 +30,9 @@ Lightweight checks run:
 
 ## Findings
 
-### P1. Several committed Python scripts do not parse under Python 3
+**Severity:** 🔴 P1 (fix before relying on the affected workflow) · 🟠 P2 (real risk, not urgent) · 🟡 P3 (worth doing, low stakes) — same 3-tier convention as [`SanskritLexicography/FINDINGS.md`](https://github.com/gasyoun/SanskritLexicography/blob/master/FINDINGS.md) and [`Uprava/FINDINGS.md`](https://github.com/gasyoun/Uprava/blob/main/FINDINGS.md).
+
+### 🔴 P1. Several committed Python scripts do not parse under Python 3
 
 Evidence:
 
@@ -53,7 +55,7 @@ Recommendation:
 - Port or retire the Python 2 scripts, starting with `stardict/make_babylon.py` if StarDict output is still needed.
 - Add a Python 3 syntax smoke test that excludes explicitly legacy files.
 
-### P1. The transliterator has a broken default data path and duplicated divergent copies
+### 🔴 P1. The transliterator has a broken default data path and duplicated divergent copies
 
 Evidence:
 
@@ -80,7 +82,7 @@ Recommendation:
 - Consolidate `iast/transcoder.py` and `stardict/transcoder.py` into one shared module.
 - Resolve data files relative to the module by default, or package the XML mappings as package data.
 
-### P1. The Flask API prototype is not safe or scalable as a service boundary
+### 🔴 P1. The Flask API prototype is not safe or scalable as a service boundary
 
 Evidence:
 
@@ -103,7 +105,7 @@ Recommendation:
 - If this API is revived, move it into a proper app package with configuration, bounded search, regex validation/timeouts, pagination, SQLite indexes or FTS, and production-safe CORS/debug settings.
 - Add API tests for empty queries, invalid regexes, large results, and missing files.
 
-### P1. Dependency and environment setup is implicit
+### 🔴 P1. Dependency and environment setup is implicit
 
 Evidence:
 
@@ -123,7 +125,7 @@ Recommendation:
 - Add `README` setup examples using a virtual environment.
 - Add a `scripts/check_env.py` helper that reports which workflows are available.
 
-### P2. Reusable issue-processing logic is copied across many issue directories
+### 🟠 P2. Reusable issue-processing logic is copied across many issue directories
 
 Evidence:
 
@@ -142,7 +144,7 @@ Recommendation:
 - Create a shared `cologne_tools/` package for reusable parsing, entry splitting, metaline handling, line-change application, and tag analysis.
 - For future issue work, use thin issue-specific scripts that import shared utilities.
 
-### P2. There is no automated test suite or CI safety net
+### 🟠 P2. There is no automated test suite or CI safety net
 
 Evidence:
 
@@ -165,7 +167,7 @@ Recommendation:
   - `iast/transcoder.py`
 - Add a CI job that runs syntax checks, unit tests, and a few small CLI smoke tests.
 
-### P2. Shell workflows assume fragile local layout and unverified downloads
+### 🟠 P2. Shell workflows assume fragile local layout and unverified downloads
 
 Evidence:
 
@@ -185,7 +187,7 @@ Recommendation:
 - Switch downloads to HTTPS where available.
 - Use `curl -fSL`, verify checksums or sizes, and fail fast before unzip.
 
-### P2. XML and HTML handling mixes structured parsing with regex/string transforms
+### 🟠 P2. XML and HTML handling mixes structured parsing with regex/string transforms
 
 Evidence:
 
@@ -206,7 +208,7 @@ Recommendation:
 - Use structured parsing for canonical transformations.
 - Escape or sanitize browser-rendered data, and distinguish literal search from regex search in UI/API design.
 
-### P3. CLI ergonomics are thin
+### 🟡 P3. CLI ergonomics are thin
 
 Evidence:
 

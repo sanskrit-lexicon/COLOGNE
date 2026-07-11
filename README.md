@@ -17,6 +17,15 @@ Nothing is auto-deleted by this workflow. The taxonomy proposer only reads
 the tree and writes a CSV with `human_decision` left blank; a human (or an
 agent under his instruction) fills that column before any cleanup PR happens.
 
+## Operator manual
+
+[docs/TOOLING_MANUAL.md](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/docs/TOOLING_MANUAL.md)
+is the detailed operator manual for every tooling directory in this repo — cheat-sheet,
+data-flow, per-directory walkthroughs with exact commands, the add-a-new-dictionary
+flow, load-bearing vs legacy verdicts, and a symptom → cause → cure table. Its
+improvement backlog lives in
+[docs/TOOLING_MANUAL.meta.md](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/docs/TOOLING_MANUAL.meta.md).
+
 ## Cleanup planning
 
 - [ARCHITECTURE_REVIEW.md](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/ARCHITECTURE_REVIEW.md) — architecture review and roadmap

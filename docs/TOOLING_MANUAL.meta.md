@@ -20,7 +20,7 @@ repo; the future operator who inherits the Windows XAMPP / Mac local installs.
 ## Provenance
 
 Authored 11-07-2026 by Fable 5 (`claude-fable-5`) executing handoff
-[H506](https://github.com/gasyoun/Uprava/blob/main/handoffs/H506-Fable_COLOGNE_cross_cutting_tooling_manual_10.07.26.md)
+[H506](https://github.com/gasyoun/Uprava/blob/main/handoffs/archive/H506-Fable_COLOGNE_cross_cutting_tooling_manual_10.07.26.md)
 (manual-coverage census of 10-07-2026, which flagged COLOGNE as deserving a detailed
 manual but lacking one). Modelled on the gold-standard operator manual
 [RussianRamayana Litpam-Indexator MANUAL.md](https://github.com/gasyoun/RussianRamayana/blob/main/Litpam-Indexator/docs/indesign-pipeline/MANUAL.md).

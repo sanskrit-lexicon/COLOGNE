@@ -121,6 +121,17 @@ PHP + `mod_rewrite` (localinstall serving), XAMPP + `mako` + `sqlite3` + `zip`
 `UnicodeEncodeError: 'charmap' codec`. Do not remove them; add them to any new script
 that prints Sanskrit.
 
+**Verifying the engines without the umbrella layout.** Only the `redo_*.sh` /
+`install_local.sh` *drivers* hardcode the `../../../cologne/…` sibling paths; the
+Python engines underneath (`ea.py`, `xmltag.py`, `chgtag.py`, `updateByLine.py`) all
+take explicit input/output file arguments, so each can be exercised against **any**
+`csl-orig` checkout by passing paths directly. Done live 18-07-2026 from a bare
+GitHub layout (`csl-orig` cloned as a plain sibling): `python xmltag/xmltag.py
+../csl-orig/v02/mw/mw.txt out.txt` → `25 distinct tags written`; `python eascii/ea.py`
+on the same input → `230 extended ascii counts written`; `python xmltag/chgtag.py` on
+`gra.txt` → `380 instances written`. When a driver fails on paths, drop to the engine
+with explicit arguments before concluding anything is broken.
+
 ---
 
 ## Directory walkthroughs
@@ -186,6 +197,38 @@ This is the shared core of the Cologne correction machinery.
   validate → audit → commit → refresh) is canonical in
   [csl-corrections/docs/correction-workflow.md](https://github.com/sanskrit-lexicon/csl-corrections/blob/main/docs/correction-workflow.md);
   do not re-derive it from here.
+
+  **Worked example (executed 18-07-2026, real output).** A minimal three-line
+  digitization and a one-transaction change-file:
+
+  ```
+  # old.txt                          # chg.txt
+  <L>1<pc>1,1<k1>a<k2>a              ; test change-file
+  {#a#} ¦ the first letter.          2 old {#a#} ¦ the first letter.
+  <LEND>                             2 new {#a#} ¦ the first letter of the alphabet.
+  ```
+
+  ```bash
+  $ python updateByLine.py old.txt chg.txt new.txt
+  3 lines read from old.txt
+  3 records written to new.txt
+  1 change transactions from chg.txt
+  1 of type new
+  ```
+
+  Line 2 of `new.txt` now reads `…the first letter of the alphabet.` Feeding the same
+  engine a change-file whose `old` line does not match stops the run exactly as
+  documented — no output file is completed:
+
+  ```
+  CHANGE ERROR #2: Old mismatch line 1 of bad.txt
+  Change record lnum = 2
+  b'Change old text:\nWRONG TEXT'
+  b'Change old input:\n{#a#} \xc2\xa6 the first letter.'
+  ```
+
+  (Under Python 3.13+ every run also prints a cosmetic `codecs.open() is deprecated`
+  `DeprecationWarning` — harmless, see the symptom table.)
 
 - [updateByLine_python2.py](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/enhancements/code/updateByLine_python2.py) —
   the Python-2 legacy twin. Do not use for new work.
@@ -553,6 +596,7 @@ The row-level source of truth for these calls is
 | Transcoded text comes back unchanged (SLP1 in, SLP1 out), no error | `transcoder.py` couldn't find its FSM XML (wrong CWD, or `stardict/data/transcoder/` absent) and **silently passes input through** | Run from `iast/`; for stardict, create `data/transcoder/` and copy the tables in; spot-check output for Devanagari |
 | `SyntaxError` on `print` or `xrange` | You ran a Python-2-only script (`stardict/make_babylon.py`, `issue10/*.py`, `updateByLine_python2.py`) under Python 3 | Use a py2 interpreter, or use the py3 twin (`updateByLine.py`); see the [interpreter table](#environment--prerequisites) |
 | `UnicodeEncodeError: 'charmap' codec` printing Sanskrit on Windows | git-bash console encoding; the script lacks `sys.stdout.reconfigure(encoding='utf-8')` | Add the reconfigure line (present in all `eascii/` scripts as the model) |
+| `DeprecationWarning: codecs.open() is deprecated` spam on every run | Python 3.13+ deprecates `codecs.open`, which the older scripts (`updateByLine.py`, `ea.py`, `xmltag.py`, `chgtag.py`) still use | Cosmetic — output is unaffected (verified 18-07-2026 on Python 3.14.4). Silence with `python -W ignore::DeprecationWarning` if it obscures real output |
 | `redo_one.sh` / `redo_all.sh` can't find the input file | The `../../../cologne/csl-orig/...` sibling layout isn't in place | Recreate the umbrella layout (clone csl-orig under a shared `cologne/` parent) or edit the path; `eachanges-degree/` needs one *extra* `../` |
 | `make_babylon.py` dies with `IOError` on first write | `stardict/output/` does not exist in the repo | `mkdir output` first |
 | `make_md.py` raises `IndexError` immediately | No dictcode argument (bare `sys.argv[1]`) | `python3 make_md.py <dictcode>` |

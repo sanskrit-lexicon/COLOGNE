@@ -1,6 +1,6 @@
 # COLOGNE cross-cutting tooling — operator manual
 
-_Created: 11-07-2026 · Last updated: 11-07-2026_
+_Created: 11-07-2026 · Last updated: 18-07-2026_
 
 This is the operator manual for the [COLOGNE](https://github.com/sanskrit-lexicon/COLOGNE)
 build-meta repository of the Cologne Digital Sanskrit Lexicon (CDSL) project. The test
@@ -41,7 +41,7 @@ Each row links to its detailed section below. "Status" is the load-bearing verdi
 | [aws/](https://github.com/sanskrit-lexicon/COLOGNE/tree/main/aws) | S3 upload notes (2014) + bucket manifests | none — archival + inventories | 🟡 manifests useful |
 | [enhancements/autocomplete/](https://github.com/sanskrit-lexicon/COLOGNE/tree/main/enhancements/autocomplete) | headword autocomplete data generator | `python listsanhw1.py` | 🟡 data ships, script legacy |
 | [enhancements/issue10/](https://github.com/sanskrit-lexicon/COLOGNE/tree/main/enhancements/issue10) | spelling-suggestion prototype | `python2 suggest.py inputword` | 🔴 legacy Python 2 |
-| [issues/](https://github.com/sanskrit-lexicon/COLOGNE/tree/main/issues) | per-issue archival workspaces (270 files) | none — archival; exception: issue445 | ⚪ archival |
+| [issues/](https://github.com/sanskrit-lexicon/COLOGNE/tree/main/issues) | per-issue archival workspaces (265 files) | none — archival; exception: issue445 | ⚪ archival |
 | [xsswork/](https://github.com/sanskrit-lexicon/COLOGNE/tree/main/xsswork) | 2022 XSS-hardening notes | none — memo | ⚪ archival |
 | [misc/](https://github.com/sanskrit-lexicon/COLOGNE/tree/main/misc) | scholarly reference artifacts | none — reference | ⚪ archival |
 
@@ -149,12 +149,12 @@ It writes four files into
 [docs/cleanup/](https://github.com/sanskrit-lexicon/COLOGNE/tree/main/docs/cleanup):
 
 1. [taxonomy_schema.md](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/docs/cleanup/taxonomy_schema.md) — the label glossary;
-2. [taxonomy_proposals.csv](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/docs/cleanup/taxonomy_proposals.csv) — one row per file (464 rows currently), `human_decision`/`human_notes` left **blank**;
+2. [taxonomy_proposals.csv](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/docs/cleanup/taxonomy_proposals.csv) — one row per file (464 rows in the committed generation; a fresh verification run on 18-07-2026 classified 482 files, the tree having grown since), `human_decision`/`human_notes` left **blank**;
 3. [taxonomy_summary.md](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/docs/cleanup/taxonomy_summary.md) — totals + the 6-group Human Approval Queue;
 4. [cleanup_issue_backlog.md](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/docs/cleanup/cleanup_issue_backlog.md) — 9 pre-drafted cleanup issues.
 
 **The human loop:** a maintainer fills `human_decision` per row with `approve`,
-`override`, `defer`, or `ignore` (+ free-text `human_notes`). As of 11-07-2026, 0 of
+`override`, `defer`, or `ignore` (+ free-text `human_notes`). As of 18-07-2026, 0 of
 464 rows are decided; nothing may be moved or deleted before decisions land, and even
 then the change goes through issues opened from the backlog doc — never directly from
 the proposal.
@@ -219,7 +219,9 @@ python easummary.py ../../../cologne/csl-orig easummary        # cross-dict matr
 python easummary_meta.py ../../../cologne/csl-orig easummary_meta  # metaline-only
 ```
 
-Output lines look like `° (°) 55614 := DEGREE SIGN`. Scripts only count
+Output lines look like `° (°) 55614 := DEGREE SIGN` — the parenthesis holds the
+`\uNNNN` codepoint escape, not the character again (verified live 18-07-2026: a run
+against `mw` opens with `¦ (\u00a6) 282169 := BROKEN BAR`). Scripts only count
 characters **inside entries** (from the `<L>` metaline to `<LEND>`), deliberately
 excluding front matter. `easummary.py` splits Greek/Arabic/Cyrillic into separate
 TSVs; `easummary_meta.py` examines only the `<L>` metalines and does **not** separate
@@ -255,8 +257,9 @@ curly pseudo-tags `{#…#}` `{@…@}` `{%…%}` are deliberately out of scope. T
 is a line-based regex (`<(.*?)>`) — an approximate corpus scanner, not a validator.
 
 **Trap:** `redo_all.sh` and `catall.sh` iterate **different** dictionary-code lists
-(44 vs 34) — `catall.sh` concatenates fewer files than `redo_all.sh` generates. Check
-both lists before trusting `all_xmltags.txt` as complete.
+(44 vs 36, recounted 18-07-2026) — `catall.sh` concatenates fewer files than
+`redo_all.sh` generates (it lacks `ap`, `pd`, `pwkvn`, `lrv`, `abch`, `acph`, `acsj`,
+`fri`). Check both lists before trusting `all_xmltags.txt` as complete.
 
 ### iast/ — the transcoding source of truth
 
@@ -273,8 +276,11 @@ python slp1_iast.py slp1_roman.xml slp1_iast.txt
 
 Regenerates the human-readable table `slp1_iast.txt` and runs three consistency
 checks (IAST→SLP1 round-trip; SLP1 keysets match across the two XMLs; IAST keysets
-match), printing `GOOD` or `WARNING` per check. Run this after **any** edit to either
-XML.
+match). The round-trip check reports a problem count (`check1_invert. 0 slp1 iast
+inversion problems`); the two keyset checks print `GOOD` or `WARNING`. Run this after
+**any** edit to either XML. Verified live 18-07-2026: 84 mappings, all three checks
+clean, and the committed `slp1_iast.txt` matches the XMLs byte-for-byte (regeneration
+produced only line-ending churn).
 
 **Install to the live PHP repos (Windows XAMPP layout only):**
 
@@ -390,7 +396,7 @@ P1). If you must run it:
 mkdir -p output                                    # trap 1: output/ does not exist
 # trap 2: supply the transcoder FSM tables (see below) or output is silently wrong
 python2 make_babylon.py ../../Cologne_localcopy md # one dictionary
-sh redo.sh                                         # all 37 codes
+sh redo.sh                                         # all 36 codes
 ```
 
 Reads `<pathToDicts>/<id>/<id>xml/xml/<id>.xml` from a local mirror named
@@ -447,8 +453,9 @@ Python 3 — port-or-retire.
 
 One directory per GitHub issue (`407`, `issue422`…`issue445`), indexed by
 [issues/readme.txt](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/issues/readme.txt).
-Policy: **archival — preserve for provenance, never refactor** (270 files classified
-`archive-no-refactor`). Many scripts are byte-identical copies across issue dirs
+Policy: **archival — preserve for provenance, never refactor** (265 files in the
+directory; 248 classified `archive-no-refactor`, the 17 `issue445` prototype files
+`promote-or-sunset` — recounted from the CSV 18-07-2026). Many scripts are byte-identical copies across issue dirs
 (`issue422`–`issue432` are the same hwextra-Lbody conversion applied to ten
 dictionaries) — a bug fixed in one copy is NOT fixed in the others; the canonical
 version of anything reusable is `enhancements/code/`.

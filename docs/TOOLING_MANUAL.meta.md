@@ -1,6 +1,6 @@
 # TOOLING_MANUAL.md — metadoc
 
-_Created: 11-07-2026 · Last updated: 11-07-2026_
+_Created: 11-07-2026 · Last updated: 18-07-2026_
 
 Companion record for
 [docs/TOOLING_MANUAL.md](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/docs/TOOLING_MANUAL.md).
@@ -31,21 +31,52 @@ Source evidence: repo docs
 plus four parallel directory-exploration passes over all 14 tooling directories
 (same model tier).
 
+## Verification
+
+```
+LAST_VERIFIED: 18-07-2026
+VERIFIED_BY: Fable 5 (claude-fable-5), H1245
+COMMANDS_SPOT_RUN: 6
+```
+
+Spot-run 18-07-2026: `tools/propose_cleanup_taxonomy.py` (482 proposals on the grown
+tree; diff discarded per the manual's own trap note), `iast/slp1_iast.py` (84 mappings,
+3 checks clean, committed table in sync), `updateByLine.py` (fixture apply + the
+stop-on-mismatch path), `xmltag/xmltag.py`, `eascii/ea.py`, `xmltag/chgtag.py` (each
+against a plain `csl-orig` sibling with explicit paths). **Not** spot-run: the
+umbrella-layout drivers (`redo_*.sh`, `install_local.sh`, `download2*.sh` — layout and
+production-server dependencies absent) and every Python-2-only script (no `python2`
+on the verifying host); the manual marks these inline.
+
 ## Ranked improvement backlog
 
 | # | Item | Status |
 |---|---|---|
-| 1 | Verify each documented command by executing it in a full CDSL umbrella checkout (this manual is source-derived; commands were not all run live) | open |
-| 2 | Add a worked end-to-end example with real output for one census run (`sh redo_one.sh mw`) once a csl-orig sibling is available | open |
-| 3 | When the taxonomy `human_decision` pass lands and files move, update the walkthrough paths and the load-bearing table in the same PR | open |
+| 1 | Verify each documented command by executing it in a full CDSL umbrella checkout (this manual is source-derived; commands were not all run live) | **narrowed 18-07-2026 (H1245):** all path-parameterized engines + governance/iast commands now executed live (see Verification); still open only for the umbrella-layout drivers and py2-only scripts |
+| 2 | Add a worked end-to-end example with real output for one census run (`sh redo_one.sh mw`) once a csl-orig sibling is available | **done 18-07-2026 (H1245)** — worked example landed for `updateByLine.py` (apply + mismatch), and census engines run live against a plain csl-orig sibling with real output quoted; a driver-level `redo_one.sh` run still needs the umbrella layout (folded into item 1) |
+| 3 | When the taxonomy `human_decision` pass lands and files move, update the walkthrough paths and the load-bearing table in the same PR | open — still 0/464 rows decided as of 18-07-2026 |
 | 4 | If `stardict/` is ported to Python 3 or retired (Human Approval Queue #3), rewrite or drop its section | open |
-| 5 | Cross-link from the org manuals index / FEATURES_INDEX if a docs census consumes this | open |
+| 5 | Cross-link from the org manuals index / FEATURES_INDEX if a docs census consumes this | **done 18-07-2026** — tracked in [Uprava/METADOCS_INDEX.md](https://github.com/gasyoun/Uprava/blob/main/METADOCS_INDEX.md) (private hub) |
+
+## Consolidation verdict (H1245 pass 3, 18-07-2026)
+
+Checked for content duplicated between this manual and
+[README.md](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/README.md),
+[CLAUDE.md](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/CLAUDE.md), and
+[readme_new_dict_addition.md](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/readme_new_dict_addition.md):
+**nothing to fold.** The three-doc division declared at the top of the manual is real
+in practice — README is the intro + taxonomy entry point, CLAUDE.md holds only the
+issue taxonomy, and the new-dict flow keeps execution detail in
+`readme_new_dict_addition.md` with the manual as the map. No pointer stubs were needed.
 
 ## Known limitations
 
-- Written from source-and-docs evidence; the sibling `cologne/csl-orig` umbrella
-  layout was not present in the authoring checkout, so `redo_*` commands are
-  transcribed from the scripts, not re-executed.
+- Written from source-and-docs evidence; the `cologne/` umbrella layout was not
+  present in the authoring checkout. Since the 18-07-2026 refresh (H1245) the
+  path-parameterized engines and repo-root tools ARE verified live; the `redo_*` /
+  `install_local.sh` / `download2*.sh` **drivers** remain transcribed, not re-executed
+  (umbrella layout + production server still absent), as are the Python-2-only
+  scripts (no `python2` on the verifying host).
 - The `issues/` section is deliberately structural (270 archival files are not
   enumerated).
 - Load-bearing verdicts mirror the cleanup taxonomy as of 464-row generation
@@ -134,5 +165,6 @@ commands or directory map are stale.
 |---|---|---|
 | 11-07-2026 | Initial version (H506): cheat-sheet, data-flow, 14 directory walkthroughs, new-dict flow, load-bearing verdicts, symptom table, glossary, maintainer appendix | Fable 5 (`claude-fable-5`) |
 | 11-07-2026 | template v2 backfill (H663) | Sonnet 5 (`claude-sonnet-5`) |
+| 18-07-2026 | H1245 estate refresh: fact-check recounts (issues/ 265 not 270; catall 36 not 34; stardict redo 36 not 37; eascii output format), executed worked example for `updateByLine.py`, engine-verification pattern + DeprecationWarning symptom row, `LAST_VERIFIED` block + backlog reconcile, consolidation verdict (no fold). Adversarial fact-check pass (8 findings, all fixed): promote-or-sunset spans 4 issue dirs; CodeQL is weekly-cron-only (`master` triggers vs `main` default branch — bug flagged, not fixed here); `stardict/transcoder.py` fails at runtime not parse; `issue10/hw1list.py` is py3-clean; `xmlvalidate.py` is py3; aws manifest is objects not all PDFs; iast readme names only `slp1_roman.xml` | Fable 5 (`claude-fable-5`) |
 
 _Dr. Mārcis Gasūns_

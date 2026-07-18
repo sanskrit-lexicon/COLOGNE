@@ -99,9 +99,10 @@ what `install_local.sh` and the `../../../cologne/csl-orig/...` relative paths i
 | `iast/slp1_iast.py`, `iast/transcoder.py` | Python 2 or 3 | dual-version by design |
 | `makemd/make_md.py` | Python 3 | needs pip package `indic_transliteration` |
 | `enhancements/code/updateByLine.py` | Python 3 | (`updateByLine_python2.py` is the py2 twin) |
-| `enhancements/code/xmlvalidate.py` | Python 2.7 + `lxml` | Windows stand-in for `xmllint` |
-| `stardict/make_babylon.py`, `stardict/transcoder.py` | **Python 2 only** | `print` statements, `xrange` — SyntaxError under py3 |
-| `enhancements/issue10/*.py` | **Python 2 only** | same |
+| `enhancements/code/xmlvalidate.py` | Python 3 + `lxml` | its own docstring says `python3`; the "Python 2.7" in `enhancements/code/readme.md` is stale |
+| `stardict/make_babylon.py` | **Python 2 only** | `print` statement (line 23) — SyntaxError under py3 |
+| `stardict/transcoder.py` | Python 2 (runtime) | parses under py3 but dies at runtime on `xrange` (lines 169, 340) — a `NameError`, not a SyntaxError |
+| `enhancements/issue10/suggest.py`, `levenshtein.py` | **Python 2 only** | SyntaxError under py3 (`hw1list.py` in the same dir is py3-clean) |
 | `aws/awsintro.txt` procedure | Python 2.6/2.7 + `awscli` | 2014 host setup, archival |
 
 There is no `requirements.txt`/`pyproject.toml` yet (a known
@@ -234,7 +235,8 @@ This is the shared core of the Cologne correction machinery.
   the Python-2 legacy twin. Do not use for new work.
 - [xmlvalidate.py](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/enhancements/code/xmlvalidate.py) —
   `python xmlvalidate.py file.xml file.dtd` — DTD validation on Windows where
-  `xmllint` is unavailable (Python 2.7 + `lxml`).
+  `xmllint` is unavailable (Python 3 + `lxml`; the script's own usage line says
+  `python3`, and the "Python 2.7" note in `readme.md` is stale).
 - [dictionary_init.sh](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/enhancements/code/dictionary_init.sh) —
   `sh dictionary_init.sh mw` — downloads a per-dictionary working environment
   (orig / pywork / web) from the project's AWS blobs into a `cologne/` dir under the
@@ -262,9 +264,9 @@ python easummary.py ../../../cologne/csl-orig easummary        # cross-dict matr
 python easummary_meta.py ../../../cologne/csl-orig easummary_meta  # metaline-only
 ```
 
-Output lines look like `° (°) 55614 := DEGREE SIGN` — the parenthesis holds the
-`\uNNNN` codepoint escape, not the character again (verified live 18-07-2026: a run
-against `mw` opens with `¦ (\u00a6) 282169 := BROKEN BAR`). Scripts only count
+Output lines look like `° (\u00b0) 55614 := DEGREE SIGN` — the parenthesis holds
+the `\uNNNN` codepoint escape, not the character again (verified live 18-07-2026: a
+run against `mw` opens with `¦ (\u00a6) 282169 := BROKEN BAR`). Scripts only count
 characters **inside entries** (from the `<L>` metaline to `<LEND>`), deliberately
 excluding front matter. `easummary.py` splits Greek/Arabic/Cyrillic into separate
 TSVs; `easummary_meta.py` examines only the `<L>` metalines and does **not** separate
@@ -306,10 +308,12 @@ is a line-based regex (`<(.*?)>`) — an approximate corpus scanner, not a valid
 
 ### iast/ — the transcoding source of truth
 
-**What it is:** `slp1_roman.xml` and `roman_slp1.xml` here are, per
-[iast/readme.txt](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/iast/readme.txt),
-**the source of truth for the transliteration tables the live CDSL website uses**.
-Editing them changes how the production displays transcode Sanskrit.
+**What it is:**
+[iast/readme.txt](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/iast/readme.txt)
+names `slp1_roman.xml` as **the source of truth for the transliteration tables the
+live CDSL website uses**; `roman_slp1.xml` is its companion inverse, kept consistent
+by the checks below and installed alongside it. Editing either changes how the
+production displays transcode Sanskrit.
 
 **Run (from `iast/` — the CWD matters, see trap):**
 
@@ -478,7 +482,8 @@ end in unresolved "Questions" sections — the spec was never finalized.
 is Jim Funderburk's December-2014 log of pushing the scans to `s3://sanskrit-lexicon/`
 (Python 2.6 virtualenv, `aws s3 cp … --acl public-read --recursive`) — archival; do
 not imitate the setup. The durable value is the **manifests**: `aws_scans_list.txt`
-(47,962 scan PDFs), `aws_scans_summary.txt` (per-dictionary PDF filename formats),
+(47,962 scan objects — ~43,161 PDFs plus 3,418 `.png` and 1,383 `.jpg` images),
+`aws_scans_summary.txt` (per-dictionary PDF filename formats),
 plus blob/web1 zip inventories with sizes — the index of what lives in the bucket
 (objects like `https://s3.amazonaws.com/sanskrit-lexicon/scans/ACC/pg1_002.pdf`),
 last refreshed 2023. One operational fact worth keeping: objects uploaded without
@@ -497,8 +502,10 @@ Python 3 — port-or-retire.
 One directory per GitHub issue (`407`, `issue422`…`issue445`), indexed by
 [issues/readme.txt](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/issues/readme.txt).
 Policy: **archival — preserve for provenance, never refactor** (265 files in the
-directory; 248 classified `archive-no-refactor`, the 17 `issue445` prototype files
-`promote-or-sunset` — recounted from the CSV 18-07-2026). Many scripts are byte-identical copies across issue dirs
+directory; 248 classified `archive-no-refactor` and 17 `promote-or-sunset` —
+recounted from the CSV 18-07-2026. The 17 span **four** issue dirs, not just the
+prototype: `issue441` 5 · `issue442` 5 · `issue443` 2 · `issue445` 5 — all await
+the same promote-or-sunset decision). Many scripts are byte-identical copies across issue dirs
 (`issue422`–`issue432` are the same hwextra-Lbody conversion applied to ten
 dictionaries) — a bug fixed in one copy is NOT fixed in the others; the canonical
 version of anything reusable is `enhancements/code/`.
@@ -676,8 +683,13 @@ fixing several is gated on the taxonomy `human_decision` pass):
 `ruff` lint (Python-2 dirs excluded via
 [ruff.toml](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/ruff.toml)),
 change-file format validation (`changes*.txt` must follow the `NNN` +
-`old`/`new`/`ins`/`del` grammar), change-file UTF-8 validation, YAML lint. CodeQL
-(Python) runs on PRs and weekly. Dependabot PRs auto-merge once checks pass.
+`old`/`new`/`ins`/`del` grammar), change-file UTF-8 validation, YAML lint. Dependabot
+PRs auto-merge once checks pass. CodeQL (Python) effectively runs **weekly-cron only**:
+its push/PR triggers in
+[codeql.yml](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/.github/workflows/codeql.yml)
+target `master`, but the default branch is `main`, so PR-time CodeQL never fires —
+a known trigger-config bug (flagged 18-07-2026, H1245; fix is queued as an issue,
+deliberately not part of a docs-only pass).
 
 **Companion metadoc:** improvement backlog, provenance, and revision history for this
 manual live in

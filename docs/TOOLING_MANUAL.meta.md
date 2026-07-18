@@ -165,6 +165,6 @@ commands or directory map are stale.
 |---|---|---|
 | 11-07-2026 | Initial version (H506): cheat-sheet, data-flow, 14 directory walkthroughs, new-dict flow, load-bearing verdicts, symptom table, glossary, maintainer appendix | Fable 5 (`claude-fable-5`) |
 | 11-07-2026 | template v2 backfill (H663) | Sonnet 5 (`claude-sonnet-5`) |
-| 18-07-2026 | H1245 estate refresh: fact-check recounts (issues/ 265 not 270; catall 36 not 34; stardict redo 36 not 37; eascii output format), executed worked example for `updateByLine.py`, engine-verification pattern + DeprecationWarning symptom row, `LAST_VERIFIED` block + backlog reconcile, consolidation verdict (no fold) | Fable 5 (`claude-fable-5`) |
+| 18-07-2026 | H1245 estate refresh: fact-check recounts (issues/ 265 not 270; catall 36 not 34; stardict redo 36 not 37; eascii output format), executed worked example for `updateByLine.py`, engine-verification pattern + DeprecationWarning symptom row, `LAST_VERIFIED` block + backlog reconcile, consolidation verdict (no fold). Adversarial fact-check pass (8 findings, all fixed): promote-or-sunset spans 4 issue dirs; CodeQL is weekly-cron-only (`master` triggers vs `main` default branch — bug flagged, not fixed here); `stardict/transcoder.py` fails at runtime not parse; `issue10/hw1list.py` is py3-clean; `xmlvalidate.py` is py3; aws manifest is objects not all PDFs; iast readme names only `slp1_roman.xml` | Fable 5 (`claude-fable-5`) |
 
 _Dr. Mārcis Gasūns_

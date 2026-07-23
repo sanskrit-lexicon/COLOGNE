@@ -1,6 +1,6 @@
 # COLOGNE cross-cutting tooling — operator manual
 
-_Created: 11-07-2026 · Last updated: 18-07-2026_
+_Created: 11-07-2026 · Last updated: 23-07-2026_
 
 This is the operator manual for the [COLOGNE](https://github.com/sanskrit-lexicon/COLOGNE)
 build-meta repository of the Cologne Digital Sanskrit Lexicon (CDSL) project. The test
@@ -684,12 +684,11 @@ fixing several is gated on the taxonomy `human_decision` pass):
 [ruff.toml](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/ruff.toml)),
 change-file format validation (`changes*.txt` must follow the `NNN` +
 `old`/`new`/`ins`/`del` grammar), change-file UTF-8 validation, YAML lint. Dependabot
-PRs auto-merge once checks pass. CodeQL (Python) effectively runs **weekly-cron only**:
-its push/PR triggers in
+PRs auto-merge once checks pass. CodeQL (Python) runs on push/PR to `main` plus a
+weekly cron: its triggers in
 [codeql.yml](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/.github/workflows/codeql.yml)
-target `master`, but the default branch is `main`, so PR-time CodeQL never fires —
-a known trigger-config bug (flagged 18-07-2026, H1245; fix is queued as an issue,
-deliberately not part of a docs-only pass).
+were briefly stuck on `master` while the default branch is `main` (flagged 18-07-2026,
+H1245; fixed 23-07-2026 in H1522 — PR-time CodeQL fires again).
 
 **Companion metadoc:** improvement backlog, provenance, and revision history for this
 manual live in

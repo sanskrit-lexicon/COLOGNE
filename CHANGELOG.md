@@ -7,6 +7,10 @@ choose to cut a first release.
 
 ## [Unreleased]
 
+### Fixed
+
+- **CodeQL workflow triggers** (H1522 / H1245 find): [`.github/workflows/codeql.yml`](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/.github/workflows/codeql.yml) push/PR branches were `master` while the default branch is `main`, so PR-time CodeQL never fired (only the weekly cron). Triggers now target `main`.
+
 ### Changed
 
 - `docs/TOOLING_MANUAL.md` estate refresh (H1245, 18-07-2026): fact-check recounts

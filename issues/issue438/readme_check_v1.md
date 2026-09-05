@@ -1,3 +1,5 @@
+_Created: 17-03-2025 · Last updated: 05-09-2026_
+
 | L | Key1 | n | ID | yes/no |
 |---|------|---|----|-------|
 | 74715 | [takz](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=5-1458) | TS. | 5,6,8,6 | y |
@@ -50,3 +52,5 @@
 | 3096 | [anusaraRa](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=1-0225) | HIT. | 98,21 |  |
 | 88611 | [varz](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=6-0795) | AIT. BR. | 3,18 |  |
 | 86826 | [lopAmudrA](https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=PWG&page=6-0590) | VS. | 17,11 |  |
+
+_Dr. Mārcis Gasūns_

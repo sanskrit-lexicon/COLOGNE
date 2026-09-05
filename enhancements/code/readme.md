@@ -1,3 +1,5 @@
+_Created: 31-05-2017 · Last updated: 05-09-2026_
+
 
 ## Documentation of some general Cologne programs
 
@@ -86,3 +88,4 @@ The execution is
 `python scanparse.py xxx_error.txt parse1.txt parse2.txt`
 The parse1.txt file is then in format for inserting into xxx_printchange.txt.
 
+_Dr. Mārcis Gasūns_

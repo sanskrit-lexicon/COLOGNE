@@ -1,3 +1,5 @@
+_Created: 16-04-2017 · Last updated: 05-09-2026_
+
 # 2. List Display page
 
 ## 2.1. Get a list of 25 nearby headwords for a given word.
@@ -95,4 +97,4 @@ RewriteRule ^list/([^/]*)/([^/]*)$ http://sanskrit-lexicon.uni-koeln.de/scans/$1
 1. What are the use of all the input parameters used currently?
 2. What is the importance of 0 / 1 / 2 dots before the word? Indentation level?
 
-
+_Dr. Mārcis Gasūns_

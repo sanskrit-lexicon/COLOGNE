@@ -1,3 +1,5 @@
+_Created: 26-01-2021 · Last updated: 05-09-2026_
+
 # Step1. Make it work.
 1. Created a folder 'xxx' in csl-orig/v02
 2. Put the xxx.txt file in csl-orig/v02/xxx folder.
@@ -115,3 +117,4 @@ for x in range(102):
 1. csl-homepage
 2. csl-doc
 
+_Dr. Mārcis Gasūns_

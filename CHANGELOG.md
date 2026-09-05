@@ -1,3 +1,5 @@
+_Created: 18-07-2026 · Last updated: 05-09-2026_
+
 # Changelog
 
 All notable changes to the COLOGNE build-meta repository are documented here.
@@ -22,3 +24,5 @@ choose to cut a first release.
   layout, and a `DeprecationWarning` symptom row. Companion
   `docs/TOOLING_MANUAL.meta.md` gains a `LAST_VERIFIED` verification block
   (6 commands spot-run), a reconciled backlog, and a consolidation verdict.
+
+_Dr. Mārcis Gasūns_

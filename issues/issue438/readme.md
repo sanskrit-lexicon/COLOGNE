@@ -1,3 +1,5 @@
+_Created: 13-03-2025 · Last updated: 05-09-2026_
+
 # Trial to expand ls tags from pwg.xml
 
 1. Current approach at CDSL seems to be adding literary resources as a layer while the data is served from website.
@@ -13,3 +15,5 @@
 11. The literary sources and the most frequent parameter of that literary source (for ls occurring less than 500 times in PWG) is copied and pasted in book_names1.txt
 12. `python expand_ls2.py temp_pwg_1.xml book_names1.txt temp_pwg_2.xml` code reads `temp_pwg_1.xml` in memory in one go and applies transformations and stores as `temp_pwg_2.xml` in one go. This reduces the I/O time required for line by line transformation. It may create some erroneous carry over of literary source of one dictionary entry to the next. Not worth the time to spend too much time for such infrequent occurrences.
 13. `temp_pwg_2.xml` is the ultimate product.
+
+_Dr. Mārcis Gasūns_

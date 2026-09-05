@@ -1,3 +1,5 @@
+_Created: 30-03-2025 · Last updated: 05-09-2026_
+
 # README
 
 This repository contains resources for transforming XML data into an HTML document using XSLT. The transformation enhances Sanskrit dictionary entries, applies formatting, expands abbreviations, and generates links using reference data from `abs.xml`.
@@ -158,3 +160,4 @@ The `transform.xsl` stylesheet is responsible for converting `test.xml` into a s
 
 By following these instructions, you can successfully transform `test.xml` into `output.html` using XSLT.
 
+_Dr. Mārcis Gasūns_

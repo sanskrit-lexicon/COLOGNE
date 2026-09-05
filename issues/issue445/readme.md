@@ -1,3 +1,5 @@
+_Created: 30-03-2025 · Last updated: 05-09-2026_
+
 # Issue 445: Enhancements and API Development
 
 This directory addresses Issue 445, focusing on specific enhancements and API development for the Sanskrit Lexicon project.
@@ -133,4 +135,4 @@ The `frontend.html` file sends the following parameters to the backend API via H
 - The transliteration conversion is purely frontend-based and does not impact backend processing.
 - For any issues or contributions, refer to the main repository's guidelines.
 
-
+_Dr. Mārcis Gasūns_

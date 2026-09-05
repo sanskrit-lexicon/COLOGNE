@@ -1,3 +1,5 @@
+_Created: 15-05-2026 · Last updated: 05-09-2026_
+
 # Sanskrit Lexicon — Contribution Standard
 
 This is the **org-wide** contribution standard for all repositories under [sanskrit-lexicon](https://github.com/sanskrit-lexicon). Individual repos may extend this in their own `CONTRIBUTING.md`, but must not contradict it.
@@ -52,3 +54,5 @@ All contributors follow the Contributor Covenant 2.1 — see `CODE_OF_CONDUCT.md
 - Repo-specific: open an issue in that repo
 - Cross-repo / project-wide: open an issue in [COLOGNE](https://github.com/sanskrit-lexicon/COLOGNE/issues)
 - Direct contact: gasyoun@gmail.com (project lead)
+
+_Dr. Mārcis Gasūns_

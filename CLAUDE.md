@@ -1,3 +1,5 @@
+_Created: 06-05-2026 · Last updated: 05-09-2026_
+
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
@@ -44,3 +46,5 @@ This repository uses the **Cologne tooling-repo taxonomy**. All issues must have
 ## Cross-Repo Coordination
 
 The org-level project [Tooling Roadmap](https://github.com/orgs/sanskrit-lexicon/projects/9) tracks tool work across all repositories.
+
+_Dr. Mārcis Gasūns_

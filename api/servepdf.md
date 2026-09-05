@@ -1,3 +1,5 @@
+_Created: 16-04-2017 · Last updated: 05-09-2026_
+
 # 1. Basic Display page
 
 ## 1.2. Get a PDF page for given input.
@@ -66,4 +68,4 @@ or
 
 1. Can there be a mode like http://sanskrit-lexicon.uni-koeln.de/pdf/MD/l/100564 where `l` stands for lnum and 100564 is the lnum to search PDF for.
 
-
+_Dr. Mārcis Gasūns_

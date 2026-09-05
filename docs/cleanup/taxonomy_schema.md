@@ -1,3 +1,5 @@
+_Created: 15-05-2026 · Last updated: 05-09-2026_
+
 # Cleanup Taxonomy Schema
 
 This taxonomy is a proposal layer. It is intended for human approval before any file moves, deletes, or refactors.
@@ -50,3 +52,5 @@ The generated CSV leaves `human_decision` and `human_notes` blank. Suggested val
 - `override`: keep the path but change lifecycle, workflow, or action.
 - `defer`: revisit after related cleanup issues land.
 - `ignore`: exclude from cleanup tracking.
+
+_Dr. Mārcis Gasūns_

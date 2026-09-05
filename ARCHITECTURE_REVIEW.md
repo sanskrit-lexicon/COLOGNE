@@ -1,3 +1,5 @@
+_Created: 15-05-2026 · Last updated: 05-09-2026_
+
 # COLOGNE Code and Architecture Review
 
 Reviewed: 2026-05-15
@@ -325,3 +327,5 @@ This target shape does not require a disruptive rewrite. It gives future work a 
 - This review did not run full dictionary batch workflows because the sibling data repositories are not present in this workspace.
 - Some issue directories are historical experiments; not every prototype should be modernized.
 - The most important next decision is ownership: which workflows are active, which are archival, and which can be retired.
+
+_Dr. Mārcis Gasūns_

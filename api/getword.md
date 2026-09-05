@@ -1,3 +1,5 @@
+_Created: 16-04-2017 · Last updated: 05-09-2026_
+
 # 1. Basic Display page
 
 ## 1.1. Get a single entry detail
@@ -92,5 +94,4 @@ RewriteRule ^entries/([^/]*)/([^/]*)$ http://sanskrit-lexicon.uni-koeln.de/scans
 1. What is the purpose of noLit?
 2. Any other missing parameter?
 
-
-
+_Dr. Mārcis Gasūns_

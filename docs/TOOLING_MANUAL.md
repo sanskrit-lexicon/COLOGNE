@@ -25,7 +25,7 @@ change-file workflow in
 ## Cheat-sheet: the whole repo on one screen
 
 Each row links to its detailed section below. "Status" is the load-bearing verdict
-(details in [Load-bearing vs legacy](#load-bearing-vs-legacy--the-explicit-verdicts)).
+(details in [Load-bearing vs legacy](#load-bearing-vs-legacy-the-explicit-verdicts)).
 
 | Directory | What it does | Canonical command | Status |
 |---|---|---|---|
@@ -601,7 +601,7 @@ The row-level source of truth for these calls is
 | Symptom | Cause | Cure |
 |---|---|---|
 | Transcoded text comes back unchanged (SLP1 in, SLP1 out), no error | `transcoder.py` couldn't find its FSM XML (wrong CWD, or `stardict/data/transcoder/` absent) and **silently passes input through** | Run from `iast/`; for stardict, create `data/transcoder/` and copy the tables in; spot-check output for Devanagari |
-| `SyntaxError` on `print` or `xrange` | You ran a Python-2-only script (`stardict/make_babylon.py`, `issue10/*.py`, `updateByLine_python2.py`) under Python 3 | Use a py2 interpreter, or use the py3 twin (`updateByLine.py`); see the [interpreter table](#environment--prerequisites) |
+| `SyntaxError` on `print` or `xrange` | You ran a Python-2-only script (`stardict/make_babylon.py`, `issue10/*.py`, `updateByLine_python2.py`) under Python 3 | Use a py2 interpreter, or use the py3 twin (`updateByLine.py`); see the [interpreter table](#environment-prerequisites) |
 | `UnicodeEncodeError: 'charmap' codec` printing Sanskrit on Windows | git-bash console encoding; the script lacks `sys.stdout.reconfigure(encoding='utf-8')` | Add the reconfigure line (present in all `eascii/` scripts as the model) |
 | `DeprecationWarning: codecs.open() is deprecated` spam on every run | Python 3.13+ deprecates `codecs.open`, which the older scripts (`updateByLine.py`, `ea.py`, `xmltag.py`, `chgtag.py`) still use | Cosmetic — output is unaffected (verified 18-07-2026 on Python 3.14.4). Silence with `python -W ignore::DeprecationWarning` if it obscures real output |
 | `redo_one.sh` / `redo_all.sh` can't find the input file | The `../../../cologne/csl-orig/...` sibling layout isn't in place | Recreate the umbrella layout (clone csl-orig under a shared `cologne/` parent) or edit the path; `eachanges-degree/` needs one *extra* `../` |

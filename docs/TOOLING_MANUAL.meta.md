@@ -1,6 +1,6 @@
 # TOOLING_MANUAL.md — metadoc
 
-_Created: 11-07-2026 · Last updated: 18-07-2026_
+_Created: 11-07-2026 · Last updated: 04-10-2026_
 
 Companion record for
 [docs/TOOLING_MANUAL.md](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/docs/TOOLING_MANUAL.md).
@@ -34,10 +34,12 @@ plus four parallel directory-exploration passes over all 14 tooling directories
 ## Verification
 
 ```
-LAST_VERIFIED: 18-07-2026
-VERIFIED_BY: Fable 5 (claude-fable-5), H1245
-COMMANDS_SPOT_RUN: 6
+LAST_VERIFIED: 04-10-2026
+VERIFIED_BY: GLM 5.3 Flash (zai-start-plan/GLM-5.3-Flash), H5991
+COMMANDS_SPOT_RUN: 7
 ```
+
+H5991 refresh 04-10-2026: re-ran 7 documented commands live — `propose_cleanup_taxonomy.py` (481 proposals on the current tree; tracked-output diff discarded per the manual's trap note), `updateByLine.py` fixture apply + stop-on-mismatch path (outputs match the worked example verbatim), `iast/slp1_iast.py` (84 mappings, keyset checks GOOD), `xmltag/xmltag.py` (25 distinct tags), `eascii/ea.py` (230 counts, `¦ (\u00a6) 282169 := BROKEN BAR`), `xmltag/chgtag.py` (380 instances) — all against the live `csl-orig` sibling; no drift found, manual text unchanged.
 
 Spot-run 18-07-2026: `tools/propose_cleanup_taxonomy.py` (482 proposals on the grown
 tree; diff discarded per the manual's own trap note), `iast/slp1_iast.py` (84 mappings,
@@ -167,5 +169,6 @@ commands or directory map are stale.
 | 11-07-2026 | template v2 backfill (H663) | Sonnet 5 (`claude-sonnet-5`) |
 | 18-07-2026 | H1245 estate refresh: fact-check recounts (issues/ 265 not 270; catall 36 not 34; stardict redo 36 not 37; eascii output format), executed worked example for `updateByLine.py`, engine-verification pattern + DeprecationWarning symptom row, `LAST_VERIFIED` block + backlog reconcile, consolidation verdict (no fold). Adversarial fact-check pass (8 findings, all fixed): promote-or-sunset spans 4 issue dirs; CodeQL is weekly-cron-only (`master` triggers vs `main` default branch — bug flagged, not fixed here); `stardict/transcoder.py` fails at runtime not parse; `issue10/hw1list.py` is py3-clean; `xmlvalidate.py` is py3; aws manifest is objects not all PDFs; iast readme names only `slp1_roman.xml` | Fable 5 (`claude-fable-5`) |
 | 23-07-2026 | H1522: CodeQL workflow triggers flipped `master` → `main` (the H1245-flagged PR-time dead path); TOOLING_MANUAL CI paragraph updated to match | Grok 4.5 (`grok-4.5`) |
+| 04-10-2026 | H5991 monthly refresh: 7 commands re-run live (taxonomy tool, updateByLine apply + mismatch, slp1_iast, xmltag, ea, chgtag), all outputs match the manual; no drift, manual unchanged; LAST_VERIFIED re-stamped | GLM 5.3 Flash (`zai-start-plan/GLM-5.3-Flash`) |
 
 _Dr. Mārcis Gasūns_

@@ -2,7 +2,7 @@
 
 _Created: 25-08-2026 · Last updated: 25-08-2026_
 
-Executes handoff [H3484](https://github.com/gasyoun/Uprava/blob/main/handoffs/H3484-OxAlpha_COLOGNE_cologne-cleanup-464-execute_25.08.26.md): fills the ratified `human_decision` column of
+Executes handoff [H3484](https://github.com/gasyoun/Uprava/blob/main/handoffs/archive/H3484-OxAlpha_COLOGNE_cologne-cleanup-464-execute_25.08.26.md): fills the ratified `human_decision` column of
 [taxonomy_proposals.csv](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/docs/cleanup/taxonomy_proposals.csv)
 for all 464 rows.
 

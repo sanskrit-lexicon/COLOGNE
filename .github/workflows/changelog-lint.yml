@@ -1,0 +1,59 @@
+name: Changelog lint
+
+# Guards the failure class behind Systema-Sanscriticum#793: a single edit
+# anchored on a heading that repeats once per release (`### Added`) fanned one
+# bullet across 52 sections in one commit, unreviewably — every copy was
+# byte-identical to the legitimate one, so no section read as wrong.
+#
+# The second job guards the opposite failure: Uprava 10f3d731 (03-08-2026) wrote
+# off a stale base and DELETED the `## [0.190.8]` section after that version was
+# already tagged and released, leaving a published release its own changelog did
+# not document. A missing section reads as perfectly consistent to any
+# single-file check, so it can only be seen against history.
+#
+# Deployed by Uprava/tools/cologne_batch_deploy.py (changelog-dupe-guard).
+# Both scripts are copies of github-spine/changelog_guard/ —
+# edit them there and re-run the deploy; do not fork them per repo.
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  changelog-duplicate-bullets:
+    name: Changelog — no duplicated entries
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09  # v5
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1  # v6
+        with:
+          python-version: "3.11"
+      - run: python scripts/changelog_duplicate_bullets.py
+
+  changelog-released-headings:
+    name: Changelog — released headings are append-only
+    runs-on: ubuntu-latest
+    steps:
+      # fetch-depth: 0 is load-bearing here, unlike the job above: a deletion is
+      # invisible in a single file state and can only be found by comparing two
+      # revisions, so the default depth-1 checkout would make this a no-op.
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09  # v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1  # v6
+        with:
+          python-version: "3.11"
+      # On a pull request the script reads GITHUB_BASE_REF and compares against
+      # the target branch. On a push it needs the tip BEFORE the push — comparing
+      # the pushed state against its own HEAD would never fire — so
+      # `github.event.before` is handed over explicitly. Empty on a PR, all-zero
+      # on a new branch; both fall through to the fail-open path.
+      - run: python scripts/changelog_released_headings.py
+        env:
+          CHANGELOG_GUARD_BASE: ${{ github.event.before }}

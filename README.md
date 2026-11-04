@@ -1,6 +1,6 @@
 # COLOGNE
 
-_Created: 14-01-2014 · Last updated: 11-07-2026_
+_Created: 14-01-2014 · Last updated: 05-11-2026_
 
 The Cologne Digital Sanskrit Dictionaries (CDSL) project has been accumulating
 build tooling, one-off scripts, generated reports, and issue-tracked
@@ -44,18 +44,19 @@ this repo's current tree while writing this README
 python tools/propose_cleanup_taxonomy.py
 ```
 
-Actual output:
+Actual output (verification re-run 05-11-2026, repo-relative paths shown):
 
 ```
-Wrote 480 proposals to C:\Users\user\Documents\GitHub\COLOGNE\docs\cleanup
-- C:\Users\user\Documents\GitHub\COLOGNE\docs\cleanup\taxonomy_schema.md
-- C:\Users\user\Documents\GitHub\COLOGNE\docs\cleanup\taxonomy_summary.md
-- C:\Users\user\Documents\GitHub\COLOGNE\docs\cleanup\taxonomy_proposals.csv
-- C:\Users\user\Documents\GitHub\COLOGNE\docs\cleanup\cleanup_issue_backlog.md
+Wrote 485 proposals to docs/cleanup
+- docs/cleanup/taxonomy_schema.md
+- docs/cleanup/taxonomy_summary.md
+- docs/cleanup/taxonomy_proposals.csv
+- docs/cleanup/cleanup_issue_backlog.md
 ```
 
-The generated CSV holds one classified row per scanned file (464 data rows in
-the current tree) and leaves `human_decision` and `human_notes` blank so a
+The generated CSV holds one classified row per scanned file (485 data rows
+when regenerated against the current tree on 05-11-2026; the committed CSV
+holds the last ratified 464-row pass) and leaves `human_decision` and `human_notes` blank so a
 maintainer can approve, override, defer, or ignore each proposed
 classification — this verification run's output was discarded (`git checkout`)
 afterward, so writing this README would not silently alter the repo's tracked
@@ -63,13 +64,13 @@ cleanup state as a side effect.
 
 ## Issues overview
 
-As of 11-07-2026 (live counts via the GitHub API):
+As of 05-11-2026 (live counts via the GitHub API):
 
 | State | Issues |
 |---|---|
-| Open | 199 |
-| Closed | 259 |
-| Total | 458 |
+| Open | 187 |
+| Closed | 284 |
+| Total | 471 |
 
 The full, always-current list is on the
 [issue tracker](https://github.com/sanskrit-lexicon/COLOGNE/issues). Per-label

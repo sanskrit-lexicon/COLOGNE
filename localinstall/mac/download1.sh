@@ -2,7 +2,7 @@ dictlo=$1
 dictup="${dictlo^^}"
 echo "creating directory $dictlo"
 mkdir $dictlo
-cd $dictlo
+cd $dictlo || exit 1
 year=2020   # for lrv, this must be 2022
 zipfile=${dictlo}web1.zip
 url="https://www.sanskrit-lexicon.uni-koeln.de/scans/${dictup}Scan/$year/downloads/$zipfile"

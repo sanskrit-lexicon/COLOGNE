@@ -16,7 +16,7 @@ if [ "$dictlo" == "lrv" ]; then
     fi
 echo "Using year = $year";
 
-cd $dictlo
+cd $dictlo || exit 1
 
 zipfile=${dictlo}web1.zip
 if [ -f "$zipfile" ]; then
